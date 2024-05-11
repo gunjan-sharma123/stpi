@@ -3630,7 +3630,13 @@ address {
   .teamBlockBox { position:relative; padding:100px 0; }
 .teamBlockBox .teamImage { margin-bottom:5px; }
 .teamBlock { text-align:center; margin:0px -15px; padding:0px; }
-.teamBlock li { width:25%; padding:0px 15px; list-style:none; float:left; margin-bottom:20px; }
+.teamBlock {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    grid-gap: 25px;
+}
 .teamBlock .teamImage { margin-bottom:25px; }
 .teamBlock .teamName { font-size:1.2em; color:#000; font-weight:700; display:block; margin-bottom:0; }
 .teamBlock .teamName a { color:#000; text-decoration:none; }
