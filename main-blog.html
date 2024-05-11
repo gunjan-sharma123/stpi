@@ -26,7 +26,13 @@
         page_placeholder: "PLACEHOLDER_page_location",
       });
     </script>
-    <link rel="canonical" href="http://stpi.in/en/main-campaigns" />
+    <link rel="canonical" href="http://stpi.in/index.php/en/main-blog" />
+    <meta
+      name="robots"
+      content="nofollow, noarchive, noodp, noydir, noimageindex"
+    />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="description" content="Recent Blogs" />
     <meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
     <meta name="MobileOptimized" content="width" />
     <meta name="HandheldFriendly" content="true" />
@@ -36,9 +42,20 @@
       href="https://stpi.in/sites/default/files/favicon_new.ico"
       type="image/vnd.microsoft.icon"
     />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="http://stpi.in/index.php/en/main-blog"
+    />
+    <link
+      rel="alternate"
+      hreflang="hi"
+      href="http://stpi.in/index.php/hi/main-blog"
+    />
+    <link rel="revision" href="http://stpi.in/index.php/en/main-blog" />
     <title>
-      Campaign | Software Technology Park of India | Ministry of Electronics
-      &amp; Information Technology Government of India
+      Blogs | Software Technology Park of India | Ministry of Electronics &amp;
+      Information Technology Government of India
     </title>
     <link
       rel="stylesheet"
@@ -173,6 +190,16 @@
     <link
       rel="stylesheet"
       media="all"
+      href="/modules/contrib/flag/css/flag-link-ajax.css?sd97uc"
+    />
+    <link
+      rel="stylesheet"
+      media="all"
+      href="/modules/contrib/flag/css/flag-link.css?sd97uc"
+    />
+    <link
+      rel="stylesheet"
+      media="all"
       href="/core/themes/classy/css/components/action-links.css?sd97uc"
     />
     <link
@@ -290,18 +317,55 @@
       media="all"
       href="/core/themes/classy/css/components/messages.css?sd97uc"
     />
-    <!-- <link rel="stylesheet" media="all" href="/themes/stpi/css/animate.css?sd97uc" />
-  <link rel="stylesheet" media="all" href="/themes/stpi/css/style.css?sd97uc" />
-  <link rel="stylesheet" media="all" href="/themes/stpi/css/cols.css?sd97uc" />
-  <link rel="stylesheet" media="all" href="/themes/stpi/css/responsive.css?sd97uc" />
-  <link rel="stylesheet" media="all" href="/themes/stpi/css/hex.css?sd97uc" />
-  <link rel="stylesheet" media="all" href="/themes/stpi/css/book.css?sd97uc" />
-  <link rel="stylesheet" media="print" href="/themes/stpi/css/print.css?sd97uc" />
-  <link rel="stylesheet" media="all" href="/themes/stpi/css/aos.css?sd97uc" />
-  <link rel="stylesheet" media="all" href="/dflip/css/dflip.css?sd97uc" />
-  <link rel="stylesheet" media="all" href="/dflip/css/themify-icons.css?sd97uc" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
-
+    <link
+      rel="stylesheet"
+      media="all"
+      href="/core/themes/classy/css/components/progress.css?sd97uc"
+    />
+    <link
+      rel="stylesheet"
+      media="all"
+      href="/core/themes/classy/css/components/node.css?sd97uc"
+    />
+    <!-- <link
+      rel="stylesheet"
+      media="all"
+      href="/themes/stpi/css/animate.css?sd97uc"
+    />
+    <link
+      rel="stylesheet"
+      media="all"
+      href="/themes/stpi/css/style.css?sd97uc"
+    />
+    <link
+      rel="stylesheet"
+      media="all"
+      href="/themes/stpi/css/cols.css?sd97uc"
+    />
+    <link
+      rel="stylesheet"
+      media="all"
+      href="/themes/stpi/css/responsive.css?sd97uc"
+    />
+    <link rel="stylesheet" media="all" href="/themes/stpi/css/hex.css?sd97uc" />
+    <link
+      rel="stylesheet"
+      media="all"
+      href="/themes/stpi/css/book.css?sd97uc"
+    />
+    <link
+      rel="stylesheet"
+      media="print"
+      href="/themes/stpi/css/print.css?sd97uc"
+    />
+    <link rel="stylesheet" media="all" href="/themes/stpi/css/aos.css?sd97uc" />
+    <link rel="stylesheet" media="all" href="/dflip/css/dflip.css?sd97uc" />
+    <link
+      rel="stylesheet"
+      media="all"
+      href="/dflip/css/themify-icons.css?sd97uc"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
     <link
       rel="stylesheet"
       href="https://stpi.in/themes/stpi/css/style.css?sd97uc"
@@ -333,23 +397,28 @@
     />
 
     <script src="./assets/jquery-3.7.1.min.js"></script>
-
     <!--[if lte IE 8]>
       <script src="/core/assets/vendor/html5shiv/html5shiv.min.js?v=3.7.3"></script>
     <![endif]-->
     <script type="application/json" data-drupal-selector="drupal-settings-json">
       {
         "path": {
-          "baseUrl": "\/",
+          "baseUrl": "\/index.php\/",
           "scriptPath": null,
           "pathPrefix": "en\/",
-          "currentPath": "main-campaigns",
+          "currentPath": "node\/88",
           "currentPathIsAdmin": false,
           "isFront": false,
           "currentLanguage": "en"
         },
         "pluralDelimiter": "\u0003",
         "suppressDeprecationErrors": true,
+        "ajaxPageState": {
+          "libraries": "classy\/base,classy\/messages,classy\/node,core\/html5shiv,core\/normalize,flag\/flag.link,flag\/flag.link_ajax,google_analytics\/google_analytics,simple_popup_blocks\/simple_popup_blocks,statistics\/drupal.statistics,stpi\/global-styling,system\/base,views\/views.module",
+          "theme": "stpi",
+          "theme_token": null
+        },
+        "ajaxTrustedUrl": { "\/index.php\/en\/search\/node": true },
         "google_analytics": {
           "account": "G-HMXXYT8XE5",
           "trackOutbound": true,
@@ -386,7 +455,10 @@
             }
           ]
         },
-        "ajaxTrustedUrl": { "\/en\/search\/node": true },
+        "statistics": {
+          "data": { "nid": "88" },
+          "url": "\/core\/modules\/statistics\/statistics.php"
+        },
         "user": {
           "uid": 0,
           "permissionsHash": "dac220939dd49ee8085ab9359339f50fde24b88ec67fa01f4bacf1ce6dcfe7f5"
@@ -400,10 +472,15 @@
     <script src="/core/misc/drupal.init.js?v=8.9.20"></script>
     <script src="/modules/contrib/google_analytics/js/google_analytics.js?v=8.9.20"></script>
     <script src="/modules/contrib/simple_popup_blocks/js/simple_popup_blocks.js?v=8.9.20"></script>
+    <script src="/core/modules/statistics/statistics.js?v=8.9.20"></script>
+    <script src="/core/misc/progress.js?v=8.9.20"></script>
+    <script src="/core/modules/responsive_image/js/responsive_image.ajax.js?v=8.9.20"></script>
+    <script src="/core/misc/ajax.js?v=8.9.20"></script>
+    <script src="/core/themes/stable/js/ajax.js?v=8.9.20"></script>
+    <script src="/modules/contrib/flag/js/flag-action_link_flash.js?v=8.9.20"></script>
   </head>
-
   <body
-    class="layout-no-sidebars page-views-campaigns-page-1 noJS lang-en endocument language path-main-campaigns"
+    class="layout-no-sidebars page-node-88 noJS lang-en endocument language path-node page-node-type-page"
   >
     <div id="loading">Loading...</div>
     <input
@@ -441,35 +518,35 @@
                         <ul class="clearfix menu">
                           <li class="menu-item">
                             <a
-                              href="/en/about-stpi"
+                              href="/index.php/en/about-stpi"
                               class="dropdown-item menu-item aboutSkipContent"
                               >About STPI</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/about-stpi#ObjectivesofSTPI"
+                              href="/index.php/en/about-stpi#ObjectivesofSTPI"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Objectives of STPI
                             </a>
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/about-stpi#FunctionsofSTPI"
+                              href="/index.php/en/about-stpi#FunctionsofSTPI"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Functions of STPI</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/about-stpi#QualityObjectives"
+                              href="/index.php/en/about-stpi#QualityObjectives"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Quality Objective</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/about-stpi#stpiCenters"
+                              href="/index.php/en/about-stpi#stpiCenters"
                               class="dropdown-item menu-item aboutSkipContent"
                               >STPI Centres</a
                             >
@@ -480,63 +557,63 @@
                         <ul class="clearfix menu">
                           <li class="menu-item">
                             <a
-                              href="/en/statutory-services"
+                              href="/index.php/en/statutory-services"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Statutory Services</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/internet-services-data-communications"
+                              href="/index.php/en/internet-services-data-communications"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Internet Services / Data Communications</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/incubation-services"
+                              href="/index.php/en/incubation-services"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Incubation Services</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/project-management-consultancy-services"
+                              href="/index.php/en/project-management-consultancy-services"
                               class="dropdown-item menu-item aboutSkipContent"
                               >PMC Services</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/data-center"
+                              href="/index.php/en/data-center"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Data Center</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/crs-surveillance"
+                              href="/index.php/en/crs-surveillance"
                               class="dropdown-item menu-item aboutSkipContent"
                               >CRS Surveillance</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/stpi-vapt"
+                              href="/index.php/en/stpi-vapt"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Information Security Audit Service (VAPT)</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/centre-of-entrepreneurship"
+                              href="/index.php/en/centre-of-entrepreneurship"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Centres of Entrepreneurship (CoEs)</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/stpi-labs-network"
+                              href="/index.php/en/stpi-labs-network"
                               class="dropdown-item menu-item aboutSkipContent"
                               >STPI Labs</a
                             >
@@ -548,28 +625,28 @@
                         <ul class="clearfix menu">
                           <li class="menu-item">
                             <a
-                              href="/en/main-career"
+                              href="/index.php/en/main-career"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Career</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/main-tenders"
+                              href="/index.php/en/main-tenders"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Tenders</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/circulars-notifications"
+                              href="/index.php/en/circulars-notifications"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Circulars and Notifications</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/gst-nodal-officers"
+                              href="/index.php/en/gst-nodal-officers"
                               class="dropdown-item menu-item aboutSkipContent"
                               >GST Nodal Officers</a
                             >
@@ -584,21 +661,21 @@
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/citizens-charter"
+                              href="/index.php/en/citizens-charter"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Citizens Charter</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/public-and-staff-grievance-officers"
+                              href="/index.php/en/public-and-staff-grievance-officers"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Public and Staff Grievance Officers</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/digitally-pay-stpi-through-upibhim"
+                              href="/index.php/en/digitally-pay-stpi-through-upibhim"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Digitally Pay STPI through UPI/BHIM</a
                             >
@@ -616,28 +693,28 @@
                         <ul class="clearfix menu">
                           <li class="menu-item">
                             <a
-                              href="/en/stpi-annual-reports"
+                              href="/index.php/en/stpi-annual-reports"
                               class="dropdown-item menu-item aboutSkipContent"
                               >STPI Annual Reports</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/main-newsletters"
+                              href="/index.php/en/main-newsletters"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Newsletters</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/main-blog"
+                              href="/index.php/en/main-blog"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Blogs</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/stpi-knowledgeup-series"
+                              href="/index.php/en/stpi-knowledgeup-series"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Publications</a
                             >
@@ -649,21 +726,21 @@
                         <ul class="clearfix menu">
                           <li class="menu-item">
                             <a
-                              href="/en/main-policy-repository"
+                              href="/index.php/en/main-policy-repository"
                               class="dropdown-item menu-item aboutSkipContent"
                               >All Policies</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/main-state-policies"
+                              href="/index.php/en/main-state-policies"
                               class="dropdown-item menu-item aboutSkipContent"
                               >State Policies</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/main-national-policies"
+                              href="/index.php/en/main-national-policies"
                               class="dropdown-item menu-item aboutSkipContent"
                               >National Policies</a
                             >
@@ -674,28 +751,28 @@
                         <ul class="clearfix menu">
                           <li class="menu-item">
                             <a
-                              href="/en/main-know-your-minister"
+                              href="/index.php/en/main-know-your-minister"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Know your ministers</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/governing-council"
+                              href="/index.php/en/governing-council"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Governing Council</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/stpi-management-structure"
+                              href="/index.php/en/stpi-management-structure"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Management Structure</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/stpi-jurisdictional-directors"
+                              href="/index.php/en/stpi-jurisdictional-directors"
                               class="dropdown-item menu-item aboutSkipContent"
                               >STPI Jurisdictional Directors</a
                             >
@@ -721,35 +798,35 @@
                         <ul class="clearfix menu">
                           <li class="menu-item">
                             <a
-                              href="/en/main-news"
+                              href="/index.php/en/main-news"
                               class="dropdown-item menu-item aboutSkipContent"
                               >News</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/main-events"
+                              href="/index.php/en/main-events"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Events</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/main-campaigns"
+                              href="/index.php/en/main-campaigns"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Campaigns</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/photo-gallery"
+                              href="/index.php/photo-gallery"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Photo Gallery</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/video-gallery"
+                              href="/index.php/video-gallery"
                               class="dropdown-item menu-item aboutSkipContent"
                               >Video Gallery</a
                             >
@@ -760,35 +837,35 @@
                         <ul class="clearfix menu">
                           <li class="menu-item">
                             <a
-                              href="/en/stp-scheme"
+                              href="/index.php/en/stp-scheme"
                               class="dropdown-item menu-item aboutSkipContent"
                               >STP Scheme</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/ehtp-scheme"
+                              href="/index.php/en/ehtp-scheme"
                               class="dropdown-item menu-item aboutSkipContent"
                               >EHTP Scheme</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/ibps"
+                              href="/index.php/en/ibps"
                               class="dropdown-item menu-item aboutSkipContent"
                               >IBPS</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/nebps"
+                              href="/index.php/en/nebps"
                               class="dropdown-item menu-item aboutSkipContent"
                               >NEBPS</a
                             >
                           </li>
                           <li class="menu-item">
                             <a
-                              href="/en/about-ngis"
+                              href="/index.php/en/about-ngis"
                               class="dropdown-item menu-item aboutSkipContent"
                               >NGIS Scheme</a
                             >
@@ -834,7 +911,7 @@
             <div class="headerLeft" data-aos="fade-left">
               <div id="logo">
                 <a
-                  href="http://stpi.in/en"
+                  href="http://stpi.in/index.php/en"
                   title="Software Technology Park of India - Ministry of Electronics &amp; Information Technology, Government of India"
                   ><img
                     src="https://stpi.in/themes/stpi/images/logo.png"
@@ -857,7 +934,7 @@
                 </li>
                 <li>
                   <a
-                    href="http://stpi.in/en/screen-reader"
+                    href="http://stpi.in/index.php/en/screen-reader"
                     title="Screen Reader Access"
                     >Screen Reader Access</a
                   >
@@ -884,7 +961,7 @@
                         name="font_larger"
                         value="A+"
                         id="font_larger"
-                        title="Larger Font Size"
+                        title="larger Font Size"
                         class="fontScaler larger font-larger"
                       />
                     </div>
@@ -916,27 +993,27 @@
                         <ul class="links">
                           <li
                             hreflang="en"
-                            data-drupal-link-system-path="main-campaigns"
+                            data-drupal-link-system-path="node/88"
                             class="en is-active"
                           >
                             <a
-                              href="/en/main-campaigns"
+                              href="/index.php/en/main-blog"
                               class="language-link is-active"
                               hreflang="en"
-                              data-drupal-link-system-path="main-campaigns"
+                              data-drupal-link-system-path="node/88"
                               >English</a
                             >
                           </li>
                           <li
                             hreflang="hi"
-                            data-drupal-link-system-path="main-campaigns"
+                            data-drupal-link-system-path="node/88"
                             class="hi"
                           >
                             <a
-                              href="/hi/main-campaigns"
+                              href="/index.php/hi/main-blog"
                               class="language-link"
                               hreflang="hi"
-                              data-drupal-link-system-path="main-campaigns"
+                              data-drupal-link-system-path="node/88"
                               >हिन्दी</a
                             >
                           </li>
@@ -958,7 +1035,7 @@
                       <div class="content container-inline">
                         <div class="form-wrapper">
                           <form
-                            action="/en/search/node"
+                            action="/index.php/en/search/node"
                             method="get"
                             id="search-block-form"
                             accept-charset="UTF-8"
@@ -1005,14 +1082,14 @@
                     <ul id="nav">
                       <li class="menu-item nav-item">
                         <a
-                          href="/en"
+                          href="/index.php/en"
                           data-drupal-link-system-path="&lt;front&gt;"
                           >Home</a
                         >
                       </li>
                       <li class="menu-item nav-item">
                         <a
-                          href="/en/about-stpi"
+                          href="/index.php/en/about-stpi"
                           data-drupal-link-system-path="node/58"
                           >About STPI</a
                         >
@@ -1024,63 +1101,63 @@
                         <ul>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/statutory-services"
+                              href="/index.php/en/statutory-services"
                               data-drupal-link-system-path="node/2364"
                               >Statutory Services</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/internet-services-data-communications"
+                              href="/index.php/en/internet-services-data-communications"
                               data-drupal-link-system-path="node/166"
                               >Internet Services / Data Communications</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/incubation-services"
+                              href="/index.php/en/incubation-services"
                               data-drupal-link-system-path="node/167"
                               >Incubation Services</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/project-management-consultancy-services"
+                              href="/index.php/en/project-management-consultancy-services"
                               data-drupal-link-system-path="node/94"
                               >PMC Services</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/data-center"
+                              href="/index.php/en/data-center"
                               data-drupal-link-system-path="node/168"
                               >Data Center</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/crs-surveillance"
+                              href="/index.php/en/crs-surveillance"
                               data-drupal-link-system-path="node/169"
                               >CRS Surveillance</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/information-security-audit-service"
+                              href="/index.php/en/information-security-audit-service"
                               data-drupal-link-system-path="information-security-audit-service"
                               >Information Security Audit Service (VAPT)</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/centre-of-entrepreneurship"
+                              href="/index.php/en/centre-of-entrepreneurship"
                               data-drupal-link-system-path="centre-of-entrepreneurship"
                               >Centres of Entrepreneurship</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/stpi-labs-network"
+                              href="/index.php/en/stpi-labs-network"
                               data-drupal-link-system-path="node/3656"
                               >STPI Labs</a
                             >
@@ -1094,21 +1171,21 @@
                         <ul>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/main-career"
+                              href="/index.php/en/main-career"
                               data-drupal-link-system-path="main-career"
                               >Career</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/main-tenders"
+                              href="/index.php/en/main-tenders"
                               data-drupal-link-system-path="main-tenders"
                               >Tenders</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/circulars-notifications"
+                              href="/index.php/en/circulars-notifications"
                               data-drupal-link-system-path="circulars-notifications"
                               >Circulars and Notifications</a
                             >
@@ -1121,65 +1198,65 @@
                         </ul>
                       </li>
                       <li
-                        class="menu-item nav-item dropdown menu-item--expanded menu-item--active-trail"
+                        class="menu-item nav-item dropdown menu-item--expanded"
                       >
                         <a href="#nolink">Media</a>
                         <ul>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/main-news"
+                              href="/index.php/en/main-news"
                               data-drupal-link-system-path="main-news"
                               >News</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/main-events"
+                              href="/index.php/en/main-events"
                               data-drupal-link-system-path="main-events"
                               >Events</a
                             >
                           </li>
-                          <li
-                            class="menu-item nav-item menu-item--active-trail"
-                          >
+                          <li class="menu-item nav-item">
                             <a
-                              href="/en/main-campaigns"
+                              href="/index.php/en/main-campaigns"
                               data-drupal-link-system-path="main-campaigns"
-                              class="is-active"
                               >Campaigns</a
                             >
                           </li>
                         </ul>
                       </li>
                       <li
-                        class="menu-item nav-item dropdown menu-item--expanded"
+                        class="menu-item nav-item dropdown menu-item--expanded menu-item--active-trail"
                       >
                         <a href="#nolink">Knowledge Center</a>
                         <ul>
-                          <li class="menu-item nav-item">
+                          <li
+                            class="menu-item nav-item menu-item--active-trail"
+                          >
                             <a
-                              href="/en/main-blog"
+                              href="/index.php/en/main-blog"
                               data-drupal-link-system-path="node/88"
+                              class="is-active"
                               >Blogs</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/main-newsletters"
+                              href="/index.php/en/main-newsletters"
                               data-drupal-link-system-path="main-newsletters"
                               >Newsletters</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/stpi-knowledgeup-series"
+                              href="/index.php/en/stpi-knowledgeup-series"
                               data-drupal-link-system-path="stpi-knowledgeup-series"
                               >Publications</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/stpi-annual-reports"
+                              href="/index.php/en/stpi-annual-reports"
                               data-drupal-link-system-path="stpi-annual-reports"
                               >STPI Annual Reports</a
                             >
@@ -1193,42 +1270,42 @@
                         <ul>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/main-know-your-minister"
+                              href="/index.php/en/main-know-your-minister"
                               data-drupal-link-system-path="main-know-your-minister"
                               >Know your ministers</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/governing-council"
+                              href="/index.php/en/governing-council"
                               data-drupal-link-system-path="node/1711"
                               >Governing Council</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/arvind-kumar"
+                              href="/index.php/en/arvind-kumar"
                               data-drupal-link-system-path="node/3302"
                               >Director General - STPI</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/cvo"
+                              href="/index.php/en/cvo"
                               data-drupal-link-system-path="node/4120"
                               >Chief Vigilance Officer (CVO)</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/stpi-management-structure"
+                              href="/index.php/en/stpi-management-structure"
                               data-drupal-link-system-path="node/2651"
                               >Management Structure</a
                             >
                           </li>
                           <li class="menu-item nav-item">
                             <a
-                              href="/en/stpi-jurisdictional-directors"
+                              href="/index.php/en/stpi-jurisdictional-directors"
                               data-drupal-link-system-path="node/1950"
                               >STPI Jurisdictional Directors</a
                             >
@@ -1237,7 +1314,7 @@
                       </li>
                       <li class="menu-item nav-item">
                         <a
-                          href="/en/contact-us"
+                          href="/index.php/en/contact-us"
                           data-drupal-link-system-path="node/217"
                           >Contact Us</a
                         >
@@ -1254,10 +1331,14 @@
         </header>
         <!--/#header--><!--Inner banner -->
         <div class="innerBannerSection">
-          <img src="/themes/stpi/images/inner-banner.jpg" alt="" title="" />
+          <img
+            src="https://stpi.in/themes/stpi/images/inner-banner.jpg"
+            alt=""
+            title=""
+          />
           <div class="pageControlSection">
             <div class="container">
-              <h1>Campaign</h1>
+              <h1>Blogs</h1>
               <div class="region region-breadcrumb">
                 <div
                   id="block-stpi-breadcrumbs"
@@ -1274,9 +1355,9 @@
                       </h2>
                       <ul class="breadcrum">
                         <li>
-                          <a href="/en">Home</a>
+                          <a href="/index.php/en">Home</a>
                         </li>
-                        <li>Campaign</li>
+                        <li>Blogs</li>
                       </ul>
                     </nav>
                   </div>
@@ -1285,89 +1366,85 @@
             </div>
           </div>
         </div>
-        <div class="highlighted errorValidMsg">
-          <div class="container">
-            <div class="region region-highlighted">
-              <div data-drupal-messages-fallback class="hidden"></div>
-            </div>
-          </div>
-        </div>
-        <div class="innerPageContent">
-          <div class="container">
-            <div class="region region-content">
-              <div
-                id="block-stpi-content"
-                class="block block-system block-system-main-block"
-              >
-                <div class="content">
-                  <div
-                    class="view view-campaigns view-id-campaigns view-display-id-page_1 js-view-dom-id-c3432cfe6744107bd2a95d0511d2000fc2a6d8543a50800189c4748209bb02ba"
-                  >
-                    <div class="view-header">
+        <div class="innerPageContent Functions pad0">
+          <div class="region region-content">
+            <div
+              id="block-stpi-content"
+              class="block block-system block-system-main-block"
+            >
+              <div class="content">
+                <article
+                  data-history-node-id="88"
+                  role="article"
+                  about="/index.php/en/main-blog"
+                  typeof="schema:WebPage"
+                  class="node node--type-page node--view-mode-full clearfix"
+                >
+                  <header>
+                    <span
+                      property="schema:name"
+                      content="Blogs"
+                      class="rdf-meta hidden"
+                    ></span>
+                  </header>
+                  <div class="node__content clearfix">
+                    <div
+                      property="schema:text"
+                      class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"
+                    >
                       <div
-                        class="view view-campaigns view-id-campaigns view-display-id-block_2 js-view-dom-id-fa6b01ac6a590375ed90f2ace83810f7b552674236b383d4f720ffa7303f2e08"
+                        class="view view-blog view-id-blog view-display-id-page_1 js-view-dom-id-f74564aefc541c6cb1601c83ed53289180aa9a5b96557ab8961b64123bc7bb04"
                       >
                         <div class="view-content">
-                          <div class="stpiCampaign">
+                          <div class="recentBlockBox">
                             <div class="container">
+                              <h3 class="blueText">Recent Blogs</h3>
                               <div class="row">
-                                <div class="stpiNeuron">
-                                  <div class="stpiOpenChall">
-                                    <a
-                                      href="http://stpi.in/en/campaign/neuron-open-challenge-program-ocp-70"
-                                    >
-                                      <div class="stpiOpenChallImgHolder">
-                                        <img
-                                          src="https://stpi.in/sites/default/files/styles/campaign_image_first/public/campaign-images/neuron_ocp7.jpg?itok=GVuarC8Z"
-                                          alt="STPI Neuron"
-                                          title="STPI Neuron"
-                                        />
-                                      </div>
-                                    </a>
-                                  </div>
-                                  <div class="stpiNeuronRecCamp">
-                                    <div class="neuronRecDetails">
-                                      <span class="neuronTitle"
-                                        >RECENT CAMPAIGN</span
-                                      ><span>29 Aug, 2023 </span>
-                                      <h3 class="blueText">
+                                <div class="recentBlock recentblogSlider">
+                                  <div class="item">
+                                    <div class="recentImage">
+                                      <a
+                                        href="http://stpi.in/index.php/en/blog/startups-agriculture-sector-are-pioneering-innovations"
+                                        hreflang="en"
+                                        ><img
+                                          src="https://stpi.in/sites/default/files/styles/blog_image/public/2024-03/Agritech.jpg?itok=okRotI6a"
+                                          alt="Startups in the agriculture sector are pioneering…"
+                                          title="Startups in the agriculture sector are pioneering…"
+                                      /></a>
+                                    </div>
+                                    <div class="info">
+                                      <ul class="recentBlogStatus"></ul>
+                                      <span class="recentData">11-01-2024</span>
+                                      <h4>
                                         <a
-                                          href="http://stpi.in/en/campaign/neuron-open-challenge-program-ocp-70"
-                                          >Neuron: Open Challenge Program (OCP
-                                          7.0)</a
+                                          href="http://stpi.in/index.php/en/blog/startups-agriculture-sector-are-pioneering-innovations"
+                                          title="Startups in the agriculture sector are pioneering…"
+                                          hreflang="en"
                                         >
-                                      </h3>
-                                      <p>
-                                        To identify &amp;amp; support potential
-                                        cutting-edge IT entrepreneurs,
-                                        especially in the field of Artificial
-                                        Intelligence, Big Data, Animated Visual
-                                        Graphics&amp;amp; IoT and significantly
-                                        contribute towards product development,
-                                        job creation and enhance the economic
-                                        health of the region. Location: STPI
-                                        Incubation Centre, Plot No. C-184,
-                                        Industrial Area, Phase VIIIA, Sector 75,
-                                        Sahibzada Ajit Singh Nagar, Punjab
-                                        160071. Director:…
-                                      </p>
+                                          Startups in the agriculture sector are
+                                          pioneering…
+                                        </a>
+                                      </h4>
+                                      <span class="recentPostby"
+                                        >Published by : STPI</span
+                                      >
                                       <div class="socialIcone">
                                         <ul>
                                           <li>
                                             <a
-                                              href="https://twitter.com/share?url=http://stpi.in/en/campaign/neuron-open-challenge-program-ocp-70"
+                                              href="https://twitter.com/share?url=http://stpi.in/index.php/en/blog/startups-agriculture-sector-are-pioneering-innovations"
                                               title="Twitter"
                                               target="_blank"
                                               rel="noopener noreferrer"
                                               ><span
                                                 ><i
-                                                  class="fa-brands fa-twitter"
+                                                  class="fa fa-twitter"
                                                 ></i></span
                                             ></a>
                                           </li>
                                           <li>
                                             <a
-                                              href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/en/campaign/neuron-open-challenge-program-ocp-70"
+                                              href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/index.php/en/blog/startups-agriculture-sector-are-pioneering-innovations"
                                               title="Facebook"
                                               target="_blank"
                                               rel="noopener noreferrer"
@@ -1379,7 +1456,7 @@
                                           </li>
                                           <li>
                                             <a
-                                              href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/en/campaign/neuron-open-challenge-program-ocp-70"
+                                              href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/index.php/en/blog/startups-agriculture-sector-are-pioneering-innovations"
                                               title="Linkedin"
                                               target="_blank"
                                               rel="noopener noreferrer"
@@ -1391,14 +1468,212 @@
                                           </li>
                                         </ul>
                                       </div>
-                                      <div class="stpiNeuronPartBtn">
+                                    </div>
+                                  </div>
+                                  <div class="item">
+                                    <div class="recentImage">
+                                      <a
+                                        href="http://stpi.in/index.php/en/blog/women-entrepreneurs-are-reshaping-landscape-indias-economy"
+                                        hreflang="en"
+                                        ><img
+                                          src="https://stpi.in/sites/default/files/styles/blog_image/public/2024-03/WESA_BW.jpeg?itok=7RquVk05"
+                                          alt="Women Entrepreneurs Are Reshaping The Landscape Of…"
+                                          title="Women Entrepreneurs Are Reshaping The Landscape Of…"
+                                      /></a>
+                                    </div>
+                                    <div class="info">
+                                      <ul class="recentBlogStatus"></ul>
+                                      <span class="recentData">22-08-2023</span>
+                                      <h4>
                                         <a
-                                          class="neuronBlueBtn"
-                                          href="https://innovate.stpinext.in/about-us/neuron_ocp_7"
-                                          target="_blank"
-                                          rel="noopener noreferrer"
-                                          >Click to Participate</a
+                                          href="http://stpi.in/index.php/en/blog/women-entrepreneurs-are-reshaping-landscape-indias-economy"
+                                          title="Women Entrepreneurs Are Reshaping The Landscape Of…"
+                                          hreflang="en"
                                         >
+                                          Women Entrepreneurs Are Reshaping The
+                                          Landscape Of…
+                                        </a>
+                                      </h4>
+                                      <span class="recentPostby"
+                                        >Published by : STPI</span
+                                      >
+                                      <div class="socialIcone">
+                                        <ul>
+                                          <li>
+                                            <a
+                                              href="https://twitter.com/share?url=http://stpi.in/index.php/en/blog/women-entrepreneurs-are-reshaping-landscape-indias-economy"
+                                              title="Twitter"
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              ><span
+                                                ><i
+                                                  class="fa fa-twitter"
+                                                ></i></span
+                                            ></a>
+                                          </li>
+                                          <li>
+                                            <a
+                                              href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/index.php/en/blog/women-entrepreneurs-are-reshaping-landscape-indias-economy"
+                                              title="Facebook"
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              ><span
+                                                ><i
+                                                  class="fa fa-facebook"
+                                                ></i></span
+                                            ></a>
+                                          </li>
+                                          <li>
+                                            <a
+                                              href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/index.php/en/blog/women-entrepreneurs-are-reshaping-landscape-indias-economy"
+                                              title="Linkedin"
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              ><span
+                                                ><i
+                                                  class="fa fa-linkedin"
+                                                ></i></span
+                                            ></a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="item">
+                                    <div class="recentImage">
+                                      <a
+                                        href="http://stpi.in/index.php/en/blog/scripting-success-story-indian-startups"
+                                        hreflang="en"
+                                        ><img
+                                          src="https://stpi.in/sites/default/files/styles/blog_image/public/2023-07/scripting-a-success-story-for-indian-startups-2023-07-20.jpg?itok=8EnO5vpB"
+                                          alt="Scripting a success story for Indian startups"
+                                          title="Scripting a success story for Indian startups"
+                                      /></a>
+                                    </div>
+                                    <div class="info">
+                                      <ul class="recentBlogStatus"></ul>
+                                      <span class="recentData">20-07-2023</span>
+                                      <h4>
+                                        <a
+                                          href="http://stpi.in/index.php/en/blog/scripting-success-story-indian-startups"
+                                          title="Scripting a success story for Indian startups"
+                                          hreflang="en"
+                                        >
+                                          Scripting a success story for Indian
+                                          startups
+                                        </a>
+                                      </h4>
+                                      <span class="recentPostby"
+                                        >Published by : STPI</span
+                                      >
+                                      <div class="socialIcone">
+                                        <ul>
+                                          <li>
+                                            <a
+                                              href="https://twitter.com/share?url=http://stpi.in/index.php/en/blog/scripting-success-story-indian-startups"
+                                              title="Twitter"
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              ><span
+                                                ><i
+                                                  class="fa fa-twitter"
+                                                ></i></span
+                                            ></a>
+                                          </li>
+                                          <li>
+                                            <a
+                                              href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/index.php/en/blog/scripting-success-story-indian-startups"
+                                              title="Facebook"
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              ><span
+                                                ><i
+                                                  class="fa fa-facebook"
+                                                ></i></span
+                                            ></a>
+                                          </li>
+                                          <li>
+                                            <a
+                                              href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/index.php/en/blog/scripting-success-story-indian-startups"
+                                              title="Linkedin"
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              ><span
+                                                ><i
+                                                  class="fa fa-linkedin"
+                                                ></i></span
+                                            ></a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="item">
+                                    <div class="recentImage">
+                                      <a
+                                        href="http://stpi.in/index.php/en/blog/software-technology-parks-india-stpi-creating-tomorrows-it-leaders"
+                                        hreflang="en"
+                                        ><img
+                                          src="https://stpi.in/sites/default/files/styles/blog_image/public/2022-10/DGSir-Article_0.jpg?itok=_V3GkCf6"
+                                          alt="Software Technology Parks of India (STPI) creating…"
+                                          title="Software Technology Parks of India (STPI) creating…"
+                                      /></a>
+                                    </div>
+                                    <div class="info">
+                                      <ul class="recentBlogStatus"></ul>
+                                      <span class="recentData">18-02-2022</span>
+                                      <h4>
+                                        <a
+                                          href="http://stpi.in/index.php/en/blog/software-technology-parks-india-stpi-creating-tomorrows-it-leaders"
+                                          title="Software Technology Parks of India (STPI) creating…"
+                                          hreflang="en"
+                                        >
+                                          Software Technology Parks of India
+                                          (STPI) creating…
+                                        </a>
+                                      </h4>
+                                      <span class="recentPostby"
+                                        >Published by : STPI</span
+                                      >
+                                      <div class="socialIcone">
+                                        <ul>
+                                          <li>
+                                            <a
+                                              href="https://twitter.com/share?url=http://stpi.in/index.php/en/blog/software-technology-parks-india-stpi-creating-tomorrows-it-leaders"
+                                              title="Twitter"
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              ><span
+                                                ><i
+                                                  class="fa fa-twitter"
+                                                ></i></span
+                                            ></a>
+                                          </li>
+                                          <li>
+                                            <a
+                                              href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/index.php/en/blog/software-technology-parks-india-stpi-creating-tomorrows-it-leaders"
+                                              title="Facebook"
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              ><span
+                                                ><i
+                                                  class="fa fa-facebook"
+                                                ></i></span
+                                            ></a>
+                                          </li>
+                                          <li>
+                                            <a
+                                              href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/index.php/en/blog/software-technology-parks-india-stpi-creating-tomorrows-it-leaders"
+                                              title="Linkedin"
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              ><span
+                                                ><i
+                                                  class="fa fa-linkedin"
+                                                ></i></span
+                                            ></a>
+                                          </li>
+                                        </ul>
                                       </div>
                                     </div>
                                   </div>
@@ -1408,215 +1683,356 @@
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="view-content">
-                      <div class="neuronBlockBox">
-                        <div class="container">
-                          <div class="row">
-                            <ul class="neuronBlock">
-                              <li class="col-md-4">
-                                <div class="neuronIn">
-                                  <a
-                                    href="http://stpi.in/en/campaign/aic-stpi-bengaluru-ocp-30"
-                                  >
-                                    <div class="neuronImage">
-                                      <img
-                                        src="https://stpi.in/sites/default/files/styles/campaign_image/public/campaign-images/1665572682OYPURQJT.png?itok=-WNPUDUf"
-                                        alt="AIC STPI BENGALURU OCP-3.0"
-                                        title="AIC STPI BENGALURU OCP-3.0"
-                                      />
-                                      <div class="neuroText">
-                                        <span class="neuronTitle"
-                                          >AIC STPINEXT</span
+                      <div class="container">
+                        <div class="blogBox cf">
+                          <div class="blogLeft">
+                            <div
+                              class="view view-blog view-id-blog view-display-id-block_2 js-view-dom-id-34bbf1b668bd4908d8d0b124f67ac47352b56a933c303c69daba62ca85202f89"
+                            >
+                              <div class="view-content">
+                                <div>
+                                  <div class="blogImg">
+                                    <a
+                                      href="http://stpi.in/index.php/en/blog/startups-agriculture-sector-are-pioneering-innovations"
+                                      hreflang="en"
+                                      ><img
+                                        src="https://stpi.in/sites/default/files/styles/blog_middle_image/public/2024-03/Agritech.jpg?itok=WPbgImdV"
+                                        alt="Startups in the agriculture sector are pioneering innovations"
+                                        title="Startups in the agriculture sector are pioneering innovations" /></a
+                                    ><span class="blogDate">11-01-2024</span>
+                                  </div>
+                                  <h4>
+                                    <a
+                                      href="http://stpi.in/index.php/en/blog/startups-agriculture-sector-are-pioneering-innovations"
+                                      title="Startups in the agriculture sector are pioneering innovations"
+                                      hreflang="en"
+                                    >
+                                      Startups in the agriculture sector are
+                                      pioneering innovations
+                                    </a>
+                                  </h4>
+                                  <p>
+                                    The Software Technology Parks in India
+                                    (STPI) serves as a catalyst for enhancing
+                                    innovations in the field of agritech<a
+                                      href="http://stpi.in/index.php/en/blog/startups-agriculture-sector-are-pioneering-innovations"
+                                      class="readMore"
+                                      >Read More</a
+                                    >
+                                  </p>
+                                  <div class="alignLeft">
+                                    <span class="bolgPublised"
+                                      >Published by : STPI</span
+                                    >
+                                  </div>
+                                  <div class="alignRight">
+                                    <div class="socialIcone">
+                                      <ul class="recentBlogStatus"></ul>
+                                      <ul>
+                                        <li>
+                                          <a
+                                            href="https://twitter.com/share?url=http://stpi.in/index.php/en/blog/startups-agriculture-sector-are-pioneering-innovations"
+                                            title="Twitter"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            ><span
+                                              ><i
+                                                class="fa fa-twitter"
+                                              ></i></span
+                                          ></a>
+                                        </li>
+                                        <li>
+                                          <a
+                                            href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/index.php/en/blog/startups-agriculture-sector-are-pioneering-innovations"
+                                            title="Facebook"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            ><span
+                                              ><i
+                                                class="fa fa-facebook"
+                                              ></i></span
+                                          ></a>
+                                        </li>
+                                        <li>
+                                          <a
+                                            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/index.php/en/blog/startups-agriculture-sector-are-pioneering-innovations"
+                                            title="Linkedin"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            ><span
+                                              ><i
+                                                class="fa fa-linkedin"
+                                              ></i></span
+                                          ></a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="view view-blog view-id-blog view-display-id-block_3 js-view-dom-id-0835da3bb6e8810dff0c961cdc6ca3562a72d173a77838ed4132abea5cd40435"
+                          >
+                            <div class="view-content">
+                              <div class="blogRight">
+                                <h3 class="blueText">Trending Posts</h3>
+                                <div class="trendingBox">
+                                  <ul>
+                                    <li class="cf">
+                                      <div class="trendingImg">
+                                        <a
+                                          href="http://stpi.in/index.php/en/blog/growth-economics-artificial-intelligence-dr-omkar-rai"
+                                          hreflang="en"
+                                          ><img
+                                            src="https://stpi.in/sites/default/files/styles/favourite_posts_blog/public/2021-01/artificail-intelligence.jpg?itok=1fSExxGC"
+                                            alt="The growth economics of artificial intelligence : by Dr. Omkar Rai"
+                                            title="The growth economics of artificial intelligence : by Dr. Omkar Rai"
+                                        /></a>
+                                      </div>
+                                      <div class="trendingText">
+                                        <p>
+                                          <a
+                                            href="http://stpi.in/index.php/en/blog/growth-economics-artificial-intelligence-dr-omkar-rai"
+                                            title="The growth economics of artificial intelligence : by Dr. Omkar Rai"
+                                            hreflang="en"
+                                          >
+                                            The growth economics of artificial
+                                            intelligence : by Dr. Omkar Rai
+                                          </a>
+                                        </p>
+                                        <span class="trendingDate"
+                                          >30-08-2019</span
+                                        ><span class="trendingPublised"
+                                          >Posted by : STPI</span
                                         >
-                                        <h4>AIC STPI BENGALURU OCP-3.0</h4>
-                                        <span class="neuronDate"
-                                          >13 Dec, 2022
-                                        </span>
+                                        <div class="socialIcone">
+                                          <ul>
+                                            <li>
+                                              <a
+                                                href="https://twitter.com/share?url=http://stpi.in/index.php/en/blog/growth-economics-artificial-intelligence-dr-omkar-rai"
+                                                title="Twitter"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                ><span
+                                                  ><i
+                                                    class="fa fa-twitter"
+                                                  ></i></span
+                                              ></a>
+                                            </li>
+                                            <li>
+                                              <a
+                                                href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/index.php/en/blog/growth-economics-artificial-intelligence-dr-omkar-rai"
+                                                title="Facebook"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                ><span
+                                                  ><i
+                                                    class="fa fa-facebook"
+                                                  ></i></span
+                                              ></a>
+                                            </li>
+                                            <li>
+                                              <a
+                                                href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/index.php/en/blog/growth-economics-artificial-intelligence-dr-omkar-rai"
+                                                title="Linkedin"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                ><span
+                                                  ><i
+                                                    class="fa fa-linkedin"
+                                                  ></i></span
+                                              ></a>
+                                            </li>
+                                          </ul>
+                                        </div>
                                       </div>
-                                    </div>
-                                  </a>
-                                  <div class="neuronBoxDetails">
-                                    <p>
-                                      ABOUT STPI in collaboration with Atal
-                                      Innovation Mission (AIM), NITI Aayog have
-                                      started Atal Incubation Centre in
-                                      Bengaluru for innovati…
-                                    </p>
-                                    <div class="stpiNeuronPartBtn">
-                                      <a
-                                        class="neuronBlueBtn"
-                                        href="http://stpi.in/en/campaign/aic-stpi-bengaluru-ocp-30"
-                                        >Read More</a
-                                      >
-                                    </div>
-                                    <div class="socialIcone">
-                                      <ul>
-                                        <li>
+                                    </li>
+                                    <li class="cf">
+                                      <div class="trendingImg">
+                                        <a
+                                          href="http://stpi.in/index.php/en/blog/it-services-software-products-dr-omkar-rai"
+                                          hreflang="en"
+                                          ><img
+                                            src="https://stpi.in/sites/default/files/styles/favourite_posts_blog/public/2021-01/IT%20services%20to%20software%20products.jpg?itok=zuq-6fWG"
+                                            alt="From IT services to software products : by Dr. Omkar Rai"
+                                            title="From IT services to software products : by Dr. Omkar Rai"
+                                        /></a>
+                                      </div>
+                                      <div class="trendingText">
+                                        <p>
                                           <a
-                                            href="https://twitter.com/share?url=http://stpi.in/en/campaign/aic-stpi-bengaluru-ocp-30"
-                                            title="Twitter"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-twitter"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                        <li>
-                                          <a
-                                            href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/en/campaign/aic-stpi-bengaluru-ocp-30"
-                                            title="Facebook"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-facebook"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                        <li>
-                                          <a
-                                            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/en/campaign/aic-stpi-bengaluru-ocp-30"
-                                            title="Linkedin"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-linkedin"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li class="col-md-4">
-                                <div class="neuronIn">
-                                  <a
-                                    href="http://stpi.in/en/campaign/launch-smart-farm-grant-challenge"
-                                  >
-                                    <div class="neuronImage">
-                                      <img
-                                        src="https://stpi.in/sites/default/files/styles/campaign_image/public/campaign-images/Smart_Farm_Grant.png?itok=UFA_Zh9Z"
-                                        alt="Launch of Smart Farm Grant Challenge"
-                                        title="Launch of Smart Farm Grant Challenge"
-                                      />
-                                      <div class="neuroText">
-                                        <span class="neuronTitle"
-                                          >Startup India</span
+                                            href="http://stpi.in/index.php/en/blog/it-services-software-products-dr-omkar-rai"
+                                            title="From IT services to software products : by Dr. Omkar Rai"
+                                            hreflang="en"
+                                          >
+                                            From IT services to software
+                                            products : by Dr. Omkar Rai
+                                          </a>
+                                        </p>
+                                        <span class="trendingDate"
+                                          >23-05-2019</span
+                                        ><span class="trendingPublised"
+                                          >Posted by : STPI</span
                                         >
-                                        <h4>
-                                          Launch of Smart Farm Grant Challenge
-                                        </h4>
-                                        <span class="neuronDate"
-                                          >09 May, 2022
-                                        </span>
+                                        <div class="socialIcone">
+                                          <ul>
+                                            <li>
+                                              <a
+                                                href="https://twitter.com/share?url=http://stpi.in/index.php/en/blog/it-services-software-products-dr-omkar-rai"
+                                                title="Twitter"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                ><span
+                                                  ><i
+                                                    class="fa fa-twitter"
+                                                  ></i></span
+                                              ></a>
+                                            </li>
+                                            <li>
+                                              <a
+                                                href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/index.php/en/blog/it-services-software-products-dr-omkar-rai"
+                                                title="Facebook"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                ><span
+                                                  ><i
+                                                    class="fa fa-facebook"
+                                                  ></i></span
+                                              ></a>
+                                            </li>
+                                            <li>
+                                              <a
+                                                href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/index.php/en/blog/it-services-software-products-dr-omkar-rai"
+                                                title="Linkedin"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                ><span
+                                                  ><i
+                                                    class="fa fa-linkedin"
+                                                  ></i></span
+                                              ></a>
+                                            </li>
+                                          </ul>
+                                        </div>
                                       </div>
-                                    </div>
-                                  </a>
-                                  <div class="neuronBoxDetails">
-                                    <p>
-                                      Launch of Smart Farm Grant Challenge To
-                                      Address the Problem Statement Identified
-                                      for Sugarcane Harvest STPI launches Sma…
-                                    </p>
-                                    <div class="stpiNeuronPartBtn">
-                                      <a
-                                        class="neuronBlueBtn"
-                                        href="http://stpi.in/en/campaign/launch-smart-farm-grant-challenge"
-                                        >Read More</a
-                                      >
-                                    </div>
-                                    <div class="socialIcone">
-                                      <ul>
-                                        <li>
+                                    </li>
+                                    <li class="cf">
+                                      <div class="trendingImg">
+                                        <a
+                                          href="http://stpi.in/index.php/en/blog/exclusive-interview-arvind-kumar-director-general-bw-businessworld"
+                                          hreflang="en"
+                                          ><img
+                                            src="https://stpi.in/sites/default/files/styles/favourite_posts_blog/public/2022-02/BW_0.jpeg?itok=hnGRekRv"
+                                            alt="Exclusive interview of Arvind Kumar (Director General) with BW…"
+                                            title="Exclusive interview of Arvind Kumar (Director General) with BW…"
+                                        /></a>
+                                      </div>
+                                      <div class="trendingText">
+                                        <p>
                                           <a
-                                            href="https://twitter.com/share?url=http://stpi.in/en/campaign/launch-smart-farm-grant-challenge"
-                                            title="Twitter"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-twitter"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                        <li>
-                                          <a
-                                            href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/en/campaign/launch-smart-farm-grant-challenge"
-                                            title="Facebook"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-facebook"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                        <li>
-                                          <a
-                                            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/en/campaign/launch-smart-farm-grant-challenge"
-                                            title="Linkedin"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-linkedin"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li class="col-md-4">
-                                <div class="neuronIn">
-                                  <a
-                                    href="http://stpi.in/en/campaign/electropreneur-park-new-delhi-season-9"
-                                  >
-                                    <div class="neuronImage">
-                                      <img
-                                        src="https://stpi.in/sites/default/files/styles/campaign_image/public/campaign-images/ep%20banner%20%281%29.jpg?itok=UQcBXfRR"
-                                        alt="Electropreneur Park, New Delhi season 9"
-                                        title="Electropreneur Park, New Delhi season 9"
-                                      />
-                                      <div class="neuroText">
-                                        <span class="neuronTitle"
-                                          >EP - DELHI</span
+                                            href="http://stpi.in/index.php/en/blog/exclusive-interview-arvind-kumar-director-general-bw-businessworld"
+                                            title="Exclusive interview of Arvind Kumar (Director General) with BW…"
+                                            hreflang="en"
+                                          >
+                                            Exclusive interview of Arvind Kumar
+                                            (Director General) with BW…
+                                          </a>
+                                        </p>
+                                        <span class="trendingDate"
+                                          >20-02-2022</span
+                                        ><span class="trendingPublised"
+                                          >Posted by : STPI</span
                                         >
-                                        <h4>
-                                          Electropreneur Park, New Delhi season
-                                          9
-                                        </h4>
-                                        <span class="neuronDate"
-                                          >05 Apr, 2022
-                                        </span>
+                                        <div class="socialIcone">
+                                          <ul>
+                                            <li>
+                                              <a
+                                                href="https://twitter.com/share?url=http://stpi.in/index.php/en/blog/exclusive-interview-arvind-kumar-director-general-bw-businessworld"
+                                                title="Twitter"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                ><span
+                                                  ><i
+                                                    class="fa fa-twitter"
+                                                  ></i></span
+                                              ></a>
+                                            </li>
+                                            <li>
+                                              <a
+                                                href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/index.php/en/blog/exclusive-interview-arvind-kumar-director-general-bw-businessworld"
+                                                title="Facebook"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                ><span
+                                                  ><i
+                                                    class="fa fa-facebook"
+                                                  ></i></span
+                                              ></a>
+                                            </li>
+                                            <li>
+                                              <a
+                                                href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/index.php/en/blog/exclusive-interview-arvind-kumar-director-general-bw-businessworld"
+                                                title="Linkedin"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                ><span
+                                                  ><i
+                                                    class="fa fa-linkedin"
+                                                  ></i></span
+                                              ></a>
+                                            </li>
+                                          </ul>
+                                        </div>
                                       </div>
-                                    </div>
-                                  </a>
-                                  <div class="neuronBoxDetails">
-                                    <p>
-                                      Electropreneurpark Delhi -Season 9
-                                      Electropreneur Park is an Incubation
-                                      centre funded by Ministry of Electronics
-                                      and Information…
-                                    </p>
-                                    <div class="stpiNeuronPartBtn">
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="container">
+                        <div class="row">
+                          <div
+                            class="view view-blog view-id-blog view-display-id-page_2 js-view-dom-id-d600256828de59800e74d9a62c7cd25c4a83eed8b093baddf8cefd83c2fc2adf"
+                          >
+                            <div class="view-content">
+                              <ul class="recentBlock moreBlock">
+                                <li>
+                                  <div class="recentImage">
+                                    <a
+                                      href="http://stpi.in/index.php/en/blog/startups-agriculture-sector-are-pioneering-innovations"
+                                      hreflang="en"
+                                      ><img
+                                        src="https://stpi.in/sites/default/files/styles/blog_image/public/2024-03/Agritech.jpg?itok=okRotI6a"
+                                        alt="Startups in the agriculture sector are pioneering…"
+                                        title="Startups in the agriculture sector are pioneering…"
+                                    /></a>
+                                  </div>
+                                  <div class="info">
+                                    <ul class="recentBlogStatus"></ul>
+                                    <span class="recentData">11-01-2024</span>
+                                    <h4>
                                       <a
-                                        class="neuronBlueBtn"
-                                        href="http://stpi.in/en/campaign/electropreneur-park-new-delhi-season-9"
-                                        >Read More</a
+                                        href="http://stpi.in/index.php/en/blog/startups-agriculture-sector-are-pioneering-innovations"
+                                        title="Startups in the agriculture sector are pioneering…"
+                                        hreflang="en"
                                       >
-                                    </div>
+                                        Startups in the agriculture sector are
+                                        pioneering…
+                                      </a>
+                                    </h4>
+                                    <span class="recentPostby"
+                                      >Published by : STPI</span
+                                    >
                                     <div class="socialIcone">
                                       <ul>
                                         <li>
                                           <a
-                                            href="https://twitter.com/share?url=http://stpi.in/en/campaign/electropreneur-park-new-delhi-season-9"
+                                            href="https://twitter.com/share?url=http://stpi.in/index.php/en/blog/startups-agriculture-sector-are-pioneering-innovations"
                                             title="Twitter"
                                             target="_blank"
                                             rel="noopener noreferrer"
@@ -1628,7 +2044,7 @@
                                         </li>
                                         <li>
                                           <a
-                                            href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/en/campaign/electropreneur-park-new-delhi-season-9"
+                                            href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/index.php/en/blog/startups-agriculture-sector-are-pioneering-innovations"
                                             title="Facebook"
                                             target="_blank"
                                             rel="noopener noreferrer"
@@ -1640,7 +2056,7 @@
                                         </li>
                                         <li>
                                           <a
-                                            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/en/campaign/electropreneur-park-new-delhi-season-9"
+                                            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/index.php/en/blog/startups-agriculture-sector-are-pioneering-innovations"
                                             title="Linkedin"
                                             target="_blank"
                                             rel="noopener noreferrer"
@@ -1653,339 +2069,227 @@
                                       </ul>
                                     </div>
                                   </div>
-                                </div>
-                              </li>
-                              <li class="col-md-4">
-                                <div class="neuronIn">
-                                  <a
-                                    href="http://stpi.in/en/campaign/httpsinnovatestpinextinabout-uschunauti-30"
+                                </li>
+                                <li>
+                                  <div class="recentImage">
+                                    <a
+                                      href="http://stpi.in/index.php/en/blog/women-entrepreneurs-are-reshaping-landscape-indias-economy"
+                                      hreflang="en"
+                                      ><img
+                                        src="https://stpi.in/sites/default/files/styles/blog_image/public/2024-03/WESA_BW.jpeg?itok=7RquVk05"
+                                        alt="Women Entrepreneurs Are Reshaping The Landscape…"
+                                        title="Women Entrepreneurs Are Reshaping The Landscape…"
+                                    /></a>
+                                  </div>
+                                  <div class="info">
+                                    <ul class="recentBlogStatus"></ul>
+                                    <span class="recentData">22-08-2023</span>
+                                    <h4>
+                                      <a
+                                        href="http://stpi.in/index.php/en/blog/women-entrepreneurs-are-reshaping-landscape-indias-economy"
+                                        title="Women Entrepreneurs Are Reshaping The Landscape…"
+                                        hreflang="en"
+                                      >
+                                        Women Entrepreneurs Are Reshaping The
+                                        Landscape…
+                                      </a>
+                                    </h4>
+                                    <span class="recentPostby"
+                                      >Published by : STPI</span
+                                    >
+                                    <div class="socialIcone">
+                                      <ul>
+                                        <li>
+                                          <a
+                                            href="https://twitter.com/share?url=http://stpi.in/index.php/en/blog/women-entrepreneurs-are-reshaping-landscape-indias-economy"
+                                            title="Twitter"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            ><span
+                                              ><i
+                                                class="fa fa-twitter"
+                                              ></i></span
+                                          ></a>
+                                        </li>
+                                        <li>
+                                          <a
+                                            href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/index.php/en/blog/women-entrepreneurs-are-reshaping-landscape-indias-economy"
+                                            title="Facebook"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            ><span
+                                              ><i
+                                                class="fa fa-facebook"
+                                              ></i></span
+                                          ></a>
+                                        </li>
+                                        <li>
+                                          <a
+                                            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/index.php/en/blog/women-entrepreneurs-are-reshaping-landscape-indias-economy"
+                                            title="Linkedin"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            ><span
+                                              ><i
+                                                class="fa fa-linkedin"
+                                              ></i></span
+                                          ></a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="recentImage">
+                                    <a
+                                      href="http://stpi.in/index.php/en/blog/scripting-success-story-indian-startups"
+                                      hreflang="en"
+                                      ><img
+                                        src="https://stpi.in/sites/default/files/styles/blog_image/public/2023-07/scripting-a-success-story-for-indian-startups-2023-07-20.jpg?itok=8EnO5vpB"
+                                        alt="Scripting a success story for Indian startups"
+                                        title="Scripting a success story for Indian startups"
+                                    /></a>
+                                  </div>
+                                  <div class="info">
+                                    <ul class="recentBlogStatus"></ul>
+                                    <span class="recentData">20-07-2023</span>
+                                    <h4>
+                                      <a
+                                        href="http://stpi.in/index.php/en/blog/scripting-success-story-indian-startups"
+                                        title="Scripting a success story for Indian startups"
+                                        hreflang="en"
+                                      >
+                                        Scripting a success story for Indian
+                                        startups
+                                      </a>
+                                    </h4>
+                                    <span class="recentPostby"
+                                      >Published by : STPI</span
+                                    >
+                                    <div class="socialIcone">
+                                      <ul>
+                                        <li>
+                                          <a
+                                            href="https://twitter.com/share?url=http://stpi.in/index.php/en/blog/scripting-success-story-indian-startups"
+                                            title="Twitter"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            ><span
+                                              ><i
+                                                class="fa fa-twitter"
+                                              ></i></span
+                                          ></a>
+                                        </li>
+                                        <li>
+                                          <a
+                                            href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/index.php/en/blog/scripting-success-story-indian-startups"
+                                            title="Facebook"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            ><span
+                                              ><i
+                                                class="fa fa-facebook"
+                                              ></i></span
+                                          ></a>
+                                        </li>
+                                        <li>
+                                          <a
+                                            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/index.php/en/blog/scripting-success-story-indian-startups"
+                                            title="Linkedin"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            ><span
+                                              ><i
+                                                class="fa fa-linkedin"
+                                              ></i></span
+                                          ></a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <nav
+                              class="pager"
+                              role="navigation"
+                              aria-labelledby="pagination-heading--2"
+                            >
+                              <h4
+                                id="pagination-heading--2"
+                                class="visually-hidden"
+                              >
+                                Pagination
+                              </h4>
+                              <ul class="pager__items js-pager__items">
+                                <li class="pager__item is-active">
+                                  <a href="?page=0" title="Current page"
+                                    ><span class="visually-hidden">
+                                      Current page </span
+                                    >1</a
                                   >
-                                    <div class="neuronImage">
-                                      <img
-                                        src="https://stpi.in/sites/default/files/styles/campaign_image/public/campaign-images/Chunauti_20.03.jpg?itok=8IxtApm2"
-                                        alt="CHUNAUTI-3.0 - NextGen Startup Challenge"
-                                        title="CHUNAUTI-3.0 - NextGen Startup Challenge"
-                                      />
-                                      <div class="neuroText">
-                                        <span class="neuronTitle">NGIS</span>
-                                        <h4>
-                                          CHUNAUTI-3.0 - NextGen Startup
-                                          Challenge
-                                        </h4>
-                                        <span class="neuronDate"
-                                          >10 Feb, 2022
-                                        </span>
-                                      </div>
-                                    </div>
-                                  </a>
-                                  <div class="neuronBoxDetails">
-                                    <p>
-                                      CHUNAUTI 3.0 is focused on identifying and
-                                      supporting promising startup working
-                                      towards digital transformation &amp;amp;
-                                      accessible products/…
-                                    </p>
-                                    <div class="stpiNeuronPartBtn">
-                                      <a
-                                        class="neuronBlueBtn"
-                                        href="http://stpi.in/en/campaign/httpsinnovatestpinextinabout-uschunauti-30"
-                                        >Read More</a
-                                      >
-                                    </div>
-                                    <div class="socialIcone">
-                                      <ul>
-                                        <li>
-                                          <a
-                                            href="https://twitter.com/share?url=http://stpi.in/en/campaign/httpsinnovatestpinextinabout-uschunauti-30"
-                                            title="Twitter"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-twitter"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                        <li>
-                                          <a
-                                            href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/en/campaign/httpsinnovatestpinextinabout-uschunauti-30"
-                                            title="Facebook"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-facebook"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                        <li>
-                                          <a
-                                            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/en/campaign/httpsinnovatestpinextinabout-uschunauti-30"
-                                            title="Linkedin"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-linkedin"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li class="col-md-4">
-                                <div class="neuronIn">
-                                  <a
-                                    href="http://stpi.in/en/campaign/pitch-fest-30-finblue-fintech-centre-entrepreneurship"
+                                </li>
+                                <li class="pager__item">
+                                  <a href="?page=1" title="Go to page 2"
+                                    ><span class="visually-hidden"> Page </span
+                                    >2</a
                                   >
-                                    <div class="neuronImage">
-                                      <img
-                                        src="https://stpi.in/sites/default/files/styles/campaign_image/public/campaign-images/banner.jpg?itok=WFitYh88"
-                                        alt="Pitch Fest 3.0 : FinBlue – A FinTech Centre of Entrepreneurship"
-                                        title="Pitch Fest 3.0 : FinBlue – A FinTech Centre of Entrepreneurship"
-                                      />
-                                      <div class="neuroText">
-                                        <span class="neuronTitle"></span>
-                                        <h4>
-                                          Pitch Fest 3.0 : FinBlue – A FinTech
-                                          Centre of Entrepreneurship
-                                        </h4>
-                                        <span class="neuronDate"
-                                          >07 Feb, 2022
-                                        </span>
-                                      </div>
-                                    </div>
-                                  </a>
-                                  <div class="neuronBoxDetails">
-                                    <p>
-                                      Pitch fest 3.0 by FinBlue CoE has been
-                                      launched FinBlue – A FinTech Centre of
-                                      Entrepreneurship &amp;amp; Vibrant
-                                      Start-up Eco-System…
-                                    </p>
-                                    <div class="stpiNeuronPartBtn">
-                                      <a
-                                        class="neuronBlueBtn"
-                                        href="http://stpi.in/en/campaign/pitch-fest-30-finblue-fintech-centre-entrepreneurship"
-                                        >Read More</a
-                                      >
-                                    </div>
-                                    <div class="socialIcone">
-                                      <ul>
-                                        <li>
-                                          <a
-                                            href="https://twitter.com/share?url=http://stpi.in/en/campaign/pitch-fest-30-finblue-fintech-centre-entrepreneurship"
-                                            title="Twitter"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-twitter"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                        <li>
-                                          <a
-                                            href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/en/campaign/pitch-fest-30-finblue-fintech-centre-entrepreneurship"
-                                            title="Facebook"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-facebook"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                        <li>
-                                          <a
-                                            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/en/campaign/pitch-fest-30-finblue-fintech-centre-entrepreneurship"
-                                            title="Linkedin"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-linkedin"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li class="col-md-4">
-                                <div class="neuronIn">
-                                  <a
-                                    href="http://stpi.in/en/campaign/iot-open-challenge-program-ocp-40-stpi-iot-open-lab"
+                                </li>
+                                <li class="pager__item">
+                                  <a href="?page=2" title="Go to page 3"
+                                    ><span class="visually-hidden"> Page </span
+                                    >3</a
                                   >
-                                    <div class="neuronImage">
-                                      <img
-                                        src="https://stpi.in/sites/default/files/styles/campaign_image/public/campaign-images/WhatsApp%20Image%202022-01-28%20at%2014.45.59.jpeg?itok=N6f82ckL"
-                                        alt="IoT Open Challenge Program (OCP) 4.0  : STPI IoT Open Lab "
-                                        title="IoT Open Challenge Program (OCP) 4.0  : STPI IoT Open Lab "
-                                      />
-                                      <div class="neuroText">
-                                        <span class="neuronTitle"
-                                          >IOT OPENLAB</span
-                                        >
-                                        <h4>
-                                          IoT Open Challenge Program (OCP) 4.0 :
-                                          STPI IoT Open Lab
-                                        </h4>
-                                        <span class="neuronDate"
-                                          >31 Dec, 2021
-                                        </span>
-                                      </div>
-                                    </div>
-                                  </a>
-                                  <div class="neuronBoxDetails">
-                                    <p>
-                                      IoT Open Challenge Program (OCP) 4.0 :
-                                      STPI IoT Open Lab CoE- STPI IoT Open Lab
-                                      aims to support &amp;amp; nurture around
-                                      500 start-…
-                                    </p>
-                                    <div class="stpiNeuronPartBtn">
-                                      <a
-                                        class="neuronBlueBtn"
-                                        href="http://stpi.in/en/campaign/iot-open-challenge-program-ocp-40-stpi-iot-open-lab"
-                                        >Read More</a
-                                      >
-                                    </div>
-                                    <div class="socialIcone">
-                                      <ul>
-                                        <li>
-                                          <a
-                                            href="https://twitter.com/share?url=http://stpi.in/en/campaign/iot-open-challenge-program-ocp-40-stpi-iot-open-lab"
-                                            title="Twitter"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-twitter"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                        <li>
-                                          <a
-                                            href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/en/campaign/iot-open-challenge-program-ocp-40-stpi-iot-open-lab"
-                                            title="Facebook"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-facebook"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                        <li>
-                                          <a
-                                            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/en/campaign/iot-open-challenge-program-ocp-40-stpi-iot-open-lab"
-                                            title="Linkedin"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-linkedin"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li class="col-md-4">
-                                <div class="neuronIn">
-                                  <a
-                                    href="http://stpi.in/en/campaign/launch-open-challenge-program-ocp-20-aic-stpi-bengaluru"
+                                </li>
+                                <li class="pager__item">
+                                  <a href="?page=3" title="Go to page 4"
+                                    ><span class="visually-hidden"> Page </span
+                                    >4</a
                                   >
-                                    <div class="neuronImage">
-                                      <img
-                                        src="https://stpi.in/sites/default/files/styles/campaign_image/public/campaign-images/OCP2_1_0.jpg?itok=_A8krkzd"
-                                        alt="Launch of Open Challenge Program (OCP) 2.0  : AIC STPI BENGALURU"
-                                        title="Launch of Open Challenge Program (OCP) 2.0  : AIC STPI BENGALURU"
-                                      />
-                                      <div class="neuroText">
-                                        <span class="neuronTitle"
-                                          >AIC STPINEXT</span
-                                        >
-                                        <h4>
-                                          Launch of Open Challenge Program (OCP)
-                                          2.0 : AIC STPI BENGALURU
-                                        </h4>
-                                        <span class="neuronDate"
-                                          >31 Dec, 2021
-                                        </span>
-                                      </div>
-                                    </div>
-                                  </a>
-                                  <div class="neuronBoxDetails">
-                                    <p>
-                                      Launch of Open Challenge Program (OCP) 2.0
-                                      : AIC STPI BENGALURU STPI in collaboration
-                                      with Atal Innovation Mission (AIM), NITI
-                                      A…
-                                    </p>
-                                    <div class="stpiNeuronPartBtn">
-                                      <a
-                                        class="neuronBlueBtn"
-                                        href="http://stpi.in/en/campaign/launch-open-challenge-program-ocp-20-aic-stpi-bengaluru"
-                                        >Read More</a
-                                      >
-                                    </div>
-                                    <div class="socialIcone">
-                                      <ul>
-                                        <li>
-                                          <a
-                                            href="https://twitter.com/share?url=http://stpi.in/en/campaign/launch-open-challenge-program-ocp-20-aic-stpi-bengaluru"
-                                            title="Twitter"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-twitter"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                        <li>
-                                          <a
-                                            href="https://www.facebook.com/sharer/sharer.php?u=http://stpi.in/en/campaign/launch-open-challenge-program-ocp-20-aic-stpi-bengaluru"
-                                            title="Facebook"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-facebook"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                        <li>
-                                          <a
-                                            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://stpi.in/en/campaign/launch-open-challenge-program-ocp-20-aic-stpi-bengaluru"
-                                            title="Linkedin"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            ><span
-                                              ><i
-                                                class="fa fa-linkedin"
-                                              ></i></span
-                                          ></a>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                            </ul>
+                                </li>
+                                <li class="pager__item">
+                                  <a href="?page=4" title="Go to page 5"
+                                    ><span class="visually-hidden"> Page </span
+                                    >5</a
+                                  >
+                                </li>
+                                <li class="pager__item">
+                                  <a href="?page=5" title="Go to page 6"
+                                    ><span class="visually-hidden"> Page </span
+                                    >6</a
+                                  >
+                                </li>
+                                <li class="pager__item">
+                                  <a href="?page=6" title="Go to page 7"
+                                    ><span class="visually-hidden"> Page </span
+                                    >7</a
+                                  >
+                                </li>
+                                <li class="pager__item pager__item--next">
+                                  <a
+                                    href="?page=1"
+                                    title="Go to next page"
+                                    rel="next"
+                                    ><span class="visually-hidden"
+                                      >Next page</span
+                                    ><span aria-hidden="true">››</span></a
+                                  >
+                                </li>
+                                <li class="pager__item pager__item--last">
+                                  <a href="?page=6" title="Go to last page"
+                                    ><span class="visually-hidden"
+                                      >Last page</span
+                                    ><span aria-hidden="true">Last »</span></a
+                                  >
+                                </li>
+                              </ul>
+                            </nav>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </article>
               </div>
             </div>
           </div>
@@ -2002,35 +2306,35 @@
                     <ul class="clearfix links bulletText">
                       <li class="menu-item">
                         <a
-                          href="/en/about-stpi"
+                          href="/index.php/en/about-stpi"
                           data-drupal-link-system-path="node/58"
                           >About STPI</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/about-stpi#ObjectivesofSTPI"
+                          href="/index.php/en/about-stpi#ObjectivesofSTPI"
                           data-drupal-link-system-path="node/58"
                           >Objectives of STPI</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/about-stpi#FunctionsofSTPI"
+                          href="/index.php/en/about-stpi#FunctionsofSTPI"
                           data-drupal-link-system-path="node/58"
                           >Functions of STPI</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/about-stpi#QualityObjectives"
+                          href="/index.php/en/about-stpi#QualityObjectives"
                           data-drupal-link-system-path="node/58"
                           >Quality Objective</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/about-stpi#stpiCenters"
+                          href="/index.php/en/about-stpi#stpiCenters"
                           data-drupal-link-system-path="node/58"
                           >STPI Centres</a
                         >
@@ -2046,63 +2350,63 @@
                     <ul class="clearfix links bulletText">
                       <li class="menu-item">
                         <a
-                          href="/en/statutory-services"
+                          href="/index.php/en/statutory-services"
                           data-drupal-link-system-path="node/2364"
                           >Statutory Services</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/internet-services-data-communications"
+                          href="/index.php/en/internet-services-data-communications"
                           data-drupal-link-system-path="node/166"
                           >Internet Services / Data Communications</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/incubation-services"
+                          href="/index.php/en/incubation-services"
                           data-drupal-link-system-path="node/167"
                           >Incubation Services</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/project-management-consultancy-services"
+                          href="/index.php/en/project-management-consultancy-services"
                           data-drupal-link-system-path="node/94"
                           >PMC Services</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/data-center"
+                          href="/index.php/en/data-center"
                           data-drupal-link-system-path="node/168"
                           >Data Center</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/crs-surveillance"
+                          href="/index.php/en/crs-surveillance"
                           data-drupal-link-system-path="node/169"
                           >CRS Surveillance</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/stpi-vapt"
+                          href="/index.php/en/stpi-vapt"
                           data-drupal-link-system-path="node/2923"
                           >Information Security Audit Service (VAPT)</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/centre-of-entrepreneurship"
+                          href="/index.php/en/centre-of-entrepreneurship"
                           data-drupal-link-system-path="centre-of-entrepreneurship"
                           >Centres of Entrepreneurship (CoEs)</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/stpi-labs-network"
+                          href="/index.php/en/stpi-labs-network"
                           data-drupal-link-system-path="node/3656"
                           >STPI Labs</a
                         >
@@ -2118,14 +2422,14 @@
                     <ul class="clearfix links bulletText">
                       <li class="menu-item">
                         <a
-                          href="/en/rti"
+                          href="/index.php/en/rti"
                           data-drupal-link-system-path="node/183"
                           >Right to Information</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/gst-nodal-officers"
+                          href="/index.php/en/gst-nodal-officers"
                           data-drupal-link-system-path="node/171"
                           >GST Nodal Officers</a
                         >
@@ -2140,42 +2444,42 @@
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/citizens-charter"
+                          href="/index.php/en/citizens-charter"
                           data-drupal-link-system-path="node/173"
                           >Citizens Charter</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/public-and-staff-grievance-officers"
+                          href="/index.php/en/public-and-staff-grievance-officers"
                           data-drupal-link-system-path="node/174"
                           >Public and Staff Grievance Officers</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/icc"
+                          href="/index.php/en/icc"
                           data-drupal-link-system-path="node/4558"
                           >Internal Complaints Committee</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/digitally-pay-stpi-through-upibhim"
+                          href="/index.php/en/digitally-pay-stpi-through-upibhim"
                           data-drupal-link-system-path="node/175"
                           >Digitally Pay STPI through UPI/BHIM</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/main-career"
+                          href="/index.php/en/main-career"
                           data-drupal-link-system-path="main-career"
                           >Career</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/circulars-notifications"
+                          href="/index.php/en/circulars-notifications"
                           data-drupal-link-system-path="circulars-notifications"
                           >Circulars and Notifications</a
                         >
@@ -2185,7 +2489,7 @@
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/frequently-asked-questions"
+                          href="/index.php/en/frequently-asked-questions"
                           data-drupal-link-system-path="node/4512"
                           >FAQs</a
                         >
@@ -2201,28 +2505,28 @@
                     <ul class="clearfix links bulletText">
                       <li class="menu-item">
                         <a
-                          href="/en/main-know-your-minister"
+                          href="/index.php/en/main-know-your-minister"
                           data-drupal-link-system-path="main-know-your-minister"
                           >Know your ministers</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/governing-council"
+                          href="/index.php/en/governing-council"
                           data-drupal-link-system-path="node/1711"
                           >Governing Council</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/stpi-management-structure"
+                          href="/index.php/en/stpi-management-structure"
                           data-drupal-link-system-path="node/2651"
                           >Management Structure</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/stpi-jurisdictional-directors"
+                          href="/index.php/en/stpi-jurisdictional-directors"
                           data-drupal-link-system-path="node/1950"
                           >STPI Jurisdictional Directors</a
                         >
@@ -2238,56 +2542,56 @@
                     <ul class="clearfix links bulletText">
                       <li class="menu-item">
                         <a
-                          href="/en/main-news"
+                          href="/index.php/en/main-news"
                           data-drupal-link-system-path="main-news"
                           >News</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/main-events"
+                          href="/index.php/en/main-events"
                           data-drupal-link-system-path="main-events"
                           >Events</a
                         >
                       </li>
-                      <li class="menu-item menu-item--active-trail">
+                      <li class="menu-item">
                         <a
-                          href="/en/main-campaigns"
+                          href="/index.php/en/main-campaigns"
                           data-drupal-link-system-path="main-campaigns"
-                          class="is-active"
                           >Campaigns</a
                         >
                       </li>
-                      <li class="menu-item">
+                      <li class="menu-item menu-item--active-trail">
                         <a
-                          href="/en/main-blog"
+                          href="/index.php/en/main-blog"
                           data-drupal-link-system-path="node/88"
+                          class="is-active"
                           >Blogs</a
                         >
                       </li>
                       <li class="menu-item">
-                        <a href="/video-gallery">Video Gallery</a>
+                        <a href="/index.php/video-gallery">Video Gallery</a>
                       </li>
                       <li class="menu-item">
-                        <a href="/photo-gallery">Photo Gallery</a>
+                        <a href="/index.php/photo-gallery">Photo Gallery</a>
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/main-newsletters"
+                          href="/index.php/en/main-newsletters"
                           data-drupal-link-system-path="main-newsletters"
                           >Newsletters</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/stpi-knowledgeup-series"
+                          href="/index.php/en/stpi-knowledgeup-series"
                           data-drupal-link-system-path="stpi-knowledgeup-series"
                           >Publications</a
                         >
                       </li>
                       <li class="menu-item">
                         <a
-                          href="/en/stpi-annual-reports"
+                          href="/index.php/en/stpi-annual-reports"
                           data-drupal-link-system-path="stpi-annual-reports"
                           >STPI Annual Reports</a
                         >
@@ -2415,21 +2719,21 @@
                   <ul>
                     <li class="menu-item">
                       <a
-                        href="/en/terms-and-conditions"
+                        href="/index.php/en/terms-and-conditions"
                         data-drupal-link-system-path="node/176"
                         >Terms &amp; Conditions</a
                       >
                     </li>
                     <li class="menu-item">
                       <a
-                        href="/en/privacy-policy"
+                        href="/index.php/en/privacy-policy"
                         data-drupal-link-system-path="node/177"
                         >Privacy Policy</a
                       >
                     </li>
                     <li class="menu-item">
                       <a
-                        href="/en/copyright-policy"
+                        href="/index.php/en/copyright-policy"
                         data-drupal-link-system-path="node/178"
                       >
                         Copyright Policy</a
@@ -2437,33 +2741,35 @@
                     </li>
                     <li class="menu-item">
                       <a
-                        href="/en/hyperlinking-policy"
+                        href="/index.php/en/hyperlinking-policy"
                         data-drupal-link-system-path="node/180"
                         >Hyperlinking Policy</a
                       >
                     </li>
                     <li class="menu-item">
                       <a
-                        href="/en/screen-reader"
+                        href="/index.php/en/screen-reader"
                         data-drupal-link-system-path="node/181"
                         >Screen Reader Access</a
                       >
                     </li>
                     <li class="menu-item">
-                      <a href="/en/help" data-drupal-link-system-path="node/182"
+                      <a
+                        href="/index.php/en/help"
+                        data-drupal-link-system-path="node/182"
                         >Help</a
                       >
                     </li>
                     <li class="menu-item">
                       <a
-                        href="/en/feedback"
+                        href="/index.php/en/feedback"
                         data-drupal-link-system-path="node/add/feedback"
                         >Feedback</a
                       >
                     </li>
                     <li class="menu-item">
                       <a
-                        href="/en/sitemap"
+                        href="/index.php/en/sitemap"
                         data-drupal-link-system-path="sitemap"
                         >Sitemap</a
                       >
@@ -2474,7 +2780,7 @@
                   <ul class="clearfix menu">
                     <li class="menu-item">
                       <a
-                        href="/en/member/login"
+                        href="/index.php/en/member/login"
                         data-drupal-link-system-path="member/login"
                         >Log in</a
                       >
@@ -2532,7 +2838,7 @@
                   >
                     <div class="content">
                       <div
-                        class="view view-node-statistics view-id-node_statistics view-display-id-block_2 js-view-dom-id-dbc95278c3d3bd30b19731585dbcd4288923549131267f20333a1f2b98d7fe83"
+                        class="view view-node-statistics view-id-node_statistics view-display-id-block_2 js-view-dom-id-4884a430f5c4fffa9bcacc64c88609de1137de5b9865a920fac3b658773cc4e3"
                       >
                         <div class="view-content">
                           <div class="views-row"></div>
@@ -2546,26 +2852,19 @@
                   >
                     <div class="content">
                       <div
-                        class="view view-page-last-updated view-id-page_last_updated view-display-id-block_1 js-view-dom-id-acbe657c3d72767b4392c89fa73ab1f5a9678f642a72762edc5948aeec9882cc"
+                        class="view view-page-last-updated view-id-page_last_updated view-display-id-block_1 js-view-dom-id-f73d97141b245ce626e89035ce075ab48e1ed984b5fc4f156abfa0e7e8bb80c1"
                       >
-                        <div class="view-empty">
-                          <div
-                            class="view view-page-last-updated view-id-page_last_updated view-display-id-block_2 js-view-dom-id-dd2757423afc7b8c2afefa3857ee8d2ba46d8f757b4b75f902d3e662b0de895f"
-                          >
-                            <div class="view-content">
-                              <div class="views-row">
-                                <div class="views-field views-field-changed">
-                                  <span class="field-content">
-                                    <p>
-                                      <span
-                                        class="views-label views-label-changed"
-                                        >Last Updated:</span
-                                      >
-                                      09/05/2024
-                                    </p>
-                                  </span>
-                                </div>
-                              </div>
+                        <div class="view-content">
+                          <div class="views-row">
+                            <div class="views-field views-field-changed">
+                              <span class="field-content"
+                                ><p>
+                                  <span class="views-label views-label-changed"
+                                    >Last Updated:</span
+                                  >
+                                  02/03/2020
+                                </p></span
+                              >
                             </div>
                           </div>
                         </div>
@@ -2583,9 +2882,8 @@
                         <!-- Default Statcounter code for STPI LIVE https://stpi.in/-->
                         <div class="visitorsCounter">
                           <p>Visitors:</p>
-
-                          <noscript>
-                            <div class="statcounter">
+                          <noscript
+                            ><div class="statcounter">
                               <a
                                 title="Web Analytics"
                                 href="https://statcounter.com/"
@@ -2594,9 +2892,8 @@
                                   class="statcounter"
                                   src="https://c.statcounter.com/12517218/0/e4e3df95/0/"
                                   alt="Web&#10;Analytics"
-                              /></a>
-                            </div>
-                          </noscript>
+                              /></a></div
+                          ></noscript>
                         </div>
                         <!-- End of Statcounter Code --><!-- End of Statcounter Code -->
                       </div>
@@ -2610,33 +2907,45 @@
         <a href="#top" title="Back to Top" id="backtotop">Back to Top</a>
       </div>
       <script src="http://stpi.in/themes/stpi/js/jquery-min.js"></script>
-      <noscript>
-        <div class="displayNone">Your browser does not support Javascript</div>
-      </noscript>
+      <noscript
+        ><div class="displayNone">
+          Your browser does not support Javascript
+        </div></noscript
+      >
       <script src="http://stpi.in/themes/stpi/js/aos.js"></script>
-      <noscript>
-        <div class="displayNone">Your browser does not support Javascript</div>
-      </noscript>
+      <noscript
+        ><div class="displayNone">
+          Your browser does not support Javascript
+        </div></noscript
+      >
       <script src="http://stpi.in/themes/stpi/js/functions.js"></script>
-      <noscript>
-        <div class="displayNone">Your browser does not support Javascript</div>
-      </noscript>
+      <noscript
+        ><div class="displayNone">
+          Your browser does not support Javascript
+        </div></noscript
+      >
       <script src="http://stpi.in/themes/stpi/js/jquery.validate.js"></script>
-      <noscript>
-        <div class="displayNone">Your browser does not support Javascript</div>
-      </noscript>
+      <noscript
+        ><div class="displayNone">
+          Your browser does not support Javascript
+        </div></noscript
+      >
       <script src="http://stpi.in/themes/stpi/js/jquery-jcryption.js"></script>
-      <noscript>
-        <div class="displayNone">Your browser does not support Javascript</div>
-      </noscript>
+      <noscript
+        ><div class="displayNone">
+          Your browser does not support Javascript
+        </div></noscript
+      >
       <script src="http://stpi.in/themes/stpi/js/general.js"></script>
-      <noscript>
-        <div class="displayNone">Your browser does not support Javascript</div>
-      </noscript>
+      <noscript
+        ><div class="displayNone">
+          Your browser does not support Javascript
+        </div></noscript
+      >
       <script
         src="http://stpi.in//dflip/js/dflip.min.js"
         type="text/javascript"
       ></script>
     </div>
   </body>
-</html>
+</html> 

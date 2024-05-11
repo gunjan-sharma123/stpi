@@ -1561,7 +1561,8 @@ figure {
 .centerOfExce {
   position: relative;
   background: rgba(28, 22, 90, 1)
-    url(https://stpi.in/themes/stpi/images/center-of-excellance-bg.jpg) repeat left top;
+    url(https://stpi.in/themes/stpi/images/center-of-excellance-bg.jpg) repeat
+    left top;
   background-size: cover;
   padding: 70px 0 58px;
   color: #fff;
@@ -1970,42 +1971,48 @@ figure {
   min-height: 577px;
 }
 
-.cOEachievements ul li { padding:15px 0; }
-.centerOfExceLft {overflow-x:auto;max-height: 500px;scrollbar-color:#ccc transparent;scrollbar-width:thin;}
+.cOEachievements ul li {
+  padding: 15px 0;
+}
+.centerOfExceLft {
+  overflow-x: auto;
+  max-height: 500px;
+  scrollbar-color: #ccc transparent;
+  scrollbar-width: thin;
+}
 .centerOfExceLft::-webkit-scrollbar {
-width:8px
+  width: 8px;
 }
 .centerOfExceLft::-webkit-scrollbar-track {
-background:#3737a8;
-border-radius:0px
+  background: #3737a8;
+  border-radius: 0px;
 }
 .centerOfExceLft::-webkit-scrollbar-thumb {
-background:#ffd400;
-border-radius:0px
+  background: #ffd400;
+  border-radius: 0px;
 }
 .centerOfExceLft::-moz-scrollbar {
-width:8px
+  width: 8px;
 }
 .centerOfExceLft::-moz-scrollbar-track {
-background:#3737a8;
-border-radius:0px
+  background: #3737a8;
+  border-radius: 0px;
 }
 .centerOfExceLft::-moz-scrollbar-thumb {
-background:#ffd400;
-border-radius:0px
+  background: #ffd400;
+  border-radius: 0px;
 }
 .centerOfExceLft::-ms-scrollbar {
-width:8px
+  width: 8px;
 }
 .centerOfExceLft::-ms-scrollbar-track {
-background:#3737a8;
-border-radius:0px
+  background: #3737a8;
+  border-radius: 0px;
 }
 .centerOfExceLft::-ms-scrollbar-thumb {
-background:#ffd400;
-border-radius:0px
+  background: #ffd400;
+  border-radius: 0px;
 }
-
 
 /* centre of enterpreneurship end */
 
@@ -5204,7 +5211,7 @@ p.card_btn a.commonBtn {
 .listTiltes {
   max-width: 200px;
 }
-.stateGovernmentsFull .cols6:nth-child(2) {
+.stateGovernmentsFull .col-md-6:nth-child(2) {
   margin-left: -100px;
 }
 .stateGovernmentsLeft li img {
@@ -5622,3 +5629,380 @@ tr td {
   background-position: left center;
 }
 /* career page end */
+
+/* main campaign start */
+.stpiCampaign {
+  margin: 0 auto 30px;
+  padding: 0;
+}
+.stpiCampaign .row {
+  margin-bottom: 0px;
+}
+.stpiNeuron {
+  width: 100%;
+  padding: 0;
+  position: relative;
+}
+.stpiOpenChallImgHolder {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  max-width: 581px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.stpiOpenChallImgHolder img {
+  display: none;
+}
+.stpiNeuron .stpiOpenChall {
+  width: 580px;
+  float: left;
+  display: block;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.stpiNeuronRecCamp {
+  background: #ececec;
+  padding: 5px 0 5px 585px;
+  box-shadow: 2px 0px 25px rgba(0, 0, 0, 0.2);
+}
+.stpiNeuronRecCamp .neuronRecDetails {
+  padding: 20px 30px;
+  position: relative;
+}
+.stpiNeuronRecCamp .socialIcone {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.stpiNeuronRecBtn {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+.stpiNeuronRecBtn .neuronYellowBtn {
+  background-color: #ffd400;
+  color: #121959;
+  font-size: 16px;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 30px;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+.stpiNeuronPartBtn a {
+  display: inline-block;
+  vertical-align: top;
+  transition: all 0.3s;
+  margin-bottom: 3px;
+  border: 2px solid #fdb913;
+  padding: 0 30px;
+  border-radius: 20px;
+}
+.stpiNeuronPartBtn a:hover {
+  background-color: #09359f;
+  color: #fff;
+}
+.stpiNeuronPartBtn .neuronBlueBtn {
+  display: inline-block;
+  background-color: #09359f;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+.stpiNeuronPartBtn .neuronBlueBtn:hover {
+  background-color: #ffd400;
+  color: #121959;
+}
+.stpiNeuron span {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 8px;
+}
+.stpiNeuron p {
+  font-size: 1.286em;
+  margin-bottom: 5px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.neuronBlockBox {
+  padding: 50px 0 0 0;
+  clear: both;
+}
+.neuronBlockBox ul {
+  margin: 0 -15px;
+  padding: 0;
+}
+.neuronBlock {
+  display: block;
+  padding: 0 px;
+  margin: 0;
+}
+.neuronBlock li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+.neuronBlock li .neuronIn {
+  border: 1px solid #e4e4e4;
+}
+.neuronBlock .neuronImage img {
+  width: 100%;
+}
+.neuronBlock .neuronImage {
+  position: relative;
+}
+.neuronBlock .neuronImage:after {
+  width: 100%;
+  position: absolute;
+  height: 250px;
+  content: "";
+  background: rgba(0, 0, 0, 0);
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 24%,
+    rgba(0, 0, 0, 0.12) 33%,
+    rgba(0, 0, 0, 0.99) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(24%, rgba(0, 0, 0, 0)),
+    color-stop(33%, rgba(0, 0, 0, 0.12)),
+    color-stop(100%, rgba(0, 0, 0, 0.99))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 24%,
+    rgba(0, 0, 0, 0.12) 33%,
+    rgba(0, 0, 0, 0.99) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 24%,
+    rgba(0, 0, 0, 0.12) 33%,
+    rgba(0, 0, 0, 0.99) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 24%,
+    rgba(0, 0, 0, 0.12) 33%,
+    rgba(0, 0, 0, 0.99) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 24%,
+    rgba(0, 0, 0, 0.12) 33%,
+    rgba(0, 0, 0, 0.99) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.neuronRecDetails h3 {
+  margin-bottom: 0px;
+}
+.neuronRecDetails .neuronTitle {
+  font-size: 17px;
+  display: inline-block;
+}
+.neuronIn .neuroText {
+  padding: 25px 25px 15px 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.neuronIn .neuroText .socialIcone {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+.neuronIn .neuroText .socialIcone a {
+  color: #fff;
+  border: 2px solid #fff;
+}
+.neuroText h4 {
+  font-size: 1.571em;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.neuronTitle {
+  background-color: #ffd400;
+  color: #121959;
+  font-size: 13px;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 30px;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.neuroText .neuronDate {
+  color: #ffd400;
+}
+.neuroText .neuronDate:before {
+  content: "\f073";
+  font-family: fontAwesome;
+  padding-right: 10px;
+}
+.neuronIn .neuronBoxDetails {
+  padding: 25px;
+}
+.neuronBoxDetails p {
+  font-size: 17px;
+  text-align: justify;
+}
+.loadMore {
+  background-color: #f2f2f2;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #2b2b2b;
+  font-size: 18px;
+  padding: 10px;
+}
+.neuronBlock a {
+  transition: all 0.3s;
+  display: block;
+  text-decoration: none;
+}
+.neuronBlock a:hover {
+  box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.neuronBlock h4 {
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.neuronBlock a:hover h4 {
+  text-decoration: underline;
+}
+.neuronBlock a:hover p {
+  color: #09359f;
+}
+
+/* main campaign end */
+
+/* blog page start */
+
+.recentblogSlider .owl-controls .owl-nav [class*="owl-"] {
+  background: transparent;
+  color: #000;
+  padding: 0px 25px;
+  margin: 0px;
+}
+.recentblogSlider .owl-controls .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+  color: #666;
+}
+
+nav.pager {
+  margin-bottom: 25px;
+}
+nav.pager ul {
+  margin: 0;
+  text-align: center;
+}
+nav.pager ul li {
+  padding: 0;
+  display: inline-block;
+  margin-bottom: 7px;
+  margin-left: 5px;
+  width: auto;
+  float: none;
+}
+nav.pager ul li a {
+  padding: 10px 15px;
+  background: #0079be;
+  color: #fff;
+  display: block;
+}
+nav.pager ul li.is-active a,
+nav.pager ul li a:hover {
+  background: #ffd400;
+  color: #121959;
+}
+/* blog page end */
+
+/*news letter start*/
+.newsletterPage .infocover {
+  text-align: center;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  border-bottom: 5px solid #3737a8;
+}
+.newsletterPage ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.newsletterPage ul li {
+  float: left;
+  width: 25%;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+.newsletterPage .image {
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  margin-right: 20px;
+  border: 5px solid #e6e6e6;
+  border: 5px solid #e6e6e6 !important;
+  margin: 0 0 0 0;
+  padding: 0px;
+  position: relative;
+  border-radius: 5px;
+}
+.newsletterPage ._df_button {
+  margin: 0 0 0 0;
+}
+.newsletterPage .image img {
+  width: 200px;
+  transition: all 0.3s;
+}
+.newsletterPage .info {
+  width: 100%;
+}
+.newsletterPage h4 {
+  font-size: 1.4em;
+  line-height: 1.2;
+  margin: 0px 0px 10px;
+  color: #3737a8;
+  font-family: "proximaNova", sans-serif;
+  font-weight: bold;
+}
+.newsletterPage p {
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+.newsletterPage ul li:hover img {
+  transform: scale(1.1);
+}
+.newsletterPage ul li:hover .infocover {
+  background: #fff;
+  color: #333;
+  border-color: #ffd400;
+}
+.newsletterPage ul li:hover .infocover h4 {
+  color: #333;
+}
+.newsletterPage ul li:hover .image {
+  border-color: #ffd400 !important;
+}
+/*news letter end*/
