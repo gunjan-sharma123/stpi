@@ -3235,3 +3235,65 @@ address {
   background-color: #000;
 }
 /* backtotop css end*/
+
+/* contactUs css start */
+.innerBannerSection {
+  position: relative;
+  background: #213f86;
+  background-size: cover;
+  padding: 168px 0 0;
+}
+
+.innerBannerSection .region-breadcrumb .breadcrumb {
+  position: static;
+}
+.innerBannerSection > img {
+  margin: 0 auto;
+  opacity: 0;
+  display: none;
+  visibility: hidden;
+}
+.pageControlSection {
+  width: 100%;
+  color: #fff;
+}
+.pageControlSection h2,
+.pageControlSection h1 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+.breadcrum {
+  padding: 10px 0px;
+  margin: 0;
+  list-style: none;
+  border-top: 1px solid #5c6f8c;
+}
+.breadcrum li {
+  list-style: none;
+  padding: 0px;
+  margin: 5px 20px 5px 0px;
+  display: inline-block;
+  position: relative;
+}
+.breadcrum li:after {
+  content: "";
+  width: 2px;
+  height: 64%;
+  display: inline-block;
+  position: absolute;
+  right: -12px;
+  background: rgba(255, 255, 255, 0.3);
+  top: 18%;
+}
+.breadcrum li:last-child:after {
+  display: none;
+}
+.breadcrum li a {
+  color: #fff;
+  text-decoration: none;
+}
+/* contactUs css end */
