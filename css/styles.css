@@ -3257,6 +3257,33 @@ address {
   width: 100%;
   color: #fff;
 }
+.innerBannerSection:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.99) 1%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.99) 1%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.99) 1%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#00ffffff', GradientType=0);
+}
 .pageControlSection h2,
 .pageControlSection h1 {
   color: #fff;
@@ -3390,3 +3417,863 @@ address {
 }
 
 /* contactUs css end */
+
+/* about - stpi start */
+.aboutContentBlock {
+  position: relative;
+  display: block;
+}
+.aboutContentBlock .aboutText {
+  max-width: 820px;
+  width: 60%;
+  padding: 10px 60px 30px 0px;
+}
+.aboutContentBlock .aboutVideo {
+  position: absolute;
+  top: -100px;
+  right: 0px;
+  width: 39%;
+  max-width: 620px;
+}
+.aboutContentBlock .aboutVideo:after {
+  width: 60%;
+  left: 20%;
+  content: "";
+  height: 4px;
+  bottom: -4px;
+  background: #ffd400;
+  position: absolute;
+}
+.objectiveBlock {
+  display: block;
+  padding: 0px 10px;
+  margin: 0;
+}
+.objectiveBlock li {
+  width: 25%;
+  padding: 0px 10px;
+  float: left;
+  list-style: none;
+}
+.objectiveBlock .objImage,
+.objectiveBlock p {
+  display: block;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.blueText {
+  color: #3737a8 !important;
+}
+
+.functionTab .resTab .tabNav {
+  margin-top: 75px;
+}
+.functionTab .resTab .tabNav li {
+  background: rgba(0, 0, 0, 0.8);
+  color: #9f9f9f;
+  margin-bottom: 7px;
+  width: 100%;
+}
+.functionTab .resTab {
+  border: none;
+}
+.functionTab {
+  background: #f4f4f4
+    url(https://stpi.in/themes/stpi/images/function-bg-img2.jpg) no-repeat -2.5%
+    top;
+  border: none;
+  margin-bottom: 50px;
+}
+.functionTab .tabNav {
+  max-width: 400px;
+  text-align: left;
+  float: left;
+}
+.functionTab .tabNav .count {
+  display: block;
+  color: #fff;
+  font-size: 60px;
+}
+.functionTab .tabNav .r-tabs-state-active .count {
+  color: #000;
+}
+.functionTab .tabNav .tabTitle {
+  font-size: 21px;
+  border: none;
+  font-weight: 400;
+  display: block;
+  color: #9f9f9f;
+  line-height: 1.2;
+}
+.functionTab a {
+  outline: none;
+  width: 100%;
+}
+.functionTab .tabContainer {
+  width: calc(100% - 410px);
+  background: #f4f4f4;
+  height: 100%;
+  border: none;
+  float: left;
+}
+.functionTab .resTab .tabNav .r-tabs-state-active a {
+  background: #f4f4f4;
+  width: 100%;
+}
+.functionTab .resTab .tabNav .r-tabs-state-active a .count {
+  -webkit-text-stroke-color: #3737a8;
+  font-weight: bold;
+}
+.functionTab .resTab .tabNav .r-tabs-state-active a .tabTitle {
+  color: #000000;
+  font-weight: bold;
+}
+.functionList li {
+  list-style: none;
+  background: url("../images/bullet-style.png") no-repeat left 7px;
+  padding-left: 25px;
+  margin-bottom: 20px;
+}
+
+.qualityContainer {
+  text-align: center;
+}
+.qualityContainer h3 {
+  text-align: left;
+}
+.qultObj {
+  max-width: 385px;
+  min-height: 169px;
+  border: 1px solid #e6e6e6;
+  display: inline-block;
+  box-shadow: 15px 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 18px 15px 18px 5px;
+  margin: 20px;
+  text-align: left;
+}
+.qultObj .objIco {
+  border: 5px #e8e8e8 solid;
+  max-width: 100px;
+  margin-left: -20px;
+  vertical-align: top;
+  background: #fff;
+  padding: 15px;
+  float: left;
+}
+.qultObj .objText {
+  width: calc(100% - 80px);
+  float: left;
+  padding: 0px 05px 0px 15px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 20px;
+}
+.stpiCentersSlider .resTab {
+  border: 0px;
+}
+.stpiCentersSlider .resTab .tabNav {
+  position: relative;
+  top: 10px;
+  padding: 0 20px;
+  text-align: center;
+}
+.stpiCentersSlider .resTab .tabNav:before {
+  content: "";
+  position: absolute;
+  left: 2%;
+  top: 0px;
+  width: 98%;
+  height: 68px;
+  background-color: #2f3580;
+}
+.stpiCentersSlider .resTab .tabNav li {
+  background: transparent;
+  position: relative;
+  margin-top: 0px;
+}
+.stpiCentersSlider .resTab .tabNav li a {
+  font-size: 2.429em;
+  line-height: 2;
+  padding: 19px 5px;
+  font-family: "oswaldregular";
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  line-height: 1.12em;
+}
+.stpiCentersSlider .resTab .tabNav li a:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 0;
+}
+.stpiCentersSlider .resTab .tabNav .r-tabs-state-active a {
+  color: #fff !important;
+  background: inherit !important;
+}
+.stpiCentersSlider .resTab .tabNav .r-tabs-state-active a {
+  position: relative;
+  z-index: 2;
+  color: #0d0d46;
+  outline: none;
+}
+.stpiCentersSlider .owl-prev {
+  left: 30px;
+}
+.stpiCentersSlider .owl-prev:before {
+  content: "\f104";
+  font-family: fontAwesome;
+  background-color: transparent;
+}
+.stpiCentersSlider .owl-next {
+  right: 10px;
+}
+.stpiCentersSlider .owl-next:before {
+  content: "\f105";
+  font-family: fontAwesome;
+}
+.stpiCentersSlider .owl-controls .owl-nav [class*="owl-"] {
+  position: absolute;
+  top: 25px;
+  tranform: translate(0, -50%);
+  background-color: transparent;
+  font-size: 50px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 0.2;
+}
+.stpiCentersSlider .owl-controls .owl-nav [class*="owl-"]:hover {
+  background-color: transparent;
+}
+.stpiCentersSlider .owl-carousel .owl-stage {
+  display: inline-block;
+}
+.centerListparent {
+  position: relative;
+  padding-top: 68px;
+  padding: 15px 05px;
+}
+.centerListparent:before {
+  position: relative;
+  content: "";
+  width: 100%;
+  height: 67px;
+  border-bottom: 1px solid #666666;
+  background: url("https://stpi.in/themes/stpi/images/listing-shape.png") center
+    top no-repeat;
+  top: 0;
+  max-width: 100%;
+  left: 0;
+  display: block;
+}
+.centerListparent {
+  min-width: 120px;
+}
+.centerListparent ul {
+  padding: 0;
+  margin: 15px 0px;
+  width: 100%;
+  word-break: break-all;
+}
+.centerListparent.twoColcenter ul {
+  width: 49%;
+  display: inline-block;
+  max-width: 105px;
+}
+.centerList li {
+  display: block;
+  text-align: left;
+  width: 100%;
+  position: relative;
+  padding-left: 16px;
+}
+.centerList li:before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f111";
+  font-size: 7px;
+  color: #616161;
+  position: absolute;
+  top: 6px;
+  left: 2px;
+}
+.stpiCenters,
+.functionTab {
+  padding: 50px 0 0;
+  background-color: #f4f4f4;
+  margin-bottom: -30px;
+}
+.twitter-timeline.twitter-timeline-rendered {
+  min-height: 420px !important;
+}
+.stpiCentersSlider .resTab:before {
+  width: 0;
+  height: 0;
+  border-top: 34px solid transparent;
+  border-right: 25px solid #2f3580;
+  border-bottom: 34px solid transparent;
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 1px;
+}
+.stpiCentersSlider .resTab:after {
+  width: 0;
+  height: 0;
+  border-top: 34px solid transparent;
+  border-left: 25px solid #2f3580;
+  border-bottom: 34px solid transparent;
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -1.9%;
+}
+.card_container {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card_container h1 {
+  font-size: 2.5rem;
+  font-family: "Montserrat";
+  font-weight: normal;
+  color: #444;
+  text-align: center;
+  margin: 2rem 0;
+}
+.card_cols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.card_col {
+  width: calc(25% - 2rem);
+  margin: 1rem;
+  cursor: pointer;
+  float: left;
+}
+
+.card_container {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+
+.card_front,
+.card_back {
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-position: center;
+  -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  -o-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1),
+    -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  text-align: center;
+  min-height: 280px;
+  height: auto;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.card_back {
+  background: #213f43;
+  background: -webkit-linear-gradient(45deg, #213f43 0%, #213f86 100%);
+  background: -o-linear-gradient(45deg, #213f43 0%, #213f86 100%);
+  background: linear-gradient(45deg, #213f43 0%, #213f86 100%);
+}
+
+.card_front:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  opacity: 0.6;
+  background-color: #000;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.card_container:hover .card_front,
+.card_container:hover .card_back {
+  -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  -o-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1),
+    -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.card_back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.card_inner {
+  -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+  transform: translateY(-50%) translateZ(60px) scale(0.94);
+  top: 50%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 1px solid transparent;
+  -webkit-perspective: inherit;
+  perspective: inherit;
+  z-index: 2;
+}
+
+.card_container .card_back {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.card_container .card_front {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.card_container:hover .card_back {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.card_container:hover .card_front {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.card_front .card_inner p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  color: white;
+  font-family: serif;
+  font-weight: 600;
+}
+.card_back .card.inner h3 {
+  font-size: inherit;
+  font-family: "FontAwesome";
+  color: #fff;
+}
+.card_back .card.inner p {
+  font-size: 18px;
+  color: white;
+}
+.card_back .card.inner a {
+  color: white;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+.card_front .card_inner p:after {
+  content: "";
+  width: 4rem;
+  height: 2px;
+  position: absolute;
+  background: #c6d4df;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -0.75rem;
+}
+
+.card_front .card_inner span {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+p.card_btn a.commonBtn {
+  color: #000;
+  text-transform: capitalize;
+}
+.card_back .card_inner a {
+  text-transform: lowercase;
+  color: white;
+  cursor: pointer;
+}
+.card_back .card_inner p {
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.card_back h3.card_oic_name {
+  color: #ffd400;
+  font-size: inherit;
+  font-family: "FontAwesome";
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.card_back i.fa {
+  color: #ffd400;
+  font-size: 20px;
+}
+
+/* about - stpi end */
+
+/* incubation servies start */
+.imageText {
+  margin-bottom: 30px;
+}
+.imageText .image {
+  float: right;
+  padding-left: 20px;
+  max-width: 350px;
+  display: none;
+}
+.imageText .field--type-image {
+  margin: 0px;
+  padding: 0px;
+}
+.incubFeatures {
+  margin: 0 -10px;
+}
+.incubFeatuCol {
+  float: left;
+  width: 25%;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+.incubFeatuColInfo {
+  height: 280px;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: -1px 0px 7px rgba(0, 0, 0, 0.3);
+  border: 1px solid #e6e6e6;
+}
+.incubFeatuColInfo p {
+  font-size: 1.1em;
+}
+.incubFeatuIcon {
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  background-image: url(https://stpi.in/themes/stpi/images/incubation-feature-icons-spirite.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.incubFeatuIcon1 {
+  background-position: -29px -22px;
+}
+.incubFeatuIcon2 {
+  background-position: -24px -172px;
+}
+.incubFeatuIcon3 {
+  background-position: -25px -324px;
+}
+.incubFeatuIcon4 {
+  background-position: -23px -474px;
+}
+.incubFeatuIcon5 {
+  background-position: -23px -474px;
+}
+.incubFeatuIcon6 {
+  background-position: -23px -621px;
+}
+.incubFeatuIcon7 {
+  background-position: -24px -778px;
+}
+.incubFeatuIcon8 {
+  background-position: -24px -931px;
+}
+.incubFeatuIcon9 {
+  background-position: -24px -1074px;
+}
+.view-incubation-services {
+  text-align: center;
+}
+.page-node-167 .recentBlock {
+  margin: 0 -20px;
+}
+.teamBlockBox {
+  padding: 50px 0;
+}
+
+.pad0,
+.innerPageContent.pad0 {
+  padding: 0;
+}
+.recentBlockBox {
+  background-color: #ededee;
+  padding: 50px 0;
+}
+.recentBlock {
+  display: block;
+  padding: 0px 10px;
+  margin: 0;
+}
+.recentBlock li {
+  width: 33%;
+  padding: 0px 10px;
+  float: left;
+  list-style: none;
+}
+.recentBlock .recentImage {
+  margin-bottom: 30px;
+  overflow: hidden;
+  height: 259px;
+}
+.recentBlock .recentImage img {
+  box-shadow: 15px 0px 30px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+  width: 100%;
+}
+.recentBlock .recentImage:hover img {
+  transform: scale(1.1);
+}
+.recentBlock li a:hover h4 {
+  color: #000;
+}
+.recentBlock li h4 {
+  color: #2d378a;
+  font-weight: 600;
+}
+.recentBlock .recentData {
+  font-size: 18px;
+  font-weight: 700;
+  color: #3737a8;
+  margin-bottom: 20px;
+}
+.recentBlock .recentPostby {
+  color: #1e1e5b;
+}
+
+.visionariesMember .contentMainBlock {
+  min-height: 334px;
+}
+.visionariesMember .teamBlock li {
+  width: 33.3%;
+}
+.page-node-type-incubation-services .innerPageContent > .container:first-child {
+  width: 100%;
+  max-width: 100%;
+}
+.page-node-type-incubation-services .innerPageContent {
+  padding: 40px 0 0 0;
+}
+
+.view-incubation-services .recentBlock .recentImage {
+  height: 153px;
+}
+.recentBlock .info {
+  position: relative;
+}
+
+.contentMainBlock {
+  background-color: #fff;
+  padding: 20px;
+  min-height: 494px;
+  box-shadow: 5px 0px 25px rgba(0, 0, 0, 0.2);
+}
+.contentMainBlock .teamImage img {
+  box-shadow: none;
+}
+.moreBlock li {
+  margin-bottom: 80px;
+}
+.commonBtn {
+  background: #ffd400;
+  color: #3737a8;
+  padding: 12px 28px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  line-height: 1.2;
+}
+.commonBtn:hover {
+  background: #3737a8;
+  color: #ffd400;
+}
+/* incubation servies end */
+
+/*information security start*/
+.innerPageContent {
+  padding: 40px 0px;
+}
+.innerPageContent p {
+  color: #555;
+}
+/*information security end*/
+/* centre of excellence start page  */
+.OpenLab {
+  background-image: url(https://stpi.in/themes/stpi/images/openLab-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.OpenLab::after {
+  content: "";
+  position: absolute;
+  background-image: url(/themes/stpi/images/bluerightafter.png);
+  width: 331px;
+  height: 444px;
+  bottom: -135px;
+  right: 0;
+  background-repeat: no-repeat;
+}
+.OpenLabOrange {
+  background-color: #f3bb1f;
+  padding: 45px;
+  margin-top: -100px;
+  margin-bottom: 35px;
+}
+.OpenLabOrange p {
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-align: justify;
+}
+.excellenceCenter {
+  padding-bottom: 140px;
+}
+.excellenceCenter p {
+  text-align: justify;
+}
+.OpenLab h3 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+.OpenLab .row {
+  margin-bottom: 0;
+}
+.finLab {
+  text-align: right;
+  margin-bottom: 0;
+  float: right;
+  width: 350px;
+  margin-top: 90px;
+}
+.finLab a,
+.finLabRight a {
+  transition: all 0.3s;
+  color: #fff;
+  text-decoration: none;
+}
+.finLab a:hover,
+.finLabRight a:hover {
+  color: #b9ccff;
+}
+.finLabRight li {
+  color: #fff;
+  list-style: none;
+}
+.finLab {
+  text-align: right;
+  margin-bottom: 0;
+  float: right;
+}
+.finLab li:after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #f3bb1f;
+  border-radius: 70px;
+  right: 0;
+  bottom: -5px;
+}
+.finLab li {
+  color: #fff;
+  list-style: none;
+  padding: 10px 35px 10px 0;
+  border-bottom: 1px solid #f3bb1f;
+  position: relative;
+  font-weight: 700;
+  font-size: 18px;
+}
+.finLab li:last-child {
+  border: none;
+}
+.finLab li:last-child:after {
+  display: none;
+}
+.finLabRight {
+  width: 350px;
+  float: left;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 90px;
+}
+.finLabRight li {
+  color: #fff;
+  list-style: none;
+  padding: 10px 0px 10px 35px;
+  border-bottom: 1px solid #f3bb1f;
+  position: relative;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 18px;
+}
+.labCenterCol img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.finLabRight li:last-child {
+  border: none;
+}
+.finLabRight li:last-child:after {
+  display: none;
+}
+.finLabRight li:after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #f3bb1f;
+  border-radius: 70px;
+  left: 0;
+  bottom: -5px;
+}
+
+/* centre of excellence end page  */
