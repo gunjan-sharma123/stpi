@@ -2915,7 +2915,7 @@ figure {margin:0 !important}
 /* region-subscribe-to-newsletters css end */
 
 /* footer css start */
-.footerCopyright .cols3 {
+.footerCopyright .col-md-3 {
   text-align: right;
 }
 footer {
@@ -3136,7 +3136,7 @@ footer {
   border-top: 1px solid #1e4d6c;
   padding: 30px 0 0;
 }
-.footerCopyright .cols2 {
+.footerCopyright .col-md-2 {
   text-align: right;
 }
 .footerCopyright p {
@@ -3251,3 +3251,158 @@ address {
   background-color: #000;
 }
 /* backtotop css end*/
+
+/* contactUs css start */
+.innerBannerSection {
+  position: relative;
+  background: #213f86;
+  background-size: cover;
+  padding: 168px 0 0;
+}
+
+.innerBannerSection .region-breadcrumb .breadcrumb {
+  position: static;
+}
+.innerBannerSection > img {
+  margin: 0 auto;
+  opacity: 0;
+  display: none;
+  visibility: hidden;
+}
+.pageControlSection {
+  width: 100%;
+  color: #fff;
+}
+.pageControlSection h2,
+.pageControlSection h1 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+.breadcrum {
+  padding: 10px 0px;
+  margin: 0;
+  list-style: none;
+  border-top: 1px solid #5c6f8c;
+}
+.breadcrum li {
+  list-style: none;
+  padding: 0px;
+  margin: 5px 20px 5px 0px;
+  display: inline-block;
+  position: relative;
+}
+.breadcrum li:after {
+  content: "";
+  width: 2px;
+  height: 64%;
+  display: inline-block;
+  position: absolute;
+  right: -12px;
+  background: rgba(255, 255, 255, 0.3);
+  top: 18%;
+}
+.breadcrum li:last-child:after {
+  display: none;
+}
+.breadcrum li a {
+  color: #fff;
+  text-decoration: none;
+}
+.innerPageContent {
+  padding: 40px 0;
+  min-height: 500px;
+}
+.contact .row {
+  margin-bottom: 0px;
+}
+.contactUsMain ul {
+  list-style: none;
+  padding: 0;
+  margin: 30px -1%;
+}
+.contactUsMain ul li {
+  padding: 20px;
+  width: 48%;
+  float: left;
+  margin: 0 1% 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-size: 1.1em;
+  min-height: 223px;
+}
+.contactUsMain ul li .contactPerson {
+  font-weight: bold;
+}
+.contactUsMain ul li .personName {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #2d378a;
+}
+.contactUsMain ul li .perDesignation {
+  display: block;
+  margin-bottom: 15px;
+}
+.contactUsMain ul li .fa {
+  color: #2d378a;
+  margin-right: 12px;
+}
+.contactUsMain ul li .telNo,
+.contactUsMain ul li .faxNo {
+  margin-bottom: 10px;
+}
+.contactUsMain ul li .conStpi {
+  margin-bottom: 10px;
+}
+.contactMapImage {
+  display: inline-block;
+  vertical-align: top;
+  background: #fff url(/themes/stpi/images/contact.png) center no-repeat;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 462px;
+}
+.contactFullRow .contactUsMain ul li {
+  width: 31.3%;
+}
+.contactLeftInfo h4 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.contactLeftInfo ul {
+  list-style: none;
+  margin: 40px 0 0 0;
+  padding: 0px 0 0 0;
+}
+.contactLeftInfo ul li {
+  position: relative;
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+.contactLeftInfo .clficon {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: url(../images/contactLeftInfo-sprite.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.contactLeftInfo .clficon1 {
+  background-position: -16px -5px;
+}
+.contactLeftInfo .clficon2 {
+  background-position: -14px -92px;
+}
+.contactLeftInfo .clficon3 {
+  background-position: -14px -181px;
+}
+.contactLeftInfo .clficon4 {
+  background-position: -13px -273px;
+}
+
+/* contactUs css end */
