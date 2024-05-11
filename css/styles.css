@@ -3578,3 +3578,78 @@ address {
 }
 
 /* contactUs css end */
+
+
+/*data center start */
+/* visionariesMember css start */
+.visionariesMember .contentMainBlock { min-height:334px; }
+.visionariesMember .teamBlock li { width:33.3%; }
+
+.visionariesMember .contentMainBlock {
+  min-height:373px;
+  }
+
+  .visionariesMember .contentMainBlock {
+    min-height:430px;
+    }
+
+    .visionariesMember .contentMainBlock {
+      min-height:373px;
+      }
+
+      .visionariesMember .contentMainBlock {
+        min-height:430px;
+        }
+/* visionariesMember css end */
+
+
+/* containerMainBlock start here */
+
+.contentMainBlock { background-color:#fff; padding:20px; min-height:494px; box-shadow:5px 0px 25px rgba(0, 0, 0, 0.2); }
+.contentMainBlock .teamImage img { box-shadow:none; }
+
+.contentMainBlock { background-color:#fff; padding:20px; min-height:494px; box-shadow:5px 0px 25px rgba(0, 0, 0, 0.2); }
+.contentMainBlock .teamImage img { box-shadow:none; }
+/* containerMainBlock ends here */
+
+/* container starts here */
+.container {
+  padding:0 15px;
+  }
+
+  .container { margin:0 auto; width:100%; max-width:1280px; }
+/* container ends here */
+
+/* teamBlockBox starts here */
+.teamBlockBox {
+  padding:30px 0;
+  }
+
+  .teamBlockBox { padding:50px 0; }
+
+  .teamBlockBox { position:relative; padding:100px 0; }
+.teamBlockBox .teamImage { margin-bottom:5px; }
+.teamBlock { text-align:center; margin:0px -15px; padding:0px; }
+.teamBlock li { width:25%; padding:0px 15px; list-style:none; float:left; margin-bottom:20px; }
+.teamBlock .teamImage { margin-bottom:25px; }
+.teamBlock .teamName { font-size:1.2em; color:#000; font-weight:700; display:block; margin-bottom:0; }
+.teamBlock .teamName a { color:#000; text-decoration:none; }
+.teamBlock .teamDg { font-size:1.286em; color:#3737a8; font-weight:600; display:block; margin-bottom:10px; display:block; }
+.teamBlock .teamDep { font-size:1em; color:#666666; margin-bottom:10px; display:block; }
+.teamBlock .socialIcone { margin-top:10px; }
+.teamBlock .socialIcone ul li { width:auto; float:none; display:inline-block; }
+.teamBlock .socialIcone ul li a { color:#879de4; border:1px solid #879de4; }
+.teamBlock .socialIcone ul li a:hover { color:#fff; }
+/* teamBlackBox ends here */
+
+/* view data center starts here */
+.view-data-center .teamBlock li {text-align:left;}
+.view-data-center .teamBlock p { text-align:left; }
+.view-data-center .teamImage img { width:100%; }
+/* view data center starts here */
+
+
+
+/* row starts here */
+.row { margin:0 -15px 20px; }
+/* row ends here */
