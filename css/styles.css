@@ -39,6 +39,7 @@ input[type="button"].cancelBtn,
 input[type="reset"].cancelBtn {
   background-color: #888;
 }
+figure {margin:0 !important}
 /* Global css end*/
 
 /* header css start */
@@ -879,12 +880,12 @@ input[type="reset"].cancelBtn {
   background-color: #457170;
   color: #fff;
 }
-.mainMinister {
+/* .mainMinister {
   -webkit-box-shadow: -1px -1px 18px 0px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: -1px -1px 18px 0px rgba(0, 0, 0, 0.14);
   box-shadow: -1px -1px 18px 0px rgba(0, 0, 0, 0.14);
   margin: 0 -15px;
-}
+} */
 .mainMinister .ministerInfo {
   background-color: #1465a4;
   color: #fff;
@@ -1531,6 +1532,21 @@ input[type="reset"].cancelBtn {
   display: inline-block;
   text-align: center;
 }
+.rotating-slider { margin:5em auto; height:650px!important; position:relative; width:650px!important; transform:rotate(-70deg); -webkit-transform:rotate(-70deg); position:absolute; right:-380px; top:-20px; }
+.rotating-slider ul.slides { border-radius:50%; height:100%; margin:0; overflow:visible; padding:0; position:relative; top:0; left:50%; transform:translateX(-50%) rotate(0); transform-origin:center center; width:100%; transition:none; -webkit-transition:none; }
+.rotating-slider ul.slides li { background-color:#e3e3ea; background-position:center; background-size:cover; display:block; list-style:none; position:absolute; top:0; left:50%; text-align:center; transform-origin:bottom center; width:100%; clip-path:none !Important; }
+.rotating-slider ul.slides li { color:#000; background:#e3e3ea; }
+.rotating-slider ul.slides li .inner { box-sizing:border-box; padding:0; height:100%; width:100%; display:block; }
+.centerOfExce .rotating-slider .slides li h2 { transform:rotate(90deg); -ms-transform:rotate(90deg); -webkit-transform:rotate(90deg); font-size:18px; margin:0; width:180px; text-align:center; position:absolute; left:-65px; top:70px; color:#000; }
+.rotating-slider ul.slides li { height:250px !important; width:52px !important; border-radius:55px 55px 0 0 !important; padding:0 !important }
+.rotating-slider ul.slides li.active-slide { background:#ffc20e; z-index:1; }
+.rotating-slider .slideCenterCircle { border-radius:50%; width:300px; height:300px; position:absolute; left:54%; top:50%; margin:-150px 0 0 -150px; background:#ffc20e; border:20px solid #0e0e52; }
+.rotating-slider .slideCenterCircle:before { position:absolute; left:10px; top:10px; right:10px; bottom:10px; border-radius:50%; border:2px solid rgba(14, 14, 82, 0.22); content:""; }
+.rotating-slider ul.direction-controls { list-style:none; margin:0; padding:0; height:72px; width:31px; position:absolute; left:50%; top:50%; transform:rotate(70deg); margin-left:-21px; margin-top:-116px; }
+.rotating-slider ul.direction-controls li { display:block; margin:4px 0; }
+.rotating-slider ul.direction-controls li button { border:1px solid #0e0e52; background-color:#ffc20e; width:30px; height:30px; border-radius:50%; color:#0e0e52; font-size:27px; line-height:15px; text-align:left; }
+.rotating-slider ul.direction-controls li button:hover { background:#fff; }
+.rotating-slider ul.slides li a { display:block; position:absolute; width:100%; height:100%; cursor:pointer; }
 
 /* centre of enterpreneurship end */
 
