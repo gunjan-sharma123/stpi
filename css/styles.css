@@ -3296,4 +3296,11 @@ address {
   color: #fff;
   text-decoration: none;
 }
+.innerPageContent {
+  padding: 40px 0;
+  min-height: 500px;
+}
+
+
+
 /* contactUs css end */
