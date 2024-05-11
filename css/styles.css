@@ -1548,6 +1548,13 @@ figure {margin:0 !important}
 .rotating-slider ul.direction-controls li button:hover { background:#fff; }
 .rotating-slider ul.slides li a { display:block; position:absolute; width:100%; height:100%; cursor:pointer; }
 
+.centerOfExce .centerOfExceRgt {position:relative;}
+.centerOfExce  .centerOfExceRgt:before { content:""; position:absolute; right:0px; top:33px; width:55%; height:1px; background:rgba(255,255,255,0.3);}
+.centerOfExce .logo img { position:relative; z-index:2;}
+.centerOfExce .logo,
+.centerOfExceRgt h3{ position:relative; left:-5px; background: #fff;    border-radius: 30px; padding:0  20px; color:#000; display:inline-block; vertical-align:top; line-height:2; min-width: 250px;    display: inline-block;    text-align: center;}
+.centerOfExce .centerOfExceRgt { min-height:577px; }
+
 /* centre of enterpreneurship end */
 
 /* scheme start */
