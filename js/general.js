@@ -2044,7 +2044,7 @@
                         $(' #view-directorate #directorateInfo').removeClass('active');
                         $('*[data-id="'+ data +'"]').addClass('active');
                         if($(' #view-directorate #directorateInfo').hasClass('active')){
-                            $(' #view-directorate #directorateInfo').css('display','none');
+                            $('.col-md-4 #view-directorate #directorateInfo').css('display','none');
                             $('*[data-id="'+ data +'"]').css('display','block');
                         }
                         //$('*[data-id="'+ data +'"]').css('display','block');
@@ -2606,6 +2606,10 @@
         //rotating-slider.js end	
     
     });
+        
+    
+    
+    
     
     /*================= On Document Load End =================*/
     

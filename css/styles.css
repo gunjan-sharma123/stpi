@@ -1420,7 +1420,7 @@ z-index:2;
 .centerOfExce {
   position: relative;
   background: rgba(28, 22, 90, 1)
-    url(/themes/stpi/images/center-of-excellance-bg.jpg) repeat left top;
+    url(https://stpi.in/themes/stpi/images/center-of-excellance-bg.jpg) repeat left top;
   background-size: cover;
   padding: 70px 0 58px;
   color: #fff;
@@ -1682,6 +1682,43 @@ z-index:2;
 .centerOfExce .logo,
 .centerOfExceRgt h3{ position:relative; left:-5px; background: #fff;    border-radius: 30px; padding:0  20px; color:#000; display:inline-block; vertical-align:top; line-height:2; min-width: 250px;    display: inline-block;    text-align: center;}
 .centerOfExce .centerOfExceRgt { min-height:577px; }
+
+.cOEachievements ul li { padding:15px 0; }
+.centerOfExceLft {overflow-x:auto;max-height: 500px;scrollbar-color:#ccc transparent;scrollbar-width:thin;}
+.centerOfExceLft::-webkit-scrollbar {
+width:8px
+}
+.centerOfExceLft::-webkit-scrollbar-track {
+background:#3737a8;
+border-radius:0px
+}
+.centerOfExceLft::-webkit-scrollbar-thumb {
+background:#ffd400;
+border-radius:0px
+}
+.centerOfExceLft::-moz-scrollbar {
+width:8px
+}
+.centerOfExceLft::-moz-scrollbar-track {
+background:#3737a8;
+border-radius:0px
+}
+.centerOfExceLft::-moz-scrollbar-thumb {
+background:#ffd400;
+border-radius:0px
+}
+.centerOfExceLft::-ms-scrollbar {
+width:8px
+}
+.centerOfExceLft::-ms-scrollbar-track {
+background:#3737a8;
+border-radius:0px
+}
+.centerOfExceLft::-ms-scrollbar-thumb {
+background:#ffd400;
+border-radius:0px
+}
+
 
 /* centre of enterpreneurship end */
 
