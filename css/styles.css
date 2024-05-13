@@ -5525,6 +5525,14 @@ h2 {
   overflow-y: hidden;
   overflow-x: auto;
 }
+.form--inline .form-item {
+  float: left;
+  margin-right: 0.5em;
+}
+.innerPageContent .view-filters {
+  padding: 0 0 30px;
+  text-align: center;
+}
 
 table,
 .tableData {
@@ -6006,3 +6014,6 @@ nav.pager ul li a:hover {
   border-color: #ffd400 !important;
 }
 /*news letter end*/
+/* circulars and notification start */
+
+/* circulars and notification end */
