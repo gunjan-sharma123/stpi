@@ -523,6 +523,13 @@ a {
 #nav > li > a:hover:before {
   width: 50%;
 }
+img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
 #nav li a.is-active:before {
   content: "";
   position: absolute;
