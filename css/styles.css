@@ -523,6 +523,30 @@ a {
 #nav > li > a:hover:before {
   width: 50%;
 }
+.cf:before,
+.cf:after,
+.container:before,
+.container:after,
+.row:before,
+.row:after,
+ul:before,
+ul:after,
+.boxs:before,
+.boxs:after,
+.radioList:after,
+.radioList:before {
+  content: " ";
+  display: table;
+}
+.cf:after,
+.container:after,
+.row:after,
+ul:after,
+.boxs:after,
+.radioList:after {
+  clear: both;
+}
+
 img {
   -ms-interpolation-mode: bicubic;
   border: 0;
@@ -6542,7 +6566,7 @@ nav.pager ul li a:hover {
 }
 /* main news end */
 
-.box-main {
+/* .box-main {
   display: grid;
   grid-gap: 15px 14px;
   grid-template-columns: auto auto auto auto;
@@ -6550,7 +6574,7 @@ nav.pager ul li a:hover {
 
 .vi iframe {
   width: 100%;
-}
+} */
 
 /* know-your-minister */
 .path-main-know-your-minister .innerPageContent {
