@@ -1,4157 +1,4348 @@
-@media only screen and (max-width:1024px) {
-    .incubationSlider { width:100%!important;}
-    .incubationSlider img { height:auto;}
-    /*new responsive static images slider start*/
-    #nav {
-    position:relative;
-    z-index:9999;
-    }
-    .indexBanner .sliderBanner .item {
-    background:none!important;
-    height:auto;
-    min-height:auto!important;
-    }
-    .indexBanner .sliderBanner .item > img {
-    opacity:1;
-    visibility:visible;
-    min-height:auto!important;
-    }
-    .bannerCaption {
-    position:absolute;
+@media only screen and (max-width: 1024px) {
+  .incubationSlider {
+    width: 100% !important;
+  }
+  .incubationSlider img {
+    height: auto;
+  }
+  /*new responsive static images slider start*/
+  #nav {
+    position: relative;
+    z-index: 9999;
+  }
+  .indexBanner .sliderBanner .item {
+    background: none !important;
+    height: auto;
+    min-height: auto !important;
+  }
+  .indexBanner .sliderBanner .item > img {
+    opacity: 1;
+    visibility: visible;
+    min-height: auto !important;
+  }
+  .bannerCaption {
+    position: absolute;
     /*background-color:rgba(1, 9, 101, 1);*/
-    background:transparent;
+    background: transparent;
     /*transform:none;*/
     /*display:none;*/
-    }
-    .indexBanner .sliderBanner {
-    background-color:rgba(1, 9, 101, 1);
-    }
-    #header {
-    position:static;
-    background-color:rgba(1, 9, 101, 1);
-    color:#fff;
-    }
-    /*new responsive images  slider end*/	
-    }
-    @media only screen and (min-width:1024px) {
-    #header.sticky {
-    position:fixed;
-    top:0;
-    width:100%;
-    background-color:#fff;
-    border-bottom:1px solid #ccc;
-    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.2);
-    }
-    * {
-    transition:all 0.3s;
-    }
-    .sticky+.content {
-    padding-top:102px;
-    }
-    #header.sticky #logo {
-    width:400px;
-    height:60px;
-    background-image:url(https://stpi.in/themes/stpi/images/logo-sticky.png);
-    background-repeat:no-repeat;
-    background-position:left top;
-    background-size:auto 60px;
-    margin-top:5px;
-    }
-    .lang-hi #header.sticky #normal a {
-    background-image:url(https://stpi.in/themes/stpi/images/STPI_Corporate_Blue-Hindi-Logo.png);
-    display:inline-block;
-    vertical-align:top;
-    }
-    #header.sticky img {
-    opacity:0;
-    }
-    #header.sticky .mainNavigation {
-    margin:4px 0 0 0;
-    }
-    #header.sticky a {
-    color:#000;
-    }
-    #header.sticky li ul a {
-    color:#fff;
-    }
-    #header.sticky #accessControl input {
-    color:#000;
-    }
-    #header.sticky .langDropDown .links a {
-    color:#000;
-    }
-    #header.sticky .rightLinks li a {
-    color:#000;
-    }
-    #header.sticky .megaMenu:hover {
-    color:#fff;
-    }
-    #header.sticky #accessControl .contrastChanger.normal {
-    background-size:12px;
-    background-position:1px 0px;
-    }
-    #header.sticky #nav li a.is-active {
-    color:#183f8c;
-    position:relative;
-    }
-    #header.sticky #nav li a.is-active:before {
-    width:100%;
-    height:3px;
-    background-color:#ffc600;
-    content:"";
-    position:absolute;
-    left:0px;
-    bottom:0px;
-    }
-    #header.sticky .megaMenu {
-    border-color:#000;
-    }
-    }
-    @media only screen and (max-width:1500px) {
-    .incubFeatuColInfo p {
-    font-size:1em;
-    }
-    .page-node-167 .visionariesMember .contentMainBlock {
-    min-height:315px;
-    }
-    .serviceCaption p {
-    font-size:1em;
-    }
-    .lNHeading h2 {
-    font-size:1.6em;
-    }
-    }
-    @media only screen and (max-width:1400px) {
-    .impactCreatedText .count { font-size:1.6em;}
-    .contributionBox{ min-height:120px;}
-    
-    
-    .headerLeft {
-    width:35%;
-    max-width:35%;
-    }
-    .headerLeft img {
-    max-width:100%;
-    }
-    .headerRight {
-    width:65%;
-    max-width:65%;
-    }
-    #nav li a {
-    font-size:15px;
-    padding:5px 8px;
-    }
-    .mainNavigation {
-    margin:7px 0 0 0;
-    }
-    .bannerCaption .bannerTitle {
-    font-size:2.5em;
-    margin-bottom:20px;
-    }
-    .container {
-    padding:0 15px;
-    }
-    .directorateLft h2 {
-    font-size:2em;
-    }
-    .directorateInfo {
-    height:100%;
-    padding:30px 20px;
-    }
-    .mapInfo {
-    margin:30px 0 0;
-    }
-    .panIndia {
-    height:auto;
-    position:relative;
-    padding:0 15px;
-    }
-    .directorateInfo {
-    position:relative;
-    right:-30px;
-    top:0px;
-    width:100%;
-    height:865px;
-    }
-    .directorateLft {
-    padding:70px 0;
-    }
-    .directorateLft .selectInfo ul {
-    margin:0px;
-    }
-    .serviceCaption h3 {
-    font-size:2em;
-    }
-    .knowYourMinisters {
-    padding:25px 0 30px;
-    }
-    .knowYourMinisters h2 {
-    padding:0 15px;
-    margin-bottom:10px;
-    }
-    .knowYourMinisters .row {
-    margin-bottom:0px;
-    }
-    .otherMinisters .ministerInfo:last-child {
-    margin-bottom:0px;
-    }
-    .ministerBottomInfo p, .ministerInfo .info p {
-    font-size:1em;
-    }
-    .centerOfExce {
-    padding:30px 0;
-    }
-    .boardOfDirectors {
-    padding:30px 0 70px;
-    }
-    .socialEngagement {
-    padding:30px 0 20px;
-    }
-    .latestNews {
-    padding:30px 0;
-    }
-    .lNHeading {
-    margin-bottom:10px;
-    }
-    h2 {
-    font-size:2em;
-    }
-    .lNHeading .yellowBdrBtn {
-    margin:0px;
-    }
-    .latestNewsRight .region-whats-news-section {
-    margin-bottom:81px;
-    }
-    .latestNewsRight .LnewsBox {
-    margin-bottom:0px;
-    }
-    .latestNews .row {
-    margin-bottom:0px;
-    }
-    .eventsCampaigns {
-    padding:30px 0;
-    }
-    .campainImage {
-    max-width:500px;
-    width:100%;
-    display:inline-block;
-    vertical-align:top;
-    min-height:223px;
-    }
-    .eventPostInfo .photo {
-    width:40%;
-    }
-    .eventPostInfo .info {
-    padding-left:44%;
-    }
-    .campaingsSlider {
-    text-align:center;
-    }
-    .campaingsSlider .owl-controls {
-    top:278px;
-    }
-    .campaignsInfo h5 {
-    margin-bottom:0px;
-    }
-    .campaignsInfo .row {
-    margin-bottom:0px;
-    }
-    .bODSlider {
-    bottom:-15px;
-    }
-    .eventPostInfo h4 {
-    font-size:1.2em;
-    }
-    .impactCreated {
-    padding:30px 0;
-    min-height:600px;
-    }
-    .impactCreated h2 {
-    font-size:2em;
-    }
-    .impactCreated ul li p {
-    font-size:1.3em;
-    }
-    .ourTeam {
-    padding:30px 0 0 0;
-    }
-    .teamSlider ul {
-    margin:0 -2%;
-    padding:0px;
-    float:right;
-    }
-    .TeamBigInfo ul li {
-    width:50%;
-    padding:0 10px;
-    }
-    .teamSlider ul li {
-    width:32.7%;
-    padding:0 2%;
-    }
-    .teamSlider p {
-    margin-bottom:0px;
-    }
-    .TeamMembersSlider .owl-controls .owl-nav {
-    margin-left:0px;
-    }
-    .footerButtons {
-    margin-top:0px;
-    }
-    .newsLetterSub ul {
-    width:100%;
-    text-align:center;
-    }
-    .newsLetterSub ul li:nth-child(2) {
-    max-width:200px;
-    width:100%;
-    }
-    .teamSlider ul li {
-    margin:0px 0 20px;
-    }
-    .teamSlider ul {
-    float:left;
-    width:100%;
-    margin-bottom:30px;
-    }
-    .teamBlock .teamName {
-    margin-bottom:0;
-    }
-    .teamBlock .teamDg {
-    margin-bottom:0px;
-    }
-    .teamBlock li {
-    }
-    .teamBlock .socialIcone ul li {
-    min-height:inherit;
-    }
-    .teamBlockBox {
-    padding:30px 0;
-    }
-    .pageControlSection h2 {
-    font-size:2.5em;
-    line-height:1.2;
-    }
-    .innerPageContent {
-    padding:30px 0;
-    }
-    .views-exposed-form {
-    margin-bottom:30px;
-    }
-    .socialIcone li {
-    min-height:inherit;
-    }
-    .neuronBlockBox {
-    padding:0px;
-    }
-    .innerPageContent h3 {
-    font-size:1.6em;
-    }
-    .stpiOpenChallImgHolder {
-    width:40%;
-    background-repeat:no-repeat;
-    }
-    .stpiOpenChallImgHolder img {
-    display:none;
-    }
-    .stpiNeuronRecCamp {
-    padding-left:42%;
-    text-align:left;
-    }
-    .stpiNeuronRecCamp .neuronRecDetails {
-    padding:20px 15px;
-    }
-    .stpiNeuron .stpiOpenChall {
-    width:auto;
-    }
-    .stpiNeuron .stpiOpenChall {
-    height:337px;
-    }
-    .neuroText h4 {
-    font-size:1.3em;
-    }
-    .neuronBlockBox ul {
-    padding:0 15px;
-    }
-    .neuronIn .neuronBoxDetails {
-    padding:15px;
-    }
-    .innerPageContent h4 {
-    font-size:1.2em;
-    line-height:1.2;
-    }
-    .blogBox .blogLeft {
-    width:60%;
-    }
-    .blogBox .blogRight {
-    width:38%;
-    }
-    .recentBlockBox {
-    padding:30px 0;
-    }
-    .recentblogSlider .owl-prev::before, .recentblogSlider .owl-next::before {
-    font-size:3em;
-    }
-    .recentblogSlider .owl-controls {
-    top:-79px;
-    }
-    .blogBox {
-    padding:30px 0;
-    }
-    .node-feedback-form .js-form-item {
-    }
-    .finTech {
-    padding:0;
-    }
-    .finLab {
-    margin-top:0;
-    }
-    .finLabRight {
-    margin-top:0;
-    }
-    .stpiCentersSlider .resTab::before, .stpiCentersSlider .resTab::after {
-    display:none;
-    left:0px;
-    width:100%;
-    }
-    .stpiCentersSlider .resTab .tabNav::before {
-    left:0px;
-    width:100%;
-    }
-    .stpiCentersSlider .resTab .tabNav {
-    padding:0px;
-    }
-    .stpiCentersSlider .owl-prev::before {
-    position:absolute;
-    left:-16px;
-    }
-    .stpiCentersSlider .resTab .tabNav {
-    padding:0 50px;
-    }
-    .centerOfExce .profilesInfo li {
-    width:100%;
-    max-width:500px;
-    padding:0px;
-    margin-bottom:10px;
-    }
-    .incubatees {
-    padding:50px 0 0;
-    margin:0px;
-    }
-    .knowYourMiniPage .teamBlock {
-    margin-top:0px;
-    }
-    .knowYourMiniPage .teamBlockBox {
-    padding:0px;
-    }
-    .views-exposed-form {
-    margin-bottom:0px;
-    }
-    .knowYourMiniPage .teamBlock li:not(:last-child) {
-    margin-bottom:30px;
-    }
-    .neuronBlock li .neuronIn {
-    min-height:442px;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .timelineDateBox .timelineDateTex {
-    padding:0 0;
-    }
-    .timelineDateBox .cols3 {
-    padding-right:15px;
-    }
-    .timelineDateBox .timelineDate {
-    font-size:1.2em;
-    }
-    .timelineDateBox span {
-    font-size:1em;
-    }
-    .path-video-gallery .videoGallery .imgStyle, .video-listing .video-section li .imgStyle, .view-photo-gallery .imgStyle {
-    height:230px;
-    }
-    .path-video-gallery .videoGallery .imgStyle img, .video-listing .video-section li .imgStyle img, .view-photo-gallery .imgStyle img {
-    min-height:230px;
-    }
-    .ourJourney .resTab .tabContent {
-    min-height:auto;
-    }
-    .teamSlider .photo {
-    box-shadow:none;
-    }
-    .campaignsInfo {
-    margin:135px 0 0 3px;
-    }
-    .centerOfExceRgt {
-    width:47%;
-    }
-    .centerOfExceRgt p {
-    text-align:left;
-    }
-    .ourJourney .resTab .tabContent {
-    overflow:auto;
-    }
-    .teamSlider {
-    min-height:592px;
-    }
-    .teamSlider .owl-controls {
-    left:0px;
-    text-align:center;
-    width:100%;
-    transform:none;
-    top:-76px;
-    }
-    .teamSlider p {
-    line-height:1.2;
-    margin:5px 0 0 0;
-    }
-    .ministerInfo {
-    padding:18px 20px 15px 220px;
-    }
-    .ministerInfo h4 {
-    margin-bottom:0px;
-    }
-    .ministerBottomInfo {
-    min-height:229px;
-    }
-    .impactCreated ul li {
-    max-width:155px;
-    }
-    .staffList li h3 {
-    font-size:1.3em;
-    }
-    .staffList li h5 {
-    font-size:1em;
-    color:#3737a8;
-    font-weight:600;
-    }
-    .staffList li {
-    padding:0px 10px;
-    }
-    .staffList {
-    margin:0 -10px;
-    }
-    .directorateLft .selectInfo {
-    margin-top:30px;
-    }
-    .backgroundBlock {
-    padding:30px 20px;
-    }
-    .aboutContentBlock .aboutVideo {
-    top:-89px;
-    right:-25px;
-    }
-    .aboutContentBlock .aboutText {
-    padding:10px 0px 30px 0px;
-    }
-    .spaceAvaibilityForm .js-form-item {
-    padding-bottom:25px;
-    margin-bottom:10px;
-    position:relative;
-    }
-    .spaceAvaibilityForm .js-form-item label.error {
-    position:absolute;
-    left:3px;
-    bottom:0px;
-    }
-    .spaceAvaibilityForm .captcha {
-    padding:0px 40px 0 0;
-    width:100%;
-    }
-    .spaceAvaibilityForm .captcha .js-form-item {
-    width:100%;
-    text-align:left;
-    padding-bottom:0;
-    }
-    .spaceAvaibilityForm .captcha .reload-captcha-wrapper {
-    position:absolute;
-    right:0px;
-    top:40px;
-    }
-    .spaceAvaibilityForm .captcha .js-form-item label.error {
-    position:static;
-    }
-    .spaceAvaibilityForm .captcha .description {
-    text-align:left;
-    position:static;
-    }
-    .footerCopyright {
-    text-align:center;
-    }
-    .region-footer-menu {
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    }
-    footer .footerCopyright .cols10, footer .footerCopyright .cols2 {
-    width:100%;
-    text-align:center;
-    }
-    .visitorsCounter {
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .region-secondary-menu {
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .footerCopyright .region-secondary-menu a {
-    padding:5px 0;
-    margin:0px;
-    display:inline-block;
-    vertical-align:top;
-    position:relative;
-    top:-6px;
-    }
-    .footerCopyright a:hover {
-    color:#fdb913;
-    }
-    .footerCopyright .region-secondary-menu a:hover {
-    color:#fdb913;
-    }
-    .visionariesMember .contentMainBlock {
-    min-height:373px;
-    }
-    .page-views-listing .eventPostInfo .photo {
-    height:189px;
-    }
-    .trendingBox ul li {
-    margin-bottom:20px;
-    }
-    .path-directorate-events .innerPageContent .eventPostInfo {
-    width:33%;
-    }
-    .visionariesMember .contentMainBlock {
-    min-height:430px;
-    }
-    .neuronIn .neuronBoxDetails .socialIcone {
-    bottom:26px;
-    right:15px;
-    }
-    .campaignDetailsPage .detailsTop .detailsRight {
-    width:350px;
-    }
-    .campaignDetailsPage .detailsleft {
-    padding:30px 380px 30px 25px;
-    }
-    .centerOfExce h2 {
-    margin-bottom:30px;
-    }
-    }
-    @media only screen and (max-width:1350px) {
-    .ourJourney .resTab .tabNav li a {
-    font-size:2em;
-    }
-    .ourJourney .resTab .tabNav::before {
-    height:57px;
-    }
-    .ourJourney .owl-theme .owl-controls {
-    margin-bottom:0px;
-    }
-    .ourJourney .owl-controls .owl-nav [class*="owl-"] {
-    top:42%;
-    }
-    .ourJourney .resTab .tabNav {
-    top:20px;
-    }
-    .eventsCampaigns .campaignsRgt {
-    width:50%;
-    }
-    .knowYourMiniPage .teamBlock li {
-    padding:30px;
-    }
-    .knowYourMiniPage .teamBlock .teamImage {
-    margin:0px;
-    width:150px;
-    }
-    .knowYourMiniPage .teamInfo {
-    padding-left:170px;
-    }
-    .fontResizeInfo, .fontResize {
-    display:none;
-    }
-    }
-    @media only screen and (max-width:1280px) {
-    .contribution ul li{ width:33%;}	
-        
-        
-    ul.blueBoxInfoTxt li {
-        width: 48%;
-        margin: 0px 1% 20px;
-    }	
-        
-    .sliderBanner .owl-nav .owl-prev {
-    left:0px;
-    }
-    .sliderBanner .owl-nav .owl-next {
-    right:0px;
-    }
-    .bannerCaption p {
-    margin-bottom:20px;
-    }
-    .rightLinks .langDropDown li {
-    display:block;
-    }
-    .bannerCaption .bannerTitle {
-    font-size:2em;
-    }
-    .panIndia .cols4 {
-    width:33.33%;
-    }
-    .directorateProInfo {
-    padding-left:0px;
-    }
-    .directorateProInfo h5 {
-    margin-bottom:20px;
-    }
-    .dirContactInfo li {
-    font-size:1.000em;
-    }
-    .dirContactInfo li:not(:last-child) {
-    margin-bottom:20px;
-    }
-    .serviceCaption h3 {
-    font-size:2em;
-    }
-    .serviceCaption {
-    padding:0 15px;
-    }
-    .newsLetterSub h3 {
-    font-size:1.6em;
-    margin:10px 0 0 0;
-    }
-    .newsLetterSub ul li:nth-child(2) {
-    width:auto;
-    }
-    .newsLetterSub .inputText1 {
-    width:162px;
-    }
-    .yellowBtn {
-    padding:0 20px;
-    }
-    .newsLetterSub .captchaInput .captchaSub {
-    float:left;
-    }
-    .newsLetterSub .captchaInput {
-    width:194px;
-    }
-    .socialFooter .info h3 {
-    font-size:1.8em;
-    }
-    .socialFooter .logo {
-    margin-right:10px;
-    }
-    .socialsListIcons li a {
-    width:30px;
-    height:30px;
-    font-size:14px;
-    }
-    .socialsListIcons {
-    margin:10px 0 0 -2px;
-    }
-    .socialFooter .info {
-    padding-left:170px;
-    }
-    .TeamBigInfo h4 {
-    font-size:1.2em;
-    }
-    .path-main-stpi-team .contentMainBlock {
-    min-height:469px;
-    }
-    h2 {
-    font-size:1.6em;
-    }
-    .eventsCampaigns {
-    padding:30px 0;
-    }
-    .campainImage {
-    max-width:400px;
-    width:100%;
-    display:inline-block;
-    vertical-align:top;
-    min-height:178px;
-    }
-    .campaingsSlider .owl-controls {
-    top:235px;
-    }
-    .eventsCampaigns .resTab .tabNav li h4 {
-    font-size:1.7em;
-    }
-    .impactCreated {
-    padding:30px 0;
-    }
-    .impactCreated ul li {
-    padding:0 5px;
-    }
-    .impactCreated ul li:nth-child(2), .impactCreated ul li:nth-child(4), .impactCreated ul li:nth-child(6) {
-    top:0px;
-    }
-    .impactCreated ul li p {
-    width:auto;
-    }
-    .impactCreatedText .count {
-    font-size:2em;
-    }
-    .LnewsBox {
-    padding:15px;
-    }
-    .LnewsListInfo .info {
-    padding-left:215px;
-    text-align:left;
-    }
-    h4 {
-    font-size:1.3em;
-    line-height:1.2;
-    }
-    .LnewsListInfo h5, .latestNewsRight .LnewsBox p {
-    font-size:1em;
-    }
-    .latestNews .cols8 {
-    width:60%;
-    }
-    .latestNews .cols4 {
-    width:40%;
-    }
-    .latestNewsRight .region-whats-news-section {
-    margin-bottom:20px;
-    }
-    .latestNews {
-    padding:30px 0;
-    }
-    .socialEngagement {
-    margin:0px;
-    padding:30px 0;
-    }
-    .socialEngCover iframe {
-    width:100%;
-    }
-    .socialEngCover {
-    height:406px;
-    overflow:auto;
-    }
-    .socialEngMulTab .socialEngCover {
-    height:340px;
-    overflow:auto;
-    }
-    .bODSlider {
-    position:static;
-    margin-left:0px;
-    max-width:inherit;
-    }
-    .boardOfDirectors {
-    padding:30px 0 70px;
-    }
-    .boardOfDirectors p {
-    margin-bottom:0px;
-    }
-    .rotatingMobSlider {
-    display:block!important;
-    padding:0 50px;
-    margin-bottom:50px;
-    }
-    .rotating-slider {
-    display:none;
-    }
-    .rotatingMobSlider .item {
-    height:auto;
-    line-height:inherit;
-    }
-    .rotatingMobSlider h2 {
-    margin-bottom:0px;
-    }
-    .rotatingMobSlider a {
-    text-decoration:none;
-    }
-    .rotatingMobSlider .active h2 {
-    background-color:#1f1f62;
-    color:#fff;
-    }
-    .rotatingMobSlider .owl-prev {
-    position:absolute;
-    left:0px;
-    top:0px;
-    }
-    .rotatingMobSlider .owl-next {
-    position:absolute;
-    right:0px;
-    top:0px;
-    }
-    .rotatingMobSlider .owl-prev::before {
-    content:"\f104";
-    font-family:fontAwesome;
-    background-color:transparent;
-    position:absolute;
-    left:0px;
-    top:0;
-    }
-    .rotatingMobSlider .owl-next::before {
-    content:"\f105";
-    font-family:fontAwesome;
-    background-color:transparent;
-    position:absolute;
-    right:0px;
-    top:0;
-    }
-    .rotatingMobSlider .owl-controls .owl-nav [class*="owl-"] {
-    background:transparent;
-    text-indent:-9999px;
-    overflow:hidden;
-    }
-    .rotatingMobSlider .owl-controls .owl-nav [class*="owl-"]:before {
-    font-size:2em;
-    text-indent:0px;
-    color:#fff;
-    margin-top:-6px;
-    }
-    .rotatingMobSlider .owl-controls .owl-nav [class*="owl-"]:hover {
-    background:transparent;
-    }
-    .rotatingMobSlider .selected h2 {
-    background-color:#ffc20e;
-    color:#1f1f62;
-    }
-    .centerOfExce .profile h4 {
-    font-size:1.2em;
-    }
-    .rotatingMobSlider a {
-    cursor:pointer;
-    }
-    .rotatingMobSlider a:hover h2 {
-    background-color:#fff;
-    color:#1f1f62;
-    }
-    .rotatingMobSlider h2 {
-    font-size:1.5em;
-    }
-    .centerOfExce .centerOfExceLft {
-    width:30%;
-    }
-    .centerOfExce .centerOfExceRgt {
-    width:70%;
-    text-align:left;
-    }
-    .centerOfExceLft::before {
-    display:none;
-    }
-    .cOEachievements ul {
-    width:100%;
-    }
-    .centerOfExceRgt .topInfo {
-    max-width:100%;
-    }
-    .centerOfExce .btns .yellowBdrBtn {
-    position:static;
-    }
-    .pageControlSection h2 {
-    font-size:2em;
-    }
-    .innerBannerSection>img {
-    min-height:250px;
-    }
-    .stpiNeuron p {
-    font-size:1.1em;
-    }
-    .footerLinks h3 {
-    font-size:1.5em;
-    }
-    .centerOfExce .profilesInfo li {
-    width:100%;
-    max-width:500px;
-    margin-right:10px;
-    }
-    .centerOfExce .profilesInfo li:not(:last-child) {
-    margin-bottom:20px;
-    }
-    .centerOfExce .profile .info {
-    padding:22px 0 0 114px;
-    text-align:left;
-    }
-    .centerOfExce {
-    text-align:center;
-    }
-    .centerOfExce .profilesInfo, .centerOfExce .btns {
-    text-align:left;
-    }
-    .newFacility .facilitiesServices {
-    padding:30px 0;
-    }
-    .chiefMentorLeft {
-    padding:30px 15px;
-    }
-    .highlights {
-    padding:30px 0 70px;
-    }
-    .finTech h2 {
-    margin-bottom:10px;
-    }
-    
-    .fosteringCenter {
-    padding:10px 0 30px;
-    }
-    
-    .spaceAvaibilityInstruction {
-    width:65%;
-    }
-    .boardOfDirectors .owl-controls {
-    right:10px;
-    }
-    .latestNewsRight .region-whats-news-section .LnewsBox {
-    margin-bottom:101px;
-    }
-    .headQuarter p {
-    font-size:1em;
-    }
-    .headQuarter .conStpi {
-    line-height:1.1;
-    }
-    .contactUsMain ul li {
-    line-height:1em;
-    }
-    .contactUsMain ul li .personName {
-    margin-bottom:10px;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .headQuarter .hqTitle {
-    margin-bottom:10px;
-    }
-    .detailsleft li {
-    width:33%;
-    }
-    .detailsleft li:nth-child(3n+0):before {
-    display:none;
-    }
-    .detailsleft li:nth-child(4n+0):before {
-    display:block;
-    }
-    .recentBlock .recentImage {
-    height:199px;
-    }
-    .region-subscribe-to-newsletters h2 {
-    font-size:1.6em;
-    margin-top:5px;
-    }
-    .region-subscribe-to-newsletters .form-email {
-    max-width:200px;
-    }
-    .campaignDetailsPage .detailsTop h2 {
-    font-size:1.4em;
-    line-height:1.3;
-    }
-    }
-    @media only screen and (max-width:1170px) {
-    
-    .blueBoxInfo .cols3{ width:35%;}
-    .blueBoxInfo .cols9{ width:65%;}
-    
-        
-    .spaceAvaibility { margin-top:0px;}
-    .totalSpace { background:#ededee;}
-    .directorateHead {
-    padding:5px 60px 5px 60px;
-    border-radius:15px;
-    margin-left:0px;
-    }
-    .footerCopyright .region-secondary-menu {
-    display:none;
-    }
-    .incubFeatuCol {
-    width:50%;
-    }
-    .ourService .servicesMobSlider {
-    display:block;
-    }
-    .ourService .servicesWarpper {
-    display:none!important;
-    }
-    .aboutContentBlock .aboutVideo {
-    position:inherit;
-    top:auto;
-    right:auto;
-    width:36%;
-    max-width:100%;
-    text-align:center;
-    float:right;
-    }
-    .aboutContentBlock .aboutText {
-    max-width:100%;
-    width:60%;
-    padding:0 0 20px;
-    float:left;
-    }
-    .aboutContentBlock .aboutVideo::after {
-    display:none;
-    }
-    .objectOutcomes {
-    margin-bottom:20px;
-    }
-    .objectOutcomesDevlop p {
-    margin-bottom:25px;
-    text-align:center;
-    }
-    .objectOutcomesDevlop p br {
-    display:none;
-    }
-    .devlopLeft {
-    padding:0 15px;
-    width:100%;
-    float:left;
-    margin:0;
-    }
-    .devlopLeft li {
-    max-width:100%;
-    width:48%;
-    float:left;
-    }
-    .devlopLeft li:nth-child(2) {
-    max-width:100%;
-    float:right;
-    margin-bottom:35px;
-    margin-right:0;
-    }
-    .devlopLeft .rightIconsAfter {
-    position:inherit;
-    right:inherit;
-    top:inherit;
-    margin:0 auto;
-    display:block;
-    }
-    .devlopLeft li:after {
-    display:none;
-    }
-    .devlopRight {
-    padding:0 15px;
-    width:100%;
-    float:left;
-    margin:0;
-    }
-    .devlopRight li {
-    max-width:100%;
-    width:48%;
-    float:left;
-    }
-    .devlopRight li:nth-child(2) {
-    max-width:100%;
-    float:right;
-    margin-bottom:35px;
-    margin-right:0;
-    }
-    .devlopRight .rightIconsAfter {
-    position:inherit;
-    right:inherit;
-    top:inherit;
-    margin:0 auto;
-    display:block;
-    left:auto;
-    }
-    .devlopRight li:before {
-    display:none;
-    }
-    .devlopBotFull {
-    padding:0 15px;
-    width:100%;
-    float:left;
-    margin:0;
-    }
-    .devlopBotFull li {
-    max-width:100%;
-    width:48%;
-    float:left;
-    }
-    .devlopBotFull .rightIconsAfter {
-    position:inherit;
-    right:inherit;
-    top:inherit;
-    margin:0 auto;
-    display:block;
-    }
-    .devlopBotFull li:before {
-    display:none;
-    }
-    .ojectoutCenterFull::before {
-    display:none;
-    }
-    .ojectoutCenterFull {
-    max-width:100%;
-    padding:0;
-    margin:0;
-    position:inherit;
-    border:none;
-    border-radius:0;
-    margin-top:0;
-    background-color:#fbfbfb;
-    height:auto;
-    }
-    .ojectoutCenter {
-    margin:0 auto 30px;
-    text-align:center;
-    width:auto;
-    padding:20px 0 0;
-    background-color:#fff;
-    box-shadow:none;
-    border-radius:0;
-    height:auto;
-    }
-    .ojectoutCenter h2 {
-    font-size:30px;
-    line-height:30px;
-    }
-    .typicalObjective {
-    padding:20px 0 10px;
-    }
-    .objectiveCenter {
-    padding:0 20px;
-    min-height:auto;
-    }
-    .objectiveCenter p {
-    padding:0;
-    }
-    .lifecycleTop {
-    margin-top:0;
-    }
-    .lifecycleTitle {
-    padding:15px;
-    width:100%;
-    margin-bottom:0;
-    }
-    .lifecycleTitle:before {
-    display:none;
-    }
-    .lifecycleIcons {
-    padding:0;
-    box-shadow:none;
-    float:left;
-    }
-    .topList {
-    position:inherit;
-    bottom:0;
-    }
-    .lifecycleIconsList {
-    margin-top:50px;
-    }
-    .lifecycleIconsList li {
-    width:25%;
-    min-height:250px;
-    }
-    .lifecycleIconsList li:nth-child(2n+1) {
-    vertical-align:bottom;
-    }
-    .lifecycleIconsList li:nth-child(2n) {
-    vertical-align:bottom;
-    margin-top:0;
-    }
-    .lifecycleIconsList li:nth-child(2n+1)::before {
-    display:none;
-    }
-    .lifecycleIconsList li:nth-child(2n)::after {
-    display:none;
-    }
-    .topList:before {
-    display:none;
-    }
-    .lifecycleIconsList li p::after {
-    display:none;
-    }
-    .teamSlider {
-    min-height:670px;
-    }
-    .ministerBottomInfo {
-    min-height:280px;
-    }
-    .latestNewsRight .region-whats-news-section .LnewsBox {
-    margin-bottom:153px;
-    }
-    .panIndia .cols3 {
-    width:50%;
-    }
-    .panIndia .cols5 {
-    width:50%;
-    }
-    .panIndia .cols4 {
-    width:100%;
-    }
-    .directorateInfo {
-    height:auto;
-    right:0px;
-    }
-    .disclaimerMain {
-    position:static;
-    }
-    .directorateProInfo {
-    text-align:center;
-    }
-    .itemListMain ul li .textDescription {
-    width:85%;
-    }
-    .page-node-type-photo-gallery .photoGallery li {
-    width:33%;
-    }
-    .ministerInfo h4 {
-    font-size:1.1em;
-    }
-    .ministerInfo .info p {
-    font-size:0.9em;
-    }
-    .mainMinister .ministerInfo .info p {
-    margin-bottom:5px;
-    }
-    .page-views-listing .innerPageContent .eventPostInfo {
-    width:33%;
-    }
-    .tenderRef br {
-    display:none;
-    }
-    .tenderHeading {
-    margin-bottom:20px;
-    position:relative;
-    padding-left:60px;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .tenderHeading .tenderTitle {
-    max-width:100%;
-    padding:0 0 0 0px;
-    height:auto;
-    display:block;
-    }
-    .tenderHeading .tenderRef {
-    margin-left:0;
-    padding:0px;
-    height:auto;
-    display:block;
-    }
-    .tenderDates .tenderDate {
-    width:50%;
-    float:left;
-    height:auto;
-    }
-    .tenderDates {
-    display:inline-block;
-    vertical-align:top;
-    }
-    .tenderHeading .tenderCounter {
-    position:absolute;
-    left:0px;
-    top:0px;
-    }
-    .servicesMobSlider .owl-controls {
-    margin-top:0px;
-    }
-    }
-    @media only screen and (max-width:1024px) {
-    .contribution ul li { width:50%;}		
-        
-    ul.blueBoxInfoTxt li { width:100%;}
-    
-    
-    .newsletterPage ul li {
-    width:33%;
-    }
-    .fontResizeInfo, .rightLinks .langDropDown li, .rightLinks li:nth-child(1) {
-    display:block;
-    }
-    .rightLinks li.search {
-    display:block;
-    }
-    .headerLeft {
-    width:400px;
-    max-width:400px;
-    }
-    .headerRight {
-    clear:both;
-    width:100%;
-    float:left;
-    max-width:100%;
-    }
-    .toggleMenu .mobileMenu {
-    display:none;
-    }
-    .rightLinks {
-    padding-right:57px;
-    position:absolute;
-    top:10px;
-    right:0px;
-    }
-    .toggleMenu {
-    position:absolute;
-    right:10px;
-    top:-8px;
-    }
-    .mainNavigation {
-    position:static;
-    }
-    .mainNavigation #nav {
-    text-align:center;
-    }
-    .mainNavigation #nav li {
-    display:inline-block;
-    vertical-align:top;
-    float:none;
-    width:100%;
-    }
-    #nav li::before {
-    display:none;
-    }
-    .mainNavigation #nav li {
-    border-top:1px solid rgba(255, 255, 255, 0.1);
-    text-align:left;
-    }
-    #nav ul li:first-child {
-    padding-top:0px;
-    }
-    #nav li ul li a {
-    padding:7px 55px 7px 15px;
-    }
-    #nav ul li a {
-    }
-    #nav {
-    display:none;
-    position:absolute;
-    left:0;
-    right:0;
-    background:#073e74;
-    }
-    #nav ul {
-    background:#305d93;
-    }
-    .toggleMenu, #nav .menuIcon {
-    display:block;
-    }
-    #nav li {
-    float:none;
-    display:block;
-    border:none;
-    }
-    #nav li a {
-    border-top:1px solid #002d63
-    }
-    #nav li.parent {
-    position:relative;
-    }
-    #nav li .menuIcon, #nav li li .menuIcon {
-    width:46px;
-    height:auto;
-    background-color:#002d63;
-    background-color:rgba(0, 45, 99, 0.5);
-    background-image:url(https://stpi.in/themes/stpi/images/dropdown-menu-icon.png);
-    background-repeat:no-repeat;
-    background-position:center 15px;
-    position:absolute;
-    right:0;
-    top:0;
-    bottom:0;
-    cursor:pointer;
-    }
-    #nav li .menuIcon.active, #nav li li .menuIcon.active {
-    background-color:#002d63;
-    background-color:rgba(1, 36, 78, 0.5);
-    }
-    #nav li>a:hover, #nav li.hover>a, #nav li.active>a, #nav li ul li a:hover, #nav li ul li>a.selected, #nav ul a:hover, .noJS #nav ul a:focus, #nav ul a.selected, #nav>li>a:hover, #nav>li.hover>a, #nav>li.focus>a {
-    background-color:#002d63;
-    color:#fff;
-    }
-    #nav ul {
-    width:100%;
-    display:none;
-    position:static;
-    transition:none;
-    -webkit-transition:none;
-    }
-    .hasJS #nav ul {
-    opacity:1;
-    }
-    #nav li ul li, #nav ul a {
-    width:100%
-    }
-    #nav>li:hover>ul, #nav li li:hover>ul, #nav li li li:hover>ul {
-    display:none;
-    }
-    #nav ul, #nav *:hover ul ul, #nav .hover ul ul, #nav .focus ul ul {
-    margin-left:0;
-    }
-    #nav li a {
-    padding-left:15px;
-    padding-right:15px;
-    display:block;
-    line-height:30px;
-    font-size:1.000em;
-    }
-    #nav li ul li a {
-    padding:7px 55px 7px 25px;
-    display:block;
-    line-height:21px;
-    background:url(https://stpi.in/themes/stpi/images/right-arrow.png) no-repeat 15px 15px;
-    color:#fff;
-    border:none
-    }
-    #nav li ul li ul li a {
-    padding-left:45px;
-    background-position:33px center
-    }
-    #nav li ul li ul li ul li a {
-    padding-left:60px;
-    background-position:45px center
-    }
-    #nav>li>a:hover, #nav>li.hover>a, #nav>li.focus>a, #nav>.highlight>a {
-    background-color:#305d93;
-    color:#fff;
-    }
-    #nav li ul li a:hover, #nav li ul li>a.selected, #nav ul a:hover, .noJS #nav ul a:focus, #nav ul a.selected, #nav ul>.highlight>a {
-    background-color:#305d93;
-    color:#fff;
-    }
-    #nav>li.hover>a::before, #nav>li>a.is-active::before, #nav>li.menu-item--active-trail>a::before {
-    display:none;
-    }
-    .responsiveTable, .responsiveTable tr, .responsiveTable td, .responsiveTable td:before {
-    display:block;
-    text-align:left;
-    border:none;
-    }
-    .responsiveTable, .responsiveTable tr, .responsiveTable td:last-child {
-    border-bottom:none;
-    }
-    .responsiveTable thead, .responsiveTable tr th {
-    position:absolute;
-    top:-1000em;
-    left:-1000em;
-    }
-    .responsiveTable tr {
-    border:1px solid #eeeeee;
-    border-bottom:2px solid #eeeeee;
-    margin:0 0 20px;
-    }
-    .responsiveTable tr td:nth-child(1) {
-    border-left:none;
-    }
-    .responsiveTable tr td:last-child {
-    border-right:none;
-    }
-    .responsiveTable tr:last-child .td, .responsiveTable td {
-    border-bottom:1px solid #eeeeee;
-    }
-    .responsiveTable td:before {
-    font-weight:bold;
-    padding-right:20px;
-    line-height:27px;
-    color:#174471;
-    content:" "attr(data-label)"";
-    }
-    .responsiveTable tbody {
-    display:block;
-    }
-    .responsiveTable tr td {
-    padding:5px 15px;
-    width:auto !important;
-    }
-    .owl-theme .owl-controls .owl-nav [class*="owl-"] {
-    opacity:0.5;
-    }
-    .owl-theme .owl-controls .owl-nav [class*="owl-"]:hover {
-    opacity:1;
-    }
-    .bannerCaption p {
-    padding:0 30px;
-    }
-    .panIndia {
-    padding:0px;
-    }
-    .panIndia .container {
-    padding:0px;
-    }
-    .directorateLft {
-    padding:30px 15px 0;
-    text-align:center;
-    }
-    .directorateLft ul {
-    margin-bottom:0px;
-    }
-    .directorateLft h2 br {
-    display:none;
-    }
-    .directorateLft .selectInfo ul {
-    margin-bottom:30px;
-    }
-    .panIndia .cols3 {
-    width:100%;
-    }
-    .directorateLft ul li {
-    margin:0 5px 10px;
-    width:210px;
-    display:inline-block;
-    vertical-align:top;
-    border:1px solid #ccc;
-    border-radius:20px;
-    text-align:left;
-    padding-left:30px;
-    }
-    .directorateLft .selectInfo .active::before, .directorateLft .selectInfo a:hover::before {
-    width:205px;
-    }
-    .directorateLft .selectInfo a {
-    font-size:1em;
-    line-height:1;
-    }
-    .directorateLft .selectInfo a:hover:before {
-    height:34px;
-    }
-    .directorateLft h2, .directorateLft h4 {
-    margin-bottom:10px;
-    }
-    .directorateLft .selectInfo {
-    margin:0px;
-    }
-    .directorateInfo {
-    position:static;
-    }
-    .directorateInfo {
-    width:auto;
-    margin:0 auto;
-    max-width:100%;
-    text-align:center;
-    }
-    .directorateLft .selectInfo li a.active::before, .directorateLft .selectInfo a:hover::before {
-    top:-2px;
-    height:32px;
-    width:210px!important;
-    }
-    .panIndia .cols5, .panIndia .cols4 {
-    width:50%;
-    overflow:scroll;
-    height:600px;
-    }
-    .dirContactInfo li {
-    text-align:left;
-    }
-    .footerLinks h3 {
-    font-size:1.8em;
-    }
-    .footerButtons {
-    margin-top:0px;
-    }
-    .footerLinks {
-    }
-    .footerLinks h3 {
-    font-size:1.8em;
-    margin-bottom:0px;
-    }
-    .footerLinks .cols2, .footerLinks .cols3 {
-    width:50%;
-    text-align:left;
-    min-height:340px;
-    }
-    .footerLinks ul.bulletText {
-    display:inline-block;
-    text-align:left;
-    vertical-align:top;
-    }
-    .eventsCampaigns .cols6 {
-    width:100%;
-    }
-    .eventPostInfo .photo {
-    width:200px;
-    }
-    .eventPostInfo .info {
-    padding-left:220px;
-    }
-    .lNHeading {
-    margin-bottom:20px;
-    }
-    .campaignsRgt {
-    width:100%;
-    margin:30px 0 0;
-    }
-    .campainImage {
-    max-width:700px;
-    }
-    .campaingsSlider .owl-controls {
-    top:370px;
-    }
-    .campaignsInfo {
-    text-align:center;
-    }
-    .newsLetterSub ul li:last-child, .newsLetterSub ul li:first-child {
-    text-align:center;
-    width:100%;
-    }
-    .newsLetterSub ul li:first-child {
-    margin-bottom:15px;
-    }
-    .newsLetterSub ul li:last-child {
-    margin-top:15px;
-    }
-    .newsLetterSub h3 {
-    margin:0px;
-    }
-    .newsLetterSub ul {
-    margin:0px;
-    }
-    .campaignsRgt {
-    float:left;
-    width:100%;
-    margin:30px 0 0 0;
-    }
-    .eventsCampaigns .eventsBox {
-    padding:15px;
-    }
-    .eventsCampaigns .campaignsRgt {
-    width:100%;
-    }
-    .servicesWarpper a {
-    }
-    .boardOfDireInfo .bODMemInfo .mainPhoto {
-    margin-bottom:0;
-    }
-    .boardOfDirectors::before {
-    display:none;
-    }
-    .cOEachievements ul li h3 {
-    font-size:2em;
-    margin-right:10px;
-    }
-    .panIndia .cols5 {
-    display:none;
-    }
-    .directorateHead {
-    padding:5px 20px;
-    margin:0px 0 20px;
-    }
-    .directorateInfo {
-    display:inline-block;
-    vertical-align:top;
-    }
-    .panIndia {
-    text-align:center;
-    }
-    .panIndia .cols4 {
-    display:inline-block;
-    vertical-align:top;
-    width:100%;
-    }
-    .servicesWarpper a, .servicesMobSlider a {
-    min-height:600px;
-    max-height:600px;
-    }
-    .footerCopyright .cols9, .footerCopyright .cols3 {
-    width:100%;
-    }
-    .innerPageContent {
-    padding:30px 0;
-    }
-    .views-exposed-form {
-    margin-bottom:0px;
-    }
-    .path-main-know-your-minister .view-filters {
-    padding:30px 0;
-    }
-    .teamBlock li {
-    width:33%;
-    }
-    .teamBlock li:nth-child(3n+1) {
-    clear:left;
-    }
-    .teamBlock li:nth-child(4n+1) {
-    clear:none;
-    }
-    .megaMenuBody .megaMenuContent {
-    overflow:auto;
-    }
-    .toggleMenu {
-    position:static;
-    float:left;
-    display:inline-block;
-    vertical-align:top;
-    padding:0px;
-    margin:0px 10px 0 0;
-    }
-    .toggleMenu.active .iconBar {
-    background:none;
-    position:relative;
-    }
-    .menuPart {
-    float:left;
-    padding:0px;
-    }
-    .rightLinks {
-    padding-right:64px;
-    }
-    .megaMenu {
-    position:absolute;
-    right:10px;
-    top:6px;
-    }
-    .toggleMenu {
-    position:absolute;
-    right:40px;
-    top:9px;
-    }
-    .career-form .form-select {
-    font-size:1em;
-    }
-    .btnCaptchaRow .js-form-item {
-    width:auto;
-    }
-    .career-form {
-    padding-bottom:30px;
-    }
-    .career-form .captcha {
-    width:100%;
-    margin-bottom:30px;
-    }
-    .career-form .btnCaptchaRow {
-    display:inline-block;
-    vertical-align:top;
-    margin-top:30px;
-    }
-    .fosteringCenter {
-    padding:0;
-    margin-bottom:30px;
-    }
-    .fosteringCenter .cols7, .fosteringCenter .cols5 {
-    width:100%;
-    }
-    .fosteringCenter .fosteringRight {
-    text-align:center;
-    }
-    .totalSpace {
-    padding:0;
-    margin-bottom:30px;
-    }
-    .totalSpaceCaption { width:100%; margin-top:0px;}
-    .incubationSlider { position:relative; z-index:999; margin-bottom:30px;}
-    .totalSpaceCaption {
-    width:100%;
-    position:relative;
-    top:auto;
-    left:auto;
-    text-align:center;
-    height:auto;
-    }
-    .totalCounter {
-    width:auto;
-    margin-left:0;
-    }
-    .totalSpaceCaption p br {
-    display:none;
-    }
-    .spaceAvaibilityForm, .spaceAvaibilityInstruction {
-    width:48%;
-    }
-    .staffList li {
-    width:50%;
-    }
-    #header.sticky {
-    position:absolute;
-    top:0;
-    width:100%;
-    background-color:transparent;
-    border-bottom:0;
-    box-shadow:none;
-    max-width:inherit;
-    }
-    .finTech .cols8 {
-    width:100%;
-    }
-    .finTech .cols4 {
-    margin-top:0;
-    width:100%;
-    }
-    .newFacility .facilitiesServices .bullet li {
-    width:100%;
-    }
-    .newFacility .facilitiesServices {
-    padding:20px 0 0;
-    }
-    .highlights {
-    padding:20px 0 70px;
+  }
+  .indexBanner .sliderBanner {
+    background-color: rgba(1, 9, 101, 1);
+  }
+  #header {
+    position: static;
+    background-color: rgba(1, 9, 101, 1);
+    color: #fff;
+  }
+  /*new responsive images  slider end*/
+
+  /* directorate page */
+  .directorateLft {
+    padding: 30px 15px 0;
     text-align: center;
-    }
-    .objectivesCaption {
-    padding:20px;
-    }
-    .objectivesBackground:after {
-    width:auto;
-    }
-    .fintechrightCol img {
-    width:100%;
-    }
-    .pageControlSection h1 {
-    font-size:2em;
-    line-height:1.2;
-    }
-    .fosteringRight {
-    margin-top:0px;
-    max-width:300px;
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .fosteringCenter {
-    text-align:center;
-    }
-    .path-video-gallery .videoGallery li, .video-listing .video-section li, .view-photo-gallery ul li {
-    width:50%;
-    }
-    .panIndia .cols5, .panIndia .cols4 {
-    height:auto;
-    }
-    .dirContactInfo {
-    max-width:100%;
-    width:100%;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .panIndia .row {
-    margin-bottom:0px;
-    }
-    .ministerBottomInfo {
-    margin-bottom:30px;
-    }
-    .impactCreated ul li::before {
-    display:none;
-    }
-    .impactCreated ul li {
-    max-width:100%;
-    width:25%;
-    vertical-align:top !important;
-    top:0 !important;
-    }
-    .impactCreatedText {
-    max-width:100%;
-    }
-    .impactCreated {
-    min-height:auto;
-    }
-    .latestNews .cols8 {
-    width:100%;
-    }
-    .latestNews .cols4 {
-    width:100%;
-    }
-    .LnewsBox {
-    margin-bottom:30px;
-    }
-    .latestNewsRight .LnewsBox:last-child {
-    margin-bottom:50px;
-    }
-    .latestNewsRight .LnewsBox, .LnewsBox {
-    max-width:100%;
-    display:inline-block;
-    vertical-align:top;
-    width:100%;
-    }
-    .latestNews {
-    text-align:center;
-    }
-    .whatsNewSlider .owl-controls {
-    bottom:-80px;
-    right:-33px;
-    }
-    .itemListMain ul li .textDescription {
-    width:80%;
-    }
-    .career-form .button {
-    margin-top:0px;
-    }
-    .publicStaffGriOfficers ul li {
-    font-size:1em;
-    }
-    .directorateLft .selectInfo a {
-    font-size:0.9em;
-    }
-    .neuronBlock li .neuronIn {
-    min-height:476px;
-    }
-    .stpiOpenChallImgHolder {
-    width:100%;
-    position:static;
-    background:none;
-    max-width:500px;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .stpiOpenChallImgHolder img {
-    display:block;
-    }
-    .stpiNeuronRecCamp, .stpiNeuron .stpiOpenChall {
-    height:auto;
-    }
-    .stpiNeuronRecCamp {
-    padding-left:0px;
-    width:100%;
-    clear:both;
-    text-align:center;
-    }
-    .stpiNeuron {
-    text-align:center;
-    background-color:#ececec;
-    padding:30px 0 0;
-    }
-    .stpiNeuron .stpiOpenChall {
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .stpiNeuronRecCamp {
-    box-shadow:none;
-    }
-    .page-views-listing .innerPageContent .eventPostInfo {
-    width:50%;
-    }
-    .region-subscribe-to-newsletters h2 {
-    width:100%;
-    margin-top:0px;
-    text-align:left;
-    }
-    .region-subscribe-to-newsletters .form-email {
-    margin-left:0px;
-    }
-    .visionariesMember .teamBlock li {
-    width:50%;
-    }
-    .visionariesMember .teamBlock li:nth-child(3n+1) {
-    clear:none;
-    }
-    .path-main-visionaries .teamBlock li {
-    width:33%;
-    }
-    .publicStaffGriOfficers ul li .GrievanceOfficersLists {
-    min-height:340px;
-    }
-    .knowYourMinisters {
-    padding:25px 0 0px;
-    }
-    }
-    @media only screen and (max-width:992px) {
-    .contact .cols7 {
-    width:100%;
-    }
-    .contact .cols5 {
-    width:100%;
-    }
-    .contactMapImage {
-    margin-bottom:20px;
-    background-size:cover;
-    max-width:700px;
-    }
-    .contact {
-    text-align:center;
-    }
-    .contactUsMain ul li {
-    text-align:left;
-    }
-    .contactFullRow .contactUsMain ul li {
-    width:48%;
-    }
-    .detailsTop h2 {
-    font-size:1.8em;
-    }
-    .contactLeftInfo ul li {
-    text-align:left;
-    margin-bottom:20px;
-    }
-    }
-    @media only screen and (max-width:959px) {
-    .impactCreated ul {
-    padding:0px;
-    margin:0px;
-    }
-    .impactCreated ul li p {
-    width:auto;
-    max-width:100px;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .impactCreated ul li {
-    text-align:center;
-    }
-    .centerOfExce .centerOfExceLft {
-    width:35%;
-    }
-    .centerOfExce .centerOfExceRgt {
-    width:65%;
-    }
-    .objectiveBlock li {
-    width:50%;
-    }
-    .objectiveBlock li img {
-    width:100%;
-    }
-    .functionTab .resTab .tabNav {
-    margin-top:0;
-    }
-    .functionTab .tabNav {
-    max-width:100%;
-    }
-    .functionTab .resTab .tabNav li {
-    margin-bottom:0;
-    width:33.33%;
-    }
-    .functionTab .tabContainer {
-    width:100%;
-    }
-    .resTab .tabContent {
-    padding:20px;
-    }
-    .functionTab .tabNav .tabTitle {
-    font-size:16px;
-    }
-    .functionTab .tabNav .count {
-    font-size:40px;
-    }
-    .qultObj {
-    max-width:45%;
-    }
-    .moreBlock li {
-    margin-bottom:20px;
-    }
-    .lifecycleIconsList li {
-    width:50%;
-    min-height:auto;
-    margin-bottom:30px;
-    }
-    .neuronBlock .cols4 {
-    width:50%;
-    margin-bottom:0px;
-    }
-    .ourTeam .cols6:nth-child(1) {
-    width:45%;
-    }
-    .ourTeam .cols6:nth-child(2) {
-    width:55%;
-    }
-    .ourJourneyPhoto img {
-    width:auto;
-    }
-    .knowYourMinisters {
-    text-align:center;
-    }
-    .knowYourMinisters .cols6 {
-    width:100%;
-    }
-    .ministerBottomInfo {
-    min-height:inherit;
-    }
-    .cols6 .otherMinisters .ministerInfo:last-child {
-    margin-bottom:0px;
-    }
-    .mainMinister, .ministerInfo {
-    max-width:700px;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .mainMinister .ministerInfo {
-    text-align:left;
-    }
-    .mainMinister {
-    box-shadow:none;
-    }
-    .itemListMain ul li .textDescription {
-    width:75%;
-    }
-    .teamSlider ul li {
-    width:49%;
-    }
-    .teamSlider .photo {
-    box-shadow:none;
-    }
-    .teamSlider {
-    display:none!important;
-    }
-    .teamMobSlider {
-    display:block;
-    }
-    .TeamMembersSlider .owl-controls {
-    width:82px;
-    top:inherit;
-    }
-    .page-node-type-photo-gallery .photoGallery li {
-    width:50%;
-    }
-    .detailsleft li {
-    width:50%;
-    }
-    .detailsleft li:last-child:before {
-    display:block;
-    }
-    .detailsleft li:nth-child(4n+0):before, .detailsleft li:nth-child(3n+0):before {
-    display:block;
-    }
-    .detailsleft li:nth-child(2n+0):before {
-    display:none;
-    }
-    }
-    @media only screen and (max-width:899px) {
-    .socialEngagement .cols4 {
-    width:100%;
-    }
-    .socialEngCover {
-    height:auto;
-    }
-    .socialEngagement .cols4 {
-    width:100%;
-    max-width:500px;
-    display:inline-block;
-    vertical-align:top;
-    float:none;
-    }
-    .socialEngagement .cols4:not(:last-child) {
-    margin-bottom:30px;
-    }
-    .socialEngagement {
-    text-align:center;
-    }
-    .socialEngMulTab .resTab .tabNav {
-    margin:0px;
-    text-align:center;
-    }
-    .megaMenuContent .cols3 {
-    width:50%;
-    margin-bottom:30px;
-    }
-    .blogBox .blogLeft {
-    width:100%;
-    }
-    .blogBox .blogRight {
-    width:100%;
-    margin:30px 0 0 0;
-    }
-    .recentBlock li {
-    width:50%;
-    }
-    .recentBlock li:nth-child(3n+1) {
-    clear:none;
-    }
-    .recentBlock li:nth-child(2n+1) {
-    clear:left;
-    }
-    .recentBlock .recentBlogStatus li {
-    width:auto;
-    padding:0 5px;
-    }
-    .recentBlock .recentImage {
-    margin-bottom:10px;
-    }
-    .centerOfExce .profilesInfo li {
-    width:100%;
-    }
-    .centerOfExce .profile {
-    padding:10px;
-    }
-    .recentBlock .info .socialIcone {
-    position:static;
-    margin-top:10px;
-    }
-    .recentBlock .socialIcone ul li {
-    clear:none;
-    width:auto;
-    border:0px;
-    }
-    .trendingBox ul li {
-    padding-bottom:10px;
-    margin-bottom:10px;
-    border-bottom:1px solid #ccc;
-    }
-    .trendingBox .socialIcone ul li {
-    border:0px;
-    }
-    }
-    @media only screen and (max-width:800px) {
-    .qultObj {
-    max-width:100%;
-    width:100%;
-    margin-bottom:0;
-    margin:0px;
-    }
-    .qualityContainer {
-    padding:0 20px;
-    }
-    .backgroundBlock {
-    padding:30px 20px;
-    }
-    }
-    @media only screen and (max-width:1366px) {
-    .indexBanner .sliderBanner .item {
-    min-height:446px;
-    }
-    }
-    @media only screen and (max-width:767px) {
-    .incubationSlider .owl-controls .owl-nav .owl-prev { left:9px;}
-    .incubationSlider .owl-controls { bottom:30px;}
-    .incubationSlider .owl-controls .owl-nav [class*="owl-"] { height:30px;}
-    .incubationSlider .owl-controls .owl-nav [class*="owl-"]::before { top:-5px;}
-    .totalSpaceInfo { max-height:auto;}
-        
-    .coeTextDesc {
-    height: auto!important;
-    }
-    .centerOfExceLft {
-    max-height:100%!important;
-    }
-    .lifecycleIconsList li {
-    padding:0 15px;
-    }
-    .tenderHeading .tenderRef {
-    max-width:100%;
-    }
-    .fullColMob .cols6 {
-    width:100%;
-    }
-    .policiesSection li {
-    width:50%;
-    }
-    .schemeInfo {
-    height:auto;
-    }
-    .incubFeatuCol {
-    width:100%;
-    max-width:600px;
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .incubFeatuColInfo {
-    height:auto;
-    }
-    .incubFeatures {
-    text-align:center;
-    }
-    .page-node-167 {
-    text-align:center;
-    }
-    .page-node-167 .recentBlock li {
-    width:100%;
-    max-width:600px;
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .ourTeam .cols6:nth-child(1) {
-    border-bottom:1px solid #ccc;
-    margin-bottom:20px;
-    }
-    .whatsNewSlider .owl-controls {
-    bottom:-35px;
-    right:-12px;
-    }
-    .latestNewsRight .region-whats-news-section .LnewsBox {
-    padding-bottom:50px;
-    }
-    .latestNewsRight .LnewsBox:last-child {
-    margin-bottom:30px;
-    }
-    .stpiCentersSlider .r-tabs .r-tabs-nav {
-    display:block;
-    }
-    .stpiCenters .r-tabs .r-tabs-nav {
-    display:block;
-    }
-    .rotatingMobSlider {
-    margin-bottom:30px;
-    }
-    .centerOfExce .centerOfExceRgt {
-    margin-top:30px;
-    }
-    .resTab .r-tabs-accordion-title .r-tabs-anchor {
-    margin-bottom:10px;
-    border-radius:5px;
-    font-size:1.3em;
-    line-height:1;
-    color:#3737a8;
-    background-color:#fff;
-    box-shadow:0px 3px 5px rgba(0, 0, 0, 0.2);
-    border:1px solid #ccc;
-    }
-    .resTab .r-tabs-panel.r-tabs-state-active .r-tabs-accordion-title .r-tabs-anchor h4 {
-    color:#fff;
-    }
-    .resTab .r-tabs-accordion-title .r-tabs-anchor h4 {
-    color:#3737a8;
-    margin-bottom:0px;
-    }
-    .resTab .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor h4 {
-    color:#3737a8;
-    }
-    .resTab .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
-    border:1px solid #3737a8;
-    background-color:#ffd400;
-    font-size:1.3em;
-    line-height:1;
-    }
-    .r-tabs .r-tabs-nav {
-    display:none;
-    }
-    .resTab .r-tabs-panel.r-tabs-state-active .r-tabs-anchor h4 {
-    color:#fff;
-    }
-    .resTab .r-tabs-accordion-title .r-tabs-anchor h4 {
-    color:#3737a8;
-    }
-    .resTab .r-tabs-state-active .r-tabs-anchor h4 {
-    color:#3737a8;
-    }
-    .r-tabs .r-tabs-accordion-title {
-    display:block;
-    }
-    .ourJourneyPhoto {
-    position:static;
-    }
-    .ourJourney .cols6 {
-    width:100%;
-    }
-    .ourJourney .resTab .tabContent {
-    height:inherit;
-    overflow:auto;
-    }
-    .ourJourney .resTab .tabContent .row {
-    margin:0px;
-    }
-    .ourJourney .tabContainer {
-    padding:30px 0;
-    }
-    .functionTab {
-    background:#f4f4f4;
-    padding:20px 5px;
-    }
-    .teamMobSlider {
-    max-width:500px;
-    margin:30px auto 0;
-    }
-    .ourTeam .cols6:nth-child(1) {
-    width:100%;
-    }
-    .ourTeam .cols6:nth-child(2) {
-    width:100%;
-    }
-    .ourServiceHead {
-    padding:20px 0;
-    }
-    .centerOfExceRgt .topInfo {
-    min-height:inherit;
-    }
-    .TeamMembersSlider .owl-controls {
-    top:-51px;
-    left:50%;
-    margin-left:-25px;
-    }
-    .directorateLft ul li {
-    width:auto;
-    padding-left:0px;
-    margin:0 5px 10px;
-    }
-    .directorateLft .selectInfo li a.active::before, .directorateLft .selectInfo a:hover::before {
-    width:100%!important;
-    left:0px;
-    }
-    .directorateLft .selectInfo a {
-    padding:0 9px 0 20px;
-    }
-    .directorateLft .selectInfo .active::after, .directorateLft .selectInfo a:hover::after {
-    left:9px;
-    }
-    .directorateLft .selectInfo a::after {
-    left:9px;
-    margin-top:-4px;
-    }
-    .directorateLft .selectInfo ul {
-    padding:0px;
-    }
-    h3 {
-    font-size:2em;
-    }
-    .formList .boxs>li, .formList .boxs>div {
-    float:none;
-    width:100%;
-    }
-    .width50p {
-    width:100%;
-    }
-    #login {
-    display:none;
-    }
-    .rightLinks li {
-    display:none;
-    }
-    .rightLinks .langDropDown {
-    display:block;
-    }
-    .rightLinks li::before {
-    display:none;
-    }
-    .bannerCaption p {
-    display:none;
-    }
-    .bannerCaption {
-    top:50%;
-    bottom:0px;
-    transform:none;
-    /*background-color:rgba(0, 0, 0, 0.5);*/
-    background:transparent;
-    padding:20px 15px;
-    }
-    .bannerCaption .bannerTitle {
-    font-size:1em;
-    }
-    .bannerCaption .bannerTitle::before {
-    display:none;
-    }
-    .bannerCaption .bannerTitle {
-    margin-bottom:5px;
-    padding-bottom:5px;
-    }
-    .commonBtn {
-    padding:5px 20px;
-    }
-    .socialFooter .cols7 {
-    width:100%;
-    margin-bottom:30px;
-    }
-    .socialFooter .cols3 {
-    width:auto;
-    }
-    .socialFooter .cols2 {
-    width:auto;
-    }
-    .socialFooter .info h3 {
-    font-size:1.5em;
-    }
-    .footerCopyright .cols9, .footerCopyright .cols3 {
-    width:100%;
-    text-align:center;
-    }
-    .directorateLft h2 {
-    font-size:1.8em;
-    }
-    .newsLetterSub h3 {
-    margin:0px;
-    }
-    .newsLetterSub ul {
-    margin:0px;
-    }
-    .ourTeam .cols6 {
-    width:100%;
-    }
-    .campainImage {
-    max-width:400px;
-    }
-    .campaingsSlider .owl-controls {
-    top:230px;
-    }
-    .lNHeading h2 {
-    font-size:1.8em;
-    }
-    .eventsCampaigns h4 {
-    line-height:1.2;
-    text-align:left;
-    }
-    .campaignsInfo h5, .eventsCampaigns h4 {
-    text-align:left;
-    }
-    .yellowBtn {
-    height:auto;
-    padding:5px 20px;
-    }
-    .newsLetterSub .yellowBtn {
-    margin-top:10px;
-    }
-    .servicesWarpper a, .servicesMobSlider a {
-    min-height:600px;
-    height:600px;
-    }
-    .eventsCampaigns h4 {
-    margin-bottom:0px;
-    }
-    .socialEngagement .resTab .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
-    color:#3737a8;
-    }
-    .socialEngMulTab .socialEngCover {
-    margin-bottom:20px;
-    }
-    .centerOfExce .centerOfExceLft, .centerOfExce .centerOfExceRgt {
-    width:100%;
-    }
-    .panIndia .cols5, .panIndia .cols4 {
-    height:auto;
-    }
-    .cOEachievements {
-    margin:0px;
-    }
-    .teamBlock li {
-    width:50%;
-    }
-    .teamBlock li:nth-child(3n+1) {
-    clear:none;
-    }
-    .teamBlock li:nth-child(4n+1) {
-    clear:none;
-    }
-    .teamBlock li:nth-child(2n+1) {
-    clear:left;
-    }
-    .neuronBlockBox .row {
-    margin-bottom:0px;
-    }
-    .innerPageContent h3 {
-    font-size:1.2em;
-    line-height:1.3em;
-    }
-    .neuronIn .neuronBoxDetails .socialIcone, .stpiNeuronRecCamp .socialIcone {
-    position:static;
-    margin:10px 0;
-    }
-    .footerLinks {
-    padding:30px 0 0 0;
-    }
-    .ministerInfo {
-    padding-left:223px;
-    }
-    .mainMinister .ministerInfo .photo {
-    min-width:auto;
-    width:205px
-    }
-    .centerOfExceRgt p {
-    font-size:1em;
-    }
-    .teamSlider .owl-controls {
-    left:50%;
-    transform:translateX(-49%);
-    }
-    .career-form .fieldset-wrapper .js-form-item {
-    padding:0 5px;
-    }
-    .career-form .fieldset-wrapper {
-    margin:0 -5px;
-    }
-    .backgroundBlock .blockTitle {
-    width:100%;
-    padding:0 0 20px;
-    max-width:100%;
-    }
-    .backgroundBlock .blockTitle::after {
-    display:none;
-    }
-    .backgroundBlock p {
-    width:100%;
-    padding:0;
-    }
-    .backgroundBlock {
-    padding:20px;
-    }
-    .pageControlSection {
-    text-align:center;
-    }
-    .innerBannerSection .pageControlSection {
-    text-align:left;
-    }
-    .innerBannerSection {
-    padding:180px 0 0;
-    }
-    .pageControlSection h1 {
-    font-size:2.000em;
-    }
-    .sliderBanner .owl-controls {
-    margin-top:0;
-    width:60px;
-    position:absolute;
-    bottom:55px;
-    right:20px;
-    }
-    .sliderBanner .owl-nav .owl-prev::before, .sliderBanner .owl-nav .owl-next::before {
-    font-size:40px;
-    }
-    .spaceAvaibility {
-    padding:20px 0;
-    margin-top:0;
-    }
-    .spaceAvaibilityForm, .spaceAvaibilityInstruction {
-    width:100%;
-    }
-    .spaceAvaibilityForm {
-    margin-bottom:20px;
-    }
-    .blogRight {
-    padding-left:0px;
-    }
-    .trendingBox ul li {
-    border-bottom:1px solid #ccc;
-    padding-bottom:20px;
-    margin-bottom:20px;
-    }
-    .trendingBox ul li:last-child {
-    border:0px;
-    padding-bottom:0px;
-    margin-bottom:0px;
-    }
-    .view-blog .recentBlock {
-    padding:0 15px;
-    margin:0;
-    }
-    .view-blog ul.recentBlock {
-    padding:0px;
-    }
-    .recentBlock li {
-    padding:0 15px;
-    }
-    .recentBlock .recentBlogStatus li {
-    padding:0 5px;
-    }
-    .recentBlock li h4 {
-    font-size:1.3em;
-    }
-    .recentBlock .recentImage {
-    height:200px;
-    }
-    .neuronBlock .cols4:not(:last-child) {
-    margin-bottom:30px;
-    }
-    .neuronBlockBox ul {
-    text-align:center;
-    }
-    .neuronBlock .neuronImage {
-    width:100%;
-    }
-    .neuronBlock a {
-    width:100%;
-    }
-    .neuronBlock a.neuronBlueBtn {
-    width:auto;
-    }
-    .centerOfExceLft {
-    min-height:inherit;
-    }
-    .teamSlider ul li {
-    float:left;
-    }
-    .excellenceCenter .cols6 {
-    width:100%;
-    }
-    .coeCenter {
-    padding:20px 0 0;
-    text-align:center;
-    }
-    .excellenceCenter {
-    padding-bottom:20px;
-    }
-    .OpenLabOrange {
-    padding:25px;
-    margin-top:0;
-    }
-    .stateGovernmentsFull {
-    margin-top:20px;
-    margin-right:0;
-    }
-    .stateGovernmentsFull .cols6 {
-    width:100%;
-    }
-    .stateGovernmentsLeft li {
-    width:49%;
-    min-height:220px;
-    }
-    .stateGovernmentsLeft li:nth-child(2) {
-    margin-top:0;
-    }
-    .stateGovernmentsLeft li:nth-child(2)::before {
-    display:none;
-    }
-    .stateGovernmentsLeft li img {
-    max-width:100%;
-    width:50%;
-    }
-    .stateGovernmentsFull .cols6:nth-child(2) {
-    margin-left:0;
-    }
-    .stateGovernmentsRight {
-    width:100%;
-    }
-    .stateGovernmentsRight li {
-    width:49%;
-    min-height:220px;
-    }
-    .stateGovernmentsRight li:nth-child(2) {
-    margin-top:0;
-    }
-    .stateGovernmentsRight li:first-child::before {
-    display:none;
-    }
-    .stateGovernmentsRight li:nth-child(2)::before {
-    display:none;
-    }
-    .stateGovernmentsRight li img {
-    max-width:100%;
-    width:50%;
-    }
-    .devlopLeft li, .devlopRight li, .devlopBotFull li {
-    width:100%;
-    }
-    .lifecycleIconsList li {
-    width:100%;
-    }
-    .newMentors .chiefMentorLeft {
-    width:100%;
-    text-align:center;
-    }
-    .blogPostBigImg {
-    float:none;
-    margin-top:-20px;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .chiefMentoeDetail {
-    width:100%;
-    }
-    .finTech {
-    text-align:left;
-    }
-    .chiefMentoeDetail {
-    text-align:center;
-    }
-    .page-node-type-center-of-excellence .chiefMentoeDetail p {
-    text-align:center;
-    }
-    .page-node-type-center-of-excellence .chiefMentorLeft p {
-    text-align:center;
-    }
-    .qultObj {
-    max-width:100%;
-    margin:0 15px 20px;
-    float:left;
-    display:block;
-    width:auto;
-    }
-    .qultObj .objIco {
-    margin-left:0px;
-    }
-    .qultObj .objText {
-    float:none;
-    padding-left:110px;
-    width:auto;
-    }
-    .functionTab .resTab .tabContent {
-    padding:0px;
-    }
-    .functionTab .functionList {
-    padding-left:0px;
-    }
-    .knowYourMiniPage .btns {
-    margin-top:10px;
-    }
-    .timelineDateBox .cols3 {
-    width:100%;
-    padding:0 15px;
-    }
-    .timelineDateBox .cols3:not(:last-child) {
-    margin-bottom:10px;
-    padding-bottom:15px;
-    }
-    .timelineDateTex::before {
-    width:100%;
-    height:1px;
-    right:0px;
-    bottom:-15px;
-    top:inherit;
-    }
-    .ourJourney .resTab .tabContent {
-    min-height:inherit;
-    }
-    .TeamBigInfo {
-    text-align:center;
-    }
-    .teamSlider ul li {
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .TeamBigInfo ul {
-    display:inline-block;
-    vertical-align:top;
-    max-width:600px;
-    }
-    .teamSlider ul {
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    max-width:500px;
-    }
-    .teamSlider {
-    text-align:center;
-    }
-    .TeamMembersSlider .owl-controls {
-    margin-left:-40px;
-    }
-    .ourJourney .resTab .tabContent {
-    padding:30px 0;
-    }
-    .indexBanner .sliderBanner .item {
-    min-height:inherit;
-    }
-    .teamSlider {
-    min-height:2200px;
-    }
-    .teamMobSlider .teamSliderInfo {
-    text-align:center;
-    }
-    .TeamMembersSlider .photo img {
-    width:auto;
-    display:inline-block;
-    }
-    .TeamMembersSlider .photo {
-    max-width:100%;
-    box-shadow:none;
-    }
-    .journeyContent {
-    height:auto;
-    padding-right:0;
-    margin-bottom:20px;
-    }
-    .socialEngMulTab .resTab .tabNav {
-    display:block!important;
-    }
-    .socialEngMulTab .r-tabs .r-tabs-accordion-title {
-    display:none;
-    }
-    .socialEngMulTab .resTab .tabNav li a .fa {
-    font-size:30px;
-    height:50px;
-    width:50px;
-    position:relative;
-    left:-4px;
-    top:-3px;
-    }
-    .stpiAnnualReportsMain .itemListMain ul li {
-    width:100%;
-    margin:0px;
-    }
-    .objectiveCenter h2 {
-    font-size:1.3em;
-    }
-    .itemListMain ul li .textDescription {
-    width:70%;
-    }
-    .imageText .image {
-    max-width:300px;
-    }
-    .backgroundBlock p {
-    font-size:14px;
-    }
-    .qultObj {
-    min-height:auto;
-    margin:0 15px 0px;
-    width:100%;
-    }
-    .qualityContainer .row {
-    margin:0 0;
-    }
-    .aboutContentBlock .aboutText {
-    width:100%;
-    }
-    .aboutContentBlock .aboutVideo {
-    width:100%;
-    text-align:center;
-    margin-bottom:30px;
-    }
-    .qultObj {
-    margin:0px 0 20px;
-    }
-    .qualityContainer {
-    padding:0px;
-    }
-    .smoke-base .dialog {
-    left:0px;
-    margin-left:0px;
-    }
-    .finLabRight {
-    position:relative;
-    z-index:1;
-    }
-    .functionTab .count {
-    margin-right:10px;
-    font-size:1.3em;
-    }
-    .functionTab .tabTitle {
-    font-weight:normal;
-    }
-    .functionTab .resTab .r-tabs-accordion-title .r-tabs-anchor {
-    font-size:1.2em;
-    line-height:1.5;
-    background-color:#000;
-    color:#fff;
-    }
-    .functionTab .resTab .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
-    background-color:#fff;
-    color:#000;
-    }
-    .node-feedback-form .btnCaptchaRow {
-    padding:0px 15px;
-    }
-    .node-feedback-form .btnCaptchaRow {
-    display:block;
-    }
-    .node-feedback-form .btnCaptchaRow .button {
-    margin-top:0px;
-    }
-    .node-feedback-form .captcha {
-    display:inline-block;
-    vertical-align:top;
-    width:100%;
-    padding:0 50px 0 0;
-    position:relative;
-    padding-right:50px;
-    margin-bottom:10px;
-    }
-    .node-feedback-form .captcha .form-type-textfield {
-    width:100%;
-    max-width:100%;
-    padding:0px;
-    }
-    .node-feedback-form .captcha img {
-    width:150px;
-    max-width:inherit;
-    position:static;
-    text-align:center;
-    margin-bottom:10px;
-    float:left;
-    margin-top:0px;
-    }
-    .node-feedback-form .captcha label.error {
-    left:0px;
-    }
-    .node-feedback-form .reload-captcha-wrapper {
-    position:absolute;
-    right:0px;
-    top:84px;
-    margin-top:0px;
-    }
-    .node-feedback-form .captcha label.error {
-    position:static;
-    }
-    .node-feedback-form label.error {
-    left:15px;
-    }
-    .publicStaffGriOfficers ul li {
-    width:100%;
-    }
-    .publicStaffGriOfficers ul li .GrievanceOfficersLists {
-    min-height:auto;
-    }
-    .visionariesMember .teamBlock li {
-    width:100%;
-    }
-    .citizenCharter .cols6 {
-    width:100%;
-    }
-    .citizenCharter .contactUsMain ul li {
-    width:100%;
-    }
-    .contactUsMain ul {
-    margin:30px 0 0 0;
-    }
-    .page-node-173 .cols6 {
-    width:100%;
-    }
-    .path-main-visionaries p {
-    font-size:1.2em;
-    }
-    .user-login-form .captcha .form-type-textfield {
-    width:100%;
-    max-width:100%;
-    padding-right:46px;
-    }
-    .user-login-form .captcha .reload-captcha-wrapper {
-    position:absolute;
-    right:0px;
-    bottom:25px;
-    }
-    .user-login-form {
-    padding:15px;
-    }
-    .user-login-form .captcha .user-login-form label {
-    font-size:0.9em;
-    }
-    .region-subscribe-to-newsletters {
-    text-align:center;
-    }
-    .region-subscribe-to-newsletters .form-email {
-    max-width:400px;
-    }
-    .region-subscribe-to-newsletters h2 {
-    text-align:center;
-    margin-bottom:15px;
-    }
-    .region-subscribe-to-newsletters .js-form-item {
-    margin-bottom:20px;
-    width:100%;
-    max-width:100%;
-    }
-    .region-subscribe-to-newsletters .captcha {
-    width:100%;
-    max-width:100%;
-    }
-    .region-subscribe-to-newsletters .captcha .js-form-item, .region-subscribe-to-newsletters .captcha img {
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    width:auto;
-    max-width:auto;
-    }
-    .region-subscribe-to-newsletters .captcha img, .region-subscribe-to-newsletters .captcha input {
-    max-width:250px;
-    }
-    .region-subscribe-to-newsletters .js-form-submit {
-    height:auto;
-    padding:5px 20px;
-    }
-    .visionariesMember .contentMainBlock {
-    min-height:auto;
-    }
-    .view-video-gallery .views-exposed-form {
-    text-align:center;
-    }
-    .views-exposed-form .form--inline .form-item {
-    width:100%;
-    margin-bottom:20px;
-    }
-    .views-exposed-form .button {
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .views-exposed-form {
-    text-align:center;
-    }
-    .views-exposed-form .form-select {
-    margin:0px;
-    }
-    .campaignDetailsPage .detailsleft {
-    padding:20px 20px 169px 20px;
-    }
-    .campaignDetailsPage .detailsTop .detailsRight {
-    top:inherit;
-    bottom:20px;
-    right:inherit;
-    left:50%;
-    transform:translate(-50%, 0);
-    -webkit-transform:translate(-50%, 0);
-    -moz-transform:translate(-50%, 0);
-    -ms-transform:translate(-50%, 0);
-    max-width:280px;
-    }
-    .campaignDetailsPage .detailPage .field--type-image {
-    margin-bottom:0px;
-    }
-    .toggleMenu {
-    margin-right:10px;
-    }
-    .rightLinks li.search {
-    margin-right:10px;
-    }
-    .boardOfDirectors .owl-next:before {
-    top:3px;
-    }
-    .boardOfDirectors .owl-prev:before {
-    top:3px;
-    }
-    .boardOfDirectors .owl-controls {
-    top:-68px;
-    }
-    .boardOfDirectors {
-    padding:30px 0 70px;
-    }
-    .boardOfDirectors .row {
-    margin-bottom:0px;
-    }
-    .lNHeading .yellowBdrBtn {
-    position:relative;
-    top:-1px;
-    }
-    .LnewsBox {
-    margin-bottom:50px;
-    }
-    }
-    @media only screen and (max-width:699px) {
-    .newsletterPage ul li {
-    width:50%;
-    }
-    .centerOfExce .profile h4 {
-    font-size:1em;
-    }
-    .centerOfExce .profile p {
-    font-size:0.8em;
-    }
-    .impactCreated ul li::before {
-    display:none;
-    }
-    .impactCreated ul li:nth-child(2), .impactCreated ul li:nth-child(4), .impactCreated ul li:nth-child(6) {
-    top:0px;
-    }
-    .impactCreated {
-    min-height:300px
-    }
-    .impactCreated ul li {
-    width:33%;
-    }
-    .servicesWarpper a, .servicesMobSlider a {
-    height:600px;
-    }
-    .whatsNewSlider .LnewsListInfo .info {
-    padding-left:0px;
-    }
-    .LnewsListInfo .date {
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .LnewsListInfo .info {
-    padding-left:0px;
-    min-height:inherit;
-    }
-    .LnewsListInfo .info p {
-    margin-bottom:0px;
-    }
-    .newsBlog .LnewsListInfo .info {
-    padding-left:0px;
-    margin:20px 0 0 0;
-    }
-    .LnewsListInfo .photo {
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .LnewsListInfo {
-    text-align:center;
-    }
-    .LnewsListInfo .info {
-    padding-left:0px;
-    }
-    .LnewsListInfo .heading {
-    width:auto;
-    margin:20px 0;
-    }
-    .incubatees {
-    padding:20px 0 0;
-    margin-bottom:0;
-    }
-    .staffListRow .staffList {
-    margin:0;
-    }
-    .staffList li {
-    width:100%;
-    margin-bottom:20px;
-    padding:0;
-    }
-    .staffListRow .staffList li:last-child, .staffListRow .staffList li:last-child h5 {
-    margin:0;
-    }
-    .staffList li img {
-    max-width:300px;
-    }
-    .LnewsListInfo .photo {
-    width:100%;
-    max-width:200px;
-    }
-    .LnewsListInfo .photo img {
-    width:100%;
-    }
-    .LnewsListInfo .info {
-    text-align:center;
-    }
-    .centerOfExce {
-    }
-    .LnewsListInfo h4 {
-    text-align:center;
-    }
-    .LnewsListInfo h5 {
-    text-align:center;
-    }
-    .LnewsListInfo .info p {
-    text-align:left;
-    }
-    .contactUsMain ul li {
-    width:100%;
-    margin-bottom:10px;
-    }
-    .latestNewsRight .region-whats-news-section .LnewsBox {
-    padding:15px 15px 50px 15px;
-    }
-    .itemListMain ul li .textDescription {
-    width:100%;
-    }
-    .contactFullRow .contactUsMain ul li {
-    width:100%;
-    min-height:auto;
-    margin:0px 0 20px;
-    }
-    .headQuarter {
-    min-height:auto;
-    }
-    .contactUsMain ul li {
-    min-height:auto;
-    margin:0 0 10px;
-    }
-    .career-form .captcha {
-    padding-right:0px;
-    }
-    .career-form .button {
-    position:static;
-    }
-    .career-form .reload-captcha-wrapper {
-    right:0px;
-    }
-    .career-form {
-    padding:30px 15px 50px 15px;
-    }
-    .career-form .js-form-item {
-    width:100%;
-    }
-    .detailsTop {
-    text-align:center;
-    }
-    .detailsTop .detailsRight {
-    width:100%;
-    max-width:500px;
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    margin-top:30px;
-    }
-    .detailsleft li::before {
-    display:block;
-    }
-    .detailsleft li {
-    text-align:left;
-    width:50%;
-    float:left;
-    }
-    .detailsleft {
-    width:100%;
-    }
-    }
-    @media only screen and (max-width:639px) {
-    .contribution ul li { width:100%;}	
-        
-    .blueBoxInfo .cols3 { width:100%; margin-bottom:30px;}
-    .blueBoxInfo .cols9 { width:100%;}
-        
-    h3 {
-    font-size:1.6em;
-    }
-    .formList .boxs {
-    margin-left:0;
-    }
-    .formList .box {
-    float:none;
-    width:auto;
-    margin-left:0;
-    }
-    .newsLetterSub .captchaInput, .newsLetterSub .inputText1 {
-    width:100%;
-    }
-    .newsLetterSub ul li:first-child {
-    margin-bottom:20px;
-    }
-    .newsLetterSub ul li:nth-child(2) {
-    width:100%;
-    }
-    .newsLetterSub ul li {
-    width:100%;
-    margin-bottom:10px;
-    }
-    .newsLetterSub ul li:last-child {
-    margin-top:0px;
-    }
-    .ministerInfo {
-    padding:20px;
-    height:auto;
-    text-align:center;
-    }
-    .ministerInfo .photo {
-    position:static;
-    display:inline-block;
-    vertical-align:top;
-    width:100px;
-    height:auto;
-    min-height:inherit;
-    }
-    .ministerInfo .photo img {
-    height:auto;
-    min-height:inherit;
-    }
-    .ministerInfo .info {
-    width:100%;
-    text-align:center;
-    margin:20px 0 0 0;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .mainMinister .ministerInfo .photo {
-    width:150px;
-    height:auto;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .mainMinister .ministerInfo {
-    text-align:center;
-    }
-    .innerPageContent h4 {
-    font-size:20px;
-    }
-    .innerPageContent .eventPostInfo {
-    text-align:center;
-    }
-    .innerPageContent .eventPostInfo .photo {
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .innerPageContent .eventPostInfo .info {
-    padding-left:0px;
-    min-height:inherit;
-    width:100%;
-    text-align:center;
-    clear:both;
-    margin:20px 0 0 0;
-    }
-    .innerPageContent .eventPostInfo .info h5 {
-    margin-bottom:0px;
-    }
-    .innerPageContent .eventPostInfo .date {
-    margin-bottom:10px;
-    }
-    .innerPageContent .eventPostInfo h4 {
-    margin-bottom:0px;
-    }
-    .pageControlSection h2 {
-    font-size:1.6em;
-    margin-top:50px;
-    }
-    .neuronBlock .cols4 {
-    width:100%;
-    }
-    .neuronBlock {
-    text-align:center;
-    }
-    .neuronBlock li .neuronIn {
-    display:inline-block;
-    vertical-align:top;
-    }
-    .neuronBlock li.cols4:not(:last-child) {
-    margin-bottom:30px;
-    }
-    .footerLinks .cols2, .footerLinks .cols3 {
-    text-align:left;
-    width:50%;
-    min-height:inherit;
-    min-height:340px;
-    }
-    .bODMemInfo .mainPhoto {
-    max-width:150px;
-    }
-    #ajax-wrapper .js-form-item {
-    width:100%;
-    }
-    .objectiveBlock li {
-    width:100%;
-    }
-    .totalSpaceCaption {
-    padding:20px;
-    }
-    .totalCounter {
-    padding:10px;
-    margin:20px;
-    }
-    .totalCounter li {
-    width:auto;
-    padding:0 25px 0;
-    min-height:auto;
-    float:none;
-    display:inline-block;
-    }
-    .totalCounter li:nth-child(-n+5):before, .totalCounter li:nth-child(-n+3):after {
-    display:none;
-    }
-    .neuronIn .neuroText h4 {
-    font-size:1em;
-    }
-    .teamBlock li {
-    width:100%;
-    text-align:center;
-    }
-    .teamBlock li .contentMainBlock {
-    min-height:inherit;
-    max-width:100%;
-    display:inline-block;
-    vertical-align:top;
-    width:100%;
-    }
-    .teamImage img {
-    border:2px solid #E9E9E9;
-    }
-    .teamBlock li .contentMainBlock p {
-    text-align:center;
-    }
-    .visionariesMember .recentBlock li {
-    width:100%;
-    padding:0px;
-    }
-    .visionariesMember .recentBlock {
-    padding:0px;
-    }
-    .imageInfoCover .contentInfo {
-    width:100%;
-    border-bottom:1px solid #ccc;
-    margin-bottom:30px;
-    padding-bottom:30px;
-    }
-    .imageInfoCover .image {
-    width:100%;
-    text-align:center;
-    }
-    .imageInfoCover .image img {
-    max-width:300px;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .imageInfoCover .contentInfo::before {
-    display:none;
-    }
-    .imageInfoCover {
-    padding:15px;
-    }
-    .innerPageContent .eventPostInfo h4 {
-    margin-bottom:10px;
-    }
-    .innerPageContent .eventPostInfo .date {
-    margin-bottom:10px;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .innerPageContent .eventPostInfo p {
-    margin-bottom:0px;
-    }
-    .path-video-gallery .videoGallery li, .video-listing .video-section li, .view-photo-gallery ul li {
-    width:100%;
-    float:none;
-    max-width:400px;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .path-video-gallery .videoGallery, .video-listing .video-section, .view-photo-gallery ul {
-    text-align:center;
-    }
-    .btnCaptchaRow .js-form-item {
-    padding-left:0px;
-    }
-    .ourService .servicesMobSlider .owl-prev:before, .ourService .servicesMobSlider .owl-next:before {
-    font-size:30px;
-    }
-    .imageText .image {
-    max-width:100%;
-    width:100%;
-    margin-bottom:10px;
-    }
-    .ministerDetails .ministerDRgt {
-    padding-left:0px;
-    text-align:center;
-    }
-    .ministerDetails .ministerDLft {
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    margin-bottom:20px;
-    }
-    .ministerDetails .ministerDTop {
-    text-align:center;
-    }
-    .page-node-type-photo-gallery .photoGallery {
-    text-align:center;
-    }
-    .page-node-type-photo-gallery .photoGallery li {
-    width:100%;
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    max-width:300px;
-    }
-    .spaceAvaibilityForm .js-form-type-email, .spaceAvaibilityForm .js-form-type-textfield {
-    width:100%;
-    }
-    .career-form .captcha img {
-    position:static;
-    margin-bottom:10px;
-    }
-    .career-form .captcha {
-    padding-left:0px;
-    }
-    .career-form .captcha label.error {
-    left:0px;
-    position:static;
-    }
-    .newsLetterSub ul li:nth-child(2) {
-    width:100%;
-    max-width:100%;
-    }
-    .detailsleft li {
-    width:100%;
-    border-bottom:1px solid #ccc;
-    padding:5px 0;
-    }
-    .detailsleft li:last-child {
-    border-bottom:0px;
-    }
-    .detailsleft li::before, .detailsleft li:nth-child(4n)::before, .detailsleft li:nth-child(3n)::before, .detailsleft li:last-child::before {
-    display:none;
-    }
-    .detailsleft {
-    padding:15px;
-    }
-    .detailsTop h2 {
-    font-size:1.3em;
-    }
-    .page-views-listing .innerPageContent .eventPostInfo {
-    width:100%;
-    max-width:400px;
-    text-align:left;
-    margin-bottom:20px;
-    display:inline-block;
-    vertical-align:top;
-    float:none;
-    padding:0px;
-    }
-    .page-views-listing .innerPageContent .eventPostInfo .info {
-    padding:15px;
-    text-align:left;
-    }
-    .page-views-listing .eventDetailpage {
-    text-align:center;
-    }
-    .recentBlock li:nth-child(2n+1) {
-    width:100%;
-    }
-    .recentBlock li {
-    width:100%;
-    max-width:400px;
-    float:none;
-    display:inline-block;
-    }
-    .view-blog ul.recentBlock {
-    text-align:center;
-    }
-    .career-form .reload-captcha-wrapper {
-    top:82px;
-    }
-    .tenderDates .tenderDate {
-    width:100%;
-    }
-    .tenderHeading .tenderTitle {
-    font-size:16px;
-    }
-    }
-    @media only screen and (max-width:600px) {
-    .region-primary-menu #nav {
-    top:44px;
-    }
-    .headerLeft {
-    width:100%;
-    max-width:100%;
-    text-align:center;
-    margin-top:50px;
-    border-top:1px solid rgba(255, 255, 255, 0.2);
-    padding-top:20px;
-    }
-    #header.sticky #logo {
-    max-width:100%;
-    }
-    .newsLetterSub ul li:nth-child(2) {
-    width:100%;
-    }
-    .newsLetterSub ul li {
-    width:100%;
-    }
-    .newsLetterSub ul li:not(:last-child) {
-    margin-bottom:10px;
-    }
-    .teamSlider ul li {
-    width:100%;
-    border-bottom:1px solid #ccc;
-    margin-bottom:30px;
-    padding-bottom:20px;
-    }
-    .ourTeam .photo img {
-    max-width:200px;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .teamSlider .photo {
-    display:inline-block;
-    vertical-align:top;
-    }
-    .ourTeam .photo {
-    display:inline-block;
-    vertical-align:top;
-    }
-    .eventPostInfo {
-    text-align:center;
-    border-bottom:1px solid #ccc;
-    padding-bottom:30px;
-    margin-bottom:30px;
-    }
-    .eventPostInfo .info {
-    padding-left:0px;
-    width:100%;
-    text-align:center;
-    min-height:inherit;
-    }
-    .eventPostInfo .photo {
-    float:none;
-    width:100%;
-    margin-bottom:10px;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .eventPostInfo .info h5 {
-    margin-bottom:0px;
-    }
-    .resTab .r-tabs-accordion-title .r-tabs-anchor h4 {
-    font-size:1.3em;
-    }
-    .eventsCampaigns .eventsBox {
-    padding:15px;
-    }
-    .eventPostInfo .info h5 {
-    font-size:1em;
-    }
-    .campaignsInfo h5 {
-    font-size:1em;
-    }
+  }
+  .directorateInfo {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .directorateInfo {
+    width: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+  }
+  .panIndia {
+    text-align: center;
+  }
+  .panIndia .col-md-4 {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+  }
+  /* directorate page */
+}
+@media only screen and (min-width: 1024px) {
+  #header.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  }
+  * {
+    transition: all 0.3s;
+  }
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  #header.sticky #logo {
+    width: 400px;
+    height: 60px;
+    background-image: url(https://stpi.in/themes/stpi/images/logo-sticky.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: auto 60px;
+    margin-top: 5px;
+  }
+  .lang-hi #header.sticky #normal a {
+    background-image: url(https://stpi.in/themes/stpi/images/STPI_Corporate_Blue-Hindi-Logo.png);
+    display: inline-block;
+    vertical-align: top;
+  }
+  #header.sticky img {
+    opacity: 0;
+  }
+  #header.sticky .mainNavigation {
+    margin: 4px 0 0 0;
+  }
+  #header.sticky a {
+    color: #000;
+  }
+  #header.sticky li ul a {
+    color: #fff;
+  }
+  #header.sticky #accessControl input {
+    color: #000;
+  }
+  #header.sticky .langDropDown .links a {
+    color: #000;
+  }
+  #header.sticky .rightLinks li a {
+    color: #000;
+  }
+  #header.sticky .megaMenu:hover {
+    color: #fff;
+  }
+  #header.sticky #accessControl .contrastChanger.normal {
+    background-size: 12px;
+    background-position: 1px 0px;
+  }
+  #header.sticky #nav li a.is-active {
+    color: #183f8c;
+    position: relative;
+  }
+  #header.sticky #nav li a.is-active:before {
+    width: 100%;
+    height: 3px;
+    background-color: #ffc600;
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+  #header.sticky .megaMenu {
+    border-color: #000;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .incubFeatuColInfo p {
+    font-size: 1em;
+  }
+  .page-node-167 .visionariesMember .contentMainBlock {
+    min-height: 315px;
+  }
+  .serviceCaption p {
+    font-size: 1em;
+  }
+  .lNHeading h2 {
+    font-size: 1.6em;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .impactCreatedText .count {
+    font-size: 1.6em;
+  }
+  .contributionBox {
+    min-height: 120px;
+  }
+
+  .headerLeft {
+    width: 35%;
+    max-width: 35%;
+  }
+  .headerLeft img {
+    max-width: 100%;
+  }
+  .headerRight {
+    width: 65%;
+    max-width: 65%;
+  }
+  #nav li a {
+    font-size: 15px;
+    padding: 5px 8px;
+  }
+  .mainNavigation {
+    margin: 7px 0 0 0;
+  }
+  .bannerCaption .bannerTitle {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  .container {
+    padding: 0 15px;
+  }
+  .directorateLft h2 {
+    font-size: 2em;
+  }
+  .directorateInfo {
+    height: 100%;
+    padding: 30px 20px;
+  }
+  .mapInfo {
+    margin: 30px 0 0;
+  }
+  .panIndia {
+    height: auto;
+    position: relative;
+    padding: 0 15px;
+  }
+  .directorateInfo {
+    position: relative;
+    right: -30px;
+    top: 0px;
+    width: 100%;
+    height: 865px;
+  }
+  .directorateLft {
+    padding: 70px 0;
+  }
+  .directorateLft .selectInfo ul {
+    margin: 0px;
+  }
+  .serviceCaption h3 {
+    font-size: 2em;
+  }
+  .knowYourMinisters {
+    padding: 25px 0 30px;
+  }
+  .knowYourMinisters h2 {
+    padding: 0 15px;
+    margin-bottom: 10px;
+  }
+  .knowYourMinisters .row {
+    margin-bottom: 0px;
+  }
+  .otherMinisters .ministerInfo:last-child {
+    margin-bottom: 0px;
+  }
+  .ministerBottomInfo p,
+  .ministerInfo .info p {
+    font-size: 1em;
+  }
+  .centerOfExce {
+    padding: 30px 0;
+  }
+  .boardOfDirectors {
+    padding: 30px 0 70px;
+  }
+  .socialEngagement {
+    padding: 30px 0 20px;
+  }
+  .latestNews {
+    padding: 30px 0;
+  }
+  .lNHeading {
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  .lNHeading .yellowBdrBtn {
+    margin: 0px;
+  }
+  .latestNewsRight .region-whats-news-section {
+    margin-bottom: 81px;
+  }
+  .latestNewsRight .LnewsBox {
+    margin-bottom: 0px;
+  }
+  .latestNews .row {
+    margin-bottom: 0px;
+  }
+  .eventsCampaigns {
+    padding: 30px 0;
+  }
+  .campainImage {
+    max-width: 500px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 223px;
+  }
+  .eventPostInfo .photo {
+    width: 40%;
+  }
+  .eventPostInfo .info {
+    padding-left: 44%;
+  }
+  .campaingsSlider {
+    text-align: center;
+  }
+  .campaingsSlider .owl-controls {
+    top: 278px;
+  }
+  .campaignsInfo h5 {
+    margin-bottom: 0px;
+  }
+  .campaignsInfo .row {
+    margin-bottom: 0px;
+  }
+  .bODSlider {
+    bottom: -15px;
+  }
+  .eventPostInfo h4 {
+    font-size: 1.2em;
+  }
+  .impactCreated {
+    padding: 30px 0;
+    min-height: 600px;
+  }
+  .impactCreated h2 {
+    font-size: 2em;
+  }
+  .impactCreated ul li p {
+    font-size: 1.3em;
+  }
+  .ourTeam {
+    padding: 30px 0 0 0;
+  }
+  .teamSlider ul {
+    margin: 0 -2%;
+    padding: 0px;
+    float: right;
+  }
+  .TeamBigInfo ul li {
+    width: 50%;
+    padding: 0 10px;
+  }
+  .teamSlider ul li {
+    width: 32.7%;
+    padding: 0 2%;
+  }
+  .teamSlider p {
+    margin-bottom: 0px;
+  }
+  .TeamMembersSlider .owl-controls .owl-nav {
+    margin-left: 0px;
+  }
+  .footerButtons {
+    margin-top: 0px;
+  }
+  .newsLetterSub ul {
+    width: 100%;
+    text-align: center;
+  }
+  .newsLetterSub ul li:nth-child(2) {
+    max-width: 200px;
+    width: 100%;
+  }
+  .teamSlider ul li {
+    margin: 0px 0 20px;
+  }
+  .teamSlider ul {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .teamBlock .teamName {
+    margin-bottom: 0;
+  }
+  .teamBlock .teamDg {
+    margin-bottom: 0px;
+  }
+  .teamBlock li {
+  }
+  .teamBlock .socialIcone ul li {
+    min-height: inherit;
+  }
+  .teamBlockBox {
+    padding: 30px 0;
+  }
+  .pageControlSection h2 {
+    font-size: 2.5em;
+    line-height: 1.2;
+  }
+  .innerPageContent {
+    padding: 30px 0;
+  }
+  .views-exposed-form {
+    margin-bottom: 30px;
+  }
+  .socialIcone li {
+    min-height: inherit;
+  }
+  .neuronBlockBox {
+    padding: 0px;
+  }
+  .innerPageContent h3 {
+    font-size: 1.6em;
+  }
+  .stpiOpenChallImgHolder {
+    width: 40%;
+    background-repeat: no-repeat;
+  }
+  .stpiOpenChallImgHolder img {
+    display: none;
+  }
+  .stpiNeuronRecCamp {
+    padding-left: 42%;
+    text-align: left;
+  }
+  .stpiNeuronRecCamp .neuronRecDetails {
+    padding: 20px 15px;
+  }
+  .stpiNeuron .stpiOpenChall {
+    width: auto;
+  }
+  .stpiNeuron .stpiOpenChall {
+    height: 337px;
+  }
+  .neuroText h4 {
+    font-size: 1.3em;
+  }
+  .neuronBlockBox ul {
+    padding: 0 15px;
+  }
+  .neuronIn .neuronBoxDetails {
+    padding: 15px;
+  }
+  .innerPageContent h4 {
+    font-size: 1.2em;
+    line-height: 1.2;
+  }
+  .blogBox .blogLeft {
+    width: 60%;
+  }
+  .blogBox .blogRight {
+    width: 38%;
+  }
+  .recentBlockBox {
+    padding: 30px 0;
+  }
+  .recentblogSlider .owl-prev::before,
+  .recentblogSlider .owl-next::before {
+    font-size: 3em;
+  }
+  .recentblogSlider .owl-controls {
+    top: -79px;
+  }
+  .blogBox {
+    padding: 30px 0;
+  }
+  .node-feedback-form .js-form-item {
+  }
+  .finTech {
+    padding: 0;
+  }
+  .finLab {
+    margin-top: 0;
+  }
+  .finLabRight {
+    margin-top: 0;
+  }
+  .stpiCentersSlider .resTab::before,
+  .stpiCentersSlider .resTab::after {
+    display: none;
+    left: 0px;
+    width: 100%;
+  }
+  .stpiCentersSlider .resTab .tabNav::before {
+    left: 0px;
+    width: 100%;
+  }
+  .stpiCentersSlider .resTab .tabNav {
+    padding: 0px;
+  }
+  .stpiCentersSlider .owl-prev::before {
+    position: absolute;
+    left: -16px;
+  }
+  .stpiCentersSlider .resTab .tabNav {
+    padding: 0 50px;
+  }
+  .centerOfExce .profilesInfo li {
+    width: 100%;
+    max-width: 500px;
+    padding: 0px;
+    margin-bottom: 10px;
+  }
+  .incubatees {
+    padding: 50px 0 0;
+    margin: 0px;
+  }
+  .knowYourMiniPage .teamBlock {
+    margin-top: 0px;
+  }
+  .knowYourMiniPage .teamBlockBox {
+    padding: 0px;
+  }
+  .views-exposed-form {
+    margin-bottom: 0px;
+  }
+  .knowYourMiniPage .teamBlock li:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .neuronBlock li .neuronIn {
+    min-height: 442px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .timelineDateBox .timelineDateTex {
+    padding: 0 0;
+  }
+  .timelineDateBox .cols3 {
+    padding-right: 15px;
+  }
+  .timelineDateBox .timelineDate {
+    font-size: 1.2em;
+  }
+  .timelineDateBox span {
+    font-size: 1em;
+  }
+  .path-video-gallery .videoGallery .imgStyle,
+  .video-listing .video-section li .imgStyle,
+  .view-photo-gallery .imgStyle {
+    height: 230px;
+  }
+  .path-video-gallery .videoGallery .imgStyle img,
+  .video-listing .video-section li .imgStyle img,
+  .view-photo-gallery .imgStyle img {
+    min-height: 230px;
+  }
+  .ourJourney .resTab .tabContent {
+    min-height: auto;
+  }
+  .teamSlider .photo {
+    box-shadow: none;
+  }
+  .campaignsInfo {
+    margin: 135px 0 0 3px;
+  }
+  .centerOfExceRgt {
+    width: 47%;
+  }
+  .centerOfExceRgt p {
+    text-align: left;
+  }
+  .ourJourney .resTab .tabContent {
+    overflow: auto;
+  }
+  .teamSlider {
+    min-height: 592px;
+  }
+  .teamSlider .owl-controls {
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    transform: none;
+    top: -76px;
+  }
+  .teamSlider p {
+    line-height: 1.2;
+    margin: 5px 0 0 0;
+  }
+  .ministerInfo {
+    padding: 18px 20px 15px 220px;
+  }
+  .ministerInfo h4 {
+    margin-bottom: 0px;
+  }
+  .ministerBottomInfo {
+    min-height: 229px;
+  }
+  .impactCreated ul li {
+    max-width: 155px;
+  }
+  .staffList li h3 {
+    font-size: 1.3em;
+  }
+  .staffList li h5 {
+    font-size: 1em;
+    color: #3737a8;
+    font-weight: 600;
+  }
+  .staffList li {
+    padding: 0px 10px;
+  }
+  .staffList {
+    margin: 0 -10px;
+  }
+  .directorateLft .selectInfo {
+    margin-top: 30px;
+  }
+  .backgroundBlock {
+    padding: 30px 20px;
+  }
+  .aboutContentBlock .aboutVideo {
+    top: -89px;
+    right: -25px;
+  }
+  .aboutContentBlock .aboutText {
+    padding: 10px 0px 30px 0px;
+  }
+  .spaceAvaibilityForm .js-form-item {
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .spaceAvaibilityForm .js-form-item label.error {
+    position: absolute;
+    left: 3px;
+    bottom: 0px;
+  }
+  .spaceAvaibilityForm .captcha {
+    padding: 0px 40px 0 0;
+    width: 100%;
+  }
+  .spaceAvaibilityForm .captcha .js-form-item {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 0;
+  }
+  .spaceAvaibilityForm .captcha .reload-captcha-wrapper {
+    position: absolute;
+    right: 0px;
+    top: 40px;
+  }
+  .spaceAvaibilityForm .captcha .js-form-item label.error {
+    position: static;
+  }
+  .spaceAvaibilityForm .captcha .description {
+    text-align: left;
+    position: static;
+  }
+  .footerCopyright {
+    text-align: center;
+  }
+  .region-footer-menu {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  footer .footerCopyright .cols10,
+  footer .footerCopyright .cols2 {
+    width: 100%;
+    text-align: center;
+  }
+  .visitorsCounter {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .region-secondary-menu {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .footerCopyright .region-secondary-menu a {
+    padding: 5px 0;
+    margin: 0px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: -6px;
+  }
+  .footerCopyright a:hover {
+    color: #fdb913;
+  }
+  .footerCopyright .region-secondary-menu a:hover {
+    color: #fdb913;
+  }
+  .visionariesMember .contentMainBlock {
+    min-height: 373px;
+  }
+  .page-views-listing .eventPostInfo .photo {
+    height: 189px;
+  }
+  .trendingBox ul li {
+    margin-bottom: 20px;
+  }
+  .path-directorate-events .innerPageContent .eventPostInfo {
+    width: 33%;
+  }
+  .visionariesMember .contentMainBlock {
+    min-height: 430px;
+  }
+  .neuronIn .neuronBoxDetails .socialIcone {
+    bottom: 26px;
+    right: 15px;
+  }
+  .campaignDetailsPage .detailsTop .detailsRight {
+    width: 350px;
+  }
+  .campaignDetailsPage .detailsleft {
+    padding: 30px 380px 30px 25px;
+  }
+  .centerOfExce h2 {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .ourJourney .resTab .tabNav li a {
+    font-size: 2em;
+  }
+  .ourJourney .resTab .tabNav::before {
+    height: 57px;
+  }
+  .ourJourney .owl-theme .owl-controls {
+    margin-bottom: 0px;
+  }
+  .ourJourney .owl-controls .owl-nav [class*="owl-"] {
+    top: 42%;
+  }
+  .ourJourney .resTab .tabNav {
+    top: 20px;
+  }
+  .eventsCampaigns .campaignsRgt {
+    width: 50%;
+  }
+  .knowYourMiniPage .teamBlock li {
+    padding: 30px;
+  }
+  .knowYourMiniPage .teamBlock .teamImage {
+    margin: 0px;
+    width: 150px;
+  }
+  .knowYourMiniPage .teamInfo {
+    padding-left: 170px;
+  }
+  .fontResizeInfo,
+  .fontResize {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .contribution ul li {
+    width: 33%;
+  }
+
+  ul.blueBoxInfoTxt li {
+    width: 48%;
+    margin: 0px 1% 20px;
+  }
+
+  .sliderBanner .owl-nav .owl-prev {
+    left: 0px;
+  }
+  .sliderBanner .owl-nav .owl-next {
+    right: 0px;
+  }
+  .bannerCaption p {
+    margin-bottom: 20px;
+  }
+  .rightLinks .langDropDown li {
+    display: block;
+  }
+  .bannerCaption .bannerTitle {
+    font-size: 2em;
+  }
+  .panIndia .cols4 {
+    width: 33.33%;
+  }
+  .directorateProInfo {
+    padding-left: 0px;
+  }
+  .directorateProInfo h5 {
+    margin-bottom: 20px;
+  }
+  .dirContactInfo li {
+    font-size: 1em;
+  }
+  .dirContactInfo li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .serviceCaption h3 {
+    font-size: 2em;
+  }
+  .serviceCaption {
+    padding: 0 15px;
+  }
+  .newsLetterSub h3 {
+    font-size: 1.6em;
+    margin: 10px 0 0 0;
+  }
+  .newsLetterSub ul li:nth-child(2) {
+    width: auto;
+  }
+  .newsLetterSub .inputText1 {
+    width: 162px;
+  }
+  .yellowBtn {
+    padding: 0 20px;
+  }
+  .newsLetterSub .captchaInput .captchaSub {
+    float: left;
+  }
+  .newsLetterSub .captchaInput {
+    width: 194px;
+  }
+  .socialFooter .info h3 {
+    font-size: 1.8em;
+  }
+  .socialFooter .logo {
+    margin-right: 10px;
+  }
+  .socialsListIcons li a {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .socialsListIcons {
+    margin: 10px 0 0 -2px;
+  }
+  .socialFooter .info {
+    padding-left: 170px;
+  }
+  .TeamBigInfo h4 {
+    font-size: 1.2em;
+  }
+  .path-main-stpi-team .contentMainBlock {
+    min-height: 469px;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+  .eventsCampaigns {
+    padding: 30px 0;
+  }
+  .campainImage {
+    max-width: 400px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 178px;
+  }
+  .campaingsSlider .owl-controls {
+    top: 235px;
+  }
+  .eventsCampaigns .resTab .tabNav li h4 {
+    font-size: 1.7em;
+  }
+  .impactCreated {
+    padding: 30px 0;
+  }
+  .impactCreated ul li {
+    padding: 0 5px;
+  }
+  .impactCreated ul li:nth-child(2),
+  .impactCreated ul li:nth-child(4),
+  .impactCreated ul li:nth-child(6) {
+    top: 0px;
+  }
+  .impactCreated ul li p {
+    width: auto;
+  }
+  .impactCreatedText .count {
+    font-size: 2em;
+  }
+  .LnewsBox {
+    padding: 15px;
+  }
+  .LnewsListInfo .info {
+    padding-left: 215px;
+    text-align: left;
+  }
+  h4 {
+    font-size: 1.3em;
+    line-height: 1.2;
+  }
+  .LnewsListInfo h5,
+  .latestNewsRight .LnewsBox p {
+    font-size: 1em;
+  }
+  .latestNews .cols8 {
+    width: 60%;
+  }
+  .latestNews .cols4 {
+    width: 40%;
+  }
+  .latestNewsRight .region-whats-news-section {
+    margin-bottom: 20px;
+  }
+  .latestNews {
+    padding: 30px 0;
+  }
+  .socialEngagement {
+    margin: 0px;
+    padding: 30px 0;
+  }
+  .socialEngCover iframe {
+    width: 100%;
+  }
+  .socialEngCover {
+    height: 406px;
+    overflow: auto;
+  }
+  .socialEngMulTab .socialEngCover {
+    height: 340px;
+    overflow: auto;
+  }
+  .bODSlider {
+    position: static;
+    margin-left: 0px;
+    max-width: inherit;
+  }
+  .boardOfDirectors {
+    padding: 30px 0 70px;
+  }
+  .boardOfDirectors p {
+    margin-bottom: 0px;
+  }
+  .rotatingMobSlider {
+    display: block !important;
+    padding: 0 50px;
+    margin-bottom: 50px;
+  }
+  .rotating-slider {
+    display: none;
+  }
+  .rotatingMobSlider .item {
+    height: auto;
+    line-height: inherit;
+  }
+  .rotatingMobSlider h2 {
+    margin-bottom: 0px;
+  }
+  .rotatingMobSlider a {
+    text-decoration: none;
+  }
+  .rotatingMobSlider .active h2 {
+    background-color: #1f1f62;
+    color: #fff;
+  }
+  .rotatingMobSlider .owl-prev {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .rotatingMobSlider .owl-next {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .rotatingMobSlider .owl-prev::before {
+    content: "\f104";
+    font-family: fontAwesome;
+    background-color: transparent;
+    position: absolute;
+    left: 0px;
+    top: 0;
+  }
+  .rotatingMobSlider .owl-next::before {
+    content: "\f105";
+    font-family: fontAwesome;
+    background-color: transparent;
+    position: absolute;
+    right: 0px;
+    top: 0;
+  }
+  .rotatingMobSlider .owl-controls .owl-nav [class*="owl-"] {
+    background: transparent;
+    text-indent: -9999px;
+    overflow: hidden;
+  }
+  .rotatingMobSlider .owl-controls .owl-nav [class*="owl-"]:before {
+    font-size: 2em;
+    text-indent: 0px;
+    color: #fff;
+    margin-top: -6px;
+  }
+  .rotatingMobSlider .owl-controls .owl-nav [class*="owl-"]:hover {
+    background: transparent;
+  }
+  .rotatingMobSlider .selected h2 {
+    background-color: #ffc20e;
+    color: #1f1f62;
+  }
+  .centerOfExce .profile h4 {
+    font-size: 1.2em;
+  }
+  .rotatingMobSlider a {
+    cursor: pointer;
+  }
+  .rotatingMobSlider a:hover h2 {
+    background-color: #fff;
+    color: #1f1f62;
+  }
+  .rotatingMobSlider h2 {
+    font-size: 1.5em;
+  }
+  .centerOfExce .centerOfExceLft {
+    width: 30%;
+  }
+  .centerOfExce .centerOfExceRgt {
+    width: 70%;
+    text-align: left;
+  }
+  .centerOfExceLft::before {
+    display: none;
+  }
+  .cOEachievements ul {
+    width: 100%;
+  }
+  .centerOfExceRgt .topInfo {
+    max-width: 100%;
+  }
+  .centerOfExce .btns .yellowBdrBtn {
+    position: static;
+  }
+  .pageControlSection h2 {
+    font-size: 2em;
+  }
+  .innerBannerSection > img {
+    min-height: 250px;
+  }
+  .stpiNeuron p {
+    font-size: 1.1em;
+  }
+  .footerLinks h3 {
+    font-size: 1.5em;
+  }
+  .centerOfExce .profilesInfo li {
+    width: 100%;
+    max-width: 500px;
+    margin-right: 10px;
+  }
+  .centerOfExce .profilesInfo li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .centerOfExce .profile .info {
+    padding: 22px 0 0 114px;
+    text-align: left;
+  }
+  .centerOfExce {
+    text-align: center;
+  }
+  .centerOfExce .profilesInfo,
+  .centerOfExce .btns {
+    text-align: left;
+  }
+  .newFacility .facilitiesServices {
+    padding: 30px 0;
+  }
+  .chiefMentorLeft {
+    padding: 30px 15px;
+  }
+  .highlights {
+    padding: 30px 0 70px;
+  }
+  .finTech h2 {
+    margin-bottom: 10px;
+  }
+
+  .fosteringCenter {
+    padding: 10px 0 30px;
+  }
+
+  .spaceAvaibilityInstruction {
+    width: 65%;
+  }
+  .boardOfDirectors .owl-controls {
+    right: 10px;
+  }
+  .latestNewsRight .region-whats-news-section .LnewsBox {
+    margin-bottom: 101px;
+  }
+  .headQuarter p {
+    font-size: 1em;
+  }
+  .headQuarter .conStpi {
+    line-height: 1.1;
+  }
+  .contactUsMain ul li {
+    line-height: 1em;
+  }
+  .contactUsMain ul li .personName {
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .headQuarter .hqTitle {
+    margin-bottom: 10px;
+  }
+  .detailsleft li {
+    width: 33%;
+  }
+  .detailsleft li:nth-child(3n + 0):before {
+    display: none;
+  }
+  .detailsleft li:nth-child(4n + 0):before {
+    display: block;
+  }
+  .recentBlock .recentImage {
+    height: 199px;
+  }
+  .region-subscribe-to-newsletters h2 {
+    font-size: 1.6em;
+    margin-top: 5px;
+  }
+  .region-subscribe-to-newsletters .form-email {
+    max-width: 200px;
+  }
+  .campaignDetailsPage .detailsTop h2 {
+    font-size: 1.4em;
+    line-height: 1.3;
+  }
+}
+@media only screen and (max-width: 1170px) {
+  .blueBoxInfo .cols3 {
+    width: 35%;
+  }
+  .blueBoxInfo .cols9 {
+    width: 65%;
+  }
+
+  .spaceAvaibility {
+    margin-top: 0px;
+  }
+  .totalSpace {
+    background: #ededee;
+  }
+  .directorateHead {
+    padding: 5px 60px 5px 60px;
+    border-radius: 15px;
+    margin-left: 0px;
+  }
+  .footerCopyright .region-secondary-menu {
+    display: none;
+  }
+  .incubFeatuCol {
+    width: 50%;
+  }
+  .ourService .servicesMobSlider {
+    display: block;
+  }
+  .ourService .servicesWarpper {
+    display: none !important;
+  }
+  .aboutContentBlock .aboutVideo {
+    position: inherit;
+    top: auto;
+    right: auto;
+    width: 36%;
+    max-width: 100%;
+    text-align: center;
+    float: right;
+  }
+  .aboutContentBlock .aboutText {
+    max-width: 100%;
+    width: 60%;
+    padding: 0 0 20px;
+    float: left;
+  }
+  .aboutContentBlock .aboutVideo::after {
+    display: none;
+  }
+  .objectOutcomes {
+    margin-bottom: 20px;
+  }
+  .objectOutcomesDevlop p {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .objectOutcomesDevlop p br {
+    display: none;
+  }
+  .devlopLeft {
+    padding: 0 15px;
+    width: 100%;
+    float: left;
+    margin: 0;
+  }
+  .devlopLeft li {
+    max-width: 100%;
+    width: 48%;
+    float: left;
+  }
+  .devlopLeft li:nth-child(2) {
+    max-width: 100%;
+    float: right;
+    margin-bottom: 35px;
+    margin-right: 0;
+  }
+  .devlopLeft .rightIconsAfter {
+    position: inherit;
+    right: inherit;
+    top: inherit;
+    margin: 0 auto;
+    display: block;
+  }
+  .devlopLeft li:after {
+    display: none;
+  }
+  .devlopRight {
+    padding: 0 15px;
+    width: 100%;
+    float: left;
+    margin: 0;
+  }
+  .devlopRight li {
+    max-width: 100%;
+    width: 48%;
+    float: left;
+  }
+  .devlopRight li:nth-child(2) {
+    max-width: 100%;
+    float: right;
+    margin-bottom: 35px;
+    margin-right: 0;
+  }
+  .devlopRight .rightIconsAfter {
+    position: inherit;
+    right: inherit;
+    top: inherit;
+    margin: 0 auto;
+    display: block;
+    left: auto;
+  }
+  .devlopRight li:before {
+    display: none;
+  }
+  .devlopBotFull {
+    padding: 0 15px;
+    width: 100%;
+    float: left;
+    margin: 0;
+  }
+  .devlopBotFull li {
+    max-width: 100%;
+    width: 48%;
+    float: left;
+  }
+  .devlopBotFull .rightIconsAfter {
+    position: inherit;
+    right: inherit;
+    top: inherit;
+    margin: 0 auto;
+    display: block;
+  }
+  .devlopBotFull li:before {
+    display: none;
+  }
+  .ojectoutCenterFull::before {
+    display: none;
+  }
+  .ojectoutCenterFull {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    position: inherit;
+    border: none;
+    border-radius: 0;
+    margin-top: 0;
+    background-color: #fbfbfb;
+    height: auto;
+  }
+  .ojectoutCenter {
+    margin: 0 auto 30px;
+    text-align: center;
+    width: auto;
+    padding: 20px 0 0;
+    background-color: #fff;
+    box-shadow: none;
+    border-radius: 0;
+    height: auto;
+  }
+  .ojectoutCenter h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .typicalObjective {
+    padding: 20px 0 10px;
+  }
+  .objectiveCenter {
+    padding: 0 20px;
+    min-height: auto;
+  }
+  .objectiveCenter p {
+    padding: 0;
+  }
+  .lifecycleTop {
+    margin-top: 0;
+  }
+  .lifecycleTitle {
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .lifecycleTitle:before {
+    display: none;
+  }
+  .lifecycleIcons {
+    padding: 0;
+    box-shadow: none;
+    float: left;
+  }
+  .topList {
+    position: inherit;
+    bottom: 0;
+  }
+  .lifecycleIconsList {
+    margin-top: 50px;
+  }
+  .lifecycleIconsList li {
+    width: 25%;
+    min-height: 250px;
+  }
+  .lifecycleIconsList li:nth-child(2n + 1) {
+    vertical-align: bottom;
+  }
+  .lifecycleIconsList li:nth-child(2n) {
+    vertical-align: bottom;
+    margin-top: 0;
+  }
+  .lifecycleIconsList li:nth-child(2n + 1)::before {
+    display: none;
+  }
+  .lifecycleIconsList li:nth-child(2n)::after {
+    display: none;
+  }
+  .topList:before {
+    display: none;
+  }
+  .lifecycleIconsList li p::after {
+    display: none;
+  }
+  .teamSlider {
+    min-height: 670px;
+  }
+  .ministerBottomInfo {
+    min-height: 280px;
+  }
+  .latestNewsRight .region-whats-news-section .LnewsBox {
+    margin-bottom: 153px;
+  }
+  .panIndia .cols3 {
+    width: 50%;
+  }
+  .panIndia .cols5 {
+    width: 50%;
+  }
+  .panIndia .cols4 {
+    width: 100%;
+  }
+  .directorateInfo {
+    height: auto;
+    right: 0px;
+  }
+  .disclaimerMain {
+    position: static;
+  }
+  .directorateProInfo {
+    text-align: center;
+  }
+  .itemListMain ul li .textDescription {
+    width: 85%;
+  }
+  .page-node-type-photo-gallery .photoGallery li {
+    width: 33%;
+  }
+  .ministerInfo h4 {
+    font-size: 1.1em;
+  }
+  .ministerInfo .info p {
+    font-size: 0.9em;
+  }
+  .mainMinister .ministerInfo .info p {
+    margin-bottom: 5px;
+  }
+  .page-views-listing .innerPageContent .eventPostInfo {
+    width: 33%;
+  }
+  .tenderRef br {
+    display: none;
+  }
+  .tenderHeading {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 60px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .tenderHeading .tenderTitle {
+    max-width: 100%;
+    padding: 0 0 0 0px;
+    height: auto;
+    display: block;
+  }
+  .tenderHeading .tenderRef {
+    margin-left: 0;
+    padding: 0px;
+    height: auto;
+    display: block;
+  }
+  .tenderDates .tenderDate {
+    width: 50%;
+    float: left;
+    height: auto;
+  }
+  .tenderDates {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .tenderHeading .tenderCounter {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .servicesMobSlider .owl-controls {
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contribution ul li {
+    width: 50%;
+  }
+
+  ul.blueBoxInfoTxt li {
+    width: 100%;
+  }
+
+  .newsletterPage ul li {
+    width: 33%;
+  }
+  .fontResizeInfo,
+  .rightLinks .langDropDown li,
+  .rightLinks li:nth-child(1) {
+    display: block;
+  }
+  .rightLinks li.search {
+    display: block;
+  }
+  .headerLeft {
+    width: 400px;
+    max-width: 400px;
+  }
+  .headerRight {
+    clear: both;
+    width: 100%;
+    float: left;
+    max-width: 100%;
+  }
+  .toggleMenu .mobileMenu {
+    display: none;
+  }
+  .rightLinks {
+    padding-right: 57px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+  }
+  .toggleMenu {
+    position: absolute;
+    right: 10px;
+    top: -8px;
+  }
+  .mainNavigation {
+    position: static;
+  }
+  .mainNavigation #nav {
+    text-align: center;
+  }
+  .mainNavigation #nav li {
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+    width: 100%;
+  }
+  #nav li::before {
+    display: none;
+  }
+  .mainNavigation #nav li {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+  }
+  #nav ul li:first-child {
+    padding-top: 0px;
+  }
+  #nav li ul li a {
+    padding: 7px 55px 7px 15px;
+  }
+  #nav ul li a {
+  }
+  #nav {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #073e74;
+  }
+  #nav ul {
+    background: #305d93;
+  }
+  .toggleMenu,
+  #nav .menuIcon {
+    display: block;
+  }
+  #nav li {
+    float: none;
+    display: block;
+    border: none;
+  }
+  #nav li a {
+    border-top: 1px solid #002d63;
+  }
+  #nav li.parent {
+    position: relative;
+  }
+  #nav li .menuIcon,
+  #nav li li .menuIcon {
+    width: 46px;
+    height: auto;
+    background-color: #002d63;
+    background-color: rgba(0, 45, 99, 0.5);
+    background-image: url(https://stpi.in/themes/stpi/images/dropdown-menu-icon.png);
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+  }
+  #nav li .menuIcon.active,
+  #nav li li .menuIcon.active {
+    background-color: #002d63;
+    background-color: rgba(1, 36, 78, 0.5);
+  }
+  #nav li > a:hover,
+  #nav li.hover > a,
+  #nav li.active > a,
+  #nav li ul li a:hover,
+  #nav li ul li > a.selected,
+  #nav ul a:hover,
+  .noJS #nav ul a:focus,
+  #nav ul a.selected,
+  #nav > li > a:hover,
+  #nav > li.hover > a,
+  #nav > li.focus > a {
+    background-color: #002d63;
+    color: #fff;
+  }
+  #nav ul {
+    width: 100%;
+    display: none;
+    position: static;
+    transition: none;
+    -webkit-transition: none;
+  }
+  .hasJS #nav ul {
+    opacity: 1;
+  }
+  #nav li ul li,
+  #nav ul a {
+    width: 100%;
+  }
+  #nav > li:hover > ul,
+  #nav li li:hover > ul,
+  #nav li li li:hover > ul {
+    display: none;
+  }
+  #nav ul,
+  #nav *:hover ul ul,
+  #nav .hover ul ul,
+  #nav .focus ul ul {
+    margin-left: 0;
+  }
+  #nav li a {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+    line-height: 30px;
+    font-size: 1em;
+  }
+  #nav li ul li a {
+    padding: 7px 55px 7px 25px;
+    display: block;
+    line-height: 21px;
+    background: url(https://stpi.in/themes/stpi/images/right-arrow.png)
+      no-repeat 15px 15px;
+    color: #fff;
+    border: none;
+  }
+  #nav li ul li ul li a {
+    padding-left: 45px;
+    background-position: 33px center;
+  }
+  #nav li ul li ul li ul li a {
+    padding-left: 60px;
+    background-position: 45px center;
+  }
+  #nav > li > a:hover,
+  #nav > li.hover > a,
+  #nav > li.focus > a,
+  #nav > .highlight > a {
+    background-color: #305d93;
+    color: #fff;
+  }
+  #nav li ul li a:hover,
+  #nav li ul li > a.selected,
+  #nav ul a:hover,
+  .noJS #nav ul a:focus,
+  #nav ul a.selected,
+  #nav ul > .highlight > a {
+    background-color: #305d93;
+    color: #fff;
+  }
+  #nav > li.hover > a::before,
+  #nav > li > a.is-active::before,
+  #nav > li.menu-item--active-trail > a::before {
+    display: none;
+  }
+  .responsiveTable,
+  .responsiveTable tr,
+  .responsiveTable td,
+  .responsiveTable td:before {
+    display: block;
+    text-align: left;
+    border: none;
+  }
+  .responsiveTable,
+  .responsiveTable tr,
+  .responsiveTable td:last-child {
+    border-bottom: none;
+  }
+  .responsiveTable thead,
+  .responsiveTable tr th {
+    position: absolute;
+    top: -1000em;
+    left: -1000em;
+  }
+  .responsiveTable tr {
+    border: 1px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
+    margin: 0 0 20px;
+  }
+  .responsiveTable tr td:nth-child(1) {
+    border-left: none;
+  }
+  .responsiveTable tr td:last-child {
+    border-right: none;
+  }
+  .responsiveTable tr:last-child .td,
+  .responsiveTable td {
+    border-bottom: 1px solid #eeeeee;
+  }
+  .responsiveTable td:before {
+    font-weight: bold;
+    padding-right: 20px;
+    line-height: 27px;
+    color: #174471;
+    content: " " attr(data-label) "";
+  }
+  .responsiveTable tbody {
+    display: block;
+  }
+  .responsiveTable tr td {
+    padding: 5px 15px;
+    width: auto !important;
+  }
+  .owl-theme .owl-controls .owl-nav [class*="owl-"] {
+    opacity: 0.5;
+  }
+  .owl-theme .owl-controls .owl-nav [class*="owl-"]:hover {
+    opacity: 1;
+  }
+  .bannerCaption p {
+    padding: 0 30px;
+  }
+  .panIndia {
+    padding: 0px;
+  }
+  .panIndia .container {
+    padding: 0px;
+  }
+  .directorateLft {
+    padding: 30px 15px 0;
+    text-align: center;
+  }
+  .directorateLft ul {
+    margin-bottom: 0px;
+  }
+  .directorateLft h2 br {
+    display: none;
+  }
+  .directorateLft .selectInfo ul {
+    margin-bottom: 30px;
+  }
+  .panIndia .cols3 {
+    width: 100%;
+  }
+  .directorateLft ul li {
+    margin: 0 5px 10px;
+    width: 210px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 30px;
+  }
+  .directorateLft .selectInfo .active::before,
+  .directorateLft .selectInfo a:hover::before {
+    width: 205px;
+  }
+  .directorateLft .selectInfo a {
+    font-size: 1em;
+    line-height: 1;
+  }
+  .directorateLft .selectInfo a:hover:before {
+    height: 34px;
+  }
+  .directorateLft h2,
+  .directorateLft h4 {
+    margin-bottom: 10px;
+  }
+  .directorateLft .selectInfo {
+    margin: 0px;
+  }
+  .directorateInfo {
+    position: static;
+  }
+  .directorateInfo {
+    width: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+  }
+  .directorateLft .selectInfo li a.active::before,
+  .directorateLft .selectInfo a:hover::before {
+    top: -2px;
+    height: 32px;
+    width: 210px !important;
+  }
+  .panIndia .cols5,
+  .panIndia .cols4 {
+    width: 50%;
+    overflow: scroll;
+    height: 600px;
+  }
+  .dirContactInfo li {
+    text-align: left;
+  }
+  .footerLinks h3 {
+    font-size: 1.8em;
+  }
+  .footerButtons {
+    margin-top: 0px;
+  }
+  .footerLinks {
+  }
+  .footerLinks h3 {
+    font-size: 1.8em;
+    margin-bottom: 0px;
+  }
+  .footerLinks .cols2,
+  .footerLinks .cols3 {
+    width: 50%;
+    text-align: left;
+    min-height: 340px;
+  }
+  .footerLinks ul.bulletText {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+  }
+  .eventsCampaigns .cols6 {
+    width: 100%;
+  }
+  .eventPostInfo .photo {
+    width: 200px;
+  }
+  .eventPostInfo .info {
+    padding-left: 220px;
+  }
+  .lNHeading {
+    margin-bottom: 20px;
+  }
+  .campaignsRgt {
+    width: 100%;
+    margin: 30px 0 0;
+  }
+  .campainImage {
+    max-width: 700px;
+  }
+  .campaingsSlider .owl-controls {
+    top: 370px;
+  }
+  .campaignsInfo {
+    text-align: center;
+  }
+  .newsLetterSub ul li:last-child,
+  .newsLetterSub ul li:first-child {
+    text-align: center;
+    width: 100%;
+  }
+  .newsLetterSub ul li:first-child {
+    margin-bottom: 15px;
+  }
+  .newsLetterSub ul li:last-child {
+    margin-top: 15px;
+  }
+  .newsLetterSub h3 {
+    margin: 0px;
+  }
+  .newsLetterSub ul {
+    margin: 0px;
+  }
+  .campaignsRgt {
+    float: left;
+    width: 100%;
+    margin: 30px 0 0 0;
+  }
+  .eventsCampaigns .eventsBox {
+    padding: 15px;
+  }
+  .eventsCampaigns .campaignsRgt {
+    width: 100%;
+  }
+  .servicesWarpper a {
+  }
+  .boardOfDireInfo .bODMemInfo .mainPhoto {
+    margin-bottom: 0;
+  }
+  .boardOfDirectors::before {
+    display: none;
+  }
+  .cOEachievements ul li h3 {
+    font-size: 2em;
+    margin-right: 10px;
+  }
+  .panIndia .cols5 {
+    display: none;
+  }
+  .directorateHead {
+    padding: 5px 20px;
+    margin: 0px 0 20px;
+  }
+  .directorateInfo {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .panIndia {
+    text-align: center;
+  }
+  .panIndia .cols4 {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+  }
+  .servicesWarpper a,
+  .servicesMobSlider a {
+    min-height: 600px;
+    max-height: 600px;
+  }
+  .footerCopyright .cols9,
+  .footerCopyright .cols3 {
+    width: 100%;
+  }
+  .innerPageContent {
+    padding: 30px 0;
+  }
+  .views-exposed-form {
+    margin-bottom: 0px;
+  }
+  .path-main-know-your-minister .view-filters {
+    padding: 30px 0;
+  }
+  .teamBlock li {
+    width: 33%;
+  }
+  .teamBlock li:nth-child(3n + 1) {
+    clear: left;
+  }
+  .teamBlock li:nth-child(4n + 1) {
+    clear: none;
+  }
+  .megaMenuBody .megaMenuContent {
+    overflow: auto;
+  }
+  .toggleMenu {
+    position: static;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px;
+    margin: 0px 10px 0 0;
+  }
+  .toggleMenu.active .iconBar {
+    background: none;
+    position: relative;
+  }
+  .menuPart {
+    float: left;
+    padding: 0px;
+  }
+  .rightLinks {
+    padding-right: 64px;
+  }
+  .megaMenu {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+  }
+  .toggleMenu {
+    position: absolute;
+    right: 40px;
+    top: 9px;
+  }
+  .career-form .form-select {
+    font-size: 1em;
+  }
+  .btnCaptchaRow .js-form-item {
+    width: auto;
+  }
+  .career-form {
+    padding-bottom: 30px;
+  }
+  .career-form .captcha {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .career-form .btnCaptchaRow {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+  }
+  .fosteringCenter {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .fosteringCenter .cols7,
+  .fosteringCenter .cols5 {
+    width: 100%;
+  }
+  .fosteringCenter .fosteringRight {
+    text-align: center;
+  }
+  .totalSpace {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .totalSpaceCaption {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .incubationSlider {
+    position: relative;
+    z-index: 999;
+    margin-bottom: 30px;
+  }
+  .totalSpaceCaption {
+    width: 100%;
+    position: relative;
+    top: auto;
+    left: auto;
+    text-align: center;
+    height: auto;
+  }
+  .totalCounter {
+    width: auto;
+    margin-left: 0;
+  }
+  .totalSpaceCaption p br {
+    display: none;
+  }
+  .spaceAvaibilityForm,
+  .spaceAvaibilityInstruction {
+    width: 48%;
+  }
+  .staffList li {
+    width: 50%;
+  }
+  #header.sticky {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 0;
+    box-shadow: none;
+    max-width: inherit;
+  }
+  .finTech .cols8 {
+    width: 100%;
+  }
+  .finTech .cols4 {
+    margin-top: 0;
+    width: 100%;
+  }
+  .newFacility .facilitiesServices .bullet li {
+    width: 100%;
+  }
+  .newFacility .facilitiesServices {
+    padding: 20px 0 0;
+  }
+  .highlights {
+    padding: 20px 0 70px;
+    text-align: center;
+  }
+  .objectivesCaption {
+    padding: 20px;
+  }
+  .objectivesBackground:after {
+    width: auto;
+  }
+  .fintechrightCol img {
+    width: 100%;
+  }
+  .pageControlSection h1 {
+    font-size: 2em;
+    line-height: 1.2;
+  }
+  .fosteringRight {
+    margin-top: 0px;
+    max-width: 300px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .fosteringCenter {
+    text-align: center;
+  }
+  .path-video-gallery .videoGallery li,
+  .video-listing .video-section li,
+  .view-photo-gallery ul li {
+    width: 50%;
+  }
+  .panIndia .cols5,
+  .panIndia .cols4 {
+    height: auto;
+  }
+  .dirContactInfo {
+    max-width: 100%;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .panIndia .row {
+    margin-bottom: 0px;
+  }
+  .ministerBottomInfo {
+    margin-bottom: 30px;
+  }
+  .impactCreated ul li::before {
+    display: none;
+  }
+  .impactCreated ul li {
+    max-width: 100%;
+    width: 25%;
+    vertical-align: top !important;
+    top: 0 !important;
+  }
+  .impactCreatedText {
+    max-width: 100%;
+  }
+  .impactCreated {
+    min-height: auto;
+  }
+  .latestNews .cols8 {
+    width: 100%;
+  }
+  .latestNews .cols4 {
+    width: 100%;
+  }
+  .LnewsBox {
+    margin-bottom: 30px;
+  }
+  .latestNewsRight .LnewsBox:last-child {
+    margin-bottom: 50px;
+  }
+  .latestNewsRight .LnewsBox,
+  .LnewsBox {
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+  }
+  .latestNews {
+    text-align: center;
+  }
+  .whatsNewSlider .owl-controls {
+    bottom: -80px;
+    right: -33px;
+  }
+  .itemListMain ul li .textDescription {
+    width: 80%;
+  }
+  .career-form .button {
+    margin-top: 0px;
+  }
+  .publicStaffGriOfficers ul li {
+    font-size: 1em;
+  }
+  .directorateLft .selectInfo a {
+    font-size: 0.9em;
+  }
+  .neuronBlock li .neuronIn {
+    min-height: 476px;
+  }
+  .stpiOpenChallImgHolder {
+    width: 100%;
+    position: static;
+    background: none;
+    max-width: 500px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .stpiOpenChallImgHolder img {
+    display: block;
+  }
+  .stpiNeuronRecCamp,
+  .stpiNeuron .stpiOpenChall {
+    height: auto;
+  }
+  .stpiNeuronRecCamp {
+    padding-left: 0px;
+    width: 100%;
+    clear: both;
+    text-align: center;
+  }
+  .stpiNeuron {
+    text-align: center;
+    background-color: #ececec;
+    padding: 30px 0 0;
+  }
+  .stpiNeuron .stpiOpenChall {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .stpiNeuronRecCamp {
+    box-shadow: none;
+  }
+  .page-views-listing .innerPageContent .eventPostInfo {
+    width: 50%;
+  }
+  .region-subscribe-to-newsletters h2 {
+    width: 100%;
+    margin-top: 0px;
+    text-align: left;
+  }
+  .region-subscribe-to-newsletters .form-email {
+    margin-left: 0px;
+  }
+  .visionariesMember .teamBlock li {
+    width: 50%;
+  }
+  .visionariesMember .teamBlock li:nth-child(3n + 1) {
+    clear: none;
+  }
+  .path-main-visionaries .teamBlock li {
+    width: 33%;
+  }
+  .publicStaffGriOfficers ul li .GrievanceOfficersLists {
+    min-height: 340px;
+  }
+  .knowYourMinisters {
+    padding: 25px 0 0px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .contact .cols7 {
+    width: 100%;
+  }
+  .contact .cols5 {
+    width: 100%;
+  }
+  .contactMapImage {
+    margin-bottom: 20px;
+    background-size: cover;
+    max-width: 700px;
+  }
+  .contact {
+    text-align: center;
+  }
+  .contactUsMain ul li {
+    text-align: left;
+  }
+  .contactFullRow .contactUsMain ul li {
+    width: 48%;
+  }
+  .detailsTop h2 {
+    font-size: 1.8em;
+  }
+  .contactLeftInfo ul li {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 959px) {
+  .impactCreated ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  .impactCreated ul li p {
+    width: auto;
+    max-width: 100px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .impactCreated ul li {
+    text-align: center;
+  }
+  .centerOfExce .centerOfExceLft {
+    width: 35%;
+  }
+  .centerOfExce .centerOfExceRgt {
+    width: 65%;
+  }
+  .objectiveBlock li {
+    width: 50%;
+  }
+  .objectiveBlock li img {
+    width: 100%;
+  }
+  .functionTab .resTab .tabNav {
+    margin-top: 0;
+  }
+  .functionTab .tabNav {
+    max-width: 100%;
+  }
+  .functionTab .resTab .tabNav li {
+    margin-bottom: 0;
+    width: 33.33%;
+  }
+  .functionTab .tabContainer {
+    width: 100%;
+  }
+  .resTab .tabContent {
+    padding: 20px;
+  }
+  .functionTab .tabNav .tabTitle {
+    font-size: 16px;
+  }
+  .functionTab .tabNav .count {
+    font-size: 40px;
+  }
+  .qultObj {
+    max-width: 45%;
+  }
+  .moreBlock li {
+    margin-bottom: 20px;
+  }
+  .lifecycleIconsList li {
+    width: 50%;
+    min-height: auto;
+    margin-bottom: 30px;
+  }
+  .neuronBlock .cols4 {
+    width: 50%;
+    margin-bottom: 0px;
+  }
+  .ourTeam .cols6:nth-child(1) {
+    width: 45%;
+  }
+  .ourTeam .cols6:nth-child(2) {
+    width: 55%;
+  }
+  .ourJourneyPhoto img {
+    width: auto;
+  }
+  .knowYourMinisters {
+    text-align: center;
+  }
+  .knowYourMinisters .cols6 {
+    width: 100%;
+  }
+  .ministerBottomInfo {
+    min-height: inherit;
+  }
+  .cols6 .otherMinisters .ministerInfo:last-child {
+    margin-bottom: 0px;
+  }
+  .mainMinister,
+  .ministerInfo {
+    max-width: 700px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .mainMinister .ministerInfo {
+    text-align: left;
+  }
+  .mainMinister {
+    box-shadow: none;
+  }
+  .itemListMain ul li .textDescription {
+    width: 75%;
+  }
+  .teamSlider ul li {
+    width: 49%;
+  }
+  .teamSlider .photo {
+    box-shadow: none;
+  }
+  .teamSlider {
+    display: none !important;
+  }
+  .teamMobSlider {
+    display: block;
+  }
+  .TeamMembersSlider .owl-controls {
+    width: 82px;
+    top: inherit;
+  }
+  .page-node-type-photo-gallery .photoGallery li {
+    width: 50%;
+  }
+  .detailsleft li {
+    width: 50%;
+  }
+  .detailsleft li:last-child:before {
+    display: block;
+  }
+  .detailsleft li:nth-child(4n + 0):before,
+  .detailsleft li:nth-child(3n + 0):before {
+    display: block;
+  }
+  .detailsleft li:nth-child(2n + 0):before {
+    display: none;
+  }
+}
+@media only screen and (max-width: 899px) {
+  .socialEngagement .cols4 {
+    width: 100%;
+  }
+  .socialEngCover {
+    height: auto;
+  }
+  .socialEngagement .cols4 {
+    width: 100%;
+    max-width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+  }
+  .socialEngagement .cols4:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .socialEngagement {
+    text-align: center;
+  }
+  .socialEngMulTab .resTab .tabNav {
+    margin: 0px;
+    text-align: center;
+  }
+  .megaMenuContent .cols3 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .blogBox .blogLeft {
+    width: 100%;
+  }
+  .blogBox .blogRight {
+    width: 100%;
+    margin: 30px 0 0 0;
+  }
+  .recentBlock li {
+    width: 50%;
+  }
+  .recentBlock li:nth-child(3n + 1) {
+    clear: none;
+  }
+  .recentBlock li:nth-child(2n + 1) {
+    clear: left;
+  }
+  .recentBlock .recentBlogStatus li {
+    width: auto;
+    padding: 0 5px;
+  }
+  .recentBlock .recentImage {
+    margin-bottom: 10px;
+  }
+  .centerOfExce .profilesInfo li {
+    width: 100%;
+  }
+  .centerOfExce .profile {
+    padding: 10px;
+  }
+  .recentBlock .info .socialIcone {
+    position: static;
+    margin-top: 10px;
+  }
+  .recentBlock .socialIcone ul li {
+    clear: none;
+    width: auto;
+    border: 0px;
+  }
+  .trendingBox ul li {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .trendingBox .socialIcone ul li {
+    border: 0px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .qultObj {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 0;
+    margin: 0px;
+  }
+  .qualityContainer {
+    padding: 0 20px;
+  }
+  .backgroundBlock {
+    padding: 30px 20px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .indexBanner .sliderBanner .item {
+    min-height: 446px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .incubationSlider .owl-controls .owl-nav .owl-prev {
+    left: 9px;
+  }
+  .incubationSlider .owl-controls {
+    bottom: 30px;
+  }
+  .incubationSlider .owl-controls .owl-nav [class*="owl-"] {
+    height: 30px;
+  }
+  .incubationSlider .owl-controls .owl-nav [class*="owl-"]::before {
+    top: -5px;
+  }
+  .totalSpaceInfo {
+    max-height: auto;
+  }
+
+  .coeTextDesc {
+    height: auto !important;
+  }
+  .centerOfExceLft {
+    max-height: 100% !important;
+  }
+  .lifecycleIconsList li {
+    padding: 0 15px;
+  }
+  .tenderHeading .tenderRef {
+    max-width: 100%;
+  }
+  .fullColMob .cols6 {
+    width: 100%;
+  }
+  .policiesSection li {
+    width: 50%;
+  }
+  .schemeInfo {
+    height: auto;
+  }
+  .incubFeatuCol {
+    width: 100%;
+    max-width: 600px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .incubFeatuColInfo {
+    height: auto;
+  }
+  .incubFeatures {
+    text-align: center;
+  }
+  .page-node-167 {
+    text-align: center;
+  }
+  .page-node-167 .recentBlock li {
+    width: 100%;
+    max-width: 600px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .ourTeam .cols6:nth-child(1) {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  .whatsNewSlider .owl-controls {
+    bottom: -35px;
+    right: -12px;
+  }
+  .latestNewsRight .region-whats-news-section .LnewsBox {
+    padding-bottom: 50px;
+  }
+  .latestNewsRight .LnewsBox:last-child {
+    margin-bottom: 30px;
+  }
+  .stpiCentersSlider .r-tabs .r-tabs-nav {
+    display: block;
+  }
+  .stpiCenters .r-tabs .r-tabs-nav {
+    display: block;
+  }
+  .rotatingMobSlider {
+    margin-bottom: 30px;
+  }
+  .centerOfExce .centerOfExceRgt {
+    margin-top: 30px;
+  }
+  .resTab .r-tabs-accordion-title .r-tabs-anchor {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1.3em;
+    line-height: 1;
+    color: #3737a8;
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+  }
+  .resTab
+    .r-tabs-panel.r-tabs-state-active
+    .r-tabs-accordion-title
+    .r-tabs-anchor
     h4 {
-    font-size:1.3em;
-    line-height:1;
-    }
-    .boardOfDirectors .cols4 {
-    width:50%;
-    }
-    .boardOfDirectors .cols8 {
-    width:50%;
-    }
-    .bODMemInfo .mainPhoto {
-    display:inline-block;
-    vertical-align:top;
-    }
-    .boardOfDireInfo .bODMemInfo .mainPhoto {
-    max-width:150px;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .centerOfExce .profilesInfo li {
-    width:100%;
-    padding:0px;
-    margin-bottom:10px;
-    }
-    .centerOfExce .profilesInfo li:last-child {
-    margin-bottom:0px;
-    }
-    .centerOfExce .profile {
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    max-width:300px;
-    }
-    .centerOfExce .profilesInfo {
-    text-align:center;
-    }
-    .commonBtn {
-    font-size:1em;
-    }
-    .centerOfExceRgt .cols6 {
-    width:100%;
-    margin-bottom:10px;
-    text-align:center;
-    }
-    .centerOfExce .btns .yellowBdrBtn {
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    }
-    h2 {
-    font-size:1.6em;
-    }
-    .career-form .js-form-item {
-    width:100%;
-    }
-    .career-form {
-    padding:20px 0px;
-    }
-    .career-form .button {
-    font-size:1em;
-    }
-    .knowYourMiniPage .teamBlock {
-    margin:0px;
-    }
-    .knowYourMiniPage .teamBlock li {
-    padding:15px;
-    text-align:center;
-    }
-    .knowYourMiniPage .teamInfo {
-    padding-left:0px;
-    clear:left;
-    width:100%;
-    }
-    .knowYourMiniPage .teamBlock .teamImage {
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .knowYourMiniPage .teamBlock .socialIcone {
-    position:static;
-    }
-    .knowYourMiniPage .teamBlockBox {
-    padding:0px 15px;
-    }
-    .imageText .image {
-    padding-left:0px;
-    margin-bottom:20px;
-    }
-    }
-    @media only screen and (max-width:550px) {
-    
-    .serviceCaption	{
+    color: #fff;
+  }
+  .resTab .r-tabs-accordion-title .r-tabs-anchor h4 {
+    color: #3737a8;
+    margin-bottom: 0px;
+  }
+  .resTab .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor h4 {
+    color: #3737a8;
+  }
+  .resTab .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
+    border: 1px solid #3737a8;
+    background-color: #ffd400;
+    font-size: 1.3em;
+    line-height: 1;
+  }
+  .r-tabs .r-tabs-nav {
+    display: none;
+  }
+  .resTab .r-tabs-panel.r-tabs-state-active .r-tabs-anchor h4 {
+    color: #fff;
+  }
+  .resTab .r-tabs-accordion-title .r-tabs-anchor h4 {
+    color: #3737a8;
+  }
+  .resTab .r-tabs-state-active .r-tabs-anchor h4 {
+    color: #3737a8;
+  }
+  .r-tabs .r-tabs-accordion-title {
+    display: block;
+  }
+  .ourJourneyPhoto {
+    position: static;
+  }
+  .ourJourney .cols6 {
+    width: 100%;
+  }
+  .ourJourney .resTab .tabContent {
+    height: inherit;
+    overflow: auto;
+  }
+  .ourJourney .resTab .tabContent .row {
+    margin: 0px;
+  }
+  .ourJourney .tabContainer {
+    padding: 30px 0;
+  }
+  .functionTab {
+    background: #f4f4f4;
+    padding: 20px 5px;
+  }
+  .teamMobSlider {
+    max-width: 500px;
+    margin: 30px auto 0;
+  }
+  .ourTeam .cols6:nth-child(1) {
+    width: 100%;
+  }
+  .ourTeam .cols6:nth-child(2) {
+    width: 100%;
+  }
+  .ourServiceHead {
+    padding: 20px 0;
+  }
+  .centerOfExceRgt .topInfo {
+    min-height: inherit;
+  }
+  .TeamMembersSlider .owl-controls {
+    top: -51px;
+    left: 50%;
+    margin-left: -25px;
+  }
+  .directorateLft ul li {
+    width: auto;
+    padding-left: 0px;
+    margin: 0 5px 10px;
+  }
+  .directorateLft .selectInfo li a.active::before,
+  .directorateLft .selectInfo a:hover::before {
+    width: 100% !important;
+    left: 0px;
+  }
+  .directorateLft .selectInfo a {
+    padding: 0 9px 0 20px;
+  }
+  .directorateLft .selectInfo .active::after,
+  .directorateLft .selectInfo a:hover::after {
+    left: 9px;
+  }
+  .directorateLft .selectInfo a::after {
+    left: 9px;
+    margin-top: -4px;
+  }
+  .directorateLft .selectInfo ul {
+    padding: 0px;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  .formList .boxs > li,
+  .formList .boxs > div {
+    float: none;
+    width: 100%;
+  }
+  .width50p {
+    width: 100%;
+  }
+  #login {
+    display: none;
+  }
+  .rightLinks li {
+    display: none;
+  }
+  .rightLinks .langDropDown {
+    display: block;
+  }
+  .rightLinks li::before {
+    display: none;
+  }
+  .bannerCaption p {
+    display: none;
+  }
+  .bannerCaption {
+    top: 50%;
+    bottom: 0px;
+    transform: none;
+    /*background-color:rgba(0, 0, 0, 0.5);*/
+    background: transparent;
+    padding: 20px 15px;
+  }
+  .bannerCaption .bannerTitle {
+    font-size: 1em;
+  }
+  .bannerCaption .bannerTitle::before {
+    display: none;
+  }
+  .bannerCaption .bannerTitle {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+  }
+  .commonBtn {
+    padding: 5px 20px;
+  }
+  .socialFooter .cols7 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .socialFooter .cols3 {
+    width: auto;
+  }
+  .socialFooter .cols2 {
+    width: auto;
+  }
+  .socialFooter .info h3 {
+    font-size: 1.5em;
+  }
+  .footerCopyright .cols9,
+  .footerCopyright .cols3 {
+    width: 100%;
+    text-align: center;
+  }
+  .directorateLft h2 {
+    font-size: 1.8em;
+  }
+  .newsLetterSub h3 {
+    margin: 0px;
+  }
+  .newsLetterSub ul {
+    margin: 0px;
+  }
+  .ourTeam .cols6 {
+    width: 100%;
+  }
+  .campainImage {
+    max-width: 400px;
+  }
+  .campaingsSlider .owl-controls {
+    top: 230px;
+  }
+  .lNHeading h2 {
+    font-size: 1.8em;
+  }
+  .eventsCampaigns h4 {
+    line-height: 1.2;
+    text-align: left;
+  }
+  .campaignsInfo h5,
+  .eventsCampaigns h4 {
+    text-align: left;
+  }
+  .yellowBtn {
+    height: auto;
+    padding: 5px 20px;
+  }
+  .newsLetterSub .yellowBtn {
+    margin-top: 10px;
+  }
+  .servicesWarpper a,
+  .servicesMobSlider a {
+    min-height: 600px;
+    height: 600px;
+  }
+  .eventsCampaigns h4 {
+    margin-bottom: 0px;
+  }
+  .socialEngagement
+    .resTab
+    .r-tabs-accordion-title.r-tabs-state-active
+    .r-tabs-anchor {
+    color: #3737a8;
+  }
+  .socialEngMulTab .socialEngCover {
+    margin-bottom: 20px;
+  }
+  .centerOfExce .centerOfExceLft,
+  .centerOfExce .centerOfExceRgt {
+    width: 100%;
+  }
+  .panIndia .cols5,
+  .panIndia .cols4 {
+    height: auto;
+  }
+  .cOEachievements {
+    margin: 0px;
+  }
+  .teamBlock li {
+    width: 50%;
+  }
+  .teamBlock li:nth-child(3n + 1) {
+    clear: none;
+  }
+  .teamBlock li:nth-child(4n + 1) {
+    clear: none;
+  }
+  .teamBlock li:nth-child(2n + 1) {
+    clear: left;
+  }
+  .neuronBlockBox .row {
+    margin-bottom: 0px;
+  }
+  .innerPageContent h3 {
+    font-size: 1.2em;
+    line-height: 1.3em;
+  }
+  .neuronIn .neuronBoxDetails .socialIcone,
+  .stpiNeuronRecCamp .socialIcone {
+    position: static;
+    margin: 10px 0;
+  }
+  .footerLinks {
+    padding: 30px 0 0 0;
+  }
+  .ministerInfo {
+    padding-left: 223px;
+  }
+  .mainMinister .ministerInfo .photo {
+    min-width: auto;
+    width: 205px;
+  }
+  .centerOfExceRgt p {
+    font-size: 1em;
+  }
+  .teamSlider .owl-controls {
+    left: 50%;
+    transform: translateX(-49%);
+  }
+  .career-form .fieldset-wrapper .js-form-item {
+    padding: 0 5px;
+  }
+  .career-form .fieldset-wrapper {
+    margin: 0 -5px;
+  }
+  .backgroundBlock .blockTitle {
+    width: 100%;
+    padding: 0 0 20px;
+    max-width: 100%;
+  }
+  .backgroundBlock .blockTitle::after {
+    display: none;
+  }
+  .backgroundBlock p {
+    width: 100%;
+    padding: 0;
+  }
+  .backgroundBlock {
+    padding: 20px;
+  }
+  .pageControlSection {
+    text-align: center;
+  }
+  .innerBannerSection .pageControlSection {
+    text-align: left;
+  }
+  .innerBannerSection {
+    padding: 180px 0 0;
+  }
+  .pageControlSection h1 {
+    font-size: 2em;
+  }
+  .sliderBanner .owl-controls {
+    margin-top: 0;
+    width: 60px;
+    position: absolute;
+    bottom: 55px;
+    right: 20px;
+  }
+  .sliderBanner .owl-nav .owl-prev::before,
+  .sliderBanner .owl-nav .owl-next::before {
+    font-size: 40px;
+  }
+  .spaceAvaibility {
+    padding: 20px 0;
+    margin-top: 0;
+  }
+  .spaceAvaibilityForm,
+  .spaceAvaibilityInstruction {
+    width: 100%;
+  }
+  .spaceAvaibilityForm {
+    margin-bottom: 20px;
+  }
+  .blogRight {
+    padding-left: 0px;
+  }
+  .trendingBox ul li {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .trendingBox ul li:last-child {
+    border: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .view-blog .recentBlock {
+    padding: 0 15px;
+    margin: 0;
+  }
+  .view-blog ul.recentBlock {
+    padding: 0px;
+  }
+  .recentBlock li {
+    padding: 0 15px;
+  }
+  .recentBlock .recentBlogStatus li {
+    padding: 0 5px;
+  }
+  .recentBlock li h4 {
+    font-size: 1.3em;
+  }
+  .recentBlock .recentImage {
+    height: 200px;
+  }
+  .neuronBlock .cols4:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .neuronBlockBox ul {
+    text-align: center;
+  }
+  .neuronBlock .neuronImage {
+    width: 100%;
+  }
+  .neuronBlock a {
+    width: 100%;
+  }
+  .neuronBlock a.neuronBlueBtn {
+    width: auto;
+  }
+  .centerOfExceLft {
+    min-height: inherit;
+  }
+  .teamSlider ul li {
+    float: left;
+  }
+  .excellenceCenter .cols6 {
+    width: 100%;
+  }
+  .coeCenter {
+    padding: 20px 0 0;
+    text-align: center;
+  }
+  .excellenceCenter {
+    padding-bottom: 20px;
+  }
+  .OpenLabOrange {
+    padding: 25px;
+    margin-top: 0;
+  }
+  .stateGovernmentsFull {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+  .stateGovernmentsFull .cols6 {
+    width: 100%;
+  }
+  .stateGovernmentsLeft li {
+    width: 49%;
+    min-height: 220px;
+  }
+  .stateGovernmentsLeft li:nth-child(2) {
+    margin-top: 0;
+  }
+  .stateGovernmentsLeft li:nth-child(2)::before {
+    display: none;
+  }
+  .stateGovernmentsLeft li img {
+    max-width: 100%;
+    width: 50%;
+  }
+  .stateGovernmentsFull .cols6:nth-child(2) {
+    margin-left: 0;
+  }
+  .stateGovernmentsRight {
+    width: 100%;
+  }
+  .stateGovernmentsRight li {
+    width: 49%;
+    min-height: 220px;
+  }
+  .stateGovernmentsRight li:nth-child(2) {
+    margin-top: 0;
+  }
+  .stateGovernmentsRight li:first-child::before {
+    display: none;
+  }
+  .stateGovernmentsRight li:nth-child(2)::before {
+    display: none;
+  }
+  .stateGovernmentsRight li img {
+    max-width: 100%;
+    width: 50%;
+  }
+  .devlopLeft li,
+  .devlopRight li,
+  .devlopBotFull li {
+    width: 100%;
+  }
+  .lifecycleIconsList li {
+    width: 100%;
+  }
+  .newMentors .chiefMentorLeft {
+    width: 100%;
+    text-align: center;
+  }
+  .blogPostBigImg {
+    float: none;
+    margin-top: -20px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .chiefMentoeDetail {
+    width: 100%;
+  }
+  .finTech {
+    text-align: left;
+  }
+  .chiefMentoeDetail {
+    text-align: center;
+  }
+  .page-node-type-center-of-excellence .chiefMentoeDetail p {
+    text-align: center;
+  }
+  .page-node-type-center-of-excellence .chiefMentorLeft p {
+    text-align: center;
+  }
+  .qultObj {
+    max-width: 100%;
+    margin: 0 15px 20px;
+    float: left;
+    display: block;
+    width: auto;
+  }
+  .qultObj .objIco {
+    margin-left: 0px;
+  }
+  .qultObj .objText {
+    float: none;
+    padding-left: 110px;
+    width: auto;
+  }
+  .functionTab .resTab .tabContent {
+    padding: 0px;
+  }
+  .functionTab .functionList {
+    padding-left: 0px;
+  }
+  .knowYourMiniPage .btns {
+    margin-top: 10px;
+  }
+  .timelineDateBox .cols3 {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .timelineDateBox .cols3:not(:last-child) {
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+  }
+  .timelineDateTex::before {
+    width: 100%;
+    height: 1px;
+    right: 0px;
+    bottom: -15px;
+    top: inherit;
+  }
+  .ourJourney .resTab .tabContent {
+    min-height: inherit;
+  }
+  .TeamBigInfo {
+    text-align: center;
+  }
+  .teamSlider ul li {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .TeamBigInfo ul {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 600px;
+  }
+  .teamSlider ul {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 500px;
+  }
+  .teamSlider {
+    text-align: center;
+  }
+  .TeamMembersSlider .owl-controls {
+    margin-left: -40px;
+  }
+  .ourJourney .resTab .tabContent {
+    padding: 30px 0;
+  }
+  .indexBanner .sliderBanner .item {
+    min-height: inherit;
+  }
+  .teamSlider {
+    min-height: 2200px;
+  }
+  .teamMobSlider .teamSliderInfo {
+    text-align: center;
+  }
+  .TeamMembersSlider .photo img {
+    width: auto;
+    display: inline-block;
+  }
+  .TeamMembersSlider .photo {
+    max-width: 100%;
+    box-shadow: none;
+  }
+  .journeyContent {
+    height: auto;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+  .socialEngMulTab .resTab .tabNav {
+    display: block !important;
+  }
+  .socialEngMulTab .r-tabs .r-tabs-accordion-title {
+    display: none;
+  }
+  .socialEngMulTab .resTab .tabNav li a .fa {
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: -4px;
+    top: -3px;
+  }
+  .stpiAnnualReportsMain .itemListMain ul li {
+    width: 100%;
+    margin: 0px;
+  }
+  .objectiveCenter h2 {
+    font-size: 1.3em;
+  }
+  .itemListMain ul li .textDescription {
+    width: 70%;
+  }
+  .imageText .image {
+    max-width: 300px;
+  }
+  .backgroundBlock p {
+    font-size: 14px;
+  }
+  .qultObj {
+    min-height: auto;
+    margin: 0 15px 0px;
+    width: 100%;
+  }
+  .qualityContainer .row {
+    margin: 0 0;
+  }
+  .aboutContentBlock .aboutText {
+    width: 100%;
+  }
+  .aboutContentBlock .aboutVideo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .qultObj {
+    margin: 0px 0 20px;
+  }
+  .qualityContainer {
+    padding: 0px;
+  }
+  .smoke-base .dialog {
+    left: 0px;
+    margin-left: 0px;
+  }
+  .finLabRight {
+    position: relative;
+    z-index: 1;
+  }
+  .functionTab .count {
+    margin-right: 10px;
+    font-size: 1.3em;
+  }
+  .functionTab .tabTitle {
+    font-weight: normal;
+  }
+  .functionTab .resTab .r-tabs-accordion-title .r-tabs-anchor {
+    font-size: 1.2em;
+    line-height: 1.5;
+    background-color: #000;
+    color: #fff;
+  }
+  .functionTab
+    .resTab
+    .r-tabs-accordion-title.r-tabs-state-active
+    .r-tabs-anchor {
+    background-color: #fff;
+    color: #000;
+  }
+  .node-feedback-form .btnCaptchaRow {
+    padding: 0px 15px;
+  }
+  .node-feedback-form .btnCaptchaRow {
+    display: block;
+  }
+  .node-feedback-form .btnCaptchaRow .button {
+    margin-top: 0px;
+  }
+  .node-feedback-form .captcha {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding: 0 50px 0 0;
+    position: relative;
+    padding-right: 50px;
+    margin-bottom: 10px;
+  }
+  .node-feedback-form .captcha .form-type-textfield {
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
+  }
+  .node-feedback-form .captcha img {
+    width: 150px;
+    max-width: inherit;
+    position: static;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+    margin-top: 0px;
+  }
+  .node-feedback-form .captcha label.error {
+    left: 0px;
+  }
+  .node-feedback-form .reload-captcha-wrapper {
+    position: absolute;
+    right: 0px;
+    top: 84px;
+    margin-top: 0px;
+  }
+  .node-feedback-form .captcha label.error {
+    position: static;
+  }
+  .node-feedback-form label.error {
+    left: 15px;
+  }
+  .publicStaffGriOfficers ul li {
+    width: 100%;
+  }
+  .publicStaffGriOfficers ul li .GrievanceOfficersLists {
+    min-height: auto;
+  }
+  .visionariesMember .teamBlock li {
+    width: 100%;
+  }
+  .citizenCharter .cols6 {
+    width: 100%;
+  }
+  .citizenCharter .contactUsMain ul li {
+    width: 100%;
+  }
+  .contactUsMain ul {
+    margin: 30px 0 0 0;
+  }
+  .page-node-173 .cols6 {
+    width: 100%;
+  }
+  .path-main-visionaries p {
+    font-size: 1.2em;
+  }
+  .user-login-form .captcha .form-type-textfield {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 46px;
+  }
+  .user-login-form .captcha .reload-captcha-wrapper {
+    position: absolute;
+    right: 0px;
+    bottom: 25px;
+  }
+  .user-login-form {
+    padding: 15px;
+  }
+  .user-login-form .captcha .user-login-form label {
+    font-size: 0.9em;
+  }
+  .region-subscribe-to-newsletters {
+    text-align: center;
+  }
+  .region-subscribe-to-newsletters .form-email {
+    max-width: 400px;
+  }
+  .region-subscribe-to-newsletters h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .region-subscribe-to-newsletters .js-form-item {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .region-subscribe-to-newsletters .captcha {
+    width: 100%;
+    max-width: 100%;
+  }
+  .region-subscribe-to-newsletters .captcha .js-form-item,
+  .region-subscribe-to-newsletters .captcha img {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    max-width: auto;
+  }
+  .region-subscribe-to-newsletters .captcha img,
+  .region-subscribe-to-newsletters .captcha input {
+    max-width: 250px;
+  }
+  .region-subscribe-to-newsletters .js-form-submit {
+    height: auto;
+    padding: 5px 20px;
+  }
+  .visionariesMember .contentMainBlock {
+    min-height: auto;
+  }
+  .view-video-gallery .views-exposed-form {
+    text-align: center;
+  }
+  .views-exposed-form .form--inline .form-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .views-exposed-form .button {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .views-exposed-form {
+    text-align: center;
+  }
+  .views-exposed-form .form-select {
+    margin: 0px;
+  }
+  .campaignDetailsPage .detailsleft {
+    padding: 20px 20px 169px 20px;
+  }
+  .campaignDetailsPage .detailsTop .detailsRight {
+    top: inherit;
+    bottom: 20px;
+    right: inherit;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    max-width: 280px;
+  }
+  .campaignDetailsPage .detailPage .field--type-image {
+    margin-bottom: 0px;
+  }
+  .toggleMenu {
+    margin-right: 10px;
+  }
+  .rightLinks li.search {
+    margin-right: 10px;
+  }
+  .boardOfDirectors .owl-next:before {
+    top: 3px;
+  }
+  .boardOfDirectors .owl-prev:before {
+    top: 3px;
+  }
+  .boardOfDirectors .owl-controls {
+    top: -68px;
+  }
+  .boardOfDirectors {
+    padding: 30px 0 70px;
+  }
+  .boardOfDirectors .row {
+    margin-bottom: 0px;
+  }
+  .lNHeading .yellowBdrBtn {
+    position: relative;
+    top: -1px;
+  }
+  .LnewsBox {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 699px) {
+  .newsletterPage ul li {
+    width: 50%;
+  }
+  .centerOfExce .profile h4 {
+    font-size: 1em;
+  }
+  .centerOfExce .profile p {
+    font-size: 0.8em;
+  }
+  .impactCreated ul li::before {
+    display: none;
+  }
+  .impactCreated ul li:nth-child(2),
+  .impactCreated ul li:nth-child(4),
+  .impactCreated ul li:nth-child(6) {
+    top: 0px;
+  }
+  .impactCreated {
+    min-height: 300px;
+  }
+  .impactCreated ul li {
+    width: 33%;
+  }
+  .servicesWarpper a,
+  .servicesMobSlider a {
+    height: 600px;
+  }
+  .whatsNewSlider .LnewsListInfo .info {
+    padding-left: 0px;
+  }
+  .LnewsListInfo .date {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .LnewsListInfo .info {
+    padding-left: 0px;
+    min-height: inherit;
+  }
+  .LnewsListInfo .info p {
+    margin-bottom: 0px;
+  }
+  .newsBlog .LnewsListInfo .info {
+    padding-left: 0px;
+    margin: 20px 0 0 0;
+  }
+  .LnewsListInfo .photo {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .LnewsListInfo {
+    text-align: center;
+  }
+  .LnewsListInfo .info {
+    padding-left: 0px;
+  }
+  .LnewsListInfo .heading {
+    width: auto;
+    margin: 20px 0;
+  }
+  .incubatees {
+    padding: 20px 0 0;
+    margin-bottom: 0;
+  }
+  .staffListRow .staffList {
+    margin: 0;
+  }
+  .staffList li {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  .staffListRow .staffList li:last-child,
+  .staffListRow .staffList li:last-child h5 {
+    margin: 0;
+  }
+  .staffList li img {
+    max-width: 300px;
+  }
+  .LnewsListInfo .photo {
+    width: 100%;
+    max-width: 200px;
+  }
+  .LnewsListInfo .photo img {
+    width: 100%;
+  }
+  .LnewsListInfo .info {
+    text-align: center;
+  }
+  .centerOfExce {
+  }
+  .LnewsListInfo h4 {
+    text-align: center;
+  }
+  .LnewsListInfo h5 {
+    text-align: center;
+  }
+  .LnewsListInfo .info p {
+    text-align: left;
+  }
+  .contactUsMain ul li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .latestNewsRight .region-whats-news-section .LnewsBox {
+    padding: 15px 15px 50px 15px;
+  }
+  .itemListMain ul li .textDescription {
+    width: 100%;
+  }
+  .contactFullRow .contactUsMain ul li {
+    width: 100%;
+    min-height: auto;
+    margin: 0px 0 20px;
+  }
+  .headQuarter {
+    min-height: auto;
+  }
+  .contactUsMain ul li {
+    min-height: auto;
+    margin: 0 0 10px;
+  }
+  .career-form .captcha {
+    padding-right: 0px;
+  }
+  .career-form .button {
+    position: static;
+  }
+  .career-form .reload-captcha-wrapper {
+    right: 0px;
+  }
+  .career-form {
+    padding: 30px 15px 50px 15px;
+  }
+  .career-form .js-form-item {
+    width: 100%;
+  }
+  .detailsTop {
+    text-align: center;
+  }
+  .detailsTop .detailsRight {
+    width: 100%;
+    max-width: 500px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+  }
+  .detailsleft li::before {
+    display: block;
+  }
+  .detailsleft li {
+    text-align: left;
+    width: 50%;
+    float: left;
+  }
+  .detailsleft {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .contribution ul li {
+    width: 100%;
+  }
+
+  .blueBoxInfo .cols3 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .blueBoxInfo .cols9 {
+    width: 100%;
+  }
+
+  h3 {
+    font-size: 1.6em;
+  }
+  .formList .boxs {
+    margin-left: 0;
+  }
+  .formList .box {
+    float: none;
+    width: auto;
+    margin-left: 0;
+  }
+  .newsLetterSub .captchaInput,
+  .newsLetterSub .inputText1 {
+    width: 100%;
+  }
+  .newsLetterSub ul li:first-child {
+    margin-bottom: 20px;
+  }
+  .newsLetterSub ul li:nth-child(2) {
+    width: 100%;
+  }
+  .newsLetterSub ul li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .newsLetterSub ul li:last-child {
+    margin-top: 0px;
+  }
+  .ministerInfo {
+    padding: 20px;
+    height: auto;
+    text-align: center;
+  }
+  .ministerInfo .photo {
+    position: static;
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: auto;
+    min-height: inherit;
+  }
+  .ministerInfo .photo img {
+    height: auto;
+    min-height: inherit;
+  }
+  .ministerInfo .info {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 0 0;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .mainMinister .ministerInfo .photo {
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .mainMinister .ministerInfo {
+    text-align: center;
+  }
+  .innerPageContent h4 {
+    font-size: 20px;
+  }
+  .innerPageContent .eventPostInfo {
+    text-align: center;
+  }
+  .innerPageContent .eventPostInfo .photo {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .innerPageContent .eventPostInfo .info {
+    padding-left: 0px;
+    min-height: inherit;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    margin: 20px 0 0 0;
+  }
+  .innerPageContent .eventPostInfo .info h5 {
+    margin-bottom: 0px;
+  }
+  .innerPageContent .eventPostInfo .date {
+    margin-bottom: 10px;
+  }
+  .innerPageContent .eventPostInfo h4 {
+    margin-bottom: 0px;
+  }
+  .pageControlSection h2 {
+    font-size: 1.6em;
+    margin-top: 50px;
+  }
+  .neuronBlock .cols4 {
+    width: 100%;
+  }
+  .neuronBlock {
+    text-align: center;
+  }
+  .neuronBlock li .neuronIn {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .neuronBlock li.cols4:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .footerLinks .cols2,
+  .footerLinks .cols3 {
+    text-align: left;
+    width: 50%;
+    min-height: inherit;
+    min-height: 340px;
+  }
+  .bODMemInfo .mainPhoto {
+    max-width: 150px;
+  }
+  #ajax-wrapper .js-form-item {
+    width: 100%;
+  }
+  .objectiveBlock li {
+    width: 100%;
+  }
+  .totalSpaceCaption {
+    padding: 20px;
+  }
+  .totalCounter {
+    padding: 10px;
+    margin: 20px;
+  }
+  .totalCounter li {
+    width: auto;
+    padding: 0 25px 0;
+    min-height: auto;
+    float: none;
+    display: inline-block;
+  }
+  .totalCounter li:nth-child(-n + 5):before,
+  .totalCounter li:nth-child(-n + 3):after {
+    display: none;
+  }
+  .neuronIn .neuroText h4 {
+    font-size: 1em;
+  }
+  .teamBlock li {
+    width: 100%;
+    text-align: center;
+  }
+  .teamBlock li .contentMainBlock {
+    min-height: inherit;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+  }
+  .teamImage img {
+    border: 2px solid #e9e9e9;
+  }
+  .teamBlock li .contentMainBlock p {
+    text-align: center;
+  }
+  .visionariesMember .recentBlock li {
+    width: 100%;
+    padding: 0px;
+  }
+  .visionariesMember .recentBlock {
+    padding: 0px;
+  }
+  .imageInfoCover .contentInfo {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+  .imageInfoCover .image {
+    width: 100%;
+    text-align: center;
+  }
+  .imageInfoCover .image img {
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .imageInfoCover .contentInfo::before {
+    display: none;
+  }
+  .imageInfoCover {
+    padding: 15px;
+  }
+  .innerPageContent .eventPostInfo h4 {
+    margin-bottom: 10px;
+  }
+  .innerPageContent .eventPostInfo .date {
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .innerPageContent .eventPostInfo p {
+    margin-bottom: 0px;
+  }
+  .path-video-gallery .videoGallery li,
+  .video-listing .video-section li,
+  .view-photo-gallery ul li {
+    width: 100%;
+    float: none;
+    max-width: 400px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .path-video-gallery .videoGallery,
+  .video-listing .video-section,
+  .view-photo-gallery ul {
+    text-align: center;
+  }
+  .btnCaptchaRow .js-form-item {
+    padding-left: 0px;
+  }
+  .ourService .servicesMobSlider .owl-prev:before,
+  .ourService .servicesMobSlider .owl-next:before {
+    font-size: 30px;
+  }
+  .imageText .image {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .ministerDetails .ministerDRgt {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .ministerDetails .ministerDLft {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+  }
+  .ministerDetails .ministerDTop {
+    text-align: center;
+  }
+  .page-node-type-photo-gallery .photoGallery {
+    text-align: center;
+  }
+  .page-node-type-photo-gallery .photoGallery li {
+    width: 100%;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 300px;
+  }
+  .spaceAvaibilityForm .js-form-type-email,
+  .spaceAvaibilityForm .js-form-type-textfield {
+    width: 100%;
+  }
+  .career-form .captcha img {
+    position: static;
+    margin-bottom: 10px;
+  }
+  .career-form .captcha {
+    padding-left: 0px;
+  }
+  .career-form .captcha label.error {
+    left: 0px;
+    position: static;
+  }
+  .newsLetterSub ul li:nth-child(2) {
+    width: 100%;
+    max-width: 100%;
+  }
+  .detailsleft li {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+  }
+  .detailsleft li:last-child {
+    border-bottom: 0px;
+  }
+  .detailsleft li::before,
+  .detailsleft li:nth-child(4n)::before,
+  .detailsleft li:nth-child(3n)::before,
+  .detailsleft li:last-child::before {
+    display: none;
+  }
+  .detailsleft {
+    padding: 15px;
+  }
+  .detailsTop h2 {
+    font-size: 1.3em;
+  }
+  .page-views-listing .innerPageContent .eventPostInfo {
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+    padding: 0px;
+  }
+  .page-views-listing .innerPageContent .eventPostInfo .info {
+    padding: 15px;
+    text-align: left;
+  }
+  .page-views-listing .eventDetailpage {
+    text-align: center;
+  }
+  .recentBlock li:nth-child(2n + 1) {
+    width: 100%;
+  }
+  .recentBlock li {
+    width: 100%;
+    max-width: 400px;
+    float: none;
+    display: inline-block;
+  }
+  .view-blog ul.recentBlock {
+    text-align: center;
+  }
+  .career-form .reload-captcha-wrapper {
+    top: 82px;
+  }
+  .tenderDates .tenderDate {
+    width: 100%;
+  }
+  .tenderHeading .tenderTitle {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .region-primary-menu #nav {
+    top: 44px;
+  }
+  .headerLeft {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 20px;
+  }
+  #header.sticky #logo {
+    max-width: 100%;
+  }
+  .newsLetterSub ul li:nth-child(2) {
+    width: 100%;
+  }
+  .newsLetterSub ul li {
+    width: 100%;
+  }
+  .newsLetterSub ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .teamSlider ul li {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+  .ourTeam .photo img {
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .teamSlider .photo {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .ourTeam .photo {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .eventPostInfo {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .eventPostInfo .info {
+    padding-left: 0px;
+    width: 100%;
+    text-align: center;
+    min-height: inherit;
+  }
+  .eventPostInfo .photo {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .eventPostInfo .info h5 {
+    margin-bottom: 0px;
+  }
+  .resTab .r-tabs-accordion-title .r-tabs-anchor h4 {
+    font-size: 1.3em;
+  }
+  .eventsCampaigns .eventsBox {
+    padding: 15px;
+  }
+  .eventPostInfo .info h5 {
+    font-size: 1em;
+  }
+  .campaignsInfo h5 {
+    font-size: 1em;
+  }
+  h4 {
+    font-size: 1.3em;
+    line-height: 1;
+  }
+  .boardOfDirectors .cols4 {
+    width: 50%;
+  }
+  .boardOfDirectors .cols8 {
+    width: 50%;
+  }
+  .bODMemInfo .mainPhoto {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .boardOfDireInfo .bODMemInfo .mainPhoto {
+    max-width: 150px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .centerOfExce .profilesInfo li {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 10px;
+  }
+  .centerOfExce .profilesInfo li:last-child {
+    margin-bottom: 0px;
+  }
+  .centerOfExce .profile {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 300px;
+  }
+  .centerOfExce .profilesInfo {
+    text-align: center;
+  }
+  .commonBtn {
+    font-size: 1em;
+  }
+  .centerOfExceRgt .cols6 {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .centerOfExce .btns .yellowBdrBtn {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+  .career-form .js-form-item {
+    width: 100%;
+  }
+  .career-form {
+    padding: 20px 0px;
+  }
+  .career-form .button {
+    font-size: 1em;
+  }
+  .knowYourMiniPage .teamBlock {
+    margin: 0px;
+  }
+  .knowYourMiniPage .teamBlock li {
+    padding: 15px;
+    text-align: center;
+  }
+  .knowYourMiniPage .teamInfo {
+    padding-left: 0px;
+    clear: left;
+    width: 100%;
+  }
+  .knowYourMiniPage .teamBlock .teamImage {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .knowYourMiniPage .teamBlock .socialIcone {
+    position: static;
+  }
+  .knowYourMiniPage .teamBlockBox {
+    padding: 0px 15px;
+  }
+  .imageText .image {
+    padding-left: 0px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .serviceCaption {
     padding: 0 70px;
-    }
-        
-    .footerLinks .cols2, .footerLinks .cols3 {
-    width:100%;
-    min-height:inherit;
-    }
-    }
-    @media only screen and (max-width:500px) {
-    .footerLinks .cols2 {
-    width:100%;
-    text-align:left;
-    }
-    .footerLinks .cols3 {
-    width:100%;
-    text-align:left;
-    }
-    }
-    @media only screen and (max-width:479px) {
-    .directorateHead {
-    margin-bottom:20px;
-    }
-    .newsletterPage ul li {
-    width:100%;
-    }
-    .directorateInfo .photo {
-    display:inline-block;
-    vertical-align:top;
-    width:100px;
-    top:10px;
-    }
-    .directorateProInfo {
-    padding-top:10px;
-    }
-    .directorateInfo .profileName h4 {
-    font-size:1.3em;
-    }
-    .directorateInfo .profileName {
-    width:100%;
-    clear:both;
-    }
-    .eventsCampaigns h4 {
-    margin-bottom:10px;
-    }
-    .newsLetterSub h3 {
-    font-size:1.6em;
-    line-height:1;
-    }
-    .socialFooter .info {
-    padding-left:0px;
-    width:100%;
-    display:inline-block;
-    vertical-align:top;
-    margin:20px 0 0 0;
-    }
-    .campainImage {
-    max-width:300px;
-    }
-    .campaingsSlider .owl-controls {
-    top:180px;
-    }
-    .impactCreated ul li {
-    width:50%;
-    }
-    .teamSlider ul li {
-    width:100%;
-    }
-    .campainImage {
-    min-height:135px;
-    }
-    .views-exposed-form .form-text {
-    width:100%;
-    }
-    .views-exposed-form .button {
-    margin:0px;
-    width:100%;
-    }
-    .views-exposed-form .form--inline .form-item {
-    max-width:100%;
-    }
-    .path-main-know-your-minister .view-filters {
-    padding:20px 15px;
-    }
-    .teamBlock li {
-    width:100%;
-    }
-    .teamBlock li:nth-child(3n+1) {
-    clear:none;
-    }
-    .teamBlock li:nth-child(4n+1) {
-    clear:none;
-    }
-    .teamBlock li:nth-child(2n+1) {
-    clear:none;
-    }
-    .megaMenuContent .cols3 {
-    width:100%;
-    margin-bottom:30px;
-    }
-    .recentBlock li {
-    width:100%;
-    }
-    .recentBlogStatus li {
-    width:auto;
-    }
-    .trendingBox ul li .trendingText {
-    padding-left:119px;
-    }
-    .recentBlockBox .row {
-    margin-bottom:0px;
-    }
-    .servicesWarpper a, .servicesMobSlider a {
-    min-height:600px;
-    }
-    .boardOfDirectors .cols4 {
-    width:100%;
-    }
-    .boardOfDirectors .cols8 {
-    width:100%;
-    margin-top:70px;
-    }
-    .boardOfDirectors .owl-controls {
-    left:50%;
-    transform:translate(-50%, 0);
-    }
-    .node-feedback-form .js-form-item {
-    width:100%;
-    padding-left:0;
-    padding-right:0;
-    }
-    .node-feedback-form .btnCaptchaRow {
-    padding:0px;
-    }
-    .node-feedback-form label.error {
-    left:0px;
-    }
-    .newMentors .chiefMentorLeft {
-    width:100%;
-    padding:20px;
-    margin-bottom:20px;
-    text-align:center;
-    }
-    .blogPostBigImg {
-    width:40%;
-    margin:0 auto;
-    }
-    .chiefMentoeDetail {
-    padding:10px;
-    margin-bottom:20px;
-    width:auto;
-    }
-    .newMentors .chiefMentorLeft p {
-    text-align:center;
-    }
-    .resTab .r-tabs-accordion-title .r-tabs-anchor h4 {
-    font-size:1em;
-    }
-    .detailPage .field--type-image {
-    margin-bottom:10px;
-    }
-    .detailsleft li {
-    width:100%;
-    }
-    .views-exposed-form {
-    margin:0px auto;
-    text-align:center;
-    }
-    .views-exposed-form .form--inline .form-item {
-    width:100%;
-    margin-bottom:10px;
-    }
-    .views-exposed-form .button {
-    margin:20px 0 0 0;
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    }
-    .views-exposed-form .form-select {
-    margin:0px;
-    }
-    .neuronBlock li .neuronIn {
-    max-width:100%;
-    width:100%;
-    }
-    .neuronBlock .cols4 {
-    padding:0px;
-    }
-    .innerBannerSection .pageControlSection h1 {
-    font-size:1.6em;
-    line-height:1.2;
-    }
-    .OpenLab .cols4, .OpenLab .cols3 {
-    width:100%;
-    }
-    .labCenterCol {
-    text-align:center;
-    }
-    .finLab {
-    text-align:center;
-    float:left;
-    width:95%;
-    }
-    .finLabRight {
-    width:95%;
-    float:right;
-    text-align:center;
-    padding-right:20px;
-    }
-    .stateGovernmentsLeft, .stateGovernmentsRight {
-    margin:0;
-    }
-    .stateGovernmentsLeft li {
-    width:100%;
-    min-height:130px;
-    margin-bottom:10px;
-    }
-    .stateGovernmentsLeft li img {
-    width:25%;
-    }
-    .stateGovernmentsRight li {
-    width:100%;
-    min-height:130px;
-    margin-bottom:10px;
-    }
-    .stateGovernmentsRight li img {
-    width:25%;
-    }
-    .TeamBigInfo ul li {
-    width:100%;
-    margin-bottom:10px;
-    }
-    .ourTeam .photo {
-    float:none;
-    }
-    .directorateLft ul li {
-    margin:0 1px 10px;
-    }
-    .itemListMain ul li .textDescription {
-    width:100%;
-    }
-    .itemListMain ul li .downloadFiles {
-    float:none;
-    margin:10px 0 0;
-    display:inline-block;
-    width:100%;
-    }
-    .policiesSection li {
-    width:100%;
-    margin-bottom:20px;
-    border-bottom:1px solid #ccc;
-    padding-bottom:10px;
-    }
-    .policiesSection li:last-child {
-    border-bottom:0px;
-    }
-    .qultObj .objText {
-    padding:0px;
-    width:100%;
-    float:left;
-    clear:both;
-    text-align:center;
-    }
-    .qultObj {
-    text-align:center;
-    }
-    .qultObj .objIco {
-    display:inline-block;
-    vertical-align:top;
-    float:none;
-    margin-bottom:20px;
-    }
-    .finLabRight li {
-    padding:10px 0px 10px 0;
-    }
-    .career-form .captcha {
-    padding-left:0px;
-    }
-    .career-form .captcha img {
-    position:static;
-    margin-bottom:20px;
-    }
-    .career-form .reload-captcha-wrapper {
-    top:inherit;
-    bottom:24px;
-    }
-    .lNHeading h2 {
-    font-size:1.6em;
-    }
-    .boardOfDirectors .cols4 {
-    margin-bottom:10px;
-    padding-bottom:30px;
-    border-bottom:1px solid #ccc;
-    }
-    }
-    @media only screen and (max-width:400px) {
-        .incubationSlider img { height: auto; width: auto!important; }
-    .ourTeam {
-    text-align:center;
-    }
-    .ourTeam h2 {
-    width:100%;
-    text-align:center;
-    margin-bottom:10px;
-    }
-    .ourTeam .yellowBdrBtn {
-    float:none;
-    display:inline-block;
-    vertical-align:top;
-    margin-right:0px;
-    }
-    .boardOfDirectors .cols4, .boardOfDirectors .cols8 {
-    width:100%;
-    }
-    .indexBanner .sliderBanner .item>img, .indexBanner .sliderBanner .item {
-    min-height:300px;
-    }
-    .ourServiceHead h2 {
-    float:left;
-    }
-    .lNHeading h2, .impactCreated h2, .region-subscribe-to-newsletters h2, .ourServiceHead h2, .ourTeam h2, .directorateLft h2, h2 {
-    font-size:1.4em;
-    line-height:1.2;
-    margin-top:11px;
-    }
-    .rotatingMobSlider h2 {
-    margin-top:-1px;
-    }
-    .latestNewsRight h2 {
-    font-size:1.1em;
-    }
-    .footerLinks h3, .socialFooter .info h3 {
-    font-size:1.3em;
-    }
-    .career-form label {
-    font-size:0.9em;
-    }
-    .headerRight .search .region-search-section {
-    width:230px;
-    }
-    }
+  }
+
+  .footerLinks .cols2,
+  .footerLinks .cols3 {
+    width: 100%;
+    min-height: inherit;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .footerLinks .cols2 {
+    width: 100%;
+    text-align: left;
+  }
+  .footerLinks .cols3 {
+    width: 100%;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .directorateHead {
+    margin-bottom: 20px;
+  }
+  .newsletterPage ul li {
+    width: 100%;
+  }
+  .directorateInfo .photo {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    top: 10px;
+  }
+  .directorateProInfo {
+    padding-top: 10px;
+  }
+  .directorateInfo .profileName h4 {
+    font-size: 1.3em;
+  }
+  .directorateInfo .profileName {
+    width: 100%;
+    clear: both;
+  }
+  .eventsCampaigns h4 {
+    margin-bottom: 10px;
+  }
+  .newsLetterSub h3 {
+    font-size: 1.6em;
+    line-height: 1;
+  }
+  .socialFooter .info {
+    padding-left: 0px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0 0 0;
+  }
+  .campainImage {
+    max-width: 300px;
+  }
+  .campaingsSlider .owl-controls {
+    top: 180px;
+  }
+  .impactCreated ul li {
+    width: 50%;
+  }
+  .teamSlider ul li {
+    width: 100%;
+  }
+  .campainImage {
+    min-height: 135px;
+  }
+  .views-exposed-form .form-text {
+    width: 100%;
+  }
+  .views-exposed-form .button {
+    margin: 0px;
+    width: 100%;
+  }
+  .views-exposed-form .form--inline .form-item {
+    max-width: 100%;
+  }
+  .path-main-know-your-minister .view-filters {
+    padding: 20px 15px;
+  }
+  .teamBlock li {
+    width: 100%;
+  }
+  .teamBlock li:nth-child(3n + 1) {
+    clear: none;
+  }
+  .teamBlock li:nth-child(4n + 1) {
+    clear: none;
+  }
+  .teamBlock li:nth-child(2n + 1) {
+    clear: none;
+  }
+  .megaMenuContent .cols3 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .recentBlock li {
+    width: 100%;
+  }
+  .recentBlogStatus li {
+    width: auto;
+  }
+  .trendingBox ul li .trendingText {
+    padding-left: 119px;
+  }
+  .recentBlockBox .row {
+    margin-bottom: 0px;
+  }
+  .servicesWarpper a,
+  .servicesMobSlider a {
+    min-height: 600px;
+  }
+  .boardOfDirectors .cols4 {
+    width: 100%;
+  }
+  .boardOfDirectors .cols8 {
+    width: 100%;
+    margin-top: 70px;
+  }
+  .boardOfDirectors .owl-controls {
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .node-feedback-form .js-form-item {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .node-feedback-form .btnCaptchaRow {
+    padding: 0px;
+  }
+  .node-feedback-form label.error {
+    left: 0px;
+  }
+  .newMentors .chiefMentorLeft {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .blogPostBigImg {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .chiefMentoeDetail {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: auto;
+  }
+  .newMentors .chiefMentorLeft p {
+    text-align: center;
+  }
+  .resTab .r-tabs-accordion-title .r-tabs-anchor h4 {
+    font-size: 1em;
+  }
+  .detailPage .field--type-image {
+    margin-bottom: 10px;
+  }
+  .detailsleft li {
+    width: 100%;
+  }
+  .views-exposed-form {
+    margin: 0px auto;
+    text-align: center;
+  }
+  .views-exposed-form .form--inline .form-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .views-exposed-form .button {
+    margin: 20px 0 0 0;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .views-exposed-form .form-select {
+    margin: 0px;
+  }
+  .neuronBlock li .neuronIn {
+    max-width: 100%;
+    width: 100%;
+  }
+  .neuronBlock .cols4 {
+    padding: 0px;
+  }
+  .innerBannerSection .pageControlSection h1 {
+    font-size: 1.6em;
+    line-height: 1.2;
+  }
+  .OpenLab .cols4,
+  .OpenLab .cols3 {
+    width: 100%;
+  }
+  .labCenterCol {
+    text-align: center;
+  }
+  .finLab {
+    text-align: center;
+    float: left;
+    width: 95%;
+  }
+  .finLabRight {
+    width: 95%;
+    float: right;
+    text-align: center;
+    padding-right: 20px;
+  }
+  .stateGovernmentsLeft,
+  .stateGovernmentsRight {
+    margin: 0;
+  }
+  .stateGovernmentsLeft li {
+    width: 100%;
+    min-height: 130px;
+    margin-bottom: 10px;
+  }
+  .stateGovernmentsLeft li img {
+    width: 25%;
+  }
+  .stateGovernmentsRight li {
+    width: 100%;
+    min-height: 130px;
+    margin-bottom: 10px;
+  }
+  .stateGovernmentsRight li img {
+    width: 25%;
+  }
+  .TeamBigInfo ul li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .ourTeam .photo {
+    float: none;
+  }
+  .directorateLft ul li {
+    margin: 0 1px 10px;
+  }
+  .itemListMain ul li .textDescription {
+    width: 100%;
+  }
+  .itemListMain ul li .downloadFiles {
+    float: none;
+    margin: 10px 0 0;
+    display: inline-block;
+    width: 100%;
+  }
+  .policiesSection li {
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  .policiesSection li:last-child {
+    border-bottom: 0px;
+  }
+  .qultObj .objText {
+    padding: 0px;
+    width: 100%;
+    float: left;
+    clear: both;
+    text-align: center;
+  }
+  .qultObj {
+    text-align: center;
+  }
+  .qultObj .objIco {
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+    margin-bottom: 20px;
+  }
+  .finLabRight li {
+    padding: 10px 0px 10px 0;
+  }
+  .career-form .captcha {
+    padding-left: 0px;
+  }
+  .career-form .captcha img {
+    position: static;
+    margin-bottom: 20px;
+  }
+  .career-form .reload-captcha-wrapper {
+    top: inherit;
+    bottom: 24px;
+  }
+  .lNHeading h2 {
+    font-size: 1.6em;
+  }
+  .boardOfDirectors .cols4 {
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .incubationSlider img {
+    height: auto;
+    width: auto !important;
+  }
+  .ourTeam {
+    text-align: center;
+  }
+  .ourTeam h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .ourTeam .yellowBdrBtn {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 0px;
+  }
+  .boardOfDirectors .cols4,
+  .boardOfDirectors .cols8 {
+    width: 100%;
+  }
+  .indexBanner .sliderBanner .item > img,
+  .indexBanner .sliderBanner .item {
+    min-height: 300px;
+  }
+  .ourServiceHead h2 {
+    float: left;
+  }
+  .lNHeading h2,
+  .impactCreated h2,
+  .region-subscribe-to-newsletters h2,
+  .ourServiceHead h2,
+  .ourTeam h2,
+  .directorateLft h2,
+  h2 {
+    font-size: 1.4em;
+    line-height: 1.2;
+    margin-top: 11px;
+  }
+  .rotatingMobSlider h2 {
+    margin-top: -1px;
+  }
+  .latestNewsRight h2 {
+    font-size: 1.1em;
+  }
+  .footerLinks h3,
+  .socialFooter .info h3 {
+    font-size: 1.3em;
+  }
+  .career-form label {
+    font-size: 0.9em;
+  }
+  .headerRight .search .region-search-section {
+    width: 230px;
+  }
+}

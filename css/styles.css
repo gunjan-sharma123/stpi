@@ -1,3 +1,6 @@
+:root {
+}
+
 /* extra css */
 .jsRequired {
   display: none;
@@ -41,6 +44,9 @@ input[type="reset"].cancelBtn {
 }
 figure {
   margin: 0 !important;
+}
+a {
+  text-decoration: none;
 }
 /* Global css end*/
 
@@ -292,8 +298,8 @@ figure {
   float: right;
   width: 20px;
   height: 20px;
-  background: url(/themes/stpi/images/toggle-menu-responsive.png) no-repeat
-    center center;
+  background: url(https://stpi.in/themes/stpi/images/toggle-menu-responsive.png)
+    no-repeat center center;
   background-size: 30px 30px;
   position: relative;
 }
@@ -789,6 +795,40 @@ figure {
 }
 
 /* Banner css end */
+
+/*innerPage css start */
+.innerPageContent h4 {
+  font-family: "proximaNova";
+  font-weight: 700;
+  color: #3737a8;
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+ol li {
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+.innerPageContent {
+  padding: 40px 0px;
+}
+.innerPageContent p {
+  color: #555;
+}
+.dataCenterDetail {
+  color: #555555;
+  margin-bottom: 60px;
+}
+.innerPageContent h3 {
+  font-family: "proximaNova";
+  font-weight: 700;
+  color: #3737a8;
+  font-size: 1.8em;
+}
+.innerPageContent {
+  padding: 40px 0;
+  min-height: 500px;
+}
+/* innerPage css end */
 /* knowYourMinisters css start */
 .knowYourMinisters {
   padding: 70px 0 62px;
@@ -2013,6 +2053,37 @@ figure {
   background: #ffd400;
   border-radius: 0px;
 }
+.centerOfExce .centerOfExceRgt {
+  position: relative;
+}
+.centerOfExce .centerOfExceRgt:before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 33px;
+  width: 55%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.centerOfExce .logo img {
+  position: relative;
+  z-index: 2;
+}
+.centerOfExce .logo,
+.centerOfExceRgt h3 {
+  position: relative;
+  left: -5px;
+  background: #fff;
+  border-radius: 30px;
+  padding: 0 20px;
+  color: #000;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 2;
+  min-width: 250px;
+  display: inline-block;
+  text-align: center;
+}
 
 /* centre of enterpreneurship end */
 
@@ -2912,7 +2983,7 @@ figure {
   height: 109px;
 }
 .impactIcon {
-  background-image: url(/themes/stpi/images/impacecreated-icons.png);
+  background-image: url(https://stpi.in/themes/stpi/images/impacecreated-icons.png);
   background-repeat: no-repeat;
   width: 75px;
   height: 75px;
@@ -2997,6 +3068,145 @@ figure {
 .eventsCampaigns .eventsBox .tabContainer {
   max-height: 400px;
   overflow-y: scroll;
+}
+.neuronIn .neuronBoxDetails {
+  position: relative;
+}
+.neuronIn .neuronBoxDetails .socialIcone {
+  position: absolute;
+  right: 30px;
+  bottom: 35px;
+}
+.neuronBlockBox {
+  padding: 50px 0 0 0;
+  clear: both;
+}
+.neuronBlockBox ul {
+  margin: 0 -15px;
+  padding: 0;
+}
+.neuronBlock {
+  display: block;
+  padding: 0 px;
+  margin: 0;
+}
+.neuronBlock li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+.neuronBlock li .neuronIn {
+  border: 1px solid #e4e4e4;
+}
+.neuronBlock .neuronImage img {
+  width: 100%;
+}
+.neuronBlock .neuronImage {
+  position: relative;
+}
+.neuronBlock .neuronImage:after {
+  width: 100%;
+  position: absolute;
+  height: 250px;
+  content: "";
+  background: rgba(0, 0, 0, 0);
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 24%,
+    rgba(0, 0, 0, 0.12) 33%,
+    rgba(0, 0, 0, 0.99) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(24%, rgba(0, 0, 0, 0)),
+    color-stop(33%, rgba(0, 0, 0, 0.12)),
+    color-stop(100%, rgba(0, 0, 0, 0.99))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 24%,
+    rgba(0, 0, 0, 0.12) 33%,
+    rgba(0, 0, 0, 0.99) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 24%,
+    rgba(0, 0, 0, 0.12) 33%,
+    rgba(0, 0, 0, 0.99) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 24%,
+    rgba(0, 0, 0, 0.12) 33%,
+    rgba(0, 0, 0, 0.99) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 24%,
+    rgba(0, 0, 0, 0.12) 33%,
+    rgba(0, 0, 0, 0.99) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.neuronRecDetails h3 {
+  margin-bottom: 0px;
+}
+.neuronRecDetails .neuronTitle {
+  font-size: 17px;
+  display: inline-block;
+}
+.neuronIn .neuroText {
+  padding: 25px 25px 15px 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.neuronIn .neuroText .socialIcone {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+.neuronIn .neuroText .socialIcone a {
+  color: #fff;
+  border: 2px solid #fff;
+}
+.neuroText h4 {
+  font-size: 1.571em;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.neuronTitle {
+  background-color: #ffd400;
+  color: #121959;
+  font-size: 13px;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 30px;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.neuroText .neuronDate {
+  color: #ffd400;
+}
+.neuroText .neuronDate:before {
+  content: "\f073";
+  font-family: fontAwesome;
+  padding-right: 10px;
+}
+.neuronIn .neuronBoxDetails {
+  padding: 25px;
+}
+.neuronBoxDetails p {
+  font-size: 17px;
+  text-align: justify;
 }
 /* eventsCampaigns css end */
 
@@ -5268,9 +5478,11 @@ h2 {
 }
 .LabObjective .ObjImg {
   background: #ffe2b7;
-  float: left;
   border-radius: 1rem;
   margin-bottom: 0.5rem;
+}
+.LabObjective .ObjImg img {
+  width: 100%;
 }
 .LabObjective p {
   text-align: center;
@@ -5489,6 +5701,13 @@ h2 {
 .view-photo-gallery .views-exposed-form .form-item {
   margin: 0px;
   width: 250px;
+}
+.view-career .button,
+.view-tenders .button {
+  margin: 0 0;
+  background: #2d378a;
+  border-color: #2d378a;
+  padding: 4px 10px;
 }
 .views-exposed-form .button {
   font-size: 1.1em;
@@ -5980,9 +6199,28 @@ nav.pager ul li a:hover {
 .newsletterPage ._df_button {
   margin: 0 0 0 0;
 }
+._df_button {
+  background: none !important;
+  border: 0px !important;
+  color: #2d378a !important;
+  font-size: 16px !important;
+}
+
 .newsletterPage .image img {
   width: 200px;
   transition: all 0.3s;
+  max-width: 100%;
+}
+.pager__items {
+  clear: both;
+  text-align: center;
+}
+.pager__item {
+  display: inline;
+  padding: 0.5em;
+}
+.pager__item.is-active {
+  font-weight: bold;
 }
 .newsletterPage .info {
   width: 100%;
@@ -6014,6 +6252,704 @@ nav.pager ul li a:hover {
   border-color: #ffd400 !important;
 }
 /*news letter end*/
-/* circulars and notification start */
 
-/* circulars and notification end */
+/* annual reports */
+.path-stpi-annual-reports {
+  background: #ccc;
+}
+
+/* annual reports end */
+
+/*statutaory page start*/
+.onlineRegistrLink p {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  font-size: 1.286em;
+}
+.onlineRegistrLink .stpiNeuronPartBtn {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+}
+/*statutaory page end*/
+
+/* news letter */
+.path-main-newsletters,
+.path-newsletters {
+  background: #ccc;
+}
+
+/* news letter end */
+
+/* main news start */
+.page-views-listing {
+  background-color: #f4f7f6;
+}
+.page-views-listing .eventPostInfo .info {
+  padding-left: 0px;
+}
+.page-views-listing .innerPageContent .eventPostInfo {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  margin: 0px;
+  border: 0px;
+}
+.page-views-listing .innerPageContent .eventPostInfoItem {
+  background-color: #fff;
+  -webkit-box-shadow: 1px 13px 42px -13px rgba(0, 0, 0, 0.3);
+  transition: border-width 0.6s linear;
+  -moz-box-shadow: 1px 13px 42px -13px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 13px 42px -13px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
+  position: relative;
+}
+.page-views-listing .eventPostInfoItem .photo {
+  width: 100%;
+  float: none;
+  position: relative;
+  transition: all 0.3s;
+}
+.page-views-listing .eventPostInfoItem .photo:before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+}
+.page-views-listing .eventPostInfoItem:hover .photo:before {
+  opacity: 1;
+  visibility: visible;
+}
+.page-views-listing .eventPostInfoItem:hover .photo img {
+  transform: scale(1.1);
+}
+.page-views-listing .eventPostInfoItem:hover .photo .socialIcone {
+  opacity: 1;
+  visibility: visible;
+}
+.page-views-listing .socialIcone {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 4;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.page-views-listing .socialIcone a {
+  color: #fff;
+  border: 2px solid #fff;
+  width: 40px;
+  height: 40px;
+}
+.page-views-listing .socialIcone a .fa {
+  font-size: 22px;
+  line-height: 1.2;
+}
+.page-views-listing .categoryBtn {
+  background-color: #213f86;
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+  padding: 1px 10px;
+  border-radius: 5px;
+  font-size: 14px !important;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.page-views-listing .innerPageContent .eventPostInfoItem .photo img {
+  width: 100%;
+}
+.page-views-listing .eventPostInfoItem .info {
+  padding: 15px;
+  height: 118px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 6;
+}
+.page-views-listing .eventPostInfoItem h4 {
+  font-size: 1em;
+  font-weight: normal;
+  display: inline-block;
+  vertical-align: top;
+}
+.page-views-listing .eventPostInfo .photo {
+  height: 200px;
+  max-width: 100%;
+  width: 100%;
+}
+.page-views-listing .eventPostInfo p {
+  font-size: 1em;
+  font-weight: normal;
+}
+.page-views-listing .eventPostInfo .date {
+  font-size: 0.8em;
+  margin-bottom: 10px;
+  font-weight: normal;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  padding-left: 20px;
+  width: 100%;
+}
+.page-views-listing .eventPostInfo .date:before {
+  content: "\f133";
+  position: absolute;
+  left: 0px;
+  top: -2px;
+  width: 15px;
+  height: 15px;
+  font-family: fontAwesome;
+}
+.page-views-listing .innerPageContent .eventPostInfoItem {
+  position: relative;
+}
+.page-views-listing .innerPageContent .eventPostInfoItem:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 0;
+  width: 100%;
+  border-left: 5px solid #fdb913;
+  z-index: 3;
+  border-right: 5px solid #fdb913;
+  transition-duration: 0.4s;
+}
+.page-views-listing .innerPageContent .eventPostInfoItem:hover:before {
+  height: 100%;
+}
+.page-views-listing .innerPageContent .eventPostInfoItem:after {
+  content: "";
+  position: absolute;
+  z-index: 3;
+  left: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 0;
+  border-top: 5px solid #fdb913;
+  border-bottom: 5px solid #fdb913;
+  transition-duration: 0.5s;
+}
+.page-views-listing .innerPageContent .eventPostInfoItem:hover:after {
+  width: 100%;
+}
+.socialIcone ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  vertical-align: top;
+}
+.socialIcone .recentBlogStatus {
+  margin: 5px 20px 0 0;
+}
+.socialIcone ul li {
+  padding: 0px 2px;
+  margin: 0px;
+  display: inline-block;
+  vertical-align: top;
+}
+.socialIcone ul li a {
+  color: #717171;
+  width: 25px;
+  height: 25px;
+  display: table;
+  border: 1px solid #717171;
+  border-radius: 50%;
+  text-align: center;
+  transition: all 0.3s;
+}
+.ministerInfo ul li a .fa {
+  font-size: 16px;
+  position: relative;
+  top: 2px;
+}
+.socialIcone ul li a span {
+  vertical-align: middle;
+  display: table-cell;
+}
+.socialIcone ul li a:hover {
+  background-color: #2d378a;
+  color: #fff;
+}
+.socialIcone ul li:nth-child(1) a:hover {
+  background-color: #1c9ceb;
+  border-color: #1c9ceb;
+  color: #fff;
+}
+.socialIcone ul li:nth-child(1) .fa {
+  position: relative;
+  top: 1px;
+  left: 0px;
+}
+.socialIcone ul li:nth-child(2) a:hover {
+  background-color: #345095;
+  border-color: #345095;
+  color: #fff;
+}
+.socialIcone ul li:nth-child(2) .fa {
+  position: relative;
+  top: 1px;
+}
+.socialIcone ul li:nth-child(3) a:hover {
+  background-color: #0073b1;
+  border-color: #0073b1;
+  color: #fff;
+}
+.socialIcone ul li:nth-child(3) .fa {
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.socialIcone .action-flag a {
+  border: 0px;
+  padding: 0px;
+}
+.socialIcone ul li .action-flag a {
+  border: 0px;
+  padding: 0px;
+}
+.socialIcone ul li .flag a,
+.socialIcone ul li .flag a:hover {
+  display: inline-block;
+  vertical-align: top;
+  border: 0px;
+  width: auto;
+  height: auto;
+  background: none;
+  color: #ff0000;
+}
+.socialIcone ul li .flag a .fa {
+  padding-left: 5px;
+}
+/* main news end */
+
+.box-main {
+  display: grid;
+  grid-gap: 15px 14px;
+  grid-template-columns: auto auto auto auto;
+}
+
+.vi iframe {
+  width: 100%;
+}
+
+/* know-your-minister */
+.path-main-know-your-minister .innerPageContent {
+  padding: 0px;
+}
+.path-main-know-your-minister .view-filters {
+  padding: 40px 0;
+}
+.path-main-know-your-minister .innerPageContent .content {
+  position: relative;
+}
+.path-main-know-your-minister .innerPageContent .content:before {
+  background-image: url(https://stpi.in/themes/stpi/images/teamBg.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1052px;
+  left: 0;
+  top: 0px;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  z-index: -1;
+}
+.knowYourMiniPage .teamBlock li {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  background-color: #fff;
+  padding: 20px 20px 15px 30px;
+  box-shadow: -1px 6px 17px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+  clear: left;
+}
+.knowYourMiniPage .teamBlock {
+  margin: 0 15px;
+}
+.knowYourMiniPage .teamBlock .socialIcone {
+  margin-top: 30px;
+}
+.innerPageContent .teamBlock p {
+  text-align: center;
+  margin-bottom: 0px;
+}
+.knowYourMiniPage .teamBlock li:not(:last-child) {
+  margin-bottom: 75px;
+}
+.knowYourMiniPage .teamBlock .teamImage {
+  float: left;
+  margin: -45px 0 0 0;
+  width: auto;
+  overflow: hidden;
+}
+.knowYourMiniPage .teamBlock .teamImage a:hover img {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.knowYourMiniPage .teamInfo {
+  padding-left: 230px;
+}
+.knowYourMiniPage .teamBlock .socialIcone ul li {
+  margin: 0px;
+  padding: 0px 2px;
+  box-shadow: none;
+}
+.knowYourMiniPage .teamBlock .socialIcone {
+  position: absolute;
+  right: 30px;
+  top: 0;
+}
+
+.teamBlock {
+  text-align: center;
+  margin: 0px -15px;
+  padding: 0px;
+}
+.teamBlock li {
+  width: 25%;
+  padding: 0px 15px;
+  list-style: none;
+  float: left;
+  margin-bottom: 20px;
+}
+.teamBlock .teamImage {
+  margin-bottom: 25px;
+}
+.teamBlock .teamName {
+  font-size: 1.2em;
+  color: #000;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0;
+}
+.teamBlock .teamName a {
+  color: #000;
+  text-decoration: none;
+}
+.teamBlock .teamDg {
+  font-size: 1.286em;
+  color: #3737a8;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+  display: block;
+}
+.teamBlock .teamDep {
+  font-size: 1em;
+  color: #666666;
+  margin-bottom: 10px;
+  display: block;
+}
+.teamBlock .socialIcone {
+  margin-top: 10px;
+}
+.teamBlock .socialIcone ul li {
+  width: auto;
+  float: none;
+  display: inline-block;
+}
+.teamBlock .socialIcone ul li a {
+  color: #879de4;
+  border: 1px solid #879de4;
+}
+.teamBlock .socialIcone ul li a:hover {
+  color: #fff;
+}
+.yBdrBtn {
+  border: 2px solid #ffd400;
+  color: #3737a8;
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 5px 20px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+.yBdrBtn:hover {
+  background-color: #ffd400;
+  color: #3737a8;
+}
+.knowYourMiniPage .btns {
+  margin: 30px 0 0 0;
+  width: 100%;
+}
+
+/* .mainMinister { -webkit-box-shadow: -1px -1px 18px 0px rgba(0,0,0,0.14);
+  -moz-box-shadow: -1px -1px 18px 0px rgba(0,0,0,0.14);
+  box-shadow: -1px -1px 18px 0px rgba(0,0,0,0.14); margin:0 -15px; display:inline-block; vertical-align:top;}
+  .mainMinister .ministerInfo { background-color:#1465a4; color:#fff;}
+  .mainMinister .ministerInfo a{ color:#fff;}
+  .mainMinister .ministerInfo ul li a{ color:#fff; border-color:#fff;}
+  .mainMinister .ministerInfo ul li a:hover { background-color:#000;}
+  .ministerInfo ul li:nth-child(1) a:hover { background-color:#00aced; border-color:#00aced; color:#fff;}
+  .ministerInfo ul li:nth-child(2) a:hover { background-color:#3a559f;  border-color:#3a559f; color:#fff;}
+  .ministerInfo ul li:nth-child(3) a:hover { background-color:#007ab9;  border-color:#007ab9; color:#fff;}
+  .mainMinister .ministerInfo .info p{ margin-bottom:10px;}
+  .ministerBottomInfo {   text-align:justify; padding:20px; min-height:240px;  } 
+  .ministerBottomInfo p{ font-size:1.071em; line-height:1.4; margin-bottom:0px;}
+  .ministerCover { 
+  box-shadow:0px 5px 10px #8a8989; 
+  -webkit-box-shadow:0px 5px 10px #8a8989;
+  -moz-shadow:0px 5px 10px #8a8989;
+  -ms-shadow:0px 5px 10px #8a8989;
+   } */
+/* know-your-minister end */
+
+/* main blog pages start */
+.recentBlock .info a {
+  text-decoration: none;
+}
+.blogBox {
+  padding: 50px 0;
+}
+.blogRight {
+  padding-left: 15px;
+}
+.blogBox .blogLeft {
+  width: 66%;
+  float: left;
+}
+.blogBox .blogLeft p {
+  font-size: 1.125em;
+  line-height: 1.5;
+  color: #616161;
+}
+.blogBox .blogLeft a {
+  text-decoration: none;
+}
+.recentBlock .info a {
+  text-decoration: none;
+}
+a {
+  transition: all 0.3s;
+}
+.blogBox .blogImg a:hover {
+  color: #3737a8;
+}
+.blogBox .blogRight {
+  width: 34%;
+  float: right;
+}
+.blogBox .blogImg {
+  position: relative;
+  margin-bottom: 25px;
+}
+.blogBox .blogImg .blogDate {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #ffcb05;
+  padding: 10px 25px;
+  color: #1e1e5b;
+  font-size: 18px;
+  font-weight: 700;
+}
+.blogBox .blogLeft h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+}
+.blogBox .readMore {
+  font-size: 18px;
+  color: #1e1e5b;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.blogBox .readMore:hover {
+  text-decoration: none;
+}
+.trendingBox ul {
+  list-style: none;
+  padding: 0;
+}
+.trendingBox ul li {
+  margin-bottom: 40px;
+}
+.trendingBox ul li .trendingImg {
+  float: left;
+  max-width: 100px;
+}
+.trendingBox ul li .trendingText {
+  padding-left: 130px;
+}
+.trendingBox ul li .trendingText p {
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.trendingBox ul li .trendingDate {
+  color: #1e1e5b;
+  display: block;
+}
+.trendingBox ul li .trendingPublised {
+  color: #1e1e5b;
+}
+.moreBlock li {
+  margin-bottom: 80px;
+}
+.trendingBox a {
+  text-decoration: none;
+}
+.trendingBox .socialIcone li {
+  margin-bottom: 0px;
+}
+.recentBlock .info .socialIcone {
+  position: absolute;
+  right: 0px;
+  top: -2px;
+}
+.recentBlock li:nth-child(3n + 1) {
+  clear: left;
+}
+.moreBlock.recentBlock .recentBlogStatus {
+  top: -5px;
+}
+.recentBlogStatus .action-unflag a,
+.recentBlogStatus .action-unflag span {
+  color: #ff0000;
+}
+.recentBlogStatus {
+  display: inline-block;
+  vertical-align: top;
+}
+.recentBlock .recentBlogStatus {
+  position: absolute;
+  right: 0px;
+  top: 6px;
+}
+.recentBlock .info {
+  position: relative;
+}
+.recentblogSlider .item {
+  height: auto;
+  line-height: inherit;
+}
+.recentblogSlider .owl-prev,
+.recentblogSlider .owl-next {
+  position: relative;
+  font-size: 0px;
+}
+.recentblogSlider .owl-prev:before {
+  content: "\f104";
+  font-family: fontAwesome;
+  font-size: 4.286em;
+}
+.recentblogSlider .owl-next {
+  position: relative;
+  font-size: 0px;
+}
+.recentblogSlider .owl-next:before {
+  content: "\f105";
+  font-family: fontAwesome;
+  font-size: 4.286em;
+}
+.recentblogSlider .owl-controls {
+  position: absolute;
+  right: 0px;
+  top: -110px;
+}
+.recentblogSlider .owl-controls .owl-nav [class*="owl-"] {
+  background: transparent;
+  color: #000;
+  padding: 0px 25px;
+  margin: 0px;
+}
+.recentblogSlider .owl-controls .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+  color: #666;
+}
+/* main blog pages end */
+/* cvo page start */
+.contentblock .dLeftBlk {
+  padding-top: 15px;
+}
+.profileImg {
+  max-width: 100%;
+  margin: 0 0 10px;
+  border: 1px solid #0f64b9;
+  padding: 3px;
+}
+.dPersonalInfo .form-group {
+  text-align: left;
+  padding: 5px;
+  margin: 10px 0px;
+  background: white;
+}
+.dPersonalInfo .form-group label {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0 0 6px;
+}
+.dPersonalInfo .form-group label i {
+  margin: 0 7px 0 0;
+}
+.dPersonalInfo .form-group p {
+  font-size: 14px;
+  margin: 0;
+}
+.contentblock .col-md-3,
+.contentblock .col-md-9 .bioHead {
+  background: #efefef;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.bioHead {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  border: 1px solid #0f64b9;
+  flex-wrap: wrap;
+}
+.bioHead .form-group {
+  margin: 0;
+  width: 50%;
+}
+.bioHead .form-group label {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0 0 4px;
+  border-bottom: 2px solid #f1cb38;
+}
+.bioHead .form-group p {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+/* cvo page end */
+
+/*  circulars page start */
+th,
+td,
+.tableData th,
+.tableData td {
+  border: none;
+  padding: 8px 10px;
+}
+table tr:nth-child(odd) td,
+.tableRowOdd {
+  background-color: #fff;
+}
+
+/*  circulars page end */
