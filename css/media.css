@@ -492,7 +492,7 @@
   .timelineDateBox .timelineDateTex {
     padding: 0 0;
   }
-  .timelineDateBox .cols3 {
+  .timelineDateBox .col-md-3 {
     padding-right: 15px;
   }
   .timelineDateBox .timelineDate {
@@ -621,8 +621,8 @@
     display: inline-block;
     vertical-align: top;
   }
-  footer .footerCopyright .cols10,
-  footer .footerCopyright .cols2 {
+  footer .footerCopyright .col-md-10,
+  footer .footerCopyright .col-md-2 {
     width: 100%;
     text-align: center;
   }
@@ -738,7 +738,7 @@
   .bannerCaption .bannerTitle {
     font-size: 2em;
   }
-  .panIndia .cols4 {
+  .panIndia .col-md-4 {
     width: 33.33%;
   }
   .directorateProInfo {
@@ -852,10 +852,10 @@
   .latestNewsRight .LnewsBox p {
     font-size: 1em;
   }
-  .latestNews .cols8 {
+  .latestNews .col-md-8 {
     width: 60%;
   }
-  .latestNews .cols4 {
+  .latestNews .col-md-4 {
     width: 40%;
   }
   .latestNewsRight .region-whats-news-section {
@@ -1087,10 +1087,10 @@
   }
 }
 @media only screen and (max-width: 1170px) {
-  .blueBoxInfo .cols3 {
+  .blueBoxInfo .col-md-3 {
     width: 35%;
   }
-  .blueBoxInfo .cols9 {
+  .blueBoxInfo .col-md-9 {
     width: 65%;
   }
 
@@ -1314,13 +1314,13 @@
   .latestNewsRight .region-whats-news-section .LnewsBox {
     margin-bottom: 153px;
   }
-  .panIndia .cols3 {
+  .panIndia .col-md-3 {
     width: 50%;
   }
-  .panIndia .cols5 {
+  .panIndia .col-md-5 {
     width: 50%;
   }
-  .panIndia .cols4 {
+  .panIndia .col-md-4 {
     width: 100%;
   }
   .directorateInfo {
@@ -1667,7 +1667,7 @@
   .directorateLft .selectInfo ul {
     margin-bottom: 30px;
   }
-  .panIndia .cols3 {
+  .panIndia .col-md-3 {
     width: 100%;
   }
   .directorateLft ul li {
@@ -1713,8 +1713,8 @@
     height: 32px;
     width: 210px !important;
   }
-  .panIndia .cols5,
-  .panIndia .cols4 {
+  .panIndia .col-md-5,
+  .panIndia .col-md-4 {
     width: 50%;
     overflow: scroll;
     height: 600px;
@@ -1734,8 +1734,8 @@
     font-size: 1.8em;
     margin-bottom: 0px;
   }
-  .footerLinks .cols2,
-  .footerLinks .cols3 {
+  .footerLinks .col-md-2,
+  .footerLinks .col-md-3 {
     width: 50%;
     text-align: left;
     min-height: 340px;
@@ -1745,7 +1745,7 @@
     text-align: left;
     vertical-align: top;
   }
-  .eventsCampaigns .cols6 {
+  .eventsCampaigns .col-md-6 {
     width: 100%;
   }
   .eventPostInfo .photo {
@@ -1810,7 +1810,7 @@
     font-size: 2em;
     margin-right: 10px;
   }
-  .panIndia .cols5 {
+  .panIndia .col-md-5 {
     display: none;
   }
   .directorateHead {
@@ -1824,7 +1824,7 @@
   .panIndia {
     text-align: center;
   }
-  .panIndia .cols4 {
+  .panIndia .col-md-4 {
     display: inline-block;
     vertical-align: top;
     width: 100%;
@@ -1834,8 +1834,8 @@
     min-height: 600px;
     max-height: 600px;
   }
-  .footerCopyright .cols9,
-  .footerCopyright .cols3 {
+  .footerCopyright .col-md-9,
+  .footerCopyright .col-md-3 {
     width: 100%;
   }
   .innerPageContent {
@@ -1910,8 +1910,8 @@
     padding: 0;
     margin-bottom: 30px;
   }
-  .fosteringCenter .cols7,
-  .fosteringCenter .cols5 {
+  .fosteringCenter .col-md-7,
+  .fosteringCenter .col-md-5 {
     width: 100%;
   }
   .fosteringCenter .fosteringRight {
@@ -1961,10 +1961,10 @@
     box-shadow: none;
     max-width: inherit;
   }
-  .finTech .cols8 {
+  .finTech .col-md-8 {
     width: 100%;
   }
-  .finTech .cols4 {
+  .finTech .col-md-4 {
     margin-top: 0;
     width: 100%;
   }
@@ -2006,8 +2006,8 @@
   .view-photo-gallery ul li {
     width: 50%;
   }
-  .panIndia .cols5,
-  .panIndia .cols4 {
+  .panIndia .col-md-5,
+  .panIndia .col-md-4 {
     height: auto;
   }
   .dirContactInfo {
@@ -2037,10 +2037,10 @@
   .impactCreated {
     min-height: auto;
   }
-  .latestNews .cols8 {
+  .latestNews .col-md-8 {
     width: 100%;
   }
-  .latestNews .cols4 {
+  .latestNews .col-md-4 {
     width: 100%;
   }
   .LnewsBox {
@@ -2140,10 +2140,10 @@
   }
 }
 @media only screen and (max-width: 992px) {
-  .contact .cols7 {
+  .contact .col-md-7 {
     width: 100%;
   }
-  .contact .cols5 {
+  .contact .col-md-5 {
     width: 100%;
   }
   .contactMapImage {
@@ -2227,14 +2227,14 @@
     min-height: auto;
     margin-bottom: 30px;
   }
-  .neuronBlock .cols4 {
+  .neuronBlock .col-md-4 {
     width: 50%;
     margin-bottom: 0px;
   }
-  .ourTeam .cols6:nth-child(1) {
+  .ourTeam .col-md-6:nth-child(1) {
     width: 45%;
   }
-  .ourTeam .cols6:nth-child(2) {
+  .ourTeam .col-md-6:nth-child(2) {
     width: 55%;
   }
   .ourJourneyPhoto img {
@@ -2243,13 +2243,13 @@
   .knowYourMinisters {
     text-align: center;
   }
-  .knowYourMinisters .cols6 {
+  .knowYourMinisters .col-md-6 {
     width: 100%;
   }
   .ministerBottomInfo {
     min-height: inherit;
   }
-  .cols6 .otherMinisters .ministerInfo:last-child {
+  .col-md-6 .otherMinisters .ministerInfo:last-child {
     margin-bottom: 0px;
   }
   .mainMinister,
@@ -2301,20 +2301,20 @@
   }
 }
 @media only screen and (max-width: 899px) {
-  .socialEngagement .cols4 {
+  .socialEngagement .col-md-4 {
     width: 100%;
   }
   .socialEngCover {
     height: auto;
   }
-  .socialEngagement .cols4 {
+  .socialEngagement .col-md-4 {
     width: 100%;
     max-width: 500px;
     display: inline-block;
     vertical-align: top;
     float: none;
   }
-  .socialEngagement .cols4:not(:last-child) {
+  .socialEngagement .col-md-4:not(:last-child) {
     margin-bottom: 30px;
   }
   .socialEngagement {
@@ -2324,7 +2324,7 @@
     margin: 0px;
     text-align: center;
   }
-  .megaMenuContent .cols3 {
+  .megaMenuContent .col-md-3 {
     width: 50%;
     margin-bottom: 30px;
   }
@@ -2423,7 +2423,7 @@
   .tenderHeading .tenderRef {
     max-width: 100%;
   }
-  .fullColMob .cols6 {
+  .fullColMob .col-md-6 {
     width: 100%;
   }
   .policiesSection li {
@@ -2455,7 +2455,7 @@
     display: inline-block;
     vertical-align: top;
   }
-  .ourTeam .cols6:nth-child(1) {
+  .ourTeam .col-md-6:nth-child(1) {
     border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
   }
@@ -2529,7 +2529,7 @@
   .ourJourneyPhoto {
     position: static;
   }
-  .ourJourney .cols6 {
+  .ourJourney .col-md-6 {
     width: 100%;
   }
   .ourJourney .resTab .tabContent {
@@ -2550,10 +2550,10 @@
     max-width: 500px;
     margin: 30px auto 0;
   }
-  .ourTeam .cols6:nth-child(1) {
+  .ourTeam .col-md-6:nth-child(1) {
     width: 100%;
   }
-  .ourTeam .cols6:nth-child(2) {
+  .ourTeam .col-md-6:nth-child(2) {
     width: 100%;
   }
   .ourServiceHead {
@@ -2638,21 +2638,21 @@
   .commonBtn {
     padding: 5px 20px;
   }
-  .socialFooter .cols7 {
+  .socialFooter .col-md-7 {
     width: 100%;
     margin-bottom: 30px;
   }
-  .socialFooter .cols3 {
+  .socialFooter .col-md-3 {
     width: auto;
   }
-  .socialFooter .cols2 {
+  .socialFooter .col-md-2 {
     width: auto;
   }
   .socialFooter .info h3 {
     font-size: 1.5em;
   }
-  .footerCopyright .cols9,
-  .footerCopyright .cols3 {
+  .footerCopyright .col-md-9,
+  .footerCopyright .col-md-3 {
     width: 100%;
     text-align: center;
   }
@@ -2665,7 +2665,7 @@
   .newsLetterSub ul {
     margin: 0px;
   }
-  .ourTeam .cols6 {
+  .ourTeam .col-md-6 {
     width: 100%;
   }
   .campainImage {
@@ -2713,8 +2713,8 @@
   .centerOfExce .centerOfExceRgt {
     width: 100%;
   }
-  .panIndia .cols5,
-  .panIndia .cols4 {
+  .panIndia .col-md-5,
+  .panIndia .col-md-4 {
     height: auto;
   }
   .cOEachievements {
@@ -2848,7 +2848,7 @@
   .recentBlock .recentImage {
     height: 200px;
   }
-  .neuronBlock .cols4:not(:last-child) {
+  .neuronBlock .col-md-4:not(:last-child) {
     margin-bottom: 30px;
   }
   .neuronBlockBox ul {
@@ -2869,7 +2869,7 @@
   .teamSlider ul li {
     float: left;
   }
-  .excellenceCenter .cols6 {
+  .excellenceCenter .col-md-6 {
     width: 100%;
   }
   .coeCenter {
@@ -2887,7 +2887,7 @@
     margin-top: 20px;
     margin-right: 0;
   }
-  .stateGovernmentsFull .cols6 {
+  .stateGovernmentsFull .col-md-6 {
     width: 100%;
   }
   .stateGovernmentsLeft li {
@@ -2904,7 +2904,7 @@
     max-width: 100%;
     width: 50%;
   }
-  .stateGovernmentsFull .cols6:nth-child(2) {
+  .stateGovernmentsFull .col-md-6:nth-child(2) {
     margin-left: 0;
   }
   .stateGovernmentsRight {
@@ -2984,11 +2984,11 @@
   .knowYourMiniPage .btns {
     margin-top: 10px;
   }
-  .timelineDateBox .cols3 {
+  .timelineDateBox .col-md-3 {
     width: 100%;
     padding: 0 15px;
   }
-  .timelineDateBox .cols3:not(:last-child) {
+  .timelineDateBox .col-md-3:not(:last-child) {
     margin-bottom: 10px;
     padding-bottom: 15px;
   }
@@ -3188,7 +3188,7 @@
   .visionariesMember .teamBlock li {
     width: 100%;
   }
-  .citizenCharter .cols6 {
+  .citizenCharter .col-md-6 {
     width: 100%;
   }
   .citizenCharter .contactUsMain ul li {
@@ -3197,7 +3197,7 @@
   .contactUsMain ul {
     margin: 30px 0 0 0;
   }
-  .page-node-173 .cols6 {
+  .page-node-173 .col-md-6 {
     width: 100%;
   }
   .path-main-visionaries p {
@@ -3488,11 +3488,11 @@
     width: 100%;
   }
 
-  .blueBoxInfo .cols3 {
+  .blueBoxInfo .col-md-3 {
     width: 100%;
     margin-bottom: 30px;
   }
-  .blueBoxInfo .cols9 {
+  .blueBoxInfo .col-md-9 {
     width: 100%;
   }
 
@@ -3589,7 +3589,7 @@
     font-size: 1.6em;
     margin-top: 50px;
   }
-  .neuronBlock .cols4 {
+  .neuronBlock .col-md-4 {
     width: 100%;
   }
   .neuronBlock {
@@ -3599,11 +3599,11 @@
     display: inline-block;
     vertical-align: top;
   }
-  .neuronBlock li.cols4:not(:last-child) {
+  .neuronBlock li.col-md-4:not(:last-child) {
     margin-bottom: 30px;
   }
-  .footerLinks .cols2,
-  .footerLinks .cols3 {
+  .footerLinks .col-md-2,
+  .footerLinks .col-md-3 {
     text-align: left;
     width: 50%;
     min-height: inherit;
@@ -3903,10 +3903,10 @@
     font-size: 1.3em;
     line-height: 1;
   }
-  .boardOfDirectors .cols4 {
+  .boardOfDirectors .col-md-4 {
     width: 50%;
   }
-  .boardOfDirectors .cols8 {
+  .boardOfDirectors .col-md-8 {
     width: 50%;
   }
   .bODMemInfo .mainPhoto {
@@ -3938,7 +3938,7 @@
   .commonBtn {
     font-size: 1em;
   }
-  .centerOfExceRgt .cols6 {
+  .centerOfExceRgt .col-md-6 {
     width: 100%;
     margin-bottom: 10px;
     text-align: center;
@@ -3993,18 +3993,18 @@
     padding: 0 70px;
   }
 
-  .footerLinks .cols2,
-  .footerLinks .cols3 {
+  .footerLinks .col-md-2,
+  .footerLinks .col-md-3 {
     width: 100%;
     min-height: inherit;
   }
 }
 @media only screen and (max-width: 500px) {
-  .footerLinks .cols2 {
+  .footerLinks .col-md-2 {
     width: 100%;
     text-align: left;
   }
-  .footerLinks .cols3 {
+  .footerLinks .col-md-3 {
     width: 100%;
     text-align: left;
   }
@@ -4086,7 +4086,7 @@
   .teamBlock li:nth-child(2n + 1) {
     clear: none;
   }
-  .megaMenuContent .cols3 {
+  .megaMenuContent .col-md-3 {
     width: 100%;
     margin-bottom: 30px;
   }
@@ -4106,10 +4106,10 @@
   .servicesMobSlider a {
     min-height: 600px;
   }
-  .boardOfDirectors .cols4 {
+  .boardOfDirectors .col-md-4 {
     width: 100%;
   }
-  .boardOfDirectors .cols8 {
+  .boardOfDirectors .col-md-8 {
     width: 100%;
     margin-top: 70px;
   }
@@ -4176,15 +4176,15 @@
     max-width: 100%;
     width: 100%;
   }
-  .neuronBlock .cols4 {
+  .neuronBlock .col-md-4 {
     padding: 0px;
   }
   .innerBannerSection .pageControlSection h1 {
     font-size: 1.6em;
     line-height: 1.2;
   }
-  .OpenLab .cols4,
-  .OpenLab .cols3 {
+  .OpenLab .col-md-4,
+  .OpenLab .col-md-3 {
     width: 100%;
   }
   .labCenterCol {
@@ -4282,7 +4282,7 @@
   .lNHeading h2 {
     font-size: 1.6em;
   }
-  .boardOfDirectors .cols4 {
+  .boardOfDirectors .col-md-4 {
     margin-bottom: 10px;
     padding-bottom: 30px;
     border-bottom: 1px solid #ccc;
@@ -4307,8 +4307,8 @@
     vertical-align: top;
     margin-right: 0px;
   }
-  .boardOfDirectors .cols4,
-  .boardOfDirectors .cols8 {
+  .boardOfDirectors .col-md-4,
+  .boardOfDirectors .col-md-8 {
     width: 100%;
   }
   .indexBanner .sliderBanner .item > img,
@@ -4344,5 +4344,231 @@
   }
   .headerRight .search .region-search-section {
     width: 230px;
+  }
+}
+@media screen and (max-width: 425px) {
+  iframe.you_video {
+    height: 182px;
+  }
+}
+@media screen and (max-width: 768px) {
+  iframe.you_video {
+    height: 301px;
+  }
+  .stateGovernmentsFull li:nth-child(2) .listTiltes {
+    position: relative;
+    bottom: 0;
+  }
+}
+.TeamBigInfo .photo {
+  box-shadow: none;
+}
+@media only screen and (min-width: 1288px) {
+  .stpiCenters,
+  .LabNetwork,
+  .LabUsp,
+  .functionTab,
+  .path-centre-of-entrepreneurship .OpenLab,
+  .path-centre-of-entrepreneurship .typicalObjective,
+  .path-centre-of-entrepreneurship .ecosystem,
+  .startup_eco {
+    width: 1920px;
+    margin-left: -27%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .stpiCenters,
+  .LabNetwork,
+  .LabUsp,
+  .functionTab,
+  .path-centre-of-entrepreneurship .OpenLab,
+  .path-centre-of-entrepreneurship .typicalObjective,
+  .path-centre-of-entrepreneurship .ecosystem,
+  .startup_eco {
+    margin-left: -25%;
+  }
+}
+@media only screen and (min-width: 575px) {
+  .serviceCaption {
+    bottom: 19vh;
+  }
+  .serviceCaption:before {
+    width: 90%;
+  }
+  .ObjImg1,
+  .ObjImg3,
+  .ObjImg5 {
+    margin-top: 3.4rem;
+  }
+}
+@media only screen and (min-device-width: 576px) and (max-width: 768px) {
+  .EcoCenter h2 {
+    text-align: center;
+  }
+
+  .pset {
+    padding-top: 180px;
+    padding-bottom: 10px;
+    /*    padding-left: 90px;
+          padding-right: 90px; */
+  }
+  .listar-feature-right-border {
+    /*display: none;*/
+    /*overflow: auto;*/
+  }
+
+  .listar-feature-item.listar-feature-has-link
+    .listar-feature-item-inner:after {
+    /*display: none;	*/
+  }
+
+  .listar-feature-icon-inner {
+    width: 260px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 500px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 10px 10px 20px rgb(0 0 0 / 24%);
+    background: #fff;
+  }
+
+  .listar-feature-item .listar-feature-block-content-wrapper {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    margin: -10px;
+    padding: 55px;
+    height: calc(100% + 100px);
+  }
+
+  .listar-feature-item .listar-feature-item-inner {
+    padding: 50px 30px;
+    border-radius: 6px;
+    z-index: 5;
+    position: relative;
+    height: 100%;
+  }
+
+  .startup_eco {
+    background-size: auto;
+  }
+
+  /*.startup_eco::after {
+        content: "";
+          position: absolute;
+          background-image: url(/themes/stpi/images/bluerightafter.png);
+          width: 155px;
+          height: 191px;
+          bottom: 0px;
+          right: 0px;
+          background-repeat: round;
+        }*/
+
+  .header-design {
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    height: 120px;
+    text-align: center;
+    /*width: 150%;
+          margin-left: -25%;
+          margin-right: -25%;*/
+  }
+
+  .listar-map-button {
+    top: 3.5%;
+    left: 0%;
+  }
+
+  .listar-feature-item .listar-feature-item-inner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .listar-feature-item-wrapper {
+    margin-bottom: 170px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  .startup_image {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .splRight .listar-feature-icon-wrapper {
+    margin-left: -60px;
+  }
+  .listar-feature-icon-wrapper {
+    margin-left: -230px;
+  }
+  .startup_image {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 1025px) {
+  .EcoCenter h2 {
+    text-align: center;
+  }
+
+  .pset {
+    padding-top: 180px;
+    padding-bottom: 4px;
+    /*    padding-left: 275px;
+          padding-right: 225px; */
+  }
+
+  .startup_eco {
+    background-size: auto;
+  }
+
+  /*	.startup_eco::after {
+        content: "";
+          position: absolute;
+          background-image: url(/themes/stpi/images/bluerightafter.png);
+          width: 155px;
+          height: 191px;
+          bottom: 0;
+          right: 0;
+          background-repeat: round;
+        }*/
+  .splRight .listar-feature-icon-wrapper {
+    margin-left: -60px;
+  }
+  .listar-feature-icon-wrapper {
+    margin-left: -230px;
+  }
+  .startup_image {
+    margin-bottom: -2%;
+  }
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+  .startup_image {
+    margin-bottom: -6%;
+  }
+  .splRight .listar-feature-icon-wrapper {
+    margin-left: -60px;
+  }
+  .listar-feature-icon-wrapper {
+    margin-left: -230px;
+  }
+}
+@media screen and (max-width: 1920px) {
+  .card_col {
+    width: calc(33.333333% - 2rem);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card_col {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .card_col {
+    width: 100%;
+    margin: 0 0 2rem 0;
   }
 }

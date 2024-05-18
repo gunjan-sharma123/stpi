@@ -48,6 +48,12 @@ figure {
 a {
   text-decoration: none;
 }
+
+.col-md-6 {
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /* Global css end*/
 
 /* header css start */
@@ -6984,3 +6990,6 @@ table tr:nth-child(odd) td,
 }
 
 /*  circulars page end */
+.clr {
+  clear: both;
+}
