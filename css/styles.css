@@ -2442,6 +2442,11 @@ ol li {
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 20px;
+  color: #3737a8;
+}
+.v1 iframe {
+  width: 100%;
+  height: 393px;
 }
 .socialEngMulTab .resTab {
   border: 0px;
@@ -2478,6 +2483,10 @@ ol li {
   color: #fff;
   position: relative;
 }
+.socialEngMulTab .resTab .tabNav li.r-tabs-state-active a {
+  width: auto;
+}
+
 .socialEngMulTab .resTab .tabNav li.r-tabs-state-active a:before {
   content: "";
   position: absolute;
