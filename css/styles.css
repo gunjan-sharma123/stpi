@@ -1934,7 +1934,7 @@ ol li {
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
-  font-size: 18px;
+  font-size: 1em;
   margin: 0;
   width: 180px;
   text-align: center;
@@ -1942,6 +1942,7 @@ ol li {
   left: -65px;
   top: 70px;
   color: #000;
+  font-weight: bold;
 }
 .rotating-slider ul.slides li {
   height: 250px !important;
