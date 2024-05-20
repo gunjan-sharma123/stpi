@@ -7342,6 +7342,8 @@ table tr:nth-child(odd) td,
   background-color: #fff;
 }
 
+
+
 /*  circulars page end */
 .clr {
   clear: both;
@@ -7355,6 +7357,9 @@ table tr:nth-child(odd) td,
   color: #3737a8;
   font-weight: bold;
 }
+
+
+
 
 /* start-up css start */
 
@@ -7870,5 +7875,17 @@ a.externalLink {
   list-style-image: none;
   list-style: none;
 }
+
+.sitemap .sitemap-menu > li > ul > li > a {
+  transition: 500ms all;
+  background: #fff;
+  padding: 5px 10px;
+}
+
+.sitemap .sitemap-menu > li > ul > li > a:hover {
+  transition: 500ms all;
+  background: #072e67;
+  color: #fff;
+  padding-left: 30px;
 
 /* sitemap css ends here */
