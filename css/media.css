@@ -1112,7 +1112,7 @@
     width: 50%;
   }
   .ourService .servicesMobSlider {
-    display: block;
+    display: block !important;
   }
   .ourService .servicesWarpper {
     display: none !important;
