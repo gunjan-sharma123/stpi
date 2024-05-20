@@ -4332,15 +4332,7 @@ address {
   padding: 15px;
   float: left;
 }
-/* .qultObj .objIco {
-  display:inline-block;
-  vertical-align:top;
-  float:none;
-  margin-bottom:20px;
-  } */
-  /* .qultObj .objIco {
-    margin-left:0px;
-    } */
+
 .qultObj .objText {
   width: calc(100% - 80px);
   float: left;
@@ -4966,6 +4958,10 @@ p.card_btn a.commonBtn {
   padding: 45px;
   margin-top: -100px;
   margin-bottom: 35px;
+}
+
+.row > .OpenLabOrange {
+  margin-top: -100px;
 }
 .OpenLabOrange p {
   color: #000;
