@@ -7842,4 +7842,16 @@ a.externalLink {
   list-style: none;
 }
 
+.sitemap .sitemap-menu > li > ul > li > a {
+  transition: 500ms all;
+  background: #fff;
+  padding: 5px 10px;
+}
+
+.sitemap .sitemap-menu > li > ul > li > a:hover {
+  transition: 500ms all;
+  background: #072e67;
+  color: #fff;
+  padding-left: 30px;
+
 /* sitemap css ends here */
