@@ -1322,6 +1322,7 @@ ol li {
   vertical-align: top;
   width: 100%;
   overflow: hidden;
+  margin-top: -11px;
 }
 .panIndia .row {
   margin-bottom: 0px;
@@ -1911,6 +1912,11 @@ ol li {
   display: inline-block;
   text-align: center;
 }
+
+.row > .rotating-slider {
+  margin-top: 55px;
+}
+
 .rotating-slider {
   margin: 5em auto;
   height: 650px !important;
@@ -1922,6 +1928,7 @@ ol li {
   right: -380px;
   top: -20px;
 }
+
 .rotating-slider ul.slides {
   border-radius: 50%;
   height: 100%;
@@ -2215,6 +2222,7 @@ ol li {
   font-size: 1.3em;
   height: 50px;
   overflow: auto;
+  font-weight: normal;
 }
 .scheme .btnBlue {
   position: absolute;
