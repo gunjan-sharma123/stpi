@@ -5,6 +5,110 @@
 .jsRequired {
   display: none;
 }
+/* fonts */
+@font-face {
+  font-family: "proximaNova";
+  src: url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-bold.woff2);
+  src: url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-sbold.eot#iefix)
+      format("embedded-opentype"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-sbold.woff2)
+      format("woff2"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-sbold.woff)
+      format("woff"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-sbold.ttf)
+      format("truetype"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-sbold.svg#proxima_novasemibold)
+      format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "proximaNova";
+  src: url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-bold.eot);
+  src: url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-bold.eot#iefix)
+      format("embedded-opentype"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-bold.woff2)
+      format("woff2"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-bold.woff)
+      format("woff"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-bold.ttf)
+      format("truetype"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-bold.svg#proxima_nova_rgbold)
+      format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "proximaNova";
+  src: url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-reg.eot);
+  src: url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-reg.eot#iefix)
+      format("embedded-opentype"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-reg.woff2)
+      format("woff2"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-reg.woff)
+      format("woff"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-reg.ttf)
+      format("truetype"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/proximanova-reg.svg#proxima_nova_rgregular)
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "oswaldregular";
+  src: url(https://stpi.c4k.in/themes/stpi/fonts/oswald-bold-webfont.woff2)
+      format("woff2"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/oswald-bold-webfont.woff)
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "oswaldregular";
+  src: url(https://stpi.c4k.in/themes/stpi/fonts/oswald-light-webfont.woff2)
+      format("woff2"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/oswald-light-webfont.woff)
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "oswaldregular";
+  src: url(https://stpi.c4k.in/themes/stpi/fonts/oswald-medium-webfont.woff2)
+      format("woff2"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/oswald-medium-webfont.woff)
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "oswaldregular";
+  src: url(https://stpi.c4k.in/themes/stpi/fonts/oswald-semibold-webfont.woff2)
+      format("woff2"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/oswald-semibold-webfont.woff)
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FontAwesome";
+  src: url(https://stpi.c4k.in/themes/stpi/fonts/fontawesome-webfont.eot?v=4.7.0);
+  src: url(https://stpi.c4k.in/themes/stpi/fonts/fontawesome-webfont.eot#iefix&v=4.7.0)
+      format("embedded-opentype"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/fontawesome-webfont.woff2?v=4.7.0)
+      format("woff2"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/fontawesome-webfont.woff?v=4.7.0)
+      format("woff"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/fontawesome-webfont.ttf?v=4.7.0)
+      format("truetype"),
+    url(https://stpi.c4k.in/themes/stpi/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular)
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* fonts end */
+
 /* Global css start */
 input[type="text"],
 input[type="email"],
@@ -53,6 +157,91 @@ a {
   float: left;
   padding-left: 15px;
   padding-right: 15px;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
 }
 /* Global css end*/
 
@@ -729,9 +918,17 @@ img {
   height: auto;
   line-height: 1.2;
 }
-.sliderBanner .owl-controls {
-  margin-top: 0;
+.indexBanner .item:before {
+  opacity: 0.4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 60%;
+  width: 100%;
+  content: "";
+  z-index: 11;
 }
+
 .sliderBanner .owl-nav .owl-prev {
   text-indent: -99999px;
   background: none !important;
@@ -862,7 +1059,9 @@ img {
   background: #3737a8;
   color: #ffd400;
 }
-
+.owl-carousel .owl-item img {
+  transform-style: preserve-3d;
+}
 /* Banner css end */
 
 /*innerPage css start */
@@ -1864,6 +2063,13 @@ ol li {
   text-align: center;
   -webkit-tap-highlight-color: transparent;
 }
+.sliderBanner .owl-controls {
+  margin-top: 0;
+}
+
+.noScript {
+  display: none;
+}
 .owl-theme .owl-controls .owl-nav [class*="owl-"] {
   color: #fff;
   font-size: 14px;
@@ -1973,7 +2179,7 @@ ol li {
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
-  font-size: 1em;
+  font-size: 1.125em;
   margin: 0;
   width: 180px;
   text-align: center;
@@ -2467,6 +2673,9 @@ ol li {
   margin-bottom: 0px;
 }
 
+.ourJourney .journeyContent p {
+  font-size: 1.071em;
+}
 /* ourjourney end */
 
 /* social engagement start */
@@ -2695,6 +2904,8 @@ ol li {
   display: inline-block;
   width: 100%;
   font-size: 1.071em;
+  font-weight: normal;
+  line-height: 1.4;
 }
 .newsBlog .LnewsListInfo .info {
   padding-left: 160px;
@@ -2864,6 +3075,7 @@ ol li {
   margin-bottom: 3px;
   text-align: justify;
   font-size: 1.071em;
+  font-weight: normal;
 }
 .eventsCampaigns .resTab .tabContent {
   padding: 30px 0px 0;
@@ -3573,6 +3785,7 @@ ol li {
 }
 .clientLogo .owl-item div p {
   font-size: 16px;
+  color: #2d378a;
 }
 .messages--error {
   clear: both;
@@ -3991,6 +4204,14 @@ address {
   margin: 0 0 15px;
   line-height: 1.4;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
 /* footer css end */
 
 /* backtotop css start*/
@@ -4244,7 +4465,10 @@ address {
 .blueText {
   color: #3737a8 !important;
 }
-
+.functionTab .resTab .tabNav .r-tabs-state-active a .count {
+  -webkit-text-stroke-color: #3737a8;
+  font-weight: bold;
+}
 .functionTab .resTab .tabNav {
   margin-top: 75px;
 }
@@ -4746,7 +4970,7 @@ p.card_btn a.commonBtn {
 .card_back h3.card_oic_name {
   color: #ffd400;
   font-size: inherit;
-  font-family: "FontAwesome";
+  /* font-family: "FontAwesome"; */
   text-transform: capitalize;
   font-weight: bold;
 }
@@ -4835,6 +5059,10 @@ p.card_btn a.commonBtn {
   margin: 0 -20px;
 }
 .teamBlockBox {
+  position: relative;
+  padding: 100px 0;
+}
+.teamBlockBox {
   padding: 50px 0;
 }
 
@@ -4917,6 +5145,9 @@ p.card_btn a.commonBtn {
 .contentMainBlock .teamImage img {
   box-shadow: none;
 }
+.view-data-center .teamImage img {
+  width: 100%;
+}
 .moreBlock li {
   margin-bottom: 80px;
 }
@@ -4965,6 +5196,9 @@ p.card_btn a.commonBtn {
   right: 0;
   background-repeat: no-repeat;
 }
+.row > .OpenLabOrange {
+  margin-top: -100px;
+}
 .OpenLabOrange {
   background-color: #f3bb1f;
   padding: 45px;
@@ -4972,9 +5206,6 @@ p.card_btn a.commonBtn {
   margin-bottom: 35px;
 }
 
-.row > .OpenLabOrange {
-  margin-top: -100px;
-}
 .OpenLabOrange p {
   color: #000;
   font-weight: 600;
@@ -6705,6 +6936,9 @@ nav.pager ul li a:hover {
   text-align: center;
   margin-bottom: 0px;
 }
+.view-data-center .teamBlock p {
+  text-align: left;
+}
 .knowYourMiniPage .teamBlock li:not(:last-child) {
   margin-bottom: 75px;
 }
@@ -6738,6 +6972,7 @@ nav.pager ul li a:hover {
   margin: 0px -15px;
   padding: 0px;
 }
+
 .teamBlock li {
   width: 25%;
   padding: 0px 15px;
@@ -7072,3 +7307,12 @@ table tr:nth-child(odd) td,
 .clr {
   clear: both;
 }
+.owl-item.active .bannerCaption {
+  opacity: 1;
+  visibility: visible;
+}
+.text {
+  color: #3737a8;
+  font-weight: bold;
+}
+
