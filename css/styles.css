@@ -46,7 +46,7 @@ figure {
   margin: 0 !important;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .col-md-6 {
@@ -829,6 +829,38 @@ img {
 .bannerCaption .container {
   max-width: 1055px;
   width: 100%;
+}
+.indexBanner .sliderBanner .bannerCaption .commonBtnMain {
+  opacity: 0;
+  -webkit-transform: translateY(500px);
+  transform: translateY(500px);
+  -webkit-transition: 1500ms ease;
+  transition: 1500ms ease;
+}
+.indexBanner .sliderBanner .active .bannerCaption .commonBtnMain {
+  opacity: 1;
+  -webkit-transition-delay: 1500ms;
+  transition-delay: 1500ms;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.commonBtn {
+  background: #ffd400;
+  color: #3737a8;
+  padding: 12px 28px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  line-height: 1.2;
+}
+.commonBtn:hover {
+  background: #3737a8;
+  color: #ffd400;
 }
 
 /* Banner css end */
@@ -1934,7 +1966,7 @@ ol li {
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
-  font-size: 18px;
+  font-size: 1em;
   margin: 0;
   width: 180px;
   text-align: center;
@@ -1942,6 +1974,7 @@ ol li {
   left: -65px;
   top: 70px;
   color: #000;
+  font-weight: bold;
 }
 .rotating-slider ul.slides li {
   height: 250px !important;
