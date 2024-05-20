@@ -4340,6 +4340,7 @@ address {
   padding: 15px;
   float: left;
 }
+
 .qultObj .objText {
   width: calc(100% - 80px);
   float: left;
@@ -4350,6 +4351,26 @@ address {
   text-align: justify;
   line-height: 20px;
 }
+
+#coe_list a {
+  color: #2d378a;
+}
+p a {
+  color: #2d378a;
+}
+
+.qultObj .objText {
+  float:none;
+  padding-left:110px;
+  width:auto;
+  }
+  /* .qultObj .objText {
+    padding:0px;
+    width:100%;
+    float:left;
+    clear:both;
+    text-align:center;
+    } */
 .stpiCentersSlider .resTab {
   border: 0px;
 }
@@ -4945,6 +4966,10 @@ p.card_btn a.commonBtn {
   padding: 45px;
   margin-top: -100px;
   margin-bottom: 35px;
+}
+
+.row > .OpenLabOrange {
+  margin-top: -100px;
 }
 .OpenLabOrange p {
   color: #000;
