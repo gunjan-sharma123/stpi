@@ -4299,6 +4299,15 @@ address {
   padding: 15px;
   float: left;
 }
+/* .qultObj .objIco {
+  display:inline-block;
+  vertical-align:top;
+  float:none;
+  margin-bottom:20px;
+  } */
+  /* .qultObj .objIco {
+    margin-left:0px;
+    } */
 .qultObj .objText {
   width: calc(100% - 80px);
   float: left;
@@ -4309,6 +4318,26 @@ address {
   text-align: justify;
   line-height: 20px;
 }
+
+#coe_list a {
+  color: #2d378a;
+}
+p a {
+  color: #2d378a;
+}
+
+.qultObj .objText {
+  float:none;
+  padding-left:110px;
+  width:auto;
+  }
+  /* .qultObj .objText {
+    padding:0px;
+    width:100%;
+    float:left;
+    clear:both;
+    text-align:center;
+    } */
 .stpiCentersSlider .resTab {
   border: 0px;
 }
