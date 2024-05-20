@@ -4322,7 +4322,7 @@ address {
   text-align: left;
 }
 .qultObj {
-  max-width: 385px;
+  max-width: 385px !important;
   min-height: 169px;
   border: 1px solid #e6e6e6;
   display: inline-block;
@@ -4351,7 +4351,11 @@ address {
   text-align: justify;
   line-height: 20px;
 }
-
+.box1 {
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
 #coe_list a {
   color: #2d378a;
 }
@@ -4360,11 +4364,11 @@ p a {
 }
 
 .qultObj .objText {
-  float:none;
-  padding-left:110px;
-  width:auto;
-  }
-  /* .qultObj .objText {
+  float: none;
+  padding-left: 110px;
+  width: auto;
+}
+/* .qultObj .objText {
     padding:0px;
     width:100%;
     float:left;
