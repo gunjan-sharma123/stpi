@@ -1181,7 +1181,7 @@ ol li {
   transition: all 0.3s;
 }
 .ministerInfo ul li a .fa {
-  /* font-size: 16px; */
+  /* font-size: 1em; */
   font-size: 1.5em;
   position: relative;
   top: 0.125em;
@@ -2449,7 +2449,7 @@ ol li {
   color: #fff;
   padding: 0.625em 1.25em;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1em;
 }
 .btnBlue:hover {
   background-color: #000;
@@ -2593,7 +2593,7 @@ ol li {
   position: absolute;
   left: 0em;
   top: -1px;
-  height: 77px;
+  height: 4.8125em;
   width: 100%;
   background-color: #fff;
   z-index: 0;
@@ -2637,7 +2637,7 @@ ol li {
   background-color: transparent;
 }
 .ourJourney .owl-carousel .owl-item {
-  height: 78px;
+  height: 4.875em;
 }
 .ourJourney .owl-carousel .owl-stage {
   display: inline-block;
@@ -3463,7 +3463,7 @@ ol li {
   margin-bottom: 0em;
 }
 .neuronRecDetails .neuronTitle {
-  font-size: 17px;
+  font-size: 1.0625em;
   display: inline-block;
 }
 .neuronIn .neuroText {
@@ -3513,7 +3513,7 @@ ol li {
   padding: 25px;
 }
 .neuronBoxDetails p {
-  font-size: 17px;
+  font-size: 1.0625em;
   text-align: justify;
 }
 /* eventsCampaigns css end */
@@ -3793,7 +3793,7 @@ ol li {
   padding: 0.625em;
 }
 .clientLogo .owl-item div p {
-  font-size: 16px;
+  font-size: 1em;
   color: #2d378a;
 }
 .messages--error {
@@ -4414,7 +4414,7 @@ h6 {
   background-position: 0 0;
 }
 .contactLeftInfo .clficon1 {
-  background-position: -16px -0.3125em;
+  background-position: -1em -0.3125em;
 }
 .contactLeftInfo .clficon2 {
   background-position: -0.875em -92px;
@@ -4512,7 +4512,7 @@ h6 {
   color: #000;
 }
 .functionTab .tabNav .tabTitle {
-  font-size: 21px;
+  font-size: 1.3125em;
   border: none;
   font-weight: 400;
   display: block;
@@ -4579,7 +4579,7 @@ h6 {
   width: calc(100% - 5em);
   float: left;
   padding: 0em 05px 0em 0.9375em;
-  font-size: 16px;
+  font-size: 1em;
   color: #000;
   font-weight: 400;
   text-align: justify;
@@ -4640,7 +4640,7 @@ p a {
 .stpiCentersSlider .resTab .tabNav li a {
   font-size: 2.429em;
   line-height: 2;
-  padding: 19px 0.3125em;
+  padding: 1.875em 0.3125em;
   font-family: "oswaldregular";
   display: inline-block;
   vertical-align: top;
@@ -4737,7 +4737,7 @@ p a {
   text-align: left;
   width: 100%;
   position: relative;
-  padding-left: 16px;
+  padding-left: 1em;
 }
 .centerList li:before {
   display: inline-block;
@@ -5362,7 +5362,7 @@ p.card_btn a.commonBtn {
   width: 100%;
   padding: 6.25em 0 45px;
   background-color: #fff;
-  box-shadow: 2px 0em 17px 16px #eaeaea;
+  box-shadow: 2px 0em 1.0625em 1em #eaeaea;
   border-radius: 210px;
   height: 270px;
 }
@@ -5397,7 +5397,7 @@ p.card_btn a.commonBtn {
 .devlopLeft li {
   list-style: none;
   padding: 0.9375em 24px;
-  box-shadow: 2px 0em 17px 16px #eaeaea;
+  box-shadow: 2px 0em 1.0625em 1em #eaeaea;
   background-color: #fff;
   margin-bottom: 35px;
   position: relative;
@@ -5412,7 +5412,7 @@ p.card_btn a.commonBtn {
 .devlopRight li {
   list-style: none;
   padding: 0.9375em 24px;
-  box-shadow: 2px 0em 17px 16px #eaeaea;
+  box-shadow: 2px 0em 1.0625em 1em #eaeaea;
   width: 379px;
   min-height: 70px;
   background-color: #fff;
@@ -5425,7 +5425,7 @@ p.card_btn a.commonBtn {
   font-size: 0.9375em;
 }
 .devlopLeft li:nth-child(2) {
-  margin-right: 16px;
+  margin-right: 1em;
   max-width: 397px;
   float: right;
   margin-bottom: 0;
@@ -5448,7 +5448,7 @@ p.card_btn a.commonBtn {
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 19px solid transparent;
+  border-top: 1.875em solid transparent;
   border-left: 29px solid #fff;
   border-bottom: 25px solid transparent;
   right: -22px;
@@ -5479,7 +5479,7 @@ p.card_btn a.commonBtn {
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 19px solid transparent;
+  border-top: 1.875em solid transparent;
   border-right: 29px solid #fff;
   border-bottom: 25px solid transparent;
   left: -22px;
@@ -5496,7 +5496,7 @@ p.card_btn a.commonBtn {
   text-align: center;
   left: 0;
   right: 0;
-  border-radius: 0em 0em 16px 1.25em;
+  border-radius: 0em 0em 1em 1.25em;
   z-index: 99;
 }
 .devlopRight li:after {
@@ -5509,7 +5509,7 @@ p.card_btn a.commonBtn {
   text-align: center;
   left: 0;
   right: 0;
-  border-radius: 0em 0em 16px 1.25em;
+  border-radius: 0em 0em 1em 1.25em;
   z-index: 99;
 }
 
@@ -5521,7 +5521,7 @@ p.card_btn a.commonBtn {
 .devlopBotFull li {
   list-style: none;
   padding: 0.9375em 1.875em;
-  box-shadow: 2px 0em 17px 16px #eaeaea;
+  box-shadow: 2px 0em 1.0625em 1em #eaeaea;
   margin-top: 0.625em;
   background-color: #fff;
   position: relative;
@@ -5554,7 +5554,7 @@ p.card_btn a.commonBtn {
   text-align: center;
   left: 0;
   right: 0;
-  border-radius: 0em 0em 16px 1.25em;
+  border-radius: 0em 0em 1em 1.25em;
   z-index: 99;
 }
 .devlopBotFull li:before {
@@ -6246,7 +6246,7 @@ tr td {
 }
 .file {
   display: inline-block;
-  min-height: 16px;
+  min-height: 1em;
   padding-left: 1.25em;
   background-repeat: no-repeat;
   background-position: left center;
@@ -6310,7 +6310,7 @@ tr td {
 .stpiNeuronRecBtn .neuronYellowBtn {
   background-color: #ffd400;
   color: #121959;
-  font-size: 16px;
+  font-size: 1em;
   border: none;
   padding: 8px 25px;
   border-radius: 1.875em;
@@ -6334,7 +6334,7 @@ tr td {
   display: inline-block;
   background-color: #09359f;
   color: #fff;
-  font-size: 16px;
+  font-size: 1em;
   border: none;
   padding: 0.625em 25px;
   border-radius: 1.875em;
@@ -6345,7 +6345,7 @@ tr td {
   color: #121959;
 }
 .stpiNeuron span {
-  font-size: 16px;
+  font-size: 1em;
   display: block;
   margin-bottom: 8px;
 }
@@ -6434,7 +6434,7 @@ tr td {
   margin-bottom: 0em;
 }
 .neuronRecDetails .neuronTitle {
-  font-size: 17px;
+  font-size: 1.0625em;
   display: inline-block;
 }
 .neuronIn .neuroText {
@@ -6484,7 +6484,7 @@ tr td {
   padding: 25px;
 }
 .neuronBoxDetails p {
-  font-size: 17px;
+  font-size: 1.0625em;
   text-align: justify;
 }
 .loadMore {
@@ -6599,7 +6599,7 @@ nav.pager ul li a:hover {
   background: none !important;
   border: 0em !important;
   color: #2d378a !important;
-  font-size: 16px !important;
+  font-size: 1em !important;
 }
 
 .newsletterPage .image img {
@@ -6867,7 +6867,7 @@ nav.pager ul li a:hover {
   transition: all 0.3s;
 }
 .ministerInfo ul li a .fa {
-  font-size: 16px;
+  font-size: 1em;
   position: relative;
   top: 2px;
 }
@@ -6971,7 +6971,7 @@ nav.pager ul li a:hover {
   text-align: left;
   background-color: #fff;
   padding: 1.25em 1.25em 0.9375em 1.875em;
-  box-shadow: -1px 6px 17px rgba(0, 0, 0, 0.3);
+  box-shadow: -1px 6px 1.0625em rgba(0, 0, 0, 0.3);
   margin-bottom: 1.875em;
   clear: left;
 }
@@ -7563,7 +7563,7 @@ table tr:nth-child(odd) td,
   vertical-align: middle;
   margin-left: -300px;
   top: -66px;
-  margin-top: -74px;
+  margin-top: -4.625em;
 }
 
 .listar-feature-icon-inner {
@@ -7754,9 +7754,9 @@ table tr:nth-child(odd) td,
 .listar-feature-with-image .listar-feature-item a:before {
   content: "";
   position: absolute;
-  top: -74px;
+  top: -4.625em;
   left: 50%;
-  margin-left: -74px;
+  margin-left: -4.625em;
   width: 242px;
   height: 280px;
   border-radius: 1050px;
@@ -7839,7 +7839,7 @@ a.externalLink {
   height: 0;
   left: 0;
   position: absolute;
-  top: 16px;
+  top: 1em;
   width: 25px;
 }
 
@@ -7874,7 +7874,7 @@ a.externalLink {
   height: 0;
   left: 0;
   position: absolute;
-  top: 16px;
+  top: 1em;
   width: 25px;
 }
 
@@ -8170,7 +8170,7 @@ body.wob {
 .wob .devlopLeft li,
 .wob .devlopRight li,
 .wob .devlopBotFull li {
-  box-shadow: 2px 0em 17px 16px #121212;
+  box-shadow: 2px 0em 1.0625em 1em #121212;
   background-color: #222;
 }
 .wob .devlopLeft li:after {
@@ -8204,7 +8204,7 @@ body.wob {
 }
 .wob .ojectoutCenter {
   background-color: #333;
-  box-shadow: 2px 0em 17px 16px #333;
+  box-shadow: 2px 0em 1.0625em 1em #333;
 }
 .wob .lifecycleTitle::before {
   border-bottom: 6.25em solid #111;
