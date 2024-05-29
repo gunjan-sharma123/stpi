@@ -1845,7 +1845,7 @@ ol li {
   background-position: 0 -3.5em;
 }
 .dirContactInfo .email:before {
-  background-position: 0 -101px;
+  background-position: 0 -6.3125em;
 }
 .dirContactInfo .centers:before {
   background-position: 0 -142px;
@@ -2944,7 +2944,7 @@ ol li {
   margin-bottom: 0.1875em;
 }
 .latestNewsRight .region-whats-news-section {
-  margin-bottom: 92px;
+  margin-bottom: 5.75em;
 }
 .latestNewsRight .region-whats-news-section .LnewsBox {
   padding: 1.875em;
@@ -3657,7 +3657,7 @@ ol li {
 .TeamMembersSlider .owl-controls {
   position: absolute;
   width: 100%;
-  top: -93px;
+  top: -5.8125em;
   right: 0em;
   bottom: inherit;
 }
@@ -4418,7 +4418,7 @@ h6 {
   background-position: -1em -0.3125em;
 }
 .contactLeftInfo .clficon2 {
-  background-position: -0.875em -92px;
+  background-position: -0.875em -5.75em;
 }
 .contactLeftInfo .clficon3 {
   background-position: -0.875em -181px;
@@ -4720,7 +4720,7 @@ p a {
   display: block;
 }
 .centerListparent {
-  min-width: 120px;
+  min-width: 7.5em;
 }
 .centerListparent ul {
   padding: 0;
@@ -4731,7 +4731,7 @@ p a {
 .centerListparent.twoColcenter ul {
   width: 49%;
   display: inline-block;
-  max-width: 105px;
+  max-width: 6.5625em;
 }
 .centerList li {
   display: block;
@@ -4839,7 +4839,7 @@ p a {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   text-align: center;
-  min-height: 280px;
+  min-height: 17.5em;
   height: auto;
   border-radius: 0.625em;
   color: #fff;
@@ -5021,7 +5021,7 @@ p.card_btn a.commonBtn {
   padding: 0 0.625em;
 }
 .incubFeatuColInfo {
-  height: 280px;
+  height: 17.5em;
   text-align: center;
   padding: 1.25em;
   background-color: #fff;
@@ -5385,7 +5385,7 @@ p.card_btn a.commonBtn {
   position: relative;
   border: 0.0625em solid #c4c4c4;
   border-radius: 260px;
-  margin-top: -120px;
+  margin-top: -7.5em;
   background-color: #fbfbfb;
   height: 390px;
 }
@@ -5472,7 +5472,7 @@ p.card_btn a.commonBtn {
   top: 0;
   height: 5em;
   width: 5em;
-  left: -120px;
+  left: -7.5em;
   display: inline-block;
 }
 .devlopRight li:before {
@@ -5588,7 +5588,7 @@ p.card_btn a.commonBtn {
   line-height: 2.625em;
 }
 .lifecycleTitle {
-  padding: 2.375em 120px;
+  padding: 2.375em 7.5em;
   width: 850px;
   margin: 0 auto;
   background-color: #313197;
@@ -5750,7 +5750,7 @@ p.card_btn a.commonBtn {
 }
 .stateGovernmentsFull {
   margin-top: 6.25em;
-  margin-right: -96px;
+  margin-right: -6em;
 }
 .stateGovernmentsRight {
   padding-left: 0;
@@ -7415,7 +7415,7 @@ table tr:nth-child(odd) td,
 
 .listar-feature-item .listar-feature-item-inner:before {
   border: 0;
-  /* box-shadow: 120px 0em 150px rgba(80, 80, 80, 0.15),
+  /* box-shadow: 7.5em 0em 150px rgba(80, 80, 80, 0.15),
     0.625em 0em 0.625em rgba(80, 80, 80, 0.02); */
   border-radius: 1000px;
   background: rgba(255, 255, 255, 0);
@@ -7531,7 +7531,7 @@ table tr:nth-child(odd) td,
 }
 
 .listar-features-design-2 .listar-feature-item-wrapper {
-  margin-bottom: 120px;
+  margin-bottom: 7.5em;
   padding-left: 1.6875em;
   padding-right: 1.6875em;
 }
@@ -7569,8 +7569,8 @@ table tr:nth-child(odd) td,
 
 .listar-feature-icon-inner {
   width: 260px;
-  height: 120px;
-  line-height: 120px;
+  height: 7.5em;
+  line-height: 7.5em;
   border-radius: 500px;
   position: relative;
   display: inline-block;
@@ -7588,8 +7588,8 @@ table tr:nth-child(odd) td,
   display: inline-block;
   position: relative;
   width: 185px;
-  height: 120px;
-  line-height: 120px;
+  height: 7.5em;
+  line-height: 7.5em;
   text-align: left;
 }
 
@@ -7743,7 +7743,7 @@ table tr:nth-child(odd) td,
   height: 1.875em;
 }
 .listar-feature-item-wrapper {
-  margin-bottom: 120px;
+  margin-bottom: 7.5em;
   padding-left: 1.6875em;
   padding-right: 1.6875em;
 }
@@ -7758,9 +7758,9 @@ table tr:nth-child(odd) td,
   top: -4.625em;
   left: 50%;
   margin-left: -4.625em;
-  width: 242px;
-  height: 280px;
-  border-radius: 1050px;
+  width: 15.125em;
+  height: 17.5em;
+  border-radius: 65.625em;
   z-index: 10;
 }
 
@@ -7980,31 +7980,31 @@ body.wob {
   border: #666;
 }
 .wob .incubFeatuIcon1 {
-  background-position: -193px -1.375em;
+  background-position: -12.0625em -1.375em;
 }
 .wob .incubFeatuIcon2 {
-  background-position: -183px -172px;
+  background-position: -11.4375em -172px;
 }
 .wob .incubFeatuIcon3 {
-  background-position: -193px -324px;
+  background-position: -12.0625em -324px;
 }
 .wob .incubFeatuIcon4 {
-  background-position: -193px -474px;
+  background-position: -12.0625em -474px;
 }
 .wob .incubFeatuIcon5 {
-  background-position: -193px -474px;
+  background-position: -12.0625em -474px;
 }
 .wob .incubFeatuIcon6 {
-  background-position: -193px -621px;
+  background-position: -12.0625em -621px;
 }
 .wob .incubFeatuIcon7 {
-  background-position: -193px -778px;
+  background-position: -12.0625em -778px;
 }
 .wob .incubFeatuIcon8 {
-  background-position: -193px -931px;
+  background-position: -12.0625em -931px;
 }
 .wob .incubFeatuIcon9 {
-  background-position: -193px -1074px;
+  background-position: -12.0625em -1074px;
 }
 .wob #header.sticky #nav li a.is-active {
   color: #fff;
