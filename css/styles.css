@@ -255,7 +255,7 @@ video {
 }
 .headerLeft {
   float: left;
-  max-width: 466px;
+  max-width: 29.125em;
   width: 100%;
 }
 .headerRight {
@@ -265,7 +265,7 @@ video {
   padding-top: 0.813em;
 }
 #header .container {
-  max-width: 1760px;
+  max-width: 110em;
   padding: 0 0.9375em;
 }
 .leftLink {
@@ -1194,12 +1194,7 @@ ol li {
   background-color: #457170;
   color: #fff;
 }
-/* .mainMinister {
-  -webkit-box-shadow: -0.0625em -0.0625em 18px 0em rgba(0, 0, 0, 0.14);
-  -moz-box-shadow: -0.0625em -0.0625em 18px 0em rgba(0, 0, 0, 0.14);
-  box-shadow: -0.0625em -0.0625em 18px 0em rgba(0, 0, 0, 0.14);
-  margin: 0 -0.9375em;
-} */
+
 .mainMinister .ministerInfo {
   background-color: #1465a4;
   color: #fff;
@@ -1861,7 +1856,7 @@ ol li {
   left: 0em;
   bottom: 1.25em;
   width: 100%;
-  max-width: 800px;
+  max-width: 50em;
 }
 .panIndia .container {
   position: relative;
@@ -1905,7 +1900,7 @@ ol li {
 }
 .numberInfoBox h4 {
   float: left;
-  width: 7.5px;
+  width: 0.46875em;
   line-height: 1;
   margin: 0em;
   font-weight: bold;
@@ -2140,7 +2135,7 @@ ol li {
   transform: rotate(-70deg);
   -webkit-transform: rotate(-70deg);
   position: absolute;
-  right: -380px;
+  right: -23.75em;
   top: -1.25em;
 }
 
@@ -2395,7 +2390,7 @@ ol li {
   background-color: #ffc20f;
 }
 .schemeIcon {
-  max-width: 150px;
+  max-width: 9.375em;
   display: inline-block;
   vertical-align: top;
   margin-bottom: 0.625em;
@@ -2412,7 +2407,7 @@ ol li {
   text-align: center;
   width: 100%;
   margin-bottom: 1.25em;
-  height: 470px;
+  height: 29.375em;
   overflow: auto;
 }
 .schemeInfo p {
@@ -2574,7 +2569,7 @@ ol li {
   padding: 0.875em;
   display: inline-block;
   vertical-align: top;
-  width: 150px;
+  width: 9.375em;
   text-align: center;
   position: relative;
   font-family: "oswaldregular";
@@ -2607,7 +2602,7 @@ ol li {
   outline: none;
 }
 .ourJourney .resTab .tabContent {
-  min-height: 400px;
+  min-height: 25em;
 }
 .ourJourney .owl-prev {
   left: 0.625em;
@@ -2705,7 +2700,7 @@ ol li {
 }
 .v1 iframe {
   width: 100%;
-  height: 393px;
+  height: 24.5625em;
 }
 .socialEngMulTab .resTab {
   border: 0em;
@@ -2764,11 +2759,11 @@ ol li {
   -webkit-box-shadow: -0.0625em -0.0625em 1.25em 0em rgba(0, 0, 0, 0.3);
   -moz-box-shadow: -0.0625em -0.0625em 1.25em 0em rgba(0, 0, 0, 0.3);
   box-shadow: -0.0625em -0.0625em 1.25em 0em rgba(0, 0, 0, 0.3);
-  height: 517px;
+  height: 32.3125em;
   text-align: left;
 }
 .socialEngMulTab .socialEngCover {
-  height: 452px;
+  height: 28.25em;
 }
 .region-social-engagement-facebook iframe {
   position: relative;
@@ -2853,7 +2848,7 @@ ol li {
 .LnewsListInfo .photo {
   float: left;
   overflow: hidden;
-  max-width: 200px;
+  max-width: 12.5em;
 }
 .LnewsListInfo .photo img {
   transition: all 0.3s;
@@ -2864,8 +2859,8 @@ ol li {
   transform: scale(1.1);
 }
 .LnewsListInfo .info {
-  padding-left: 220px;
-  min-height: 125px;
+  padding-left: 13.75em;
+  min-height: 7.8125em;
 }
 .LnewsListInfo .date {
   color: #3737a8;
@@ -2918,7 +2913,7 @@ ol li {
   line-height: 1.4;
 }
 .newsBlog .LnewsListInfo .info {
-  padding-left: 160px;
+  padding-left: 10em;
 }
 .newsBlog p {
   margin-bottom: 0em;
@@ -2952,7 +2947,7 @@ ol li {
 }
 .region-latest-news-section .LnewsBox {
   overflow-x: auto;
-  height: 545px;
+  height: 34.0625em;
   scrollbar-color: #ccc transparent;
   scrollbar-width: thin;
 }
@@ -3066,7 +3061,7 @@ ol li {
 }
 .eventPostInfo .photo {
   float: left;
-  height: 150px;
+  height: 9.375em;
   overflow: hidden;
   max-width: 270px;
 }
@@ -3079,8 +3074,8 @@ ol li {
   transform: scale(1.1);
 }
 .eventPostInfo .info {
-  padding-left: 297px;
-  min-height: 150px;
+  padding-left: 18.5625em;
+  min-height: 9.375em;
   max-width: 34em;
 }
 .eventPostInfo .info h5 {
@@ -3191,7 +3186,7 @@ ol li {
   width: 46%;
 }
 .campaignsInfo {
-  margin: 135px 0 0 0;
+  margin: 8.4375em 0 0 0;
   text-align: left;
 }
 .eventsCampaigns h4 {
@@ -3201,7 +3196,7 @@ ol li {
   padding: 4.375em 0 4.375em 0;
   text-align: center;
   background: url(/themes/stpi/images/impact-created-bg.png) no-repeat left top;
-  min-height: 700px;
+  min-height: 43.75em;
   background-size: cover;
   color: #161616;
 }
@@ -3239,7 +3234,7 @@ ol li {
   transform: translate(0 -50%);
   top: 100%;
   width: 0.125em;
-  height: 232px;
+  height: 14.5em;
   background-color: #e5e5e5;
 }
 .mymove1 {
@@ -3276,22 +3271,22 @@ ol li {
   height: 3.5em;
 }
 .impactCreated ul li:nth-child(4) {
-  top: 150px;
+  top: 9.375em;
 }
 .impactCreated ul li:nth-child(4):before {
   bottom: -2.375em;
   height: 2.375em;
 }
 .impactCreated ul li:nth-child(5):before {
-  bottom: -292px;
-  height: 292px;
+  bottom: -18.25em;
+  height: 18.25em;
 }
 .impactCreated ul li:nth-child(6) {
-  top: 160px;
+  top: 10em;
 }
 .impactCreated ul li:nth-child(6):before {
-  bottom: -109px;
-  height: 109px;
+  bottom: -6.8125em;
+  height: 6.8125em;
 }
 .impactIcon {
   background-image: url(https://stpi.in/themes/stpi/images/impacecreated-icons.png);
@@ -3305,19 +3300,19 @@ ol li {
   background-position: 0.25em -0.6875em;
 }
 .impactIcon.icon2 {
-  background-position: -106px -0.6875em;
+  background-position: -6.625em -0.6875em;
 }
 .impactIcon.icon3 {
-  background-position: -209px -0.75em;
+  background-position: -13.0625em -0.75em;
 }
 .impactIcon.icon4 {
-  background-position: -325px -0.75em;
+  background-position: -20.3125em -0.75em;
 }
 .impactIcon.icon5 {
   background-position: -430.0625em -0.6875em;
 }
 .impactIcon.icon6 {
-  background-position: -530px -0.625em;
+  background-position: -33.125em -0.625em;
 }
 .resTab {
   position: relative;
@@ -3377,7 +3372,7 @@ ol li {
   opacity: 0.5;
 }
 .eventsCampaigns .eventsBox .tabContainer {
-  max-height: 400px;
+  max-height: 25em;
   overflow-y: scroll;
 }
 .neuronIn .neuronBoxDetails {
@@ -3574,7 +3569,7 @@ ol li {
   margin-bottom: 0.625em;
 }
 .teamSlider {
-  min-height: 630px;
+  min-height: 39.375em;
 }
 .TeamMembersSlider .owl-controls {
   position: absolute;
@@ -3588,7 +3583,7 @@ ol li {
 }
 .teamSlider ul li {
   text-align: center;
-  width: 150px;
+  width: 9.375em;
   display: inline-block;
   vertical-align: top;
   margin: 0 1.5625em 0.625em;
@@ -3607,10 +3602,10 @@ ol li {
   margin: 0.625em 0 0 0;
 }
 .TeamMembersSlider .photo {
-  height: 167px;
+  height: 10.4375em;
   overflow: hidden;
   text-align: center;
-  max-width: 167px;
+  max-width: 10.4375em;
   width: 100%;
   display: inline-block;
   vertical-align: top;
@@ -3650,7 +3645,7 @@ ol li {
   line-height: inherit;
 }
 .teamSliderInfo {
-  min-height: 283px;
+  min-height: 17.6875em;
 }
 .TeamMembersSlider .owl-controls .owl-nav [class*="owl-"] {
   background: none;
@@ -3664,7 +3659,7 @@ ol li {
   bottom: inherit;
 }
 .TeamMembersSlider .owl-next {
-  text-indent: -9999px;
+  text-indent: -624.9375em;
 }
 .TeamMembersSlider .owl-next:before {
   content: "\f105";
@@ -3677,7 +3672,7 @@ ol li {
   line-height: 1.2;
 }
 .TeamMembersSlider .owl-prev {
-  text-indent: -9999px;
+  text-indent: -624.9375em;
 }
 .TeamMembersSlider .owl-prev:before {
   content: "\f104";
@@ -3792,7 +3787,7 @@ ol li {
 .clientLogo .owl-item div {
   text-align: center;
   border: 0.0625em solid #ccc;
-  min-height: 140px;
+  min-height: 8.75em;
   padding: 0.625em;
 }
 .clientLogo .owl-item div p {
@@ -3840,7 +3835,7 @@ ol li {
 .region-subscribe-to-newsletters .simplenews-subscriber-form {
   margin: 0 auto;
   width: 100%;
-  max-width: 1280px;
+  max-width: 80em;
   padding: 0 0.9375em;
 }
 .region-subscribe-to-newsletters h2 {
@@ -3867,7 +3862,7 @@ ol li {
   border: 0.125em solid #ffd400;
   border-radius: 1.25em;
   height: 3.125em;
-  max-width: 300px;
+  max-width: 18.75em;
   font-size: 1.125em;
   margin-left: 0.625em;
 }
@@ -3895,7 +3890,7 @@ ol li {
   border: 0.125em solid #ffd400;
   border-radius: 1.25em;
   height: 3.125em;
-  max-width: 300px;
+  max-width: 18.75em;
   font-size: 1.125em;
   float: left;
   margin-left: 0.625em;
@@ -3971,7 +3966,7 @@ footer {
   list-style: none;
   padding: 0em;
   margin: 0em;
-  max-width: 458px;
+  max-width: 28.625em;
   width: 100%;
 }
 .footerButtons ul li {
@@ -4238,7 +4233,7 @@ h6 {
   position: fixed;
   right: 0.625em;
   bottom: 1.25em;
-  text-indent: -99999px;
+  text-indent: -6249.9375em;
   z-index: 999;
   display: none;
   background-size: 2.5em;
@@ -4254,7 +4249,7 @@ h6 {
   position: relative;
   background: #213f86;
   background-size: cover;
-  padding: 168px 0 0;
+  padding: 10.5em 0 0;
 }
 
 .innerBannerSection .region-breadcrumb .breadcrumb {
@@ -4338,7 +4333,7 @@ h6 {
 }
 .innerPageContent {
   padding: 2.5em 0;
-  min-height: 500px;
+  min-height: 31.25em;
 }
 .contact .row {
   margin-bottom: 0em;
@@ -4355,7 +4350,7 @@ h6 {
   margin: 0 1% 1.25em;
   box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.1);
   font-size: 1.1em;
-  min-height: 223px;
+  min-height: 13.9375em;
 }
 .contactUsMain ul li .contactPerson {
   font-weight: bold;
@@ -4386,7 +4381,7 @@ h6 {
   background: #fff url(/themes/stpi/images/contact.png) center no-repeat;
   box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.1);
   width: 100%;
-  height: 462px;
+  height: 28.875em;
 }
 .contactFullRow .contactUsMain ul li {
   width: 31.3%;
@@ -4426,7 +4421,7 @@ h6 {
   background-position: -0.875em -180.0625em;
 }
 .contactLeftInfo .clficon4 {
-  background-position: -0.8125em -273px;
+  background-position: -0.8125em -17.0625em;
 }
 
 /* contactUs css end */
@@ -4437,7 +4432,7 @@ h6 {
   display: block;
 }
 .aboutContentBlock .aboutText {
-  max-width: 820px;
+  max-width: 51.25em;
   width: 60%;
   padding: 0.625em 3.75em 1.875em 0em;
 }
@@ -4446,7 +4441,7 @@ h6 {
   top: -6.25em;
   right: 0em;
   width: 39%;
-  max-width: 620px;
+  max-width: 38.75em;
 }
 .aboutContentBlock .aboutVideo:after {
   width: 60%;
@@ -4502,7 +4497,7 @@ h6 {
   margin-bottom: 3.125em;
 }
 .functionTab .tabNav {
-  max-width: 400px;
+  max-width: 25em;
   text-align: left;
   float: left;
 }
@@ -4527,7 +4522,7 @@ h6 {
   width: 100%;
 }
 .functionTab .tabContainer {
-  width: calc(100% - 410px);
+  width: calc(100% - 25.625em);
   background: #f4f4f4;
   height: 100%;
   border: none;
@@ -4559,8 +4554,8 @@ h6 {
   text-align: left;
 }
 .qultObj {
-  max-width: 385px !important;
-  min-height: 169px;
+  max-width: 24.0625em !important;
+  min-height: 10.5625em;
   border: 0.0625em solid #e6e6e6;
   display: inline-block;
   box-shadow: 0.9375em 0.625em 1.875em rgba(0, 0, 0, 0.2);
@@ -4581,7 +4576,7 @@ h6 {
 .qultObj .objText {
   width: calc(100% - 5em);
   float: left;
-  padding: 0em 05px 0em 0.9375em;
+  padding: 0em 0.3125em 0em 0.9375em;
   font-size: 1em;
   color: #000;
   font-weight: 400;
@@ -4602,12 +4597,12 @@ p a {
 
 .qultObj .objText {
   float: none;
-  padding-left: 110px;
+  padding-left: 6.875em;
   width: auto;
 }
 /* .qultObj .objText {
   float: none;
-  padding-left: 110px;
+  padding-left: 6.875em;
   width: auto;
 }
 /* .qultObj .objText {
@@ -4706,7 +4701,7 @@ p a {
 .centerListparent {
   position: relative;
   padding-top: 4.25em;
-  padding: 0.9375em 05px;
+  padding: 0.9375em 0.3125em;
 }
 .centerListparent:before {
   position: relative;
@@ -4762,7 +4757,7 @@ p a {
   margin-bottom: -1.875em;
 }
 .twitter-timeline.twitter-timeline-rendered {
-  min-height: 420px !important;
+  min-height: 26.25em !important;
 }
 .stpiCentersSlider .resTab:before {
   width: 0;
@@ -4822,8 +4817,8 @@ p a {
 .card_container {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
+  -webkit-perspective: 62.5em;
+  perspective: 62.5em;
 }
 
 .card_front,
@@ -5006,7 +5001,7 @@ p.card_btn a.commonBtn {
 .imageText .image {
   float: right;
   padding-left: 1.25em;
-  max-width: 350px;
+  max-width: 21.875em;
   display: none;
 }
 .imageText .field--type-image {
@@ -5106,7 +5101,7 @@ p.card_btn a.commonBtn {
 .recentBlock .recentImage {
   margin-bottom: 1.875em;
   overflow: hidden;
-  height: 259px;
+  height: 16.1875em;
 }
 .recentBlock .recentImage img {
   box-shadow: 0.9375em 0em 1.875em rgba(0, 0, 0, 0.2);
@@ -5134,7 +5129,7 @@ p.card_btn a.commonBtn {
 }
 
 .visionariesMember .contentMainBlock {
-  min-height: 334px;
+  min-height: 20.875em;
 }
 .visionariesMember .teamBlock li {
   width: 33.3%;
@@ -5148,7 +5143,7 @@ p.card_btn a.commonBtn {
 }
 
 .view-incubation-services .recentBlock .recentImage {
-  height: 153px;
+  height: 9.5625em;
 }
 .recentBlock .info {
   position: relative;
@@ -5157,7 +5152,7 @@ p.card_btn a.commonBtn {
 .contentMainBlock {
   background-color: #fff;
   padding: 1.25em;
-  min-height: 494px;
+  min-height: 30.875em;
   box-shadow: 0.3125em 0em 1.5625em rgba(0, 0, 0, 0.2);
 }
 .contentMainBlock .teamImage img {
@@ -5209,8 +5204,8 @@ p.card_btn a.commonBtn {
   position: absolute;
   background-image: url(/themes/stpi/images/bluerightafter.png);
   width: 330.0625em;
-  height: 444px;
-  bottom: -135px;
+  height: 27.75em;
+  bottom: -8.4375em;
   right: 0;
   background-repeat: no-repeat;
 }
@@ -5231,7 +5226,7 @@ p.card_btn a.commonBtn {
   text-align: justify;
 }
 .excellenceCenter {
-  padding-bottom: 140px;
+  padding-bottom: 8.75em;
 }
 .excellenceCenter p {
   text-align: justify;
@@ -5248,7 +5243,7 @@ p.card_btn a.commonBtn {
   text-align: right;
   margin-bottom: 0;
   float: right;
-  width: 350px;
+  width: 21.875em;
   margin-top: 5.625em;
 }
 .finLab a,
@@ -5296,7 +5291,7 @@ p.card_btn a.commonBtn {
   display: none;
 }
 .finLabRight {
-  width: 350px;
+  width: 21.875em;
   float: left;
   padding-left: 0;
   margin-bottom: 0;
@@ -5353,7 +5348,7 @@ p.card_btn a.commonBtn {
 .objectOutcomes {
   position: relative;
   z-index: 1;
-  margin-bottom: 350px;
+  margin-bottom: 21.875em;
 }
 .objectiveCenter p {
   padding: 0 2.9375em;
@@ -5381,7 +5376,7 @@ p.card_btn a.commonBtn {
   line-height: 3.5em;
 }
 .ojectoutCenterFull {
-  max-width: 400px;
+  max-width: 25em;
   padding: 3.8125em;
   margin: 0 auto;
   position: relative;
@@ -5395,7 +5390,7 @@ p.card_btn a.commonBtn {
   padding-left: 0;
   width: 35%;
   float: left;
-  margin-top: -200px;
+  margin-top: -12.5em;
 }
 .devlopLeft li {
   list-style: none;
@@ -5410,7 +5405,7 @@ p.card_btn a.commonBtn {
   float: right;
   padding-left: 0;
   width: 35%;
-  margin-top: -200px;
+  margin-top: -12.5em;
 }
 .devlopRight li {
   list-style: none;
@@ -5435,7 +5430,7 @@ p.card_btn a.commonBtn {
 }
 .devlopLeft .rightIconsAfter {
   position: absolute;
-  right: -110px;
+  right: -6.875em;
   top: 0em;
   background-color: #f3bb1f;
   padding: 1.25em;
@@ -5494,7 +5489,7 @@ p.card_btn a.commonBtn {
   position: absolute;
   border-bottom: 0.4375em solid #d6c48d;
   bottom: -0.4375em;
-  width: 200px;
+  width: 12.5em;
   margin: 0 auto;
   text-align: center;
   left: 0;
@@ -5507,7 +5502,7 @@ p.card_btn a.commonBtn {
   position: absolute;
   border-bottom: 0.4375em solid #d6c48d;
   bottom: -0.4375em;
-  width: 200px;
+  width: 12.5em;
   margin: 0 auto;
   text-align: center;
   left: 0;
@@ -5552,7 +5547,7 @@ p.card_btn a.commonBtn {
   position: absolute;
   border-bottom: 0.4375em solid #d6c48d;
   bottom: -0.4375em;
-  width: 200px;
+  width: 12.5em;
   margin: 0 auto;
   text-align: center;
   left: 0;
@@ -5606,17 +5601,17 @@ p.card_btn a.commonBtn {
 }
 .lifecycleIcons {
   background-color: #fff;
-  padding: 150px 1.875em 1.875em 1.875em;
+  padding: 9.375em 1.875em 1.875em 1.875em;
   box-shadow: 0.0625em 0.0625em 1.25em 0em #c4c4c4;
 }
 .borderradis {
   border: 0.1875em solid #cbcbcb;
-  width: 135px;
+  width: 8.4375em;
   margin: 0 auto;
   text-align: center;
   border-radius: 5.625em;
   position: relative;
-  height: 135px;
+  height: 8.4375em;
   padding: 2.1875em 0;
   background-color: #fff;
   box-shadow: 0.125em 0.125em 0.9375em 0.125em #d1d1d1;
@@ -5786,7 +5781,7 @@ p.card_btn a.commonBtn {
   bottom: 1.875em;
 }
 .listTiltes {
-  max-width: 200px;
+  max-width: 12.5em;
 }
 .stateGovernmentsFull .col-md-6:nth-child(2) {
   margin-left: -6.25em;
@@ -5838,7 +5833,7 @@ p.card_btn a.commonBtn {
 }
 .topList {
   position: absolute;
-  bottom: 140px;
+  bottom: 8.75em;
 }
 .topList:before {
   content: "";
@@ -6224,19 +6219,19 @@ tr td {
   background-color: #fff;
 }
 .view-career th {
-  min-width: 200px;
+  min-width: 12.5em;
 }
 .view-career th:nth-child(1) {
   min-width: 4.375em;
 }
 .view-career th:nth-child(2) {
-  min-width: 300px;
+  min-width: 18.75em;
 }
 .view-career th:nth-child(3) {
   min-width: 480px;
 }
 .view-career th:nth-child(4) {
-  min-width: 110px;
+  min-width: 6.875em;
 }
 .view-career th:nth-child(5) {
   min-width: 4.375em;
@@ -6584,8 +6579,8 @@ nav.pager ul li a:hover {
 .newsletterPage .image {
   display: inline-block;
   vertical-align: top;
-  width: 150px;
-  height: 150px;
+  width: 9.375em;
+  height: 9.375em;
   overflow: hidden;
   margin-right: 1.25em;
   border: 0.3125em solid #e6e6e6;
@@ -6606,7 +6601,7 @@ nav.pager ul li a:hover {
 }
 
 .newsletterPage .image img {
-  width: 200px;
+  width: 12.5em;
   transition: all 0.3s;
   max-width: 100%;
 }
@@ -6783,7 +6778,7 @@ nav.pager ul li a:hover {
   vertical-align: top;
 }
 .page-views-listing .eventPostInfo .photo {
-  height: 200px;
+  height: 12.5em;
   max-width: 100%;
   width: 100%;
 }
@@ -7269,7 +7264,7 @@ a {
 .recentblogSlider .owl-controls {
   position: absolute;
   right: 0em;
-  top: -110px;
+  top: -6.875em;
 }
 .recentblogSlider .owl-controls .owl-nav [class*="owl-"] {
   background: transparent;
@@ -7381,7 +7376,7 @@ table tr:nth-child(odd) td,
 
 .startup_image {
   padding: 0;
-  float: right; /* height: 300px; */
+  float: right; /* height: 18.75em; */
   shape-outside: circle(44%);
   text-align: center;
   margin-bottom: -6%;
@@ -7417,9 +7412,9 @@ table tr:nth-child(odd) td,
 
 .listar-feature-item .listar-feature-item-inner:before {
   border: 0;
-  /* box-shadow: 7.5em 0em 150px rgba(80, 80, 80, 0.15),
+  /* box-shadow: 7.5em 0em 9.375em rgba(80, 80, 80, 0.15),
     0.625em 0em 0.625em rgba(80, 80, 80, 0.02); */
-  border-radius: 1000px;
+  border-radius: 62.5em;
   background: rgba(255, 255, 255, 0);
   background: -moz-linear-gradient(
     left,
@@ -7550,10 +7545,10 @@ table tr:nth-child(odd) td,
   left: -60%;
 }
 .listar-feature-icon-wrapper {
-  width: 300px;
-  height: 150px;
-  line-height: 150px;
-  border-radius: 500px;
+  width: 18.75em;
+  height: 9.375em;
+  line-height: 9.375em;
+  border-radius: 31.25em;
   position: relative;
   background-color: #fff;
   box-shadow: 0.5em0.5em 1.875em rgba(0, 0, 0, 0.06);
@@ -7564,7 +7559,7 @@ table tr:nth-child(odd) td,
   transform: rotate(0deg);
   left: 50%;
   vertical-align: middle;
-  margin-left: -300px;
+  margin-left: -18.75em;
   top: -4.125em;
   margin-top: -4.625em;
 }
@@ -7573,7 +7568,7 @@ table tr:nth-child(odd) td,
   width: 260px;
   height: 7.5em;
   line-height: 7.5em;
-  border-radius: 500px;
+  border-radius: 31.25em;
   position: relative;
   display: inline-block;
   vertical-align: middle;
