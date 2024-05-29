@@ -1625,7 +1625,7 @@ ol li {
   left: -0.9375em;
   top: 50%;
   margin-top: -0.3125em;
-  height: 0.375em ;
+  height: 0.375em;
   width: 0.375em;
   background-color: #000;
   z-index: 10;
@@ -1682,8 +1682,8 @@ ol li {
   margin: 3.125em 0 0;
   width: 35.715em;
   background: url(../images/india-map.png) no-repeat left top;
-  height: 40.625em;
-  background-size: 30.625em;
+  height: 46.429em;
+  background-size: 34.79em;
   position: relative;
   z-index: 1;
 }
@@ -2133,9 +2133,9 @@ ol li {
 
 .rotating-slider {
   margin: 5em auto;
-  height: 650px !important;
+  height: 40.625em !important;
   position: relative;
-  width: 650px !important;
+  width: 40.625em !important;
   transform: rotate(-70deg);
   -webkit-transform: rotate(-70deg);
   position: absolute;
@@ -2334,7 +2334,7 @@ ol li {
   border-radius: 0em;
 }
 .centerOfExceLft::-ms-scrollbar {
-  width:0.5em;
+  width: 0.5em;
 }
 .centerOfExceLft::-ms-scrollbar-track {
   background: #3737a8;
@@ -2371,7 +2371,7 @@ ol li {
   display: inline-block;
   vertical-align: top;
   line-height: 2;
-  min-width: 250px;
+  min-width: 15.625em;
   display: inline-block;
   text-align: center;
 }
@@ -2472,7 +2472,7 @@ ol li {
 .scheme .owl-controls .owl-nav [class*="owl-"]:before {
   content: "";
   position: absolute;
-  left:0.5625em;
+  left: 0.5625em;
   top: 0.1875em;
   font-family: fontAwesome;
   font-size: 1.875em;
@@ -2755,7 +2755,7 @@ ol li {
   height: 0;
   border-left: 0.3125em solid transparent;
   border-right: 0.3125em solid transparent;
-  border-top:0.5em solid #1da0f2;
+  border-top: 0.5em solid #1da0f2;
 }
 .socialEngCover {
   background-color: #fff;
@@ -2771,7 +2771,7 @@ ol li {
 }
 .region-social-engagement-facebook iframe {
   position: relative;
-  top:1.125em;
+  top: 1.125em;
   left: 0.4375em;
 }
 .region-social-engagement-instragram iframe {
@@ -2899,7 +2899,7 @@ ol li {
   width: 100%;
   display: inline-block;
   vertical-align: top;
-  margin-bottom:0.5em;
+  margin-bottom: 0.5em;
 }
 .LnewsListInfo h4,
 .LnewsListInfo h5 {
@@ -2956,7 +2956,7 @@ ol li {
   scrollbar-width: thin;
 }
 .LnewsBox::-webkit-scrollbar {
-  width:0.5em;
+  width: 0.5em;
 }
 .LnewsBox::-webkit-scrollbar-track {
   background: #3737a8;
@@ -2967,7 +2967,7 @@ ol li {
   border-radius: 0em;
 }
 .LnewsBox::-moz-scrollbar {
-  width:0.5em;
+  width: 0.5em;
 }
 .LnewsBox::-moz-scrollbar-track {
   background: #3737a8;
@@ -2978,7 +2978,7 @@ ol li {
   border-radius: 0em;
 }
 .LnewsBox::-ms-scrollbar {
-  width:0.5em;
+  width: 0.5em;
 }
 .LnewsBox::-ms-scrollbar-track {
   background: #3737a8;
@@ -3396,7 +3396,7 @@ ol li {
 }
 .neuronBlock {
   display: block;
-  padding: 0 px;
+  padding: 0;
   margin: 0;
 }
 .neuronBlock li {
@@ -3415,7 +3415,7 @@ ol li {
 .neuronBlock .neuronImage:after {
   width: 100%;
   position: absolute;
-  height: 250px;
+  height: 15.625em;
   content: "";
   background: rgba(0, 0, 0, 0);
   background: -moz-linear-gradient(
@@ -3669,7 +3669,7 @@ ol li {
   font-family: fontAwesome;
   text-indent: 0 !important;
   position: absolute;
-  right:0.5em;
+  right: 0.5em;
   top: -0.3125em;
   font-size: 1.875em;
   line-height: 1.2;
@@ -3682,7 +3682,7 @@ ol li {
   font-family: fontAwesome;
   text-indent: 0 !important;
   position: absolute;
-  left:0.5em;
+  left: 0.5em;
   top: -0.3125em;
   font-size: 1.875em;
   line-height: 1.2;
@@ -3866,13 +3866,13 @@ ol li {
   border-radius: 1.25em;
   height: 3.125em;
   max-width: 300px;
-  font-size:1.125em;
+  font-size: 1.125em;
   margin-left: 0.625em;
 }
 .region-subscribe-to-newsletters .js-form-submit {
   background-color: #2989d0;
   color: #fff;
-  font-size:1.125em;
+  font-size: 1.125em;
   border: 0.0625em solid #6bdb7b;
   height: 3.125em;
   padding: 0 1.875em;
@@ -3894,7 +3894,7 @@ ol li {
   border-radius: 1.25em;
   height: 3.125em;
   max-width: 300px;
-  font-size:1.125em;
+  font-size: 1.125em;
   float: left;
   margin-left: 0.625em;
 }
@@ -4562,7 +4562,7 @@ h6 {
   border: 0.0625em solid #e6e6e6;
   display: inline-block;
   box-shadow: 0.9375em 0.625em 1.875em rgba(0, 0, 0, 0.2);
-  padding:1.125em 0.9375em1.125em 0.3125em;
+  padding: 1.125em 0.9375em1.125em 0.3125em;
   margin: 1.25em;
   text-align: left;
 }
@@ -4943,7 +4943,7 @@ p a {
   color: #fff;
 }
 .card_back .card.inner p {
-  font-size:1.125em;
+  font-size: 1.125em;
   color: white;
 }
 .card_back .card.inner a {
@@ -4980,7 +4980,7 @@ p.card_btn a.commonBtn {
 }
 .card_back .card_inner p {
   color: #fff;
-  font-size:1.125em;
+  font-size: 1.125em;
   text-transform: capitalize;
 }
 .card_back h3.card_oic_name {
@@ -5122,7 +5122,7 @@ p.card_btn a.commonBtn {
   font-weight: 600;
 }
 .recentBlock .recentData {
-  font-size:1.125em;
+  font-size: 1.125em;
   font-weight: 700;
   color: #3737a8;
   margin-bottom: 1.25em;
@@ -5174,7 +5174,7 @@ p.card_btn a.commonBtn {
   border-radius: 1.875em;
   -webkit-border-radius: 1.875em;
   display: inline-block;
-  font-size:1.125em;
+  font-size: 1.125em;
   font-weight: 700;
   text-decoration: none;
   transition: all 0.5s ease-out;
@@ -5271,8 +5271,8 @@ p.card_btn a.commonBtn {
 .finLab li:after {
   content: "";
   position: absolute;
-  width:0.5em;
-  height:0.5em;
+  width: 0.5em;
+  height: 0.5em;
   background-color: #f3bb1f;
   border-radius: 4.375em;
   right: 0;
@@ -5285,7 +5285,7 @@ p.card_btn a.commonBtn {
   border-bottom: 0.0625em solid #f3bb1f;
   position: relative;
   font-weight: 700;
-  font-size:1.125em;
+  font-size: 1.125em;
 }
 .finLab li:last-child {
   border: none;
@@ -5308,7 +5308,7 @@ p.card_btn a.commonBtn {
   position: relative;
   z-index: 1;
   font-weight: 700;
-  font-size:1.125em;
+  font-size: 1.125em;
 }
 .labCenterCol img {
   -webkit-filter: grayscale(100%);
@@ -5323,8 +5323,8 @@ p.card_btn a.commonBtn {
 .finLabRight li:after {
   content: "";
   position: absolute;
-  width:0.5em;
-  height:0.5em;
+  width: 0.5em;
+  height: 0.5em;
   background-color: #f3bb1f;
   border-radius: 4.375em;
   left: 0;
@@ -6097,7 +6097,7 @@ h2 {
 .views-exposed-form .form--inline .form-item,
 .view-photo-gallery .views-exposed-form .form-item {
   margin: 0em;
-  width: 250px;
+  width: 15.625em;
 }
 .view-career .button,
 .view-tenders .button {
@@ -6117,7 +6117,7 @@ h2 {
   -webkit-transition: all 0.3s ease-out;
   border-radius: 0.1875em;
   -webkit-border-radius: 0.1875em;
-  padding:0.5em 1.25em;
+  padding: 0.5em 1.25em;
   height: 2.4375em;
 }
 .views-exposed-form label {
@@ -6169,7 +6169,7 @@ td,
 .tableData th,
 .tableData td {
   border: none;
-  padding:0.5em 0.625em;
+  padding: 0.5em 0.625em;
 }
 table tr:nth-child(odd) td,
 .tableRowOdd {
@@ -6313,7 +6313,7 @@ tr td {
   color: #121959;
   font-size: 1em;
   border: none;
-  padding:0.5em 1.5625em;
+  padding: 0.5em 1.5625em;
   border-radius: 1.875em;
   transition: all 0.3s;
   font-weight: 600;
@@ -6348,7 +6348,7 @@ tr td {
 .stpiNeuron span {
   font-size: 1em;
   display: block;
-  margin-bottom:0.5em;
+  margin-bottom: 0.5em;
 }
 .stpiNeuron p {
   font-size: 1.286em;
@@ -6367,7 +6367,7 @@ tr td {
 }
 .neuronBlock {
   display: block;
-  padding: 0 px;
+  padding: 0;
   margin: 0;
 }
 .neuronBlock li {
@@ -6386,7 +6386,7 @@ tr td {
 .neuronBlock .neuronImage:after {
   width: 100%;
   position: absolute;
-  height: 250px;
+  height: 15.625em;
   content: "";
   background: rgba(0, 0, 0, 0);
   background: -moz-linear-gradient(
@@ -6494,7 +6494,7 @@ tr td {
   text-align: center;
   text-decoration: none;
   color: #2b2b2b;
-  font-size:1.125em;
+  font-size: 1.125em;
   padding: 0.625em;
 }
 .neuronBlock a {
@@ -7162,7 +7162,7 @@ a {
   background-color: #ffcb05;
   padding: 0.625em 1.5625em;
   color: #1e1e5b;
-  font-size:1.125em;
+  font-size: 1.125em;
   font-weight: 700;
 }
 .blogBox .blogLeft h4 {
@@ -7171,7 +7171,7 @@ a {
   color: #000;
 }
 .blogBox .readMore {
-  font-size:1.125em;
+  font-size: 1.125em;
   color: #1e1e5b;
   text-decoration: underline;
   font-weight: 700;
@@ -7348,7 +7348,7 @@ td,
 .tableData th,
 .tableData td {
   border: none;
-  padding:0.5em 0.625em;
+  padding: 0.5em 0.625em;
 }
 table tr:nth-child(odd) td,
 .tableRowOdd {
@@ -7554,7 +7554,7 @@ table tr:nth-child(odd) td,
   border-radius: 500px;
   position: relative;
   background-color: #fff;
-  box-shadow:0.5em0.5em 1.875em rgba(0, 0, 0, 0.06);
+  box-shadow: 0.5em0.5em 1.875em rgba(0, 0, 0, 0.06);
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
@@ -7625,7 +7625,7 @@ table tr:nth-child(odd) td,
 }
 .listar-feature-content-wrapper {
   position: relative;
-  margin-top: -15.0.3125em;
+  margin-top: -15.3125em;
 }
 
 .listar-feature-item .listar-feature-item-title {
@@ -7676,7 +7676,7 @@ table tr:nth-child(odd) td,
   text-shadow: none;
   border-radius: 3.125em;
   color: #252525;
-  font-size:1.125em;
+  font-size: 1.125em;
 }
 
 .listar-feature-item-excerpt {
@@ -7821,7 +7821,7 @@ a.externalLink {
 .sitemap .sitemap-menu > li > a,
 #site-map .nolink {
   color: #000;
-  font-size:1.125em;
+  font-size: 1.125em;
   line-height: 1.5625em;
   text-decoration: none;
   padding: 0.4375em 1.25em;
@@ -7847,7 +7847,7 @@ a.externalLink {
 .sitemap .sitemap-menu > li > a,
 #site-map .nolink {
   color: #000;
-  font-size:1.125em;
+  font-size: 1.125em;
   line-height: 1.5625em;
   text-decoration: none;
   padding: 0.4375em 1.25em;
