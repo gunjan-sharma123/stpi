@@ -1848,7 +1848,7 @@ ol li {
   background-position: 0 -6.3125em;
 }
 .dirContactInfo .centers:before {
-  background-position: 0 -142px;
+  background-position: 0 -8.875em;
 }
 .dirContactInfo a {
   color: #fff;
@@ -3120,7 +3120,7 @@ ol li {
 }
 .campainImage {
   position: relative;
-  min-height: 255px;
+  min-height: 15.9375em;
 }
 .campainImage:before {
   content: "";
@@ -3171,7 +3171,7 @@ ol li {
 .campaingsSlider .owl-controls {
   position: absolute;
   left: 50%;
-  top: 310px;
+  top: 19.375em;
   transform: translate(-50%, 0);
 }
 .campaingsSlider .owl-controls .owl-nav [class*="owl-"] {
