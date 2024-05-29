@@ -155,8 +155,8 @@ a {
 
 .col-md-6 {
   float: left;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0.938em;
+  padding-right: 0.938em;
 }
 html,
 body,
@@ -255,18 +255,18 @@ video {
 }
 .headerLeft {
   float: left;
-  max-width: 466px;
+  max-width: 29.125em;
   width: 100%;
 }
 .headerRight {
   float: right;
   width: 100%;
-  max-width: 1050px;
-  padding-top: 13px;
+  max-width: 65.625em;
+  padding-top: 0.813em;
 }
 #header .container {
-  max-width: 1760px;
-  padding: 0 15px;
+  max-width: 110em;
+  padding: 0 0.938em;
 }
 .leftLink {
   float: left;
@@ -284,7 +284,7 @@ video {
   cursor: pointer;
   color: #fff;
   color: #8fadf7;
-  padding: 0 9px;
+  padding: 0 0.563em;
   position: relative;
   cursor: pointer;
 }
