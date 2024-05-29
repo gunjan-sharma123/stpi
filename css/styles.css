@@ -3063,7 +3063,7 @@ ol li {
   float: left;
   height: 9.375em;
   overflow: hidden;
-  max-width: 270px;
+  max-width: 16.875em;
 }
 .eventPostInfo .photo img {
   transition: all 0.3s;
@@ -3539,7 +3539,7 @@ ol li {
   text-align: center;
   display: inline-block;
   vertical-align: top;
-  width: 262px;
+  width: 16.375em;
 }
 .TeamBigInfo ul li:last-child {
   float: right;
@@ -5339,8 +5339,8 @@ p.card_btn a.commonBtn {
 }
 .objectiveCenter {
   text-align: center;
-  padding: 0em 235px;
-  min-height: 270px;
+  padding: 0em 14.6875em;
+  min-height: 16.875em;
 }
 .objectiveCenter h2 {
   font-size: 2em;
@@ -5361,8 +5361,8 @@ p.card_btn a.commonBtn {
   padding: 6.25em 0 2.8125em;
   background-color: #fff;
   box-shadow: 0.125em 0em 1.0625em 1em #eaeaea;
-  border-radius: 210px;
-  height: 270px;
+  border-radius: 13.125em;
+  height: 16.875em;
 }
 .ojectoutCenter p {
   margin-bottom: 0;
@@ -5381,10 +5381,10 @@ p.card_btn a.commonBtn {
   margin: 0 auto;
   position: relative;
   border: 0.0625em solid #c4c4c4;
-  border-radius: 260px;
+  border-radius: 16.25em;
   margin-top: -7.5em;
   background-color: #fbfbfb;
-  height: 390px;
+  height: 24.375em;
 }
 .devlopLeft {
   padding-left: 0;
@@ -5399,7 +5399,7 @@ p.card_btn a.commonBtn {
   background-color: #fff;
   margin-bottom: 2.1875em;
   position: relative;
-  max-width: 390px;
+  max-width: 24.375em;
 }
 .devlopRight {
   float: right;
@@ -5411,7 +5411,7 @@ p.card_btn a.commonBtn {
   list-style: none;
   padding: 0.9375em 1.5em;
   box-shadow: 0.125em 0em 1.0625em 1em #eaeaea;
-  width: 379px;
+  width: 23.6875em;
   min-height: 4.375em;
   background-color: #fff;
   margin-bottom: 2.1875em;
@@ -5424,7 +5424,7 @@ p.card_btn a.commonBtn {
 }
 .devlopLeft li:nth-child(2) {
   margin-right: 1em;
-  max-width: 397px;
+  max-width: 24.8125em;
   float: right;
   margin-bottom: 0;
 }
@@ -5446,7 +5446,7 @@ p.card_btn a.commonBtn {
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 19px solid transparent;
+  border-top: 1.1875em solid transparent;
   border-left: 1.8125em solid #fff;
   border-bottom: 1.5625em solid transparent;
   right: -1.375em;
@@ -5455,7 +5455,7 @@ p.card_btn a.commonBtn {
 }
 .devlopRight li:nth-child(2) {
   margin-left: 1.625em;
-  max-width: 397px;
+  max-width: 24.8125em;
   float: left;
   margin-bottom: 0;
 }
@@ -5524,12 +5524,12 @@ p.card_btn a.commonBtn {
   background-color: #fff;
   position: relative;
   margin-bottom: 0;
-  width: 409px;
+  width: 25.5625em;
   text-align: center;
 }
 .devlopBotFull .rightIconsAfter {
   position: absolute;
-  top: -108px;
+  top: -6.75em;
   background-color: #f3bb1f;
   padding: 1.25em;
   border-radius: 5em;
@@ -5586,7 +5586,7 @@ p.card_btn a.commonBtn {
 }
 .lifecycleTitle {
   padding: 2.375em 7.5em;
-  width: 850px;
+  width: 53.125em;
   margin: 0 auto;
   background-color: #313197;
   position: relative;
@@ -5594,7 +5594,7 @@ p.card_btn a.commonBtn {
 }
 .lifecycleIconsList {
   padding-left: 0;
-  margin-top: 145px;
+  margin-top: 9.0625em;
 }
 .lifecycleIconsList li {
   list-style: none;
@@ -5642,7 +5642,7 @@ p.card_btn a.commonBtn {
   transform: rotate(-35deg);
   top: 0;
   z-index: 0;
-  left: 130px;
+  left: 8.125em;
 }
 .lifecycleIconsList li:nth-child(odd):last-child:before {
   display: none;
@@ -5659,7 +5659,7 @@ p.card_btn a.commonBtn {
   transform: rotate(35deg);
   top: 6.25em;
   z-index: -1;
-  left: 130px;
+  left: 8.125em;
 }
 .lifecycleIconsList li p {
   font-size: 0.9375em;
@@ -5676,7 +5676,7 @@ p.card_btn a.commonBtn {
   right: 0;
 }
 .lifecycleTop {
-  margin-top: -320px !important;
+  margin-top: -20em !important;
 }
 .lifecycleTitle:before {
   content: "";
@@ -5722,7 +5722,7 @@ p.card_btn a.commonBtn {
 }
 .stateGovernmentsLeft li {
   list-style: none;
-  min-height: 303px;
+  min-height: 18.9375em;
   width: 59%;
   float: left;
   padding: 2.5em;
@@ -5754,7 +5754,7 @@ p.card_btn a.commonBtn {
 }
 .stateGovernmentsRight li {
   list-style: none;
-  min-height: 303px;
+  min-height: 18.9375em;
   width: 59%;
   float: left;
   padding: 2.5em;
@@ -5790,13 +5790,13 @@ p.card_btn a.commonBtn {
   position: absolute;
   bottom: 1.25em;
   right: 1.25em;
-  max-width: 175px;
+  max-width: 10.9375em;
 }
 .stateGovernmentsRight li img {
   position: absolute;
   bottom: 1.25em;
   right: 1.25em;
-  max-width: 175px;
+  max-width: 10.9375em;
 }
 .stateGovernmentsLeft li:nth-child(2):before {
   content: "";
@@ -6228,7 +6228,7 @@ tr td {
   min-width: 18.75em;
 }
 .view-career th:nth-child(3) {
-  min-width: 480px;
+  min-width: 30em;
 }
 .view-career th:nth-child(4) {
   min-width: 6.875em;
@@ -6237,7 +6237,7 @@ tr td {
   min-width: 4.375em;
 }
 .view-career th:nth-child(6) {
-  min-width: 185px;
+  min-width: 11.5625em;
 }
 .file--application-pdf {
   background-image: url(https://stpi.in/core/themes/classy/images/icons/application-pdf.png);
@@ -6279,7 +6279,7 @@ tr td {
   display: none;
 }
 .stpiNeuron .stpiOpenChall {
-  width: 580px;
+  width: 36.25em;
   float: left;
   display: block;
   float: left;
@@ -6288,7 +6288,7 @@ tr td {
 }
 .stpiNeuronRecCamp {
   background: #ececec;
-  padding: 0.3125em 0 0.3125em 585px;
+  padding: 0.3125em 0 0.3125em 36.5625em;
   box-shadow: 0.125em 0em 1.5625em rgba(0, 0, 0, 0.2);
 }
 .stpiNeuronRecCamp .neuronRecDetails {
@@ -6766,7 +6766,7 @@ nav.pager ul li a:hover {
 }
 .page-views-listing .eventPostInfoItem .info {
   padding: 0.9375em;
-  height: 118px;
+  height: 7.375em;
   margin-bottom: 1.875em;
   position: relative;
   z-index: 6;
@@ -6953,7 +6953,7 @@ nav.pager ul li a:hover {
   background-image: url(https://stpi.in/themes/stpi/images/teamBg.png);
   background-repeat: no-repeat;
   width: 100%;
-  height: 1052px;
+  height: 65.75em;
   left: 0;
   top: 0em;
   content: "";
@@ -7001,7 +7001,7 @@ nav.pager ul li a:hover {
   transform: scale(1.1);
 }
 .knowYourMiniPage .teamInfo {
-  padding-left: 230px;
+  padding-left: 14.375em;
 }
 .knowYourMiniPage .teamBlock .socialIcone ul li {
   margin: 0em;
@@ -7188,7 +7188,7 @@ a {
   max-width: 6.25em;
 }
 .trendingBox ul li .trendingText {
-  padding-left: 130px;
+  padding-left: 8.125em;
 }
 .trendingBox ul li .trendingText p {
   color: #000;
@@ -7514,7 +7514,7 @@ table tr:nth-child(odd) td,
   top: 0;
   left: 0;
   border: 0.6875em solid #258bd5;
-  border-radius: 800px;
+  border-radius: 50em;
   left: -50%;
 }
 
@@ -7565,7 +7565,7 @@ table tr:nth-child(odd) td,
 }
 
 .listar-feature-icon-inner {
-  width: 260px;
+  width: 16.25em;
   height: 7.5em;
   line-height: 7.5em;
   border-radius: 31.25em;
@@ -7584,7 +7584,7 @@ table tr:nth-child(odd) td,
   transform: rotate(0deg);
   display: inline-block;
   position: relative;
-  width: 185px;
+  width: 11.5625em;
   height: 7.5em;
   line-height: 7.5em;
   text-align: left;
