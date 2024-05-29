@@ -1756,6 +1756,7 @@
   }
   .lNHeading {
     margin-bottom: 20px;
+    margin-top: 20px;
   }
   .campaignsRgt {
     width: 100%;
@@ -2512,7 +2513,7 @@
     line-height: 1;
   }
   .r-tabs .r-tabs-nav {
-    display: none;
+    display: none !important;
   }
   .resTab .r-tabs-panel.r-tabs-state-active .r-tabs-anchor h4 {
     color: #fff;
@@ -3330,6 +3331,9 @@
   }
   .centerOfExce .profile p {
     font-size: 0.8em;
+  }
+  .centerOfExce {
+    margin-top: -10px;
   }
   .impactCreated ul li::before {
     display: none;
