@@ -3011,6 +3011,7 @@ ol li {
   padding: 1.875em;
   box-shadow: 0.0625em 0.25em 0.8125em rgba(0, 0, 0, 0.2);
   box-shadow: 0.0625em 0.25em 0.8125em rgba(0, 0, 0, 0.2);
+  box-shadow: 0.0625em 0.25em 0.8125em rgba(0, 0, 0, 0.2);
 }
 .eventsCampaigns .resTab {
   border: 0em;
@@ -5046,28 +5047,28 @@ p.card_btn a.commonBtn {
   background-position: -1.8125em -1.375em;
 }
 .incubFeatuIcon2 {
-  background-position: -1.5em -172px;
+  background-position: -1.5em -10.75em;
 }
 .incubFeatuIcon3 {
-  background-position: -1.5625em -324px;
+  background-position: -1.5625em -20.25em;
 }
 .incubFeatuIcon4 {
-  background-position: -1.4375em -474px;
+  background-position: -1.4375em -29.625em;
 }
 .incubFeatuIcon5 {
-  background-position: -1.4375em -474px;
+  background-position: -1.4375em -29.625em;
 }
 .incubFeatuIcon6 {
-  background-position: -1.4375em -620.0625em;
+  background-position: -1.4375em -38.8125em;
 }
 .incubFeatuIcon7 {
-  background-position: -1.5em -778px;
+  background-position: -1.5em -48.625em;
 }
 .incubFeatuIcon8 {
-  background-position: -1.5em -930.0625em;
+  background-position: -1.5em -58.187em;
 }
 .incubFeatuIcon9 {
-  background-position: -1.5em -1074px;
+  background-position: -1.5em -67.125em;
 }
 .view-incubation-services {
   text-align: center;
@@ -7984,28 +7985,28 @@ body.wob {
   background-position: -12.0625em -1.375em;
 }
 .wob .incubFeatuIcon2 {
-  background-position: -11.4375em -172px;
+  background-position: -11.4375em -10.75em;
 }
 .wob .incubFeatuIcon3 {
-  background-position: -12.0625em -324px;
+  background-position: -12.0625em -20.25em;
 }
 .wob .incubFeatuIcon4 {
-  background-position: -12.0625em -474px;
+  background-position: -12.0625em -29.625em;
 }
 .wob .incubFeatuIcon5 {
-  background-position: -12.0625em -474px;
+  background-position: -12.0625em -29.625em;
 }
 .wob .incubFeatuIcon6 {
-  background-position: -12.0625em -620.0625em;
+  background-position: -12.0625em -38.8125em;
 }
 .wob .incubFeatuIcon7 {
-  background-position: -12.0625em -778px;
+  background-position: -12.0625em -48.625em;
 }
 .wob .incubFeatuIcon8 {
-  background-position: -12.0625em -930.0625em;
+  background-position: -12.0625em -58.187em;
 }
 .wob .incubFeatuIcon9 {
-  background-position: -12.0625em -1074px;
+  background-position: -12.0625em -67.125em;
 }
 .wob #header.sticky #nav li a.is-active {
   color: #fff;
