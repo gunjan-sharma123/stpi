@@ -2371,7 +2371,7 @@ ol li {
   display: inline-block;
   vertical-align: top;
   line-height: 2;
-  min-width: 250px;
+  min-width: 15.625em;
   display: inline-block;
   text-align: center;
 }
@@ -3396,7 +3396,7 @@ ol li {
 }
 .neuronBlock {
   display: block;
-  padding: 0 px;
+  padding: 0;
   margin: 0;
 }
 .neuronBlock li {
@@ -3415,7 +3415,7 @@ ol li {
 .neuronBlock .neuronImage:after {
   width: 100%;
   position: absolute;
-  height: 250px;
+  height: 15.625em;
   content: "";
   background: rgba(0, 0, 0, 0);
   background: -moz-linear-gradient(
@@ -6097,7 +6097,7 @@ h2 {
 .views-exposed-form .form--inline .form-item,
 .view-photo-gallery .views-exposed-form .form-item {
   margin: 0em;
-  width: 250px;
+  width: 15.625em;
 }
 .view-career .button,
 .view-tenders .button {
@@ -6367,7 +6367,7 @@ tr td {
 }
 .neuronBlock {
   display: block;
-  padding: 0 px;
+  padding: 0;
   margin: 0;
 }
 .neuronBlock li {
@@ -6386,7 +6386,7 @@ tr td {
 .neuronBlock .neuronImage:after {
   width: 100%;
   position: absolute;
-  height: 250px;
+  height: 15.625em;
   content: "";
   background: rgba(0, 0, 0, 0);
   background: -moz-linear-gradient(
