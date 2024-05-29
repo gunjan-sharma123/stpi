@@ -3267,7 +3267,7 @@ ol li {
   height: 1.875em;
 }
 .impactCreated ul li:nth-child(2) {
-  top: 90px;
+  top: 5.625em;
 }
 .impactCreated ul li:nth-child(3):before {
   bottom: -56px;
@@ -5247,7 +5247,7 @@ p.card_btn a.commonBtn {
   margin-bottom: 0;
   float: right;
   width: 350px;
-  margin-top: 90px;
+  margin-top: 5.625em;
 }
 .finLab a,
 .finLabRight a {
@@ -5298,7 +5298,7 @@ p.card_btn a.commonBtn {
   float: left;
   padding-left: 0;
   margin-bottom: 0;
-  margin-top: 90px;
+  margin-top: 5.625em;
 }
 .finLabRight li {
   color: #fff;
@@ -5612,7 +5612,7 @@ p.card_btn a.commonBtn {
   width: 135px;
   margin: 0 auto;
   text-align: center;
-  border-radius: 90px;
+  border-radius: 5.625em;
   position: relative;
   height: 135px;
   padding: 35px 0;
@@ -7728,7 +7728,7 @@ table tr:nth-child(odd) td,
 }
 
 .splRight .listar-feature-item a:after {
-  margin-left: 89px;
+  margin-left: 5.5625em;
 }
 .splRight
   .listar-feature-item.listar-feature-has-link
@@ -7765,7 +7765,7 @@ table tr:nth-child(odd) td,
 }
 
 .splRight .listar-feature-item a:after {
-  margin-left: 89px;
+  margin-left: 5.5625em;
 }
 
 .listar-feature-item a:after {
