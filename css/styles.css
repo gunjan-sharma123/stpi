@@ -2443,7 +2443,7 @@ ol li {
 .btnBlue {
   background-color: #362cc0;
   color: #fff;
-  padding: 0.625em 1.25em;
+  padding: 0.4375em 1.25em;
   text-decoration: none;
   font-size: 1em;
 }
@@ -2468,10 +2468,11 @@ ol li {
 .scheme .owl-controls .owl-nav [class*="owl-"]:before {
   content: "";
   position: absolute;
-  left: 0.5625em;
+  left: 0.3em;
   top: 0.1875em;
   font-family: fontAwesome;
-  font-size: 1.875em;
+  font-size: 1.5em;
+  align-self: center;
 }
 .scheme .owl-controls .owl-nav .owl-prev {
   left: -1.25em;
