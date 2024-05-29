@@ -1994,7 +1994,7 @@ ol li {
   border-radius: 50%;
 }
 .centerOfExce .profile .info {
-  padding: 1.438em 0px;
+  padding: 1.438em 0em;
   padding-left: 6.625em;
 }
 .centerOfExce .profile p {
@@ -2028,7 +2028,7 @@ ol li {
   content: "";
   position: absolute;
   right: 2.8125em;
-  top: 0px;
+  top: 0em;
   width: 0.065em;
   height: 100%;
   background-color: #636391;
@@ -2101,7 +2101,7 @@ ol li {
 .centerOfExce .centerOfExceRgt:before {
   content: "";
   position: absolute;
-  right: 0px;
+  right: 0em;
   top: 2.0625em;
   width: 55%;
   height: 0.063em;
@@ -2273,7 +2273,7 @@ ol li {
 .centerOfExce .centerOfExceRgt:before {
   content: "";
   position: absolute;
-  right: 0px;
+  right: 0em;
   top: 2.0625em;
   width: 55%;
   height: 0.065em;
@@ -2350,7 +2350,7 @@ ol li {
 .centerOfExce .centerOfExceRgt:before {
   content: "";
   position: absolute;
-  right: 0px;
+  right: 0em;
   top: 2.0625em;
   width: 55%;
   height: 0.063em;
