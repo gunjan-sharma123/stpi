@@ -2400,7 +2400,7 @@ ol li {
   margin-bottom: 0.625em;
 }
 .schemeSlider {
-  padding: 50px 0;
+  padding: 3.125em 0;
 }
 .schemeCol {
   padding-bottom: 1.25em;
@@ -2423,7 +2423,7 @@ ol li {
 .schemeTitle {
   background-color: #ffc20f;
   padding: 0.3125em 0;
-  min-height: 50px;
+  min-height: 3.125em;
 }
 .schemeTitle h2 {
   color: #1c1c76;
@@ -2434,7 +2434,7 @@ ol li {
   padding-top: 2%;
   margin: 0em;
   font-size: 1.3em;
-  height: 50px;
+  height: 3.125em;
   overflow: auto;
   font-weight: normal;
 }
@@ -2548,7 +2548,7 @@ ol li {
 .ourJourney .resTab .tabNav {
   position: relative;
   top: 0.625em;
-  padding: 0 50px;
+  padding: 0 3.125em;
   text-align: center;
 }
 .ourJourney .resTab .tabNav:before {
@@ -2570,7 +2570,7 @@ ol li {
   font-size: 2.429em;
   font-weight: 600;
   line-height: 2;
-  padding: 14px;
+  padding: 0.875em;
   display: inline-block;
   vertical-align: top;
   width: 150px;
@@ -2628,7 +2628,7 @@ ol li {
   top: 50%;
   tranform: translate(0, -50%);
   background-color: transparent;
-  font-size: 50px;
+  font-size: 3.125em;
   padding: 0em;
   margin: 0em;
   line-height: 0.2;
@@ -2666,7 +2666,7 @@ ol li {
 }
 @keyframes ourJourneyPhoto {
   from {
-    top: 50px;
+    top: 3.125em;
     opacity: 0;
   }
   to {
@@ -2771,12 +2771,12 @@ ol li {
 }
 .region-social-engagement-facebook iframe {
   position: relative;
-  top: 18px;
+  top:1.125em;
   left: 0.4375em;
 }
 .region-social-engagement-instragram iframe {
   position: relative;
-  top: 14px;
+  top: 0.875em;
   left: 0.4375em;
 }
 /* social engagement end */
@@ -3008,6 +3008,7 @@ ol li {
 .eventsCampaigns .eventsBox {
   background-color: #ffffff;
   padding: 1.875em;
+  box-shadow: 1px 4px 0.8125em rgba(0, 0, 0, 0.2);
   box-shadow: 0.0625em 0.25em 0.8125em rgba(0, 0, 0, 0.2);
 }
 .eventsCampaigns .resTab {
@@ -3128,7 +3129,7 @@ ol li {
   transform: translate(-50%, 0);
   bottom: 0;
   width: 90%;
-  height: 100px;
+  height: 6.25em;
   background-color: rgba(0, 0, 0, 0.1);
   box-shadow: -0.1875em 37px 0.125em rgba(0, 0, 0, 0.1);
 }
@@ -3335,7 +3336,7 @@ ol li {
   display: inline-block;
   padding: 0.625em 0.75em;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: bold;
   color: #fff;
 }
@@ -3386,7 +3387,7 @@ ol li {
   bottom: 35px;
 }
 .neuronBlockBox {
-  padding: 50px 0 0 0;
+  padding: 3.125em 0 0 0;
   clear: both;
 }
 .neuronBlockBox ul {
@@ -3863,17 +3864,17 @@ ol li {
   color: #666666;
   border: 0.125em solid #ffd400;
   border-radius: 1.25em;
-  height: 50px;
+  height: 3.125em;
   max-width: 300px;
-  font-size: 18px;
+  font-size:1.125em;
   margin-left: 0.625em;
 }
 .region-subscribe-to-newsletters .js-form-submit {
   background-color: #2989d0;
   color: #fff;
-  font-size: 18px;
+  font-size:1.125em;
   border: 0.0625em solid #6bdb7b;
-  height: 50px;
+  height: 3.125em;
   padding: 0 1.875em;
   border-radius: 1.5625em;
   transition: all 0.3s;
@@ -3891,9 +3892,9 @@ ol li {
   color: #666666;
   border: 0.125em solid #ffd400;
   border-radius: 1.25em;
-  height: 50px;
+  height: 3.125em;
   max-width: 300px;
-  font-size: 18px;
+  font-size:1.125em;
   float: left;
   margin-left: 0.625em;
 }
@@ -3924,7 +3925,7 @@ footer {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000765', endColorstr='#28646e', GradientType=0);
 }
 .footerLinks {
-  padding: 50px 0 0;
+  padding: 3.125em 0 0;
 }
 .footerLinks h3 {
   color: #fdb913;
@@ -3944,7 +3945,7 @@ footer {
   float: left;
 }
 .footerLinks .bulletText li {
-  background: url(../images/yellow-bullet-arrow.png) no-repeat left0.5em;
+  background: url(../images/yellow-bullet-arrow.png) no-repeat left 0.5em;
   background-size: 0.375em;
   padding-left: 0.8125em;
 }
@@ -4103,8 +4104,8 @@ footer {
   vertical-align: top;
   border: 0.125em solid #fdb913;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 3.125em;
+  height: 3.125em;
   font-size: 1.875em;
   text-align: center;
   line-height: 1;
@@ -4273,7 +4274,7 @@ h6 {
   left: 0em;
   top: 0em;
   width: 100%;
-  height: 100px;
+  height: 6.25em;
   background: -moz-linear-gradient(
     top,
     rgba(0, 0, 0, 1) 0%,
@@ -4400,8 +4401,8 @@ h6 {
 }
 .contactLeftInfo ul li {
   position: relative;
-  padding-left: 50px;
-  margin-bottom: 50px;
+  padding-left: 3.125em;
+  margin-bottom: 3.125em;
 }
 .contactLeftInfo .clficon {
   width: 45px;
@@ -4417,10 +4418,10 @@ h6 {
   background-position: -16px -0.3125em;
 }
 .contactLeftInfo .clficon2 {
-  background-position: -14px -92px;
+  background-position: -0.875em -92px;
 }
 .contactLeftInfo .clficon3 {
-  background-position: -14px -181px;
+  background-position: -0.875em -181px;
 }
 .contactLeftInfo .clficon4 {
   background-position: -0.8125em -273px;
@@ -4440,7 +4441,7 @@ h6 {
 }
 .aboutContentBlock .aboutVideo {
   position: absolute;
-  top: -100px;
+  top: -6.25em;
   right: 0em;
   width: 39%;
   max-width: 620px;
@@ -4496,7 +4497,7 @@ h6 {
     url(https://stpi.in/themes/stpi/images/function-bg-img2.jpg) no-repeat -2.5%
     top;
   border: none;
-  margin-bottom: 50px;
+  margin-bottom: 3.125em;
 }
 .functionTab .tabNav {
   max-width: 400px;
@@ -4561,13 +4562,13 @@ h6 {
   border: 0.0625em solid #e6e6e6;
   display: inline-block;
   box-shadow: 0.9375em 0.625em 1.875em rgba(0, 0, 0, 0.2);
-  padding: 18px 0.9375em 18px 0.3125em;
+  padding:1.125em 0.9375em1.125em 0.3125em;
   margin: 1.25em;
   text-align: left;
 }
 .qultObj .objIco {
   border: 0.3125em #e8e8e8 solid;
-  max-width: 100px;
+  max-width: 6.25em;
   margin-left: -1.25em;
   vertical-align: top;
   background: #fff;
@@ -4689,7 +4690,7 @@ p a {
   top: 1.5625em;
   tranform: translate(0, -50%);
   background-color: transparent;
-  font-size: 50px;
+  font-size: 3.125em;
   padding: 0em;
   margin: 0em;
   line-height: 0.2;
@@ -4741,7 +4742,7 @@ p a {
 }
 .centerList li:before {
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
+  font: normal normal normal 0.875em/1 FontAwesome;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4754,7 +4755,7 @@ p a {
 }
 .stpiCenters,
 .functionTab {
-  padding: 50px 0 0;
+  padding: 3.125em 0 0;
   background-color: #f4f4f4;
   margin-bottom: -1.875em;
 }
@@ -4942,7 +4943,7 @@ p a {
   color: #fff;
 }
 .card_back .card.inner p {
-  font-size: 18px;
+  font-size:1.125em;
   color: white;
 }
 .card_back .card.inner a {
@@ -4979,7 +4980,7 @@ p.card_btn a.commonBtn {
 }
 .card_back .card_inner p {
   color: #fff;
-  font-size: 18px;
+  font-size:1.125em;
   text-transform: capitalize;
 }
 .card_back h3.card_oic_name {
@@ -5033,8 +5034,8 @@ p.card_btn a.commonBtn {
 .incubFeatuIcon {
   display: inline-block;
   vertical-align: top;
-  width: 100px;
-  height: 100px;
+  width: 6.25em;
+  height: 6.25em;
   margin-bottom: 0.625em;
   background-image: url(https://stpi.in/themes/stpi/images/incubation-feature-icons-spirite.png);
   background-position: 0 0;
@@ -5075,10 +5076,10 @@ p.card_btn a.commonBtn {
 }
 .teamBlockBox {
   position: relative;
-  padding: 100px 0;
+  padding: 6.25em 0;
 }
 .teamBlockBox {
-  padding: 50px 0;
+  padding: 3.125em 0;
 }
 
 .pad0,
@@ -5087,7 +5088,7 @@ p.card_btn a.commonBtn {
 }
 .recentBlockBox {
   background-color: #ededee;
-  padding: 50px 0;
+  padding: 3.125em 0;
 }
 .recentBlock {
   display: block;
@@ -5121,7 +5122,7 @@ p.card_btn a.commonBtn {
   font-weight: 600;
 }
 .recentBlock .recentData {
-  font-size: 18px;
+  font-size:1.125em;
   font-weight: 700;
   color: #3737a8;
   margin-bottom: 1.25em;
@@ -5173,7 +5174,7 @@ p.card_btn a.commonBtn {
   border-radius: 1.875em;
   -webkit-border-radius: 1.875em;
   display: inline-block;
-  font-size: 18px;
+  font-size:1.125em;
   font-weight: 700;
   text-decoration: none;
   transition: all 0.5s ease-out;
@@ -5212,12 +5213,12 @@ p.card_btn a.commonBtn {
   background-repeat: no-repeat;
 }
 .row > .OpenLabOrange {
-  margin-top: -100px;
+  margin-top: -6.25em;
 }
 .OpenLabOrange {
   background-color: #f3bb1f;
   padding: 45px;
-  margin-top: -100px;
+  margin-top: -6.25em;
   margin-bottom: 35px;
 }
 
@@ -5284,7 +5285,7 @@ p.card_btn a.commonBtn {
   border-bottom: 0.0625em solid #f3bb1f;
   position: relative;
   font-weight: 700;
-  font-size: 18px;
+  font-size:1.125em;
 }
 .finLab li:last-child {
   border: none;
@@ -5307,7 +5308,7 @@ p.card_btn a.commonBtn {
   position: relative;
   z-index: 1;
   font-weight: 700;
-  font-size: 18px;
+  font-size:1.125em;
 }
 .labCenterCol img {
   -webkit-filter: grayscale(100%);
@@ -5360,7 +5361,7 @@ p.card_btn a.commonBtn {
   margin: 0 auto;
   text-align: center;
   width: 100%;
-  padding: 100px 0 45px;
+  padding: 6.25em 0 45px;
   background-color: #fff;
   box-shadow: 0.125em 0em 17px 16px #eaeaea;
   border-radius: 210px;
@@ -5438,7 +5439,7 @@ p.card_btn a.commonBtn {
   padding: 1.25em;
   border-radius: 5em;
   border: 0.1875em solid #fff;
-  box-shadow: 0.0625em 0.0625em 14px 0.0625em #cac9c9;
+  box-shadow: 0.0625em 0.0625em 0.875em 0.0625em #cac9c9;
   height: 5em;
   display: inline-block;
   width: 5em;
@@ -5453,7 +5454,7 @@ p.card_btn a.commonBtn {
   border-bottom: 1.5625em solid transparent;
   right: -1.375em;
   top: 81%;
-  transform: translateY(-50px);
+  transform: translateY(-3.125em);
 }
 .devlopRight li:nth-child(2) {
   margin-left: 1.625em;
@@ -5467,7 +5468,7 @@ p.card_btn a.commonBtn {
   padding: 1.25em;
   border-radius: 5em;
   border: 0.1875em solid #fff;
-  box-shadow: 0.0625em 0.0625em 14px 0.0625em #cac9c9;
+  box-shadow: 0.0625em 0.0625em 0.875em 0.0625em #cac9c9;
   top: 0;
   height: 5em;
   width: 5em;
@@ -5484,7 +5485,7 @@ p.card_btn a.commonBtn {
   border-bottom: 1.5625em solid transparent;
   left: -1.375em;
   top: 87%;
-  transform: translateY(-50px);
+  transform: translateY(-3.125em);
 }
 .devlopLeft li:before {
   content: "";
@@ -5536,7 +5537,7 @@ p.card_btn a.commonBtn {
   padding: 1.25em;
   border-radius: 5em;
   border: 0.1875em solid #fff;
-  box-shadow: 0.0625em 0.0625em 14px 0.0625em #cac9c9;
+  box-shadow: 0.0625em 0.0625em 0.875em 0.0625em #cac9c9;
   height: 5em;
   display: inline-block;
   width: 5em;
@@ -5621,7 +5622,7 @@ p.card_btn a.commonBtn {
 .lifecycleIconsList li:nth-child(even) {
   text-align: center;
   vertical-align: top;
-  margin-top: -50px;
+  margin-top: -3.125em;
 }
 .lifecycleIconsList li {
   list-style: none;
@@ -5638,7 +5639,7 @@ p.card_btn a.commonBtn {
 .lifecycleIconsList li:nth-child(odd):before {
   content: "";
   position: absolute;
-  width: 100px;
+  width: 6.25em;
   height: 1.25em;
   background-color: #f3bb1f;
   transform: rotate(-35deg);
@@ -5655,11 +5656,11 @@ p.card_btn a.commonBtn {
 .lifecycleIconsList li:nth-child(even):after {
   content: "";
   position: absolute;
-  width: 100px;
+  width: 6.25em;
   height: 1.25em;
   background-color: #f3bb1f;
   transform: rotate(35deg);
-  top: 100px;
+  top: 6.25em;
   z-index: -1;
   left: 130px;
 }
@@ -5688,10 +5689,10 @@ p.card_btn a.commonBtn {
   z-index: -1;
   top: 0em;
   left: 0;
-  margin-left: -50px;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 100px solid #f3bb1f;
+  margin-left: -3.125em;
+  border-left: 3.125em solid transparent;
+  border-right: 3.125em solid transparent;
+  border-bottom: 6.25em solid #f3bb1f;
 }
 
 .ecosystem {
@@ -5699,7 +5700,7 @@ p.card_btn a.commonBtn {
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: -1.875em;
-  padding: 100px 0 50px 0;
+  padding: 6.25em 0 3.125em 0;
   background-position: bottom center;
   position: relative;
 }
@@ -5745,10 +5746,10 @@ p.card_btn a.commonBtn {
 }
 .stateGovernmentsLeft li:nth-child(2) {
   float: right;
-  margin-top: -100px;
+  margin-top: -6.25em;
 }
 .stateGovernmentsFull {
-  margin-top: 100px;
+  margin-top: 6.25em;
   margin-right: -96px;
 }
 .stateGovernmentsRight {
@@ -5776,7 +5777,7 @@ p.card_btn a.commonBtn {
 }
 .stateGovernmentsRight li:nth-child(2) {
   float: right;
-  margin-top: -100px;
+  margin-top: -6.25em;
 }
 .stateGovernmentsFull li:nth-child(2) .listTiltes {
   position: absolute;
@@ -5786,7 +5787,7 @@ p.card_btn a.commonBtn {
   max-width: 200px;
 }
 .stateGovernmentsFull .col-md-6:nth-child(2) {
-  margin-left: -100px;
+  margin-left: -6.25em;
 }
 .stateGovernmentsLeft li img {
   position: absolute;
@@ -6357,7 +6358,7 @@ tr td {
   text-align: justify;
 }
 .neuronBlockBox {
-  padding: 50px 0 0 0;
+  padding: 3.125em 0 0 0;
   clear: both;
 }
 .neuronBlockBox ul {
@@ -6493,7 +6494,7 @@ tr td {
   text-align: center;
   text-decoration: none;
   color: #2b2b2b;
-  font-size: 18px;
+  font-size:1.125em;
   padding: 0.625em;
 }
 .neuronBlock a {
@@ -6758,7 +6759,7 @@ nav.pager ul li a:hover {
   color: #fff;
   padding: 0.0625em 0.625em;
   border-radius: 0.3125em;
-  font-size: 14px !important;
+  font-size: 0.875em !important;
   position: absolute;
   right: 0.625em;
   top: 0.3125em;
@@ -6933,7 +6934,7 @@ nav.pager ul li a:hover {
 
 /* .box-main {
   display: grid;
-  grid-gap: 0.9375em 14px;
+  grid-gap: 0.9375em 0.875em;
   grid-template-columns: auto auto auto auto;
 }
 
@@ -7094,9 +7095,9 @@ nav.pager ul li a:hover {
   width: 100%;
 }
 
-/* .mainMinister { -webkit-box-shadow: -0.0625em -0.0625em 18px 0em rgba(0,0,0,0.14);
-  -moz-box-shadow: -0.0625em -0.0625em 18px 0em rgba(0,0,0,0.14);
-  box-shadow: -0.0625em -0.0625em 18px 0em rgba(0,0,0,0.14); margin:0 -0.9375em; display:inline-block; vertical-align:top;}
+/* .mainMinister { -webkit-box-shadow: -0.0625em -0.0625em1.125em 0em rgba(0,0,0,0.14);
+  -moz-box-shadow: -0.0625em -0.0625em1.125em 0em rgba(0,0,0,0.14);
+  box-shadow: -0.0625em -0.0625em1.125em 0em rgba(0,0,0,0.14); margin:0 -0.9375em; display:inline-block; vertical-align:top;}
   .mainMinister .ministerInfo { background-color:#1465a4; color:#fff;}
   .mainMinister .ministerInfo a{ color:#fff;}
   .mainMinister .ministerInfo ul li a{ color:#fff; border-color:#fff;}
@@ -7120,7 +7121,7 @@ nav.pager ul li a:hover {
   text-decoration: none;
 }
 .blogBox {
-  padding: 50px 0;
+  padding: 3.125em 0;
 }
 .blogRight {
   padding-left: 0.9375em;
@@ -7161,7 +7162,7 @@ a {
   background-color: #ffcb05;
   padding: 0.625em 1.5625em;
   color: #1e1e5b;
-  font-size: 18px;
+  font-size:1.125em;
   font-weight: 700;
 }
 .blogBox .blogLeft h4 {
@@ -7170,7 +7171,7 @@ a {
   color: #000;
 }
 .blogBox .readMore {
-  font-size: 18px;
+  font-size:1.125em;
   color: #1e1e5b;
   text-decoration: underline;
   font-weight: 700;
@@ -7187,7 +7188,7 @@ a {
 }
 .trendingBox ul li .trendingImg {
   float: left;
-  max-width: 100px;
+  max-width: 6.25em;
 }
 .trendingBox ul li .trendingText {
   padding-left: 130px;
@@ -7305,7 +7306,7 @@ a {
   margin: 0 0.4375em 0 0;
 }
 .dPersonalInfo .form-group p {
-  font-size: 14px;
+  font-size: 0.875em;
   margin: 0;
 }
 .contentblock .col-md-3,
@@ -7395,12 +7396,12 @@ table tr:nth-child(odd) td,
 }
 
 .pset {
-  padding-top: 50px;
+  padding-top: 3.125em;
   padding-bottom: 0.25em;
 }
 
 .listar-feature-item .listar-feature-item-inner {
-  padding: 50px 1.875em;
+  padding: 3.125em 1.875em;
   border-radius: 0.375em;
   z-index: 5;
   position: relative;
@@ -7469,8 +7470,8 @@ table tr:nth-child(odd) td,
 
 .listar-feature-right-border {
   position: absolute;
-  width: calc(100% + 100px);
-  height: calc(100% + 1.5em);
+  width: calc(100% + 6.25em);
+  height: calc(100% + 24px);
   top: -0.75em;
   left: 42%;
   overflow: hidden;
@@ -7526,7 +7527,7 @@ table tr:nth-child(odd) td,
   text-decoration: none;
   margin: -1.875em;
   padding: 1.875em;
-  height: calc(100% + 100px);
+  height: calc(100% + 6.25em);
 }
 
 .listar-features-design-2 .listar-feature-item-wrapper {
@@ -7656,26 +7657,26 @@ table tr:nth-child(odd) td,
     0.3125em 0em 5em rgba(80, 80, 80, 0.15);
   padding: 0.625em 0;
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 3.125em;
+  height: 3.125em;
   line-height: 1.875em;
   white-space: nowrap;
   position: absolute;
   top: -0.1875em;
   left: -40px;
-  border-radius: 50px;
+  border-radius: 3.125em;
   background-color: #fff;
 }
 
 .listar-feature-item .listar-feature-item-title span {
   display: inline-block;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: normal;
   font-weight: 400;
   text-shadow: none;
-  border-radius: 50px;
+  border-radius: 3.125em;
   color: #252525;
-  font-size: 18px;
+  font-size:1.125em;
 }
 
 .listar-feature-item-excerpt {
@@ -7696,8 +7697,8 @@ table tr:nth-child(odd) td,
 .listar-feature-item a {
   position: absolute;
   left: 0;
-  width: calc(100% - 100px);
-  height: calc(100% + 0.25em);
+  width: calc(100% - 6.25em);
+  height: calc(100% + 4px);
   border-radius: 50%;
   z-index: 10;
 }
@@ -7772,9 +7773,9 @@ table tr:nth-child(odd) td,
   position: absolute;
   bottom: -0.4375em;
   left: 50%;
-  margin-left: -1.5625em;
-  width: 50px;
-  height: 50px;
+  margin-left: -25px;
+  width: 3.125em;
+  height: 3.125em;
   border-radius: 50%;
   z-index: 10;
   animation: ripple 0.7s linear infinite;
@@ -7820,8 +7821,8 @@ a.externalLink {
 .sitemap .sitemap-menu > li > a,
 #site-map .nolink {
   color: #000;
-  font-size: 18px;
-  line-height: 1.5625em;
+  font-size:1.125em;
+  line-height: 25px;
   text-decoration: none;
   padding: 0.4375em 1.25em;
   transition: 500ms all;
@@ -7846,8 +7847,8 @@ a.externalLink {
 .sitemap .sitemap-menu > li > a,
 #site-map .nolink {
   color: #000;
-  font-size: 18px;
-  line-height: 1.5625em;
+  font-size:1.125em;
+  line-height: 25px;
   text-decoration: none;
   padding: 0.4375em 1.25em;
   transition: 500ms all;
@@ -8195,8 +8196,8 @@ body.wob {
 .wob .devlopRight .rightIconsAfter,
 .wob .devlopBotFull .rightIconsAfter {
   background-color: #333;
-  border: 0.1875em solid #222;
-  box-shadow: 0.0625em 0.0625em 14px 0.0625em #111;
+  border: 3px solid #222;
+  box-shadow: 1px 1px 0.875em 1px #111;
 }
 .wob .ojectoutCenterFull {
   border: 0.0625em solid #222;
@@ -8207,7 +8208,7 @@ body.wob {
   box-shadow: 0.125em 0em 17px 16px #333;
 }
 .wob .lifecycleTitle::before {
-  border-bottom: 100px solid #111;
+  border-bottom: 6.25em solid #111;
 }
 .wob .lifecycleTitle {
   background-color: #222;
@@ -8912,8 +8913,8 @@ body.wob {
   li
   .views-field-field-policies-cover-image
   .field-content {
-  width: 50px;
-  height: 50px;
+  width: 3.125em;
+  height: 3.125em;
   background: url(https://stpi.in/themes/stpi/images/pdf-file-white.png);
   background-size: cover;
 }
