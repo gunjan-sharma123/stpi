@@ -7640,7 +7640,7 @@ table tr:nth-child(odd) td,
   .listar-feature-item-title.listar-feature-counter-added
   > span {
   margin-left: 1.5625em;
-  border-radius: 0 50px 50px 0;
+  border-radius: 0 3.125em 3.125em 0;
 }
 
 .listar-feature-item .listar-feature-item-title > span {
