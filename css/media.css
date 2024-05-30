@@ -39,7 +39,7 @@
 
   /* directorate page */
   .directorateLft {
-    padding: 30px 15px 0;
+    padding: 1.875em 0.9375em 0;
     text-align: center;
   }
   .directorateInfo {
@@ -68,23 +68,23 @@
     top: 0;
     width: 100%;
     background-color: #fff;
-    border-bottom: 1px solid #ccc;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-bottom: 0.0625em solid #ccc;
+    box-shadow: 0.3125em 0.3125em 0.3125em rgba(0, 0, 0, 0.2);
   }
   * {
     transition: all 0.3s;
   }
   .sticky + .content {
-    padding-top: 102px;
+    padding-top: 6.375em;
   }
   #header.sticky #logo {
-    width: 400px;
-    height: 60px;
+    width: 25em;
+    height: 3.75em;
     background-image: url(https://stpi.in/themes/stpi/images/logo-sticky.png);
     background-repeat: no-repeat;
     background-position: left top;
-    background-size: auto 60px;
-    margin-top: 5px;
+    background-size: auto 3.75em;
+    margin-top: 0.3125em;
   }
   .lang-hi #header.sticky #normal a {
     background-image: url(https://stpi.in/themes/stpi/images/STPI_Corporate_Blue-Hindi-Logo.png);
@@ -95,7 +95,7 @@
     opacity: 0;
   }
   #header.sticky .mainNavigation {
-    margin: 4px 0 0 0;
+    margin: 0.25em 0 0 0;
   }
   #header.sticky a {
     color: #000;
@@ -116,8 +116,8 @@
     color: #fff;
   }
   #header.sticky #accessControl .contrastChanger.normal {
-    background-size: 12px;
-    background-position: 1px 0px;
+    background-size: 0.75em;
+    background-position: 0.0625em 0em;
   }
   #header.sticky #nav li a.is-active {
     color: #183f8c;
@@ -125,12 +125,12 @@
   }
   #header.sticky #nav li a.is-active:before {
     width: 100%;
-    height: 3px;
+    height: 0.1875em;
     background-color: #ffc600;
     content: "";
     position: absolute;
-    left: 0px;
-    bottom: 0px;
+    left: 0em;
+    bottom: 0em;
   }
   #header.sticky .megaMenu {
     border-color: #000;
@@ -141,7 +141,7 @@
     font-size: 1em;
   }
   .page-node-167 .visionariesMember .contentMainBlock {
-    min-height: 315px;
+    min-height: 19.6875em;
   }
   .serviceCaption p {
     font-size: 1em;
@@ -155,7 +155,7 @@
     font-size: 1.6em;
   }
   .contributionBox {
-    min-height: 120px;
+    min-height: 7.5em;
   }
 
   .headerLeft {
@@ -170,106 +170,106 @@
     max-width: 65%;
   }
   #nav li a {
-    font-size: 15px;
-    padding: 5px 8px;
+    font-size: 0.9375em;
+    padding: 0.3125em 0.5em;
   }
   .mainNavigation {
-    margin: 7px 0 0 0;
+    margin: 0.4375em 0 0 0;
   }
   .bannerCaption .bannerTitle {
     font-size: 2.5em;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .container {
-    padding: 0 15px;
+    padding: 0 0.9375em;
   }
   .directorateLft h2 {
     font-size: 2em;
   }
   .directorateInfo {
     height: 100%;
-    padding: 30px 20px;
+    padding: 1.875em 1.25em;
   }
   .mapInfo {
-    margin: 30px 0 0;
+    margin: 1.875em 0 0;
   }
   .panIndia {
     height: auto;
     position: relative;
-    padding: 0 15px;
+    padding: 0 0.9375em;
   }
   .directorateInfo {
     position: relative;
-    right: -30px;
-    top: 0px;
+    right: -1.875em;
+    top: 0em;
     width: 100%;
-    height: 865px;
+    height: 54.0625em;
   }
   .directorateLft {
-    padding: 70px 0;
+    padding: 4.375em 0;
   }
   .directorateLft .selectInfo ul {
-    margin: 0px;
+    margin: 0em;
   }
   .serviceCaption h3 {
     font-size: 2em;
   }
   .knowYourMinisters {
-    padding: 25px 0 30px;
+    padding: 1.5625em 0 1.875em;
   }
   .knowYourMinisters h2 {
-    padding: 0 15px;
-    margin-bottom: 10px;
+    padding: 0 0.9375em;
+    margin-bottom: 0.625em;
   }
   .knowYourMinisters .row {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .otherMinisters .ministerInfo:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .ministerBottomInfo p,
   .ministerInfo .info p {
     font-size: 1em;
   }
   .centerOfExce {
-    padding: 30px 0;
+    padding: 1.875em 0;
   }
   .boardOfDirectors {
-    padding: 30px 0 70px;
+    padding: 1.875em 0 4.375em;
   }
   .socialEngagement {
-    padding: 30px 0 20px;
+    padding: 1.875em 0 1.25em;
   }
   .latestNews {
-    padding: 30px 0;
+    padding: 1.875em 0;
   }
   .lNHeading {
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   h2 {
     font-size: 2em;
   }
   .lNHeading .yellowBdrBtn {
-    margin: 0px;
+    margin: 0em;
   }
   .latestNewsRight .region-whats-news-section {
-    margin-bottom: 81px;
+    margin-bottom: 5.0625em;
   }
   .latestNewsRight .LnewsBox {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .latestNews .row {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .eventsCampaigns {
-    padding: 30px 0;
+    padding: 1.875em 0;
   }
   .campainImage {
-    max-width: 500px;
+    max-width: 31.25em;
     width: 100%;
     display: inline-block;
     vertical-align: top;
-    min-height: 223px;
+    min-height: 13.9375em;
   }
   .eventPostInfo .photo {
     width: 40%;
@@ -281,23 +281,23 @@
     text-align: center;
   }
   .campaingsSlider .owl-controls {
-    top: 278px;
+    top: 17.375em;
   }
   .campaignsInfo h5 {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .campaignsInfo .row {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .bODSlider {
-    bottom: -15px;
+    bottom: -0.9375em;
   }
   .eventPostInfo h4 {
     font-size: 1.2em;
   }
   .impactCreated {
-    padding: 30px 0;
-    min-height: 600px;
+    padding: 1.875em 0;
+    min-height: 37.5em;
   }
   .impactCreated h2 {
     font-size: 2em;
@@ -306,51 +306,51 @@
     font-size: 1.3em;
   }
   .ourTeam {
-    padding: 30px 0 0 0;
+    padding: 1.875em 0 0 0;
   }
   .teamSlider ul {
     margin: 0 -2%;
-    padding: 0px;
+    padding: 0em;
     float: right;
   }
   .TeamBigInfo ul li {
     width: 50%;
-    padding: 0 10px;
+    padding: 0 0.625em;
   }
   .teamSlider ul li {
     width: 32.7%;
     padding: 0 2%;
   }
   .teamSlider p {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .TeamMembersSlider .owl-controls .owl-nav {
-    margin-left: 0px;
+    margin-left: 0em;
   }
   .footerButtons {
-    margin-top: 0px;
+    margin-top: 0em;
   }
   .newsLetterSub ul {
     width: 100%;
     text-align: center;
   }
   .newsLetterSub ul li:nth-child(2) {
-    max-width: 200px;
+    max-width: 12.5em;
     width: 100%;
   }
   .teamSlider ul li {
-    margin: 0px 0 20px;
+    margin: 0em 0 1.25em;
   }
   .teamSlider ul {
     float: left;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .teamBlock .teamName {
     margin-bottom: 0;
   }
   .teamBlock .teamDg {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .teamBlock li {
   }
@@ -358,23 +358,23 @@
     min-height: inherit;
   }
   .teamBlockBox {
-    padding: 30px 0;
+    padding: 1.875em 0;
   }
   .pageControlSection h2 {
     font-size: 2.5em;
     line-height: 1.2;
   }
   .innerPageContent {
-    padding: 30px 0;
+    padding: 1.875em 0;
   }
   .views-exposed-form {
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .socialIcone li {
     min-height: inherit;
   }
   .neuronBlockBox {
-    padding: 0px;
+    padding: 0em;
   }
   .innerPageContent h3 {
     font-size: 1.6em;
@@ -391,22 +391,22 @@
     text-align: left;
   }
   .stpiNeuronRecCamp .neuronRecDetails {
-    padding: 20px 15px;
+    padding: 1.25em 0.9375em;
   }
   .stpiNeuron .stpiOpenChall {
     width: auto;
   }
   .stpiNeuron .stpiOpenChall {
-    height: 337px;
+    height: 21.0625em;
   }
   .neuroText h4 {
     font-size: 1.3em;
   }
   .neuronBlockBox ul {
-    padding: 0 15px;
+    padding: 0 0.9375em;
   }
   .neuronIn .neuronBoxDetails {
-    padding: 15px;
+    padding: 0.9375em;
   }
   .innerPageContent h4 {
     font-size: 1.2em;
@@ -419,17 +419,17 @@
     width: 38%;
   }
   .recentBlockBox {
-    padding: 30px 0;
+    padding: 1.875em 0;
   }
   .recentblogSlider .owl-prev::before,
   .recentblogSlider .owl-next::before {
     font-size: 3em;
   }
   .recentblogSlider .owl-controls {
-    top: -79px;
+    top: -4.9375em;
   }
   .blogBox {
-    padding: 30px 0;
+    padding: 1.875em 0;
   }
   .node-feedback-form .js-form-item {
   }
@@ -445,47 +445,47 @@
   .stpiCentersSlider .resTab::before,
   .stpiCentersSlider .resTab::after {
     display: none;
-    left: 0px;
+    left: 0em;
     width: 100%;
   }
   .stpiCentersSlider .resTab .tabNav::before {
-    left: 0px;
+    left: 0em;
     width: 100%;
   }
   .stpiCentersSlider .resTab .tabNav {
-    padding: 0px;
+    padding: 0em;
   }
   .stpiCentersSlider .owl-prev::before {
     position: absolute;
-    left: -16px;
+    left: -1em;
   }
   .stpiCentersSlider .resTab .tabNav {
-    padding: 0 50px;
+    padding: 0 3.125em;
   }
   .centerOfExce .profilesInfo li {
     width: 100%;
-    max-width: 500px;
-    padding: 0px;
-    margin-bottom: 10px;
+    max-width: 31.25em;
+    padding: 0em;
+    margin-bottom: 0.625em;
   }
   .incubatees {
-    padding: 50px 0 0;
-    margin: 0px;
+    padding: 3.125em 0 0;
+    margin: 0em;
   }
   .knowYourMiniPage .teamBlock {
-    margin-top: 0px;
+    margin-top: 0em;
   }
   .knowYourMiniPage .teamBlockBox {
-    padding: 0px;
+    padding: 0em;
   }
   .views-exposed-form {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .knowYourMiniPage .teamBlock li:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .neuronBlock li .neuronIn {
-    min-height: 442px;
+    min-height: 27.625em;
     display: inline-block;
     vertical-align: top;
   }
@@ -493,7 +493,7 @@
     padding: 0 0;
   }
   .timelineDateBox .col-md-3 {
-    padding-right: 15px;
+    padding-right: 0.9375em;
   }
   .timelineDateBox .timelineDate {
     font-size: 1.2em;
@@ -504,12 +504,12 @@
   .path-video-gallery .videoGallery .imgStyle,
   .video-listing .video-section li .imgStyle,
   .view-photo-gallery .imgStyle {
-    height: 230px;
+    height: 14.375em;
   }
   .path-video-gallery .videoGallery .imgStyle img,
   .video-listing .video-section li .imgStyle img,
   .view-photo-gallery .imgStyle img {
-    min-height: 230px;
+    min-height: 14.375em;
   }
   .ourJourney .resTab .tabContent {
     min-height: auto;
@@ -518,7 +518,7 @@
     box-shadow: none;
   }
   .campaignsInfo {
-    margin: 135px 0 0 3px;
+    margin: 8.4375em 0 0 0.1875em;
   }
   .centerOfExceRgt {
     width: 47%;
@@ -530,30 +530,30 @@
     overflow: auto;
   }
   .teamSlider {
-    min-height: 592px;
+    min-height: 37em;
   }
   .teamSlider .owl-controls {
-    left: 0px;
+    left: 0em;
     text-align: center;
     width: 100%;
     transform: none;
-    top: -76px;
+    top: -4.75em;
   }
   .teamSlider p {
     line-height: 1.2;
-    margin: 5px 0 0 0;
+    margin: 0.3125em 0 0 0;
   }
   .ministerInfo {
-    padding: 18px 20px 15px 220px;
+    padding:  1.25em 0.9375em 13.75em;
   }
   .ministerInfo h4 {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .ministerBottomInfo {
-    min-height: 229px;
+    min-height: 14.3125em;
   }
   .impactCreated ul li {
-    max-width: 155px;
+    max-width: 14.3125em;
   }
   .staffList li h3 {
     font-size: 1.3em;
@@ -564,36 +564,36 @@
     font-weight: 600;
   }
   .staffList li {
-    padding: 0px 10px;
+    padding: 0em 0.625em;
   }
   .staffList {
-    margin: 0 -10px;
+    margin: 0 -0.625em;
   }
   .directorateLft .selectInfo {
-    margin-top: 30px;
+    margin-top: 1.875em;
   }
   .backgroundBlock {
-    padding: 30px 20px;
+    padding: 1.875em 1.25em;
   }
   .aboutContentBlock .aboutVideo {
-    top: -89px;
-    right: -25px;
+    top: -5.5625em;
+    right: -1.5625em;
   }
   .aboutContentBlock .aboutText {
-    padding: 10px 0px 30px 0px;
+    padding: 0.625em 0em 1.875em 0em;
   }
   .spaceAvaibilityForm .js-form-item {
-    padding-bottom: 25px;
-    margin-bottom: 10px;
+    padding-bottom: 1.5625em;
+    margin-bottom: 0.625em;
     position: relative;
   }
   .spaceAvaibilityForm .js-form-item label.error {
     position: absolute;
-    left: 3px;
-    bottom: 0px;
+    left: 0.1875em;
+    bottom: 0em;
   }
   .spaceAvaibilityForm .captcha {
-    padding: 0px 40px 0 0;
+    padding: 0em 2.5em 0 0;
     width: 100%;
   }
   .spaceAvaibilityForm .captcha .js-form-item {
@@ -603,8 +603,8 @@
   }
   .spaceAvaibilityForm .captcha .reload-captcha-wrapper {
     position: absolute;
-    right: 0px;
-    top: 40px;
+    right: 0em;
+    top: 2.5em;
   }
   .spaceAvaibilityForm .captcha .js-form-item label.error {
     position: static;
@@ -637,12 +637,12 @@
     vertical-align: top;
   }
   .footerCopyright .region-secondary-menu a {
-    padding: 5px 0;
-    margin: 0px;
+    padding: 0.3125em 0;
+    margin: 0em;
     display: inline-block;
     vertical-align: top;
     position: relative;
-    top: -6px;
+    top: -0.375em;
   }
   .footerCopyright a:hover {
     color: #fdb913;
@@ -651,32 +651,32 @@
     color: #fdb913;
   }
   .visionariesMember .contentMainBlock {
-    min-height: 373px;
+    min-height: 23.3125em;
   }
   .page-views-listing .eventPostInfo .photo {
-    height: 189px;
+    height: 11.8125em;
   }
   .trendingBox ul li {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .path-directorate-events .innerPageContent .eventPostInfo {
     width: 33%;
   }
   .visionariesMember .contentMainBlock {
-    min-height: 430px;
+    min-height: 26.875em;
   }
   .neuronIn .neuronBoxDetails .socialIcone {
-    bottom: 26px;
-    right: 15px;
+    bottom: 1.625em;
+    right: 0.9375em;
   }
   .campaignDetailsPage .detailsTop .detailsRight {
-    width: 350px;
+    width: 21.875em;
   }
   .campaignDetailsPage .detailsleft {
-    padding: 30px 380px 30px 25px;
+    padding: 1.875em 23.75em 1.875em 1.5625em;
   }
   .centerOfExce h2 {
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
 }
 @media only screen and (max-width: 1350px) {
@@ -684,29 +684,29 @@
     font-size: 2em;
   }
   .ourJourney .resTab .tabNav::before {
-    height: 57px;
+    height: 3.5625em;
   }
   .ourJourney .owl-theme .owl-controls {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .ourJourney .owl-controls .owl-nav [class*="owl-"] {
     top: 42%;
   }
   .ourJourney .resTab .tabNav {
-    top: 20px;
+    top: 1.25em;
   }
   .eventsCampaigns .campaignsRgt {
     width: 50%;
   }
   .knowYourMiniPage .teamBlock li {
-    padding: 30px;
+    padding: 1.875em;
   }
   .knowYourMiniPage .teamBlock .teamImage {
-    margin: 0px;
-    width: 150px;
+    margin: 0em;
+    width: 9.375em;
   }
   .knowYourMiniPage .teamInfo {
-    padding-left: 170px;
+    padding-left: 10.625em;
   }
   .fontResizeInfo,
   .fontResize {
@@ -720,17 +720,17 @@
 
   ul.blueBoxInfoTxt li {
     width: 48%;
-    margin: 0px 1% 20px;
+    margin: 0em 1% 1.25em;
   }
 
   .sliderBanner .owl-nav .owl-prev {
-    left: 0px;
+    left: 0em;
   }
   .sliderBanner .owl-nav .owl-next {
-    right: 0px;
+    right: 0em;
   }
   .bannerCaption p {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .rightLinks .langDropDown li {
     display: block;
@@ -742,94 +742,94 @@
     width: 33.33%;
   }
   .directorateProInfo {
-    padding-left: 0px;
+    padding-left: 0em;
   }
   .directorateProInfo h5 {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .dirContactInfo li {
     font-size: 1em;
   }
   .dirContactInfo li:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .serviceCaption h3 {
     font-size: 2em;
   }
   .serviceCaption {
-    padding: 0 15px;
+    padding: 0 0.9375em;
   }
   .newsLetterSub h3 {
     font-size: 1.6em;
-    margin: 10px 0 0 0;
+    margin: 0.625em 0 0 0;
   }
   .newsLetterSub ul li:nth-child(2) {
     width: auto;
   }
   .newsLetterSub .inputText1 {
-    width: 162px;
+    width: 10.125em;
   }
   .yellowBtn {
-    padding: 0 20px;
+    padding: 0 1.25em;
   }
   .newsLetterSub .captchaInput .captchaSub {
     float: left;
   }
   .newsLetterSub .captchaInput {
-    width: 194px;
+    width: 12.125em;
   }
   .socialFooter .info h3 {
     font-size: 1.8em;
   }
   .socialFooter .logo {
-    margin-right: 10px;
+    margin-right: 0.625em;
   }
   .socialsListIcons li a {
-    width: 30px;
-    height: 30px;
-    font-size: 14px;
+    width: 1.875em;
+    height: 1.875em;
+    font-size: 0.875em;
   }
   .socialsListIcons {
-    margin: 10px 0 0 -2px;
+    margin: 0.625em 0 0 -0.125em;
   }
   .socialFooter .info {
-    padding-left: 170px;
+    padding-left: 10.625em;
   }
   .TeamBigInfo h4 {
     font-size: 1.2em;
   }
   .path-main-stpi-team .contentMainBlock {
-    min-height: 469px;
+    min-height: 29.3125em;
   }
   h2 {
     font-size: 1.6em;
   }
   .eventsCampaigns {
-    padding: 30px 0;
+    padding: 1.875em 0;
   }
   .campainImage {
-    max-width: 400px;
+    max-width: 25em;
     width: 100%;
     display: inline-block;
     vertical-align: top;
-    min-height: 178px;
+    min-height: 11.125em;
   }
   .campaingsSlider .owl-controls {
-    top: 235px;
+    top: 14.6875em;
   }
   .eventsCampaigns .resTab .tabNav li h4 {
     font-size: 1.7em;
   }
   .impactCreated {
-    padding: 30px 0;
+    padding: 1.875em 0;
   }
   .impactCreated ul li {
-    padding: 0 5px;
+    padding: 0 0.3125em;
   }
   .impactCreated ul li:nth-child(2),
   .impactCreated ul li:nth-child(4),
   .impactCreated ul li:nth-child(6) {
-    top: 0px;
+    top: 0em;
   }
   .impactCreated ul li p {
     width: auto;
@@ -838,10 +838,10 @@
     font-size: 2em;
   }
   .LnewsBox {
-    padding: 15px;
+    padding: 0.9375em;
   }
   .LnewsListInfo .info {
-    padding-left: 215px;
+    padding-left: 13.4375em;
     text-align: left;
   }
   h4 {
@@ -859,41 +859,41 @@
     width: 40%;
   }
   .latestNewsRight .region-whats-news-section {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .latestNews {
-    padding: 30px 0;
+    padding: 1.875em 0;
   }
   .socialEngagement {
-    margin: 0px;
-    padding: 30px 0;
+    margin: 0em;
+    padding: 1.875em 0;
   }
   .socialEngCover iframe {
     width: 100%;
   }
   .socialEngCover {
-    height: 406px;
+    height: 25.375em;
     overflow: auto;
   }
   .socialEngMulTab .socialEngCover {
-    height: 340px;
+    height: 21.25em;
     overflow: auto;
   }
   .bODSlider {
     position: static;
-    margin-left: 0px;
+    margin-left: 0em;
     max-width: inherit;
   }
   .boardOfDirectors {
-    padding: 30px 0 70px;
+    padding: 1.875em 0 4.375em;
   }
   .boardOfDirectors p {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .rotatingMobSlider {
     display: block !important;
-    padding: 0 50px;
-    margin-bottom: 50px;
+    padding: 0 3.125em;
+    margin-bottom: 3.125em;
   }
   .rotating-slider {
     display: none;
@@ -903,7 +903,7 @@
     line-height: inherit;
   }
   .rotatingMobSlider h2 {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .rotatingMobSlider a {
     text-decoration: none;
@@ -914,20 +914,20 @@
   }
   .rotatingMobSlider .owl-prev {
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0em;
+    top: 0em;
   }
   .rotatingMobSlider .owl-next {
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: 0em;
+    top: 0em;
   }
   .rotatingMobSlider .owl-prev::before {
     content: "\f104";
     font-family: fontAwesome;
     background-color: transparent;
     position: absolute;
-    left: 0px;
+    left: 0em;
     top: 0;
   }
   .rotatingMobSlider .owl-next::before {
@@ -935,19 +935,19 @@
     font-family: fontAwesome;
     background-color: transparent;
     position: absolute;
-    right: 0px;
+    right: 0em;
     top: 0;
   }
   .rotatingMobSlider .owl-controls .owl-nav [class*="owl-"] {
     background: transparent;
-    text-indent: -9999px;
+    text-indent: -624.9375em;
     overflow: hidden;
   }
   .rotatingMobSlider .owl-controls .owl-nav [class*="owl-"]:before {
     font-size: 2em;
-    text-indent: 0px;
+    text-indent: 0em;
     color: #fff;
-    margin-top: -6px;
+    margin-top: -0.375em;
   }
   .rotatingMobSlider .owl-controls .owl-nav [class*="owl-"]:hover {
     background: transparent;
@@ -992,7 +992,7 @@
     font-size: 2em;
   }
   .innerBannerSection > img {
-    min-height: 250px;
+    min-height: 15.625em;
   }
   .stpiNeuron p {
     font-size: 1.1em;
@@ -1002,14 +1002,14 @@
   }
   .centerOfExce .profilesInfo li {
     width: 100%;
-    max-width: 500px;
-    margin-right: 10px;
+    max-width: 31.25em;
+    margin-right: 0.625em;
   }
   .centerOfExce .profilesInfo li:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .centerOfExce .profile .info {
-    padding: 22px 0 0 114px;
+    padding: 1.375em 0 0 7.125em;
     text-align: left;
   }
   .centerOfExce {
@@ -1020,30 +1020,30 @@
     text-align: left;
   }
   .newFacility .facilitiesServices {
-    padding: 30px 0;
+    padding: 1.875em 0;
   }
   .chiefMentorLeft {
-    padding: 30px 15px;
+    padding: 1.875em 0.9375em;
   }
   .highlights {
-    padding: 30px 0 70px;
+    padding: 1.875em 0 4.375em;
   }
   .finTech h2 {
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
 
   .fosteringCenter {
-    padding: 10px 0 30px;
+    padding: 0.625em 0 1.875em;
   }
 
   .spaceAvaibilityInstruction {
     width: 65%;
   }
   .boardOfDirectors .owl-controls {
-    right: 10px;
+    right: 0.625em;
   }
   .latestNewsRight .region-whats-news-section .LnewsBox {
-    margin-bottom: 101px;
+    margin-bottom: 6.3125em;
   }
   .headQuarter p {
     font-size: 1em;
@@ -1055,12 +1055,12 @@
     line-height: 1em;
   }
   .contactUsMain ul li .personName {
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
     display: inline-block;
     vertical-align: top;
   }
   .headQuarter .hqTitle {
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   .detailsleft li {
     width: 33%;
@@ -1072,14 +1072,14 @@
     display: block;
   }
   .recentBlock .recentImage {
-    height: 199px;
+    height: 12.4375em;
   }
   .region-subscribe-to-newsletters h2 {
     font-size: 1.6em;
-    margin-top: 5px;
+    margin-top: 0.3125em;
   }
   .region-subscribe-to-newsletters .form-email {
-    max-width: 200px;
+    max-width: 12.5em;
   }
   .campaignDetailsPage .detailsTop h2 {
     font-size: 1.4em;
@@ -1095,15 +1095,15 @@
   }
 
   .spaceAvaibility {
-    margin-top: 0px;
+    margin-top: 0em;
   }
   .totalSpace {
     background: #ededee;
   }
   .directorateHead {
-    padding: 5px 60px 5px 60px;
-    border-radius: 15px;
-    margin-left: 0px;
+    padding: 0.3125em 3.75em 0.3125em 3.75em;
+    border-radius: 0.9375em;
+    margin-left: 0em;
   }
   .footerCopyright .region-secondary-menu {
     display: none;
@@ -1129,24 +1129,24 @@
   .aboutContentBlock .aboutText {
     max-width: 100%;
     width: 60%;
-    padding: 0 0 20px;
+    padding: 0 0 1.25em;
     float: left;
   }
   .aboutContentBlock .aboutVideo::after {
     display: none;
   }
   .objectOutcomes {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .objectOutcomesDevlop p {
-    margin-bottom: 25px;
+    margin-bottom: 1.5625em;
     text-align: center;
   }
   .objectOutcomesDevlop p br {
     display: none;
   }
   .devlopLeft {
-    padding: 0 15px;
+    padding: 0 0.9375em;
     width: 100%;
     float: left;
     margin: 0;
@@ -1159,7 +1159,7 @@
   .devlopLeft li:nth-child(2) {
     max-width: 100%;
     float: right;
-    margin-bottom: 35px;
+    margin-bottom: 2.1875em;
     margin-right: 0;
   }
   .devlopLeft .rightIconsAfter {
@@ -1173,7 +1173,7 @@
     display: none;
   }
   .devlopRight {
-    padding: 0 15px;
+    padding: 0 0.9375em;
     width: 100%;
     float: left;
     margin: 0;
@@ -1186,7 +1186,7 @@
   .devlopRight li:nth-child(2) {
     max-width: 100%;
     float: right;
-    margin-bottom: 35px;
+    margin-bottom: 2.1875em;
     margin-right: 0;
   }
   .devlopRight .rightIconsAfter {
@@ -1201,7 +1201,7 @@
     display: none;
   }
   .devlopBotFull {
-    padding: 0 15px;
+    padding: 0 0.9375em;
     width: 100%;
     float: left;
     margin: 0;
@@ -1236,24 +1236,24 @@
     height: auto;
   }
   .ojectoutCenter {
-    margin: 0 auto 30px;
+    margin: 0 auto 1.875em;
     text-align: center;
     width: auto;
-    padding: 20px 0 0;
+    padding: 1.25em 0 0;
     background-color: #fff;
     box-shadow: none;
     border-radius: 0;
     height: auto;
   }
   .ojectoutCenter h2 {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 1.875em;
+    line-height: 1.875em;
   }
   .typicalObjective {
-    padding: 20px 0 10px;
+    padding: 1.25em 0 0.625em;
   }
   .objectiveCenter {
-    padding: 0 20px;
+    padding: 0 1.25em;
     min-height: auto;
   }
   .objectiveCenter p {
@@ -1263,7 +1263,7 @@
     margin-top: 0;
   }
   .lifecycleTitle {
-    padding: 15px;
+    padding: 0.9375em;
     width: 100%;
     margin-bottom: 0;
   }
@@ -1280,11 +1280,11 @@
     bottom: 0;
   }
   .lifecycleIconsList {
-    margin-top: 50px;
+    margin-top: 3.125em;
   }
   .lifecycleIconsList li {
     width: 25%;
-    min-height: 250px;
+    min-height: 15.625em;
   }
   .lifecycleIconsList li:nth-child(2n + 1) {
     vertical-align: bottom;
@@ -1306,13 +1306,13 @@
     display: none;
   }
   .teamSlider {
-    min-height: 670px;
+    min-height: 41.875em;
   }
   .ministerBottomInfo {
-    min-height: 280px;
+    min-height: 17.5em;
   }
   .latestNewsRight .region-whats-news-section .LnewsBox {
-    margin-bottom: 153px;
+    margin-bottom: 9.5625em;
   }
   .panIndia .col-md-3 {
     width: 50%;
@@ -1325,7 +1325,7 @@
   }
   .directorateInfo {
     height: auto;
-    right: 0px;
+    right: 0em;
   }
   .disclaimerMain {
     position: static;
@@ -1346,7 +1346,7 @@
     font-size: 0.9em;
   }
   .mainMinister .ministerInfo .info p {
-    margin-bottom: 5px;
+    margin-bottom: 0.3125em;
   }
   .page-views-listing .innerPageContent .eventPostInfo {
     width: 33%;
@@ -1355,21 +1355,21 @@
     display: none;
   }
   .tenderHeading {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     position: relative;
-    padding-left: 60px;
+    padding-left: 3.75em;
     display: inline-block;
     vertical-align: top;
   }
   .tenderHeading .tenderTitle {
     max-width: 100%;
-    padding: 0 0 0 0px;
+    padding: 0 0 0 0em;
     height: auto;
     display: block;
   }
   .tenderHeading .tenderRef {
     margin-left: 0;
-    padding: 0px;
+    padding: 0em;
     height: auto;
     display: block;
   }
@@ -1384,11 +1384,11 @@
   }
   .tenderHeading .tenderCounter {
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0em;
+    top: 0em;
   }
   .servicesMobSlider .owl-controls {
-    margin-top: 0px;
+    margin-top: 0em;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -1412,8 +1412,8 @@
     display: block;
   }
   .headerLeft {
-    width: 400px;
-    max-width: 400px;
+    width: 25em;
+    max-width: 25em;
   }
   .headerRight {
     clear: both;
@@ -1425,15 +1425,15 @@
     display: none;
   }
   .rightLinks {
-    padding-right: 57px;
+    padding-right: 3.5625em;
     position: absolute;
-    top: 10px;
-    right: 0px;
+    top: 0.625em;
+    right: 0em;
   }
   .toggleMenu {
     position: absolute;
-    right: 10px;
-    top: -8px;
+    right: 0.625em;
+    top: -0.5em;
   }
   .mainNavigation {
     position: static;
@@ -1451,14 +1451,14 @@
     display: none;
   }
   .mainNavigation #nav li {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 0.0625em solid rgba(255, 255, 255, 0.1);
     text-align: left;
   }
   #nav ul li:first-child {
-    padding-top: 0px;
+    padding-top: 0em;
   }
   #nav li ul li a {
-    padding: 7px 55px 7px 15px;
+    padding: 0.4375em 3.4375em 0.4375em 0.9375em;
   }
   #nav ul li a {
   }
@@ -1482,20 +1482,20 @@
     border: none;
   }
   #nav li a {
-    border-top: 1px solid #002d63;
+    border-top: 0.0625em solid #002d63;
   }
   #nav li.parent {
     position: relative;
   }
   #nav li .menuIcon,
   #nav li li .menuIcon {
-    width: 46px;
+    width: 2.875em;
     height: auto;
     background-color: #002d63;
     background-color: rgba(0, 45, 99, 0.5);
     background-image: url(https://stpi.in/themes/stpi/images/dropdown-menu-icon.png);
     background-repeat: no-repeat;
-    background-position: center 15px;
+    background-position: center 0.9375em;
     position: absolute;
     right: 0;
     top: 0;
@@ -1547,28 +1547,28 @@
     margin-left: 0;
   }
   #nav li a {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
     display: block;
-    line-height: 30px;
+    line-height: 1.875em;
     font-size: 1em;
   }
   #nav li ul li a {
-    padding: 7px 55px 7px 25px;
+    padding: 0.4375em 3.4375em 0.4375em 1.5625em;
     display: block;
-    line-height: 21px;
+    line-height: 1.3125em;
     background: url(https://stpi.in/themes/stpi/images/right-arrow.png)
-      no-repeat 15px 15px;
+      no-repeat 0.9375em 0.9375em;
     color: #fff;
     border: none;
   }
   #nav li ul li ul li a {
-    padding-left: 45px;
-    background-position: 33px center;
+    padding-left: 2.8125em;
+    background-position: 2.0625em center;
   }
   #nav li ul li ul li ul li a {
-    padding-left: 60px;
-    background-position: 45px center;
+    padding-left: 3.75em;
+    background-position: 2.8125em center;
   }
   #nav > li > a:hover,
   #nav > li.hover > a,
@@ -1611,9 +1611,9 @@
     left: -1000em;
   }
   .responsiveTable tr {
-    border: 1px solid #eeeeee;
-    border-bottom: 2px solid #eeeeee;
-    margin: 0 0 20px;
+    border: 0.0625em solid #eeeeee;
+    border-bottom: 0.125em solid #eeeeee;
+    margin: 0 0 1.25em;
   }
   .responsiveTable tr td:nth-child(1) {
     border-left: none;
@@ -1623,12 +1623,12 @@
   }
   .responsiveTable tr:last-child .td,
   .responsiveTable td {
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 0.0625em solid #eeeeee;
   }
   .responsiveTable td:before {
     font-weight: bold;
-    padding-right: 20px;
-    line-height: 27px;
+    padding-right: 1.25em;
+    line-height: 1.6875em;
     color: #174471;
     content: " " attr(data-label) "";
   }
@@ -1636,7 +1636,7 @@
     display: block;
   }
   .responsiveTable tr td {
-    padding: 5px 15px;
+    padding: 0.3125em 0.9375em;
     width: auto !important;
   }
   .owl-theme .owl-controls .owl-nav [class*="owl-"] {
@@ -1646,57 +1646,57 @@
     opacity: 1;
   }
   .bannerCaption p {
-    padding: 0 30px;
+    padding: 0 1.875em;
   }
   .panIndia {
-    padding: 0px;
+    padding: 0em;
   }
   .panIndia .container {
-    padding: 0px;
+    padding: 0em;
   }
   .directorateLft {
-    padding: 30px 15px 0;
+    padding: 1.875em 0.9375em 0;
     text-align: center;
   }
   .directorateLft ul {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .directorateLft h2 br {
     display: none;
   }
   .directorateLft .selectInfo ul {
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .panIndia .col-md-3 {
     width: 100%;
   }
   .directorateLft ul li {
-    margin: 0 5px 10px;
-    width: 210px;
+    margin: 0 0.3125em 0.625em;
+    width: 13.125em;
     display: inline-block;
     vertical-align: top;
-    border: 1px solid #ccc;
-    border-radius: 20px;
+    border: 0.0625em solid #ccc;
+    border-radius: 1.25em;
     text-align: left;
-    padding-left: 30px;
+    padding-left: 1.875em;
   }
   .directorateLft .selectInfo .active::before,
   .directorateLft .selectInfo a:hover::before {
-    width: 205px;
+    width: 12.8125em;
   }
   .directorateLft .selectInfo a {
     font-size: 1em;
     line-height: 1;
   }
   .directorateLft .selectInfo a:hover:before {
-    height: 34px;
+    height: 2.125em;
   }
   .directorateLft h2,
   .directorateLft h4 {
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   .directorateLft .selectInfo {
-    margin: 0px;
+    margin: 0em;
   }
   .directorateInfo {
     position: static;
@@ -1709,15 +1709,15 @@
   }
   .directorateLft .selectInfo li a.active::before,
   .directorateLft .selectInfo a:hover::before {
-    top: -2px;
-    height: 32px;
-    width: 210px !important;
+    top: -0.125em;
+    height: 2em;
+    width: 13.125em !important;
   }
   .panIndia .col-md-5,
   .panIndia .col-md-4 {
     width: 50%;
     overflow: scroll;
-    height: 600px;
+    height: 37.5em;
   }
   .dirContactInfo li {
     text-align: left;
@@ -1726,19 +1726,19 @@
     font-size: 1.8em;
   }
   .footerButtons {
-    margin-top: 0px;
+    margin-top: 0em;
   }
   .footerLinks {
   }
   .footerLinks h3 {
     font-size: 1.8em;
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .footerLinks .col-md-2,
   .footerLinks .col-md-3 {
     width: 50%;
     text-align: left;
-    min-height: 340px;
+    min-height: 21.25em;
   }
   .footerLinks ul.bulletText {
     display: inline-block;
@@ -1749,24 +1749,24 @@
     width: 100%;
   }
   .eventPostInfo .photo {
-    width: 200px;
+    width: 12.5em;
   }
   .eventPostInfo .info {
-    padding-left: 220px;
+    padding-left: 13.75em;
   }
   .lNHeading {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 1.25em;
+    margin-top: 1.25em;
   }
   .campaignsRgt {
     width: 100%;
-    margin: 30px 0 0;
+    margin: 1.875em 0 0;
   }
   .campainImage {
-    max-width: 700px;
+    max-width: 43.75em;
   }
   .campaingsSlider .owl-controls {
-    top: 370px;
+    top: 23.125em;
   }
   .campaignsInfo {
     text-align: center;
@@ -1777,24 +1777,24 @@
     width: 100%;
   }
   .newsLetterSub ul li:first-child {
-    margin-bottom: 15px;
+    margin-bottom: 0.9375em;
   }
   .newsLetterSub ul li:last-child {
-    margin-top: 15px;
+    margin-top: 0.9375em;
   }
   .newsLetterSub h3 {
-    margin: 0px;
+    margin: 0em;
   }
   .newsLetterSub ul {
-    margin: 0px;
+    margin: 0em;
   }
   .campaignsRgt {
     float: left;
     width: 100%;
-    margin: 30px 0 0 0;
+    margin: 1.875em 0 0 0;
   }
   .eventsCampaigns .eventsBox {
-    padding: 15px;
+    padding: 0.9375em;
   }
   .eventsCampaigns .campaignsRgt {
     width: 100%;
@@ -1809,14 +1809,14 @@
   }
   .cOEachievements ul li h3 {
     font-size: 2em;
-    margin-right: 10px;
+    margin-right: 0.625em;
   }
   .panIndia .col-md-5 {
     display: none;
   }
   .directorateHead {
-    padding: 5px 20px;
-    margin: 0px 0 20px;
+    padding: 0.3125em 1.25em;
+    margin: 0em 0 1.25em;
   }
   .directorateInfo {
     display: inline-block;
@@ -1832,21 +1832,21 @@
   }
   .servicesWarpper a,
   .servicesMobSlider a {
-    min-height: 600px;
-    max-height: 600px;
+    min-height: 37.5em;
+    max-height: 37.5em;
   }
   .footerCopyright .col-md-9,
   .footerCopyright .col-md-3 {
     width: 100%;
   }
   .innerPageContent {
-    padding: 30px 0;
+    padding: 1.875em 0;
   }
   .views-exposed-form {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .path-main-know-your-minister .view-filters {
-    padding: 30px 0;
+    padding: 1.875em 0;
   }
   .teamBlock li {
     width: 33%;
@@ -1865,8 +1865,8 @@
     float: left;
     display: inline-block;
     vertical-align: top;
-    padding: 0px;
-    margin: 0px 10px 0 0;
+    padding: 0em;
+    margin: 0em 0.625em 0 0;
   }
   .toggleMenu.active .iconBar {
     background: none;
@@ -1874,20 +1874,20 @@
   }
   .menuPart {
     float: left;
-    padding: 0px;
+    padding: 0em;
   }
   .rightLinks {
-    padding-right: 64px;
+    padding-right: 4em;
   }
   .megaMenu {
     position: absolute;
-    right: 10px;
-    top: 6px;
+    right: 0.625em;
+    top: 0.375em;
   }
   .toggleMenu {
     position: absolute;
-    right: 40px;
-    top: 9px;
+    right: 2.5em;
+    top: 0.5625em;
   }
   .career-form .form-select {
     font-size: 1em;
@@ -1896,20 +1896,20 @@
     width: auto;
   }
   .career-form {
-    padding-bottom: 30px;
+    padding-bottom: 1.875em;
   }
   .career-form .captcha {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .career-form .btnCaptchaRow {
     display: inline-block;
     vertical-align: top;
-    margin-top: 30px;
+    margin-top: 1.875em;
   }
   .fosteringCenter {
     padding: 0;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .fosteringCenter .col-md-7,
   .fosteringCenter .col-md-5 {
@@ -1920,16 +1920,16 @@
   }
   .totalSpace {
     padding: 0;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .totalSpaceCaption {
     width: 100%;
-    margin-top: 0px;
+    margin-top: 0em;
   }
   .incubationSlider {
     position: relative;
     z-index: 999;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .totalSpaceCaption {
     width: 100%;
@@ -1973,14 +1973,14 @@
     width: 100%;
   }
   .newFacility .facilitiesServices {
-    padding: 20px 0 0;
+    padding: 1.25em 0 0;
   }
   .highlights {
-    padding: 20px 0 70px;
+    padding: 1.25em 0 4.375em;
     text-align: center;
   }
   .objectivesCaption {
-    padding: 20px;
+    padding: 1.25em;
   }
   .objectivesBackground:after {
     width: auto;
@@ -1993,8 +1993,8 @@
     line-height: 1.2;
   }
   .fosteringRight {
-    margin-top: 0px;
-    max-width: 300px;
+    margin-top: 0em;
+    max-width: 18.75em;
     float: none;
     display: inline-block;
     vertical-align: top;
@@ -2018,10 +2018,10 @@
     vertical-align: top;
   }
   .panIndia .row {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .ministerBottomInfo {
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .impactCreated ul li::before {
     display: none;
@@ -2045,10 +2045,10 @@
     width: 100%;
   }
   .LnewsBox {
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .latestNewsRight .LnewsBox:last-child {
-    margin-bottom: 50px;
+    margin-bottom: 3.125em;
   }
   .latestNewsRight .LnewsBox,
   .LnewsBox {
@@ -2061,14 +2061,14 @@
     text-align: center;
   }
   .whatsNewSlider .owl-controls {
-    bottom: -80px;
-    right: -33px;
+    bottom: -5em;
+    right: -2.0625em;
   }
   .itemListMain ul li .textDescription {
     width: 80%;
   }
   .career-form .button {
-    margin-top: 0px;
+    margin-top: 0em;
   }
   .publicStaffGriOfficers ul li {
     font-size: 1em;
@@ -2077,13 +2077,13 @@
     font-size: 0.9em;
   }
   .neuronBlock li .neuronIn {
-    min-height: 476px;
+    min-height: 29.75em;
   }
   .stpiOpenChallImgHolder {
     width: 100%;
     position: static;
     background: none;
-    max-width: 500px;
+    max-width: 31.25em;
     display: inline-block;
     vertical-align: top;
   }
@@ -2095,7 +2095,7 @@
     height: auto;
   }
   .stpiNeuronRecCamp {
-    padding-left: 0px;
+    padding-left: 0em;
     width: 100%;
     clear: both;
     text-align: center;
@@ -2103,7 +2103,7 @@
   .stpiNeuron {
     text-align: center;
     background-color: #ececec;
-    padding: 30px 0 0;
+    padding: 1.875em 0 0;
   }
   .stpiNeuron .stpiOpenChall {
     float: none;
@@ -2118,11 +2118,11 @@
   }
   .region-subscribe-to-newsletters h2 {
     width: 100%;
-    margin-top: 0px;
+    margin-top: 0em;
     text-align: left;
   }
   .region-subscribe-to-newsletters .form-email {
-    margin-left: 0px;
+    margin-left: 0em;
   }
   .visionariesMember .teamBlock li {
     width: 50%;
@@ -2134,10 +2134,10 @@
     width: 33%;
   }
   .publicStaffGriOfficers ul li .GrievanceOfficersLists {
-    min-height: 340px;
+    min-height: 21.25em;
   }
   .knowYourMinisters {
-    padding: 25px 0 0px;
+    padding: 1.5625em 0 0em;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -2148,9 +2148,9 @@
     width: 100%;
   }
   .contactMapImage {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     background-size: cover;
-    max-width: 700px;
+    max-width: 43.75em;
   }
   .contact {
     text-align: center;
@@ -2166,17 +2166,17 @@
   }
   .contactLeftInfo ul li {
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
 }
 @media only screen and (max-width: 959px) {
   .impactCreated ul {
-    padding: 0px;
-    margin: 0px;
+    padding: 0em;
+    margin: 0em;
   }
   .impactCreated ul li p {
     width: auto;
-    max-width: 100px;
+    max-width: 6.25em;
     display: inline-block;
     vertical-align: top;
   }
@@ -2209,28 +2209,28 @@
     width: 100%;
   }
   .resTab .tabContent {
-    padding: 20px;
+    padding: 1.25em;
   }
   .functionTab .tabNav .tabTitle {
-    font-size: 16px;
+    font-size: 1em;
   }
   .functionTab .tabNav .count {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .qultObj {
     max-width: 45%;
   }
   .moreBlock li {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .lifecycleIconsList li {
     width: 50%;
     min-height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .neuronBlock .col-md-4 {
     width: 50%;
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .ourTeam .col-md-6:nth-child(1) {
     width: 45%;
@@ -2251,11 +2251,11 @@
     min-height: inherit;
   }
   .col-md-6 .otherMinisters .ministerInfo:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .mainMinister,
   .ministerInfo {
-    max-width: 700px;
+    max-width: 43.75em;
     display: inline-block;
     vertical-align: top;
   }
@@ -2281,7 +2281,7 @@
     display: block;
   }
   .TeamMembersSlider .owl-controls {
-    width: 82px;
+    width: 5.125em;
     top: inherit;
   }
   .page-node-type-photo-gallery .photoGallery li {
@@ -2310,31 +2310,31 @@
   }
   .socialEngagement .col-md-4 {
     width: 100%;
-    max-width: 500px;
+    max-width: 31.25em;
     display: inline-block;
     vertical-align: top;
     float: none;
   }
   .socialEngagement .col-md-4:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .socialEngagement {
     text-align: center;
   }
   .socialEngMulTab .resTab .tabNav {
-    margin: 0px;
+    margin: 0em;
     text-align: center;
   }
   .megaMenuContent .col-md-3 {
     width: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .blogBox .blogLeft {
     width: 100%;
   }
   .blogBox .blogRight {
     width: 100%;
-    margin: 30px 0 0 0;
+    margin: 1.875em 0 0 0;
   }
   .recentBlock li {
     width: 50%;
@@ -2347,33 +2347,33 @@
   }
   .recentBlock .recentBlogStatus li {
     width: auto;
-    padding: 0 5px;
+    padding: 0 0.3125em;
   }
   .recentBlock .recentImage {
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   .centerOfExce .profilesInfo li {
     width: 100%;
   }
   .centerOfExce .profile {
-    padding: 10px;
+    padding: 0.625em;
   }
   .recentBlock .info .socialIcone {
     position: static;
-    margin-top: 10px;
+    margin-top: 0.625em;
   }
   .recentBlock .socialIcone ul li {
     clear: none;
     width: auto;
-    border: 0px;
+    border: 0em;
   }
   .trendingBox ul li {
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.625em;
+    margin-bottom: 0.625em;
+    border-bottom: 0.0625em solid #ccc;
   }
   .trendingBox .socialIcone ul li {
-    border: 0px;
+    border: 0em;
   }
 }
 @media only screen and (max-width: 800px) {
@@ -2381,32 +2381,32 @@
     max-width: 100%;
     width: 100%;
     margin-bottom: 0;
-    margin: 0px;
+    margin: 0em;
   }
   .qualityContainer {
-    padding: 0 20px;
+    padding: 0 1.25em;
   }
   .backgroundBlock {
-    padding: 30px 20px;
+    padding: 1.875em 1.25em;
   }
 }
 @media only screen and (max-width: 1366px) {
   .indexBanner .sliderBanner .item {
-    min-height: 446px;
+    min-height: 27.875em;
   }
 }
 @media only screen and (max-width: 767px) {
   .incubationSlider .owl-controls .owl-nav .owl-prev {
-    left: 9px;
+    left: 0.5625em;
   }
   .incubationSlider .owl-controls {
-    bottom: 30px;
+    bottom: 1.875em;
   }
   .incubationSlider .owl-controls .owl-nav [class*="owl-"] {
-    height: 30px;
+    height: 1.875em;
   }
   .incubationSlider .owl-controls .owl-nav [class*="owl-"]::before {
-    top: -5px;
+    top: -0.3125em;
   }
   .totalSpaceInfo {
     max-height: auto;
@@ -2419,7 +2419,7 @@
     max-height: 100% !important;
   }
   .lifecycleIconsList li {
-    padding: 0 15px;
+    padding: 0 0.9375em;
   }
   .tenderHeading .tenderRef {
     max-width: 100%;
@@ -2435,7 +2435,7 @@
   }
   .incubFeatuCol {
     width: 100%;
-    max-width: 600px;
+    max-width: 37.5em;
     float: none;
     display: inline-block;
     vertical-align: top;
@@ -2451,24 +2451,24 @@
   }
   .page-node-167 .recentBlock li {
     width: 100%;
-    max-width: 600px;
+    max-width: 37.5em;
     float: none;
     display: inline-block;
     vertical-align: top;
   }
   .ourTeam .col-md-6:nth-child(1) {
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
+    border-bottom: 0.0625em solid #ccc;
+    margin-bottom: 1.25em;
   }
   .whatsNewSlider .owl-controls {
-    bottom: -35px;
-    right: -12px;
+    bottom: -2.1875em;
+    right: -0.75em;
   }
   .latestNewsRight .region-whats-news-section .LnewsBox {
-    padding-bottom: 50px;
+    padding-bottom: 3.125em;
   }
   .latestNewsRight .LnewsBox:last-child {
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .stpiCentersSlider .r-tabs .r-tabs-nav {
     display: block;
@@ -2477,20 +2477,20 @@
     display: block;
   }
   .rotatingMobSlider {
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .centerOfExce .centerOfExceRgt {
-    margin-top: 30px;
+    margin-top: 1.875em;
   }
   .resTab .r-tabs-accordion-title .r-tabs-anchor {
-    margin-bottom: 10px;
-    border-radius: 5px;
+    margin-bottom: 0.625em;
+    border-radius: 0.3125em;
     font-size: 1.3em;
     line-height: 1;
     color: #3737a8;
     background-color: #fff;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
-    border: 1px solid #ccc;
+    box-shadow: 0em 0.1875em 0.3125em rgba(0, 0, 0, 0.2);
+    border: 0.0625em solid #ccc;
   }
   .resTab
     .r-tabs-panel.r-tabs-state-active
@@ -2501,13 +2501,13 @@
   }
   .resTab .r-tabs-accordion-title .r-tabs-anchor h4 {
     color: #3737a8;
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .resTab .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor h4 {
     color: #3737a8;
   }
   .resTab .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
-    border: 1px solid #3737a8;
+    border: 0.0625em solid #3737a8;
     background-color: #ffd400;
     font-size: 1.3em;
     line-height: 1;
@@ -2538,18 +2538,18 @@
     overflow: auto;
   }
   .ourJourney .resTab .tabContent .row {
-    margin: 0px;
+    margin: 0em;
   }
   .ourJourney .tabContainer {
-    padding: 30px 0;
+    padding: 1.875em 0;
   }
   .functionTab {
     background: #f4f4f4;
-    padding: 20px 5px;
+    padding: 1.25em 0.3125em;
   }
   .teamMobSlider {
-    max-width: 500px;
-    margin: 30px auto 0;
+    max-width: 31.25em;
+    margin: 1.875em auto 0;
   }
   .ourTeam .col-md-6:nth-child(1) {
     width: 100%;
@@ -2558,39 +2558,39 @@
     width: 100%;
   }
   .ourServiceHead {
-    padding: 20px 0;
+    padding: 1.25em 0;
   }
   .centerOfExceRgt .topInfo {
     min-height: inherit;
   }
   .TeamMembersSlider .owl-controls {
-    top: -51px;
+    top: -3.1875em;
     left: 50%;
-    margin-left: -25px;
+    margin-left: -1.5625em;
   }
   .directorateLft ul li {
     width: auto;
-    padding-left: 0px;
-    margin: 0 5px 10px;
+    padding-left: 0em;
+    margin: 0 0.3125em 0.625em;
   }
   .directorateLft .selectInfo li a.active::before,
   .directorateLft .selectInfo a:hover::before {
     width: 100% !important;
-    left: 0px;
+    left: 0em;
   }
   .directorateLft .selectInfo a {
-    padding: 0 9px 0 20px;
+    padding: 0 0.5625em 0 1.25em;
   }
   .directorateLft .selectInfo .active::after,
   .directorateLft .selectInfo a:hover::after {
-    left: 9px;
+    left: 0.5625em;
   }
   .directorateLft .selectInfo a::after {
-    left: 9px;
-    margin-top: -4px;
+    left: 0.5625em;
+    margin-top: -0.25em;
   }
   .directorateLft .selectInfo ul {
-    padding: 0px;
+    padding: 0em;
   }
   h3 {
     font-size: 2em;
@@ -2620,11 +2620,11 @@
   }
   .bannerCaption {
     top: 50%;
-    bottom: 0px;
+    bottom: 0em;
     transform: none;
     /*background-color:rgba(0, 0, 0, 0.5);*/
     background: transparent;
-    padding: 20px 15px;
+    padding: 1.25em 0.9375em;
   }
   .bannerCaption .bannerTitle {
     font-size: 1em;
@@ -2633,15 +2633,15 @@
     display: none;
   }
   .bannerCaption .bannerTitle {
-    margin-bottom: 5px;
-    padding-bottom: 5px;
+    margin-bottom: 0.3125em;
+    padding-bottom: 0.3125em;
   }
   .commonBtn {
-    padding: 5px 20px;
+    padding: 0.3125em 1.25em;
   }
   .socialFooter .col-md-7 {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .socialFooter .col-md-3 {
     width: auto;
@@ -2661,19 +2661,19 @@
     font-size: 1.8em;
   }
   .newsLetterSub h3 {
-    margin: 0px;
+    margin: 0em;
   }
   .newsLetterSub ul {
-    margin: 0px;
+    margin: 0em;
   }
   .ourTeam .col-md-6 {
     width: 100%;
   }
   .campainImage {
-    max-width: 400px;
+    max-width: 25em;
   }
   .campaingsSlider .owl-controls {
-    top: 230px;
+    top: 14.375em;
   }
   .lNHeading h2 {
     font-size: 1.8em;
@@ -2688,18 +2688,18 @@
   }
   .yellowBtn {
     height: auto;
-    padding: 5px 20px;
+    padding: 0.3125em 1.25em;
   }
   .newsLetterSub .yellowBtn {
-    margin-top: 10px;
+    margin-top: 0.625em;
   }
   .servicesWarpper a,
   .servicesMobSlider a {
-    min-height: 600px;
-    height: 600px;
+    min-height: 37.5em;
+    height: 37.5em;
   }
   .eventsCampaigns h4 {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .socialEngagement
     .resTab
@@ -2708,7 +2708,7 @@
     color: #3737a8;
   }
   .socialEngMulTab .socialEngCover {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .centerOfExce .centerOfExceLft,
   .centerOfExce .centerOfExceRgt {
@@ -2719,7 +2719,7 @@
     height: auto;
   }
   .cOEachievements {
-    margin: 0px;
+    margin: 0em;
   }
   .teamBlock li {
     width: 50%;
@@ -2734,7 +2734,7 @@
     clear: left;
   }
   .neuronBlockBox .row {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .innerPageContent h3 {
     font-size: 1.2em;
@@ -2743,17 +2743,17 @@
   .neuronIn .neuronBoxDetails .socialIcone,
   .stpiNeuronRecCamp .socialIcone {
     position: static;
-    margin: 10px 0;
+    margin: 0.625em 0;
   }
   .footerLinks {
-    padding: 30px 0 0 0;
+    padding: 1.875em 0 0 0;
   }
   .ministerInfo {
-    padding-left: 223px;
+    padding-left: 13.9375em;
   }
   .mainMinister .ministerInfo .photo {
     min-width: auto;
-    width: 205px;
+    width: 12.8125em;
   }
   .centerOfExceRgt p {
     font-size: 1em;
@@ -2763,14 +2763,14 @@
     transform: translateX(-49%);
   }
   .career-form .fieldset-wrapper .js-form-item {
-    padding: 0 5px;
+    padding: 0 0.3125em;
   }
   .career-form .fieldset-wrapper {
-    margin: 0 -5px;
+    margin: 0 -0.3125em;
   }
   .backgroundBlock .blockTitle {
     width: 100%;
-    padding: 0 0 20px;
+    padding: 0 0 1.25em;
     max-width: 100%;
   }
   .backgroundBlock .blockTitle::after {
@@ -2781,7 +2781,7 @@
     padding: 0;
   }
   .backgroundBlock {
-    padding: 20px;
+    padding: 1.25em;
   }
   .pageControlSection {
     text-align: center;
@@ -2790,24 +2790,24 @@
     text-align: left;
   }
   .innerBannerSection {
-    padding: 180px 0 0;
+    padding: 11.25em 0 0;
   }
   .pageControlSection h1 {
     font-size: 2em;
   }
   .sliderBanner .owl-controls {
     margin-top: 0;
-    width: 60px;
+    width: 3.75em;
     position: absolute;
-    bottom: 55px;
-    right: 20px;
+    bottom: 3.4375em;
+    right: 1.25em;
   }
   .sliderBanner .owl-nav .owl-prev::before,
   .sliderBanner .owl-nav .owl-next::before {
-    font-size: 40px;
+    font-size: 2.5em;
   }
   .spaceAvaibility {
-    padding: 20px 0;
+    padding: 1.25em 0;
     margin-top: 0;
   }
   .spaceAvaibilityForm,
@@ -2815,42 +2815,42 @@
     width: 100%;
   }
   .spaceAvaibilityForm {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .blogRight {
-    padding-left: 0px;
+    padding-left: 0em;
   }
   .trendingBox ul li {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    border-bottom: 0.0625em solid #ccc;
+    padding-bottom: 1.25em;
+    margin-bottom: 1.25em;
   }
   .trendingBox ul li:last-child {
-    border: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    border: 0em;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
   }
   .view-blog .recentBlock {
-    padding: 0 15px;
+    padding: 0 0.9375em;
     margin: 0;
   }
   .view-blog ul.recentBlock {
-    padding: 0px;
+    padding: 0em;
   }
   .recentBlock li {
-    padding: 0 15px;
+    padding: 0 0.9375em;
   }
   .recentBlock .recentBlogStatus li {
-    padding: 0 5px;
+    padding: 0 0.3125em;
   }
   .recentBlock li h4 {
     font-size: 1.3em;
   }
   .recentBlock .recentImage {
-    height: 200px;
+    height: 12.5em;
   }
   .neuronBlock .col-md-4:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .neuronBlockBox ul {
     text-align: center;
@@ -2874,18 +2874,18 @@
     width: 100%;
   }
   .coeCenter {
-    padding: 20px 0 0;
+    padding: 1.25em 0 0;
     text-align: center;
   }
   .excellenceCenter {
-    padding-bottom: 20px;
+    padding-bottom: 1.25em;
   }
   .OpenLabOrange {
-    padding: 25px;
+    padding: 1.5625em;
     margin-top: 0;
   }
   .stateGovernmentsFull {
-    margin-top: 20px;
+    margin-top: 1.25em;
     margin-right: 0;
   }
   .stateGovernmentsFull .col-md-6 {
@@ -2893,7 +2893,7 @@
   }
   .stateGovernmentsLeft li {
     width: 49%;
-    min-height: 220px;
+    min-height: 13.75em;
   }
   .stateGovernmentsLeft li:nth-child(2) {
     margin-top: 0;
@@ -2913,7 +2913,7 @@
   }
   .stateGovernmentsRight li {
     width: 49%;
-    min-height: 220px;
+    min-height: 13.75em;
   }
   .stateGovernmentsRight li:nth-child(2) {
     margin-top: 0;
@@ -2942,7 +2942,7 @@
   }
   .blogPostBigImg {
     float: none;
-    margin-top: -20px;
+    margin-top: -1.25em;
     display: inline-block;
     vertical-align: top;
   }
@@ -2963,41 +2963,41 @@
   }
   .qultObj {
     max-width: 100%;
-    margin: 0 15px 20px;
+    margin: 0 0.9375em 1.25em;
     float: left;
     display: block;
     width: auto;
   }
   .qultObj .objIco {
-    margin-left: 0px;
+    margin-left: 0em;
   }
   .qultObj .objText {
     float: none;
-    padding-left: 110px;
+    padding-left: 6.875em;
     width: auto;
   }
   .functionTab .resTab .tabContent {
-    padding: 0px;
+    padding: 0em;
   }
   .functionTab .functionList {
-    padding-left: 0px;
+    padding-left: 0em;
   }
   .knowYourMiniPage .btns {
-    margin-top: 10px;
+    margin-top: 0.625em;
   }
   .timelineDateBox .col-md-3 {
     width: 100%;
-    padding: 0 15px;
+    padding: 0 0.9375em;
   }
   .timelineDateBox .col-md-3:not(:last-child) {
-    margin-bottom: 10px;
-    padding-bottom: 15px;
+    margin-bottom: 0.625em;
+    padding-bottom: 0.9375em;
   }
   .timelineDateTex::before {
     width: 100%;
-    height: 1px;
-    right: 0px;
-    bottom: -15px;
+    height: 0.0625em;
+    right: 0em;
+    bottom: -0.9375em;
     top: inherit;
   }
   .ourJourney .resTab .tabContent {
@@ -3014,28 +3014,28 @@
   .TeamBigInfo ul {
     display: inline-block;
     vertical-align: top;
-    max-width: 600px;
+    max-width: 37.5em;
   }
   .teamSlider ul {
     float: none;
     display: inline-block;
     vertical-align: top;
-    max-width: 500px;
+    max-width: 31.25em;
   }
   .teamSlider {
     text-align: center;
   }
   .TeamMembersSlider .owl-controls {
-    margin-left: -40px;
+    margin-left: -2.5em;
   }
   .ourJourney .resTab .tabContent {
-    padding: 30px 0;
+    padding: 1.875em 0;
   }
   .indexBanner .sliderBanner .item {
     min-height: inherit;
   }
   .teamSlider {
-    min-height: 2200px;
+    min-height: 137.5em;
   }
   .teamMobSlider .teamSliderInfo {
     text-align: center;
@@ -3051,7 +3051,7 @@
   .journeyContent {
     height: auto;
     padding-right: 0;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .socialEngMulTab .resTab .tabNav {
     display: block !important;
@@ -3060,16 +3060,16 @@
     display: none;
   }
   .socialEngMulTab .resTab .tabNav li a .fa {
-    font-size: 30px;
-    height: 50px;
-    width: 50px;
+    font-size: 1.875em;
+    height: 3.125em;
+    width: 3.125em;
     position: relative;
-    left: -4px;
-    top: -3px;
+    left: -0.25em;
+    top: -0.1875em;
   }
   .stpiAnnualReportsMain .itemListMain ul li {
     width: 100%;
-    margin: 0px;
+    margin: 0em;
   }
   .objectiveCenter h2 {
     font-size: 1.3em;
@@ -3078,14 +3078,14 @@
     width: 70%;
   }
   .imageText .image {
-    max-width: 300px;
+    max-width: 18.75em;
   }
   .backgroundBlock p {
-    font-size: 14px;
+    font-size: 0.875em;
   }
   .qultObj {
     min-height: auto;
-    margin: 0 15px 0px;
+    margin: 0 0.9375em 0em;
     width: 100%;
   }
   .qualityContainer .row {
@@ -3097,24 +3097,24 @@
   .aboutContentBlock .aboutVideo {
     width: 100%;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .qultObj {
-    margin: 0px 0 20px;
+    margin: 0em 0 1.25em;
   }
   .qualityContainer {
-    padding: 0px;
+    padding: 0em;
   }
   .smoke-base .dialog {
-    left: 0px;
-    margin-left: 0px;
+    left: 0em;
+    margin-left: 0em;
   }
   .finLabRight {
     position: relative;
     z-index: 1;
   }
   .functionTab .count {
-    margin-right: 10px;
+    margin-right: 0.625em;
     font-size: 1.3em;
   }
   .functionTab .tabTitle {
@@ -3134,51 +3134,51 @@
     color: #000;
   }
   .node-feedback-form .btnCaptchaRow {
-    padding: 0px 15px;
+    padding: 0em 0.9375em;
   }
   .node-feedback-form .btnCaptchaRow {
     display: block;
   }
   .node-feedback-form .btnCaptchaRow .button {
-    margin-top: 0px;
+    margin-top: 0em;
   }
   .node-feedback-form .captcha {
     display: inline-block;
     vertical-align: top;
     width: 100%;
-    padding: 0 50px 0 0;
+    padding: 0 3.125em 0 0;
     position: relative;
-    padding-right: 50px;
-    margin-bottom: 10px;
+    padding-right: 3.125em;
+    margin-bottom: 0.625em;
   }
   .node-feedback-form .captcha .form-type-textfield {
     width: 100%;
     max-width: 100%;
-    padding: 0px;
+    padding: 0em;
   }
   .node-feedback-form .captcha img {
-    width: 150px;
+    width: 9.375em;
     max-width: inherit;
     position: static;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
     float: left;
-    margin-top: 0px;
+    margin-top: 0em;
   }
   .node-feedback-form .captcha label.error {
-    left: 0px;
+    left: 0em;
   }
   .node-feedback-form .reload-captcha-wrapper {
     position: absolute;
-    right: 0px;
-    top: 84px;
-    margin-top: 0px;
+    right: 0em;
+    top: 5.25em;
+    margin-top: 0em;
   }
   .node-feedback-form .captcha label.error {
     position: static;
   }
   .node-feedback-form label.error {
-    left: 15px;
+    left: 0.9375em;
   }
   .publicStaffGriOfficers ul li {
     width: 100%;
@@ -3196,7 +3196,7 @@
     width: 100%;
   }
   .contactUsMain ul {
-    margin: 30px 0 0 0;
+    margin: 1.875em 0 0 0;
   }
   .page-node-173 .col-md-6 {
     width: 100%;
@@ -3207,15 +3207,15 @@
   .user-login-form .captcha .form-type-textfield {
     width: 100%;
     max-width: 100%;
-    padding-right: 46px;
+    padding-right: 2.875em;
   }
   .user-login-form .captcha .reload-captcha-wrapper {
     position: absolute;
-    right: 0px;
-    bottom: 25px;
+    right: 0em;
+    bottom: 1.5625em;
   }
   .user-login-form {
-    padding: 15px;
+    padding: 0.9375em;
   }
   .user-login-form .captcha .user-login-form label {
     font-size: 0.9em;
@@ -3224,14 +3224,14 @@
     text-align: center;
   }
   .region-subscribe-to-newsletters .form-email {
-    max-width: 400px;
+    max-width: 25em;
   }
   .region-subscribe-to-newsletters h2 {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375em;
   }
   .region-subscribe-to-newsletters .js-form-item {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     width: 100%;
     max-width: 100%;
   }
@@ -3249,11 +3249,11 @@
   }
   .region-subscribe-to-newsletters .captcha img,
   .region-subscribe-to-newsletters .captcha input {
-    max-width: 250px;
+    max-width: 15.625em;
   }
   .region-subscribe-to-newsletters .js-form-submit {
     height: auto;
-    padding: 5px 20px;
+    padding: 0.3125em 1.25em;
   }
   .visionariesMember .contentMainBlock {
     min-height: auto;
@@ -3263,7 +3263,7 @@
   }
   .views-exposed-form .form--inline .form-item {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .views-exposed-form .button {
     float: none;
@@ -3274,52 +3274,52 @@
     text-align: center;
   }
   .views-exposed-form .form-select {
-    margin: 0px;
+    margin: 0em;
   }
   .campaignDetailsPage .detailsleft {
-    padding: 20px 20px 169px 20px;
+    padding: 1.25em 1.25em 10.5625em 1.25em;
   }
   .campaignDetailsPage .detailsTop .detailsRight {
     top: inherit;
-    bottom: 20px;
+    bottom: 1.25em;
     right: inherit;
     left: 50%;
     transform: translate(-50%, 0);
     -webkit-transform: translate(-50%, 0);
     -moz-transform: translate(-50%, 0);
     -ms-transform: translate(-50%, 0);
-    max-width: 280px;
+    max-width: 17.5em;
   }
   .campaignDetailsPage .detailPage .field--type-image {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .toggleMenu {
-    margin-right: 10px;
+    margin-right: 0.625em;
   }
   .rightLinks li.search {
-    margin-right: 10px;
+    margin-right: 0.625em;
   }
   .boardOfDirectors .owl-next:before {
-    top: 3px;
+    top: 0.1875em;
   }
   .boardOfDirectors .owl-prev:before {
-    top: 3px;
+    top: 0.1875em;
   }
   .boardOfDirectors .owl-controls {
-    top: -68px;
+    top: -4.25em;
   }
   .boardOfDirectors {
-    padding: 30px 0 70px;
+    padding: 1.875em 0 4.375em;
   }
   .boardOfDirectors .row {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .lNHeading .yellowBdrBtn {
     position: relative;
-    top: -1px;
+    top: -0.0625em;
   }
   .LnewsBox {
-    margin-bottom: 50px;
+    margin-bottom: 3.125em;
   }
 }
 @media only screen and (max-width: 699px) {
@@ -3333,7 +3333,7 @@
     font-size: 0.8em;
   }
   .centerOfExce {
-    margin-top: -10px;
+    margin-top: -0.625em;
   }
   .impactCreated ul li::before {
     display: none;
@@ -3341,20 +3341,20 @@
   .impactCreated ul li:nth-child(2),
   .impactCreated ul li:nth-child(4),
   .impactCreated ul li:nth-child(6) {
-    top: 0px;
+    top: 0em;
   }
   .impactCreated {
-    min-height: 300px;
+    min-height: 18.75em;
   }
   .impactCreated ul li {
     width: 33%;
   }
   .servicesWarpper a,
   .servicesMobSlider a {
-    height: 600px;
+    height: 37.5em;
   }
   .whatsNewSlider .LnewsListInfo .info {
-    padding-left: 0px;
+    padding-left: 0em;
   }
   .LnewsListInfo .date {
     float: none;
@@ -3362,15 +3362,15 @@
     vertical-align: top;
   }
   .LnewsListInfo .info {
-    padding-left: 0px;
+    padding-left: 0em;
     min-height: inherit;
   }
   .LnewsListInfo .info p {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .newsBlog .LnewsListInfo .info {
-    padding-left: 0px;
-    margin: 20px 0 0 0;
+    padding-left: 0em;
+    margin: 1.25em 0 0 0;
   }
   .LnewsListInfo .photo {
     float: none;
@@ -3381,14 +3381,14 @@
     text-align: center;
   }
   .LnewsListInfo .info {
-    padding-left: 0px;
+    padding-left: 0em;
   }
   .LnewsListInfo .heading {
     width: auto;
-    margin: 20px 0;
+    margin: 1.25em 0;
   }
   .incubatees {
-    padding: 20px 0 0;
+    padding: 1.25em 0 0;
     margin-bottom: 0;
   }
   .staffListRow .staffList {
@@ -3396,7 +3396,7 @@
   }
   .staffList li {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     padding: 0;
   }
   .staffListRow .staffList li:last-child,
@@ -3404,11 +3404,11 @@
     margin: 0;
   }
   .staffList li img {
-    max-width: 300px;
+    max-width: 18.75em;
   }
   .LnewsListInfo .photo {
     width: 100%;
-    max-width: 200px;
+    max-width: 12.5em;
   }
   .LnewsListInfo .photo img {
     width: 100%;
@@ -3429,10 +3429,10 @@
   }
   .contactUsMain ul li {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   .latestNewsRight .region-whats-news-section .LnewsBox {
-    padding: 15px 15px 50px 15px;
+    padding: 0.9375em 0.9375em 3.125em 0.9375em;
   }
   .itemListMain ul li .textDescription {
     width: 100%;
@@ -3440,26 +3440,26 @@
   .contactFullRow .contactUsMain ul li {
     width: 100%;
     min-height: auto;
-    margin: 0px 0 20px;
+    margin: 0em 0 1.25em;
   }
   .headQuarter {
     min-height: auto;
   }
   .contactUsMain ul li {
     min-height: auto;
-    margin: 0 0 10px;
+    margin: 0 0 0.625em;
   }
   .career-form .captcha {
-    padding-right: 0px;
+    padding-right: 0em;
   }
   .career-form .button {
     position: static;
   }
   .career-form .reload-captcha-wrapper {
-    right: 0px;
+    right: 0em;
   }
   .career-form {
-    padding: 30px 15px 50px 15px;
+    padding: 1.875em 0.9375em 3.125em 0.9375em;
   }
   .career-form .js-form-item {
     width: 100%;
@@ -3469,11 +3469,11 @@
   }
   .detailsTop .detailsRight {
     width: 100%;
-    max-width: 500px;
+    max-width: 31.25em;
     float: none;
     display: inline-block;
     vertical-align: top;
-    margin-top: 30px;
+    margin-top: 1.875em;
   }
   .detailsleft li::before {
     display: block;
@@ -3494,7 +3494,7 @@
 
   .blueBoxInfo .col-md-3 {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .blueBoxInfo .col-md-9 {
     width: 100%;
@@ -3516,20 +3516,20 @@
     width: 100%;
   }
   .newsLetterSub ul li:first-child {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .newsLetterSub ul li:nth-child(2) {
     width: 100%;
   }
   .newsLetterSub ul li {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   .newsLetterSub ul li:last-child {
-    margin-top: 0px;
+    margin-top: 0em;
   }
   .ministerInfo {
-    padding: 20px;
+    padding: 1.25em;
     height: auto;
     text-align: center;
   }
@@ -3537,7 +3537,7 @@
     position: static;
     display: inline-block;
     vertical-align: top;
-    width: 100px;
+    width: 6.25em;
     height: auto;
     min-height: inherit;
   }
@@ -3548,12 +3548,12 @@
   .ministerInfo .info {
     width: 100%;
     text-align: center;
-    margin: 20px 0 0 0;
+    margin: 1.25em 0 0 0;
     display: inline-block;
     vertical-align: top;
   }
   .mainMinister .ministerInfo .photo {
-    width: 150px;
+    width: 9.375em;
     height: auto;
     display: inline-block;
     vertical-align: top;
@@ -3562,7 +3562,7 @@
     text-align: center;
   }
   .innerPageContent h4 {
-    font-size: 20px;
+    font-size: 1.25em;
   }
   .innerPageContent .eventPostInfo {
     text-align: center;
@@ -3573,25 +3573,25 @@
     vertical-align: top;
   }
   .innerPageContent .eventPostInfo .info {
-    padding-left: 0px;
+    padding-left: 0em;
     min-height: inherit;
     width: 100%;
     text-align: center;
     clear: both;
-    margin: 20px 0 0 0;
+    margin: 1.25em 0 0 0;
   }
   .innerPageContent .eventPostInfo .info h5 {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .innerPageContent .eventPostInfo .date {
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   .innerPageContent .eventPostInfo h4 {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .pageControlSection h2 {
     font-size: 1.6em;
-    margin-top: 50px;
+    margin-top: 3.125em;
   }
   .neuronBlock .col-md-4 {
     width: 100%;
@@ -3604,17 +3604,17 @@
     vertical-align: top;
   }
   .neuronBlock li.col-md-4:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .footerLinks .col-md-2,
   .footerLinks .col-md-3 {
     text-align: left;
     width: 50%;
     min-height: inherit;
-    min-height: 340px;
+    min-height: 21.25em;
   }
   .bODMemInfo .mainPhoto {
-    max-width: 150px;
+    max-width: 9.375em;
   }
   #ajax-wrapper .js-form-item {
     width: 100%;
@@ -3623,15 +3623,15 @@
     width: 100%;
   }
   .totalSpaceCaption {
-    padding: 20px;
+    padding: 1.25em;
   }
   .totalCounter {
-    padding: 10px;
-    margin: 20px;
+    padding: 0.625em;
+    margin: 1.25em;
   }
   .totalCounter li {
     width: auto;
-    padding: 0 25px 0;
+    padding: 0 1.5625em 0;
     min-height: auto;
     float: none;
     display: inline-block;
@@ -3655,30 +3655,30 @@
     width: 100%;
   }
   .teamImage img {
-    border: 2px solid #e9e9e9;
+    border: 0.125em solid #e9e9e9;
   }
   .teamBlock li .contentMainBlock p {
     text-align: center;
   }
   .visionariesMember .recentBlock li {
     width: 100%;
-    padding: 0px;
+    padding: 0em;
   }
   .visionariesMember .recentBlock {
-    padding: 0px;
+    padding: 0em;
   }
   .imageInfoCover .contentInfo {
     width: 100%;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    border-bottom: 0.0625em solid #ccc;
+    margin-bottom: 1.875em;
+    padding-bottom: 1.875em;
   }
   .imageInfoCover .image {
     width: 100%;
     text-align: center;
   }
   .imageInfoCover .image img {
-    max-width: 300px;
+    max-width: 18.75em;
     display: inline-block;
     vertical-align: top;
   }
@@ -3686,25 +3686,25 @@
     display: none;
   }
   .imageInfoCover {
-    padding: 15px;
+    padding: 0.9375em;
   }
   .innerPageContent .eventPostInfo h4 {
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   .innerPageContent .eventPostInfo .date {
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
     display: inline-block;
     vertical-align: top;
   }
   .innerPageContent .eventPostInfo p {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .path-video-gallery .videoGallery li,
   .video-listing .video-section li,
   .view-photo-gallery ul li {
     width: 100%;
     float: none;
-    max-width: 400px;
+    max-width: 25em;
     display: inline-block;
     vertical-align: top;
   }
@@ -3714,26 +3714,26 @@
     text-align: center;
   }
   .btnCaptchaRow .js-form-item {
-    padding-left: 0px;
+    padding-left: 0em;
   }
   .ourService .servicesMobSlider .owl-prev:before,
   .ourService .servicesMobSlider .owl-next:before {
-    font-size: 30px;
+    font-size: 1.875em;
   }
   .imageText .image {
     max-width: 100%;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   .ministerDetails .ministerDRgt {
-    padding-left: 0px;
+    padding-left: 0em;
     text-align: center;
   }
   .ministerDetails .ministerDLft {
     float: none;
     display: inline-block;
     vertical-align: top;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .ministerDetails .ministerDTop {
     text-align: center;
@@ -3746,7 +3746,7 @@
     float: none;
     display: inline-block;
     vertical-align: top;
-    max-width: 300px;
+    max-width: 18.75em;
   }
   .spaceAvaibilityForm .js-form-type-email,
   .spaceAvaibilityForm .js-form-type-textfield {
@@ -3754,13 +3754,13 @@
   }
   .career-form .captcha img {
     position: static;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   .career-form .captcha {
-    padding-left: 0px;
+    padding-left: 0em;
   }
   .career-form .captcha label.error {
-    left: 0px;
+    left: 0em;
     position: static;
   }
   .newsLetterSub ul li:nth-child(2) {
@@ -3769,11 +3769,11 @@
   }
   .detailsleft li {
     width: 100%;
-    border-bottom: 1px solid #ccc;
-    padding: 5px 0;
+    border-bottom: 0.0625em solid #ccc;
+    padding: 0.3125em 0;
   }
   .detailsleft li:last-child {
-    border-bottom: 0px;
+    border-bottom: 0em;
   }
   .detailsleft li::before,
   .detailsleft li:nth-child(4n)::before,
@@ -3782,23 +3782,23 @@
     display: none;
   }
   .detailsleft {
-    padding: 15px;
+    padding: 0.9375em;
   }
   .detailsTop h2 {
     font-size: 1.3em;
   }
   .page-views-listing .innerPageContent .eventPostInfo {
     width: 100%;
-    max-width: 400px;
+    max-width: 25em;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     display: inline-block;
     vertical-align: top;
     float: none;
-    padding: 0px;
+    padding: 0em;
   }
   .page-views-listing .innerPageContent .eventPostInfo .info {
-    padding: 15px;
+    padding: 0.9375em;
     text-align: left;
   }
   .page-views-listing .eventDetailpage {
@@ -3809,7 +3809,7 @@
   }
   .recentBlock li {
     width: 100%;
-    max-width: 400px;
+    max-width: 25em;
     float: none;
     display: inline-block;
   }
@@ -3817,26 +3817,26 @@
     text-align: center;
   }
   .career-form .reload-captcha-wrapper {
-    top: 82px;
+    top: 5.125em;
   }
   .tenderDates .tenderDate {
     width: 100%;
   }
   .tenderHeading .tenderTitle {
-    font-size: 16px;
+    font-size: 1em;
   }
 }
 @media only screen and (max-width: 600px) {
   .region-primary-menu #nav {
-    top: 44px;
+    top: 2.75em;
   }
   .headerLeft {
     width: 100%;
     max-width: 100%;
     text-align: center;
-    margin-top: 50px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    padding-top: 20px;
+    margin-top: 3.125em;
+    border-top: 0.0625em solid rgba(255, 255, 255, 0.2);
+    padding-top: 1.25em;
   }
   #header.sticky #logo {
     max-width: 100%;
@@ -3848,16 +3848,16 @@
     width: 100%;
   }
   .newsLetterSub ul li:not(:last-child) {
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   .teamSlider ul li {
     width: 100%;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
+    border-bottom: 0.0625em solid #ccc;
+    margin-bottom: 1.875em;
+    padding-bottom: 1.25em;
   }
   .ourTeam .photo img {
-    max-width: 200px;
+    max-width: 12.5em;
     display: inline-block;
     vertical-align: top;
   }
@@ -3871,12 +3871,12 @@
   }
   .eventPostInfo {
     text-align: center;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    border-bottom: 0.0625em solid #ccc;
+    padding-bottom: 1.875em;
+    margin-bottom: 1.875em;
   }
   .eventPostInfo .info {
-    padding-left: 0px;
+    padding-left: 0em;
     width: 100%;
     text-align: center;
     min-height: inherit;
@@ -3884,18 +3884,18 @@
   .eventPostInfo .photo {
     float: none;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
     display: inline-block;
     vertical-align: top;
   }
   .eventPostInfo .info h5 {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .resTab .r-tabs-accordion-title .r-tabs-anchor h4 {
     font-size: 1.3em;
   }
   .eventsCampaigns .eventsBox {
-    padding: 15px;
+    padding: 0.9375em;
   }
   .eventPostInfo .info h5 {
     font-size: 1em;
@@ -3918,23 +3918,23 @@
     vertical-align: top;
   }
   .boardOfDireInfo .bODMemInfo .mainPhoto {
-    max-width: 150px;
+    max-width: 9.375em;
     display: inline-block;
     vertical-align: top;
   }
   .centerOfExce .profilesInfo li {
     width: 100%;
-    padding: 0px;
-    margin-bottom: 10px;
+    padding: 0em;
+    margin-bottom: 0.625em;
   }
   .centerOfExce .profilesInfo li:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .centerOfExce .profile {
     float: none;
     display: inline-block;
     vertical-align: top;
-    max-width: 300px;
+    max-width: 18.75em;
   }
   .centerOfExce .profilesInfo {
     text-align: center;
@@ -3944,7 +3944,7 @@
   }
   .centerOfExceRgt .col-md-6 {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
     text-align: center;
   }
   .centerOfExce .btns .yellowBdrBtn {
@@ -3959,20 +3959,20 @@
     width: 100%;
   }
   .career-form {
-    padding: 20px 0px;
+    padding: 1.25em 0em;
   }
   .career-form .button {
     font-size: 1em;
   }
   .knowYourMiniPage .teamBlock {
-    margin: 0px;
+    margin: 0em;
   }
   .knowYourMiniPage .teamBlock li {
-    padding: 15px;
+    padding: 0.9375em;
     text-align: center;
   }
   .knowYourMiniPage .teamInfo {
-    padding-left: 0px;
+    padding-left: 0em;
     clear: left;
     width: 100%;
   }
@@ -3985,16 +3985,16 @@
     position: static;
   }
   .knowYourMiniPage .teamBlockBox {
-    padding: 0px 15px;
+    padding: 0em 0.9375em;
   }
   .imageText .image {
-    padding-left: 0px;
-    margin-bottom: 20px;
+    padding-left: 0em;
+    margin-bottom: 1.25em;
   }
 }
 @media only screen and (max-width: 550px) {
   .serviceCaption {
-    padding: 0 70px;
+    padding: 0 4.375em;
   }
 
   .footerLinks .col-md-2,
@@ -4015,7 +4015,7 @@
 }
 @media only screen and (max-width: 479px) {
   .directorateHead {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .newsletterPage ul li {
     width: 100%;
@@ -4023,11 +4023,11 @@
   .directorateInfo .photo {
     display: inline-block;
     vertical-align: top;
-    width: 100px;
-    top: 10px;
+    width: 6.25em;
+    top: 0.625em;
   }
   .directorateProInfo {
-    padding-top: 10px;
+    padding-top: 0.625em;
   }
   .directorateInfo .profileName h4 {
     font-size: 1.3em;
@@ -4037,24 +4037,24 @@
     clear: both;
   }
   .eventsCampaigns h4 {
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   .newsLetterSub h3 {
     font-size: 1.6em;
     line-height: 1;
   }
   .socialFooter .info {
-    padding-left: 0px;
+    padding-left: 0em;
     width: 100%;
     display: inline-block;
     vertical-align: top;
-    margin: 20px 0 0 0;
+    margin: 1.25em 0 0 0;
   }
   .campainImage {
-    max-width: 300px;
+    max-width: 18.75em;
   }
   .campaingsSlider .owl-controls {
-    top: 180px;
+    top: 11.25em;
   }
   .impactCreated ul li {
     width: 50%;
@@ -4063,20 +4063,20 @@
     width: 100%;
   }
   .campainImage {
-    min-height: 135px;
+    min-height: 8.4375em;
   }
   .views-exposed-form .form-text {
     width: 100%;
   }
   .views-exposed-form .button {
-    margin: 0px;
+    margin: 0em;
     width: 100%;
   }
   .views-exposed-form .form--inline .form-item {
     max-width: 100%;
   }
   .path-main-know-your-minister .view-filters {
-    padding: 20px 15px;
+    padding: 1.25em 0.9375em;
   }
   .teamBlock li {
     width: 100%;
@@ -4092,7 +4092,7 @@
   }
   .megaMenuContent .col-md-3 {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   .recentBlock li {
     width: 100%;
@@ -4101,21 +4101,21 @@
     width: auto;
   }
   .trendingBox ul li .trendingText {
-    padding-left: 119px;
+    padding-left: 7.4375em;
   }
   .recentBlockBox .row {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
   }
   .servicesWarpper a,
   .servicesMobSlider a {
-    min-height: 600px;
+    min-height: 37.5em;
   }
   .boardOfDirectors .col-md-4 {
     width: 100%;
   }
   .boardOfDirectors .col-md-8 {
     width: 100%;
-    margin-top: 70px;
+    margin-top: 4.375em;
   }
   .boardOfDirectors .owl-controls {
     left: 50%;
@@ -4127,15 +4127,15 @@
     padding-right: 0;
   }
   .node-feedback-form .btnCaptchaRow {
-    padding: 0px;
+    padding: 0em;
   }
   .node-feedback-form label.error {
-    left: 0px;
+    left: 0em;
   }
   .newMentors .chiefMentorLeft {
     width: 100%;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 1.25em;
+    margin-bottom: 1.25em;
     text-align: center;
   }
   .blogPostBigImg {
@@ -4143,8 +4143,8 @@
     margin: 0 auto;
   }
   .chiefMentoeDetail {
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 0.625em;
+    margin-bottom: 1.25em;
     width: auto;
   }
   .newMentors .chiefMentorLeft p {
@@ -4154,34 +4154,34 @@
     font-size: 1em;
   }
   .detailPage .field--type-image {
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   .detailsleft li {
     width: 100%;
   }
   .views-exposed-form {
-    margin: 0px auto;
+    margin: 0em auto;
     text-align: center;
   }
   .views-exposed-form .form--inline .form-item {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   .views-exposed-form .button {
-    margin: 20px 0 0 0;
+    margin: 1.25em 0 0 0;
     float: none;
     display: inline-block;
     vertical-align: top;
   }
   .views-exposed-form .form-select {
-    margin: 0px;
+    margin: 0em;
   }
   .neuronBlock li .neuronIn {
     max-width: 100%;
     width: 100%;
   }
   .neuronBlock .col-md-4 {
-    padding: 0px;
+    padding: 0em;
   }
   .innerBannerSection .pageControlSection h1 {
     font-size: 1.6em;
@@ -4203,7 +4203,7 @@
     width: 95%;
     float: right;
     text-align: center;
-    padding-right: 20px;
+    padding-right: 1.25em;
   }
   .stateGovernmentsLeft,
   .stateGovernmentsRight {
@@ -4211,50 +4211,50 @@
   }
   .stateGovernmentsLeft li {
     width: 100%;
-    min-height: 130px;
-    margin-bottom: 10px;
+    min-height: 8.125em;
+    margin-bottom: 0.625em;
   }
   .stateGovernmentsLeft li img {
     width: 25%;
   }
   .stateGovernmentsRight li {
     width: 100%;
-    min-height: 130px;
-    margin-bottom: 10px;
+    min-height: 8.125em;
+    margin-bottom: 0.625em;
   }
   .stateGovernmentsRight li img {
     width: 25%;
   }
   .TeamBigInfo ul li {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   .ourTeam .photo {
     float: none;
   }
   .directorateLft ul li {
-    margin: 0 1px 10px;
+    margin: 0 0.0625em 0.625em;
   }
   .itemListMain ul li .textDescription {
     width: 100%;
   }
   .itemListMain ul li .downloadFiles {
     float: none;
-    margin: 10px 0 0;
+    margin: 0.625em 0 0;
     display: inline-block;
     width: 100%;
   }
   .policiesSection li {
     width: 100%;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
+    margin-bottom: 1.25em;
+    border-bottom: 0.0625em solid #ccc;
+    padding-bottom: 0.625em;
   }
   .policiesSection li:last-child {
-    border-bottom: 0px;
+    border-bottom: 0em;
   }
   .qultObj .objText {
-    padding: 0px;
+    padding: 0em;
     width: 100%;
     float: left;
     clear: both;
@@ -4267,29 +4267,29 @@
     display: inline-block;
     vertical-align: top;
     float: none;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .finLabRight li {
-    padding: 10px 0px 10px 0;
+    padding: 0.625em 0em 0.625em 0;
   }
   .career-form .captcha {
-    padding-left: 0px;
+    padding-left: 0em;
   }
   .career-form .captcha img {
     position: static;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .career-form .reload-captcha-wrapper {
     top: inherit;
-    bottom: 24px;
+    bottom: 1.5em;
   }
   .lNHeading h2 {
     font-size: 1.6em;
   }
   .boardOfDirectors .col-md-4 {
-    margin-bottom: 10px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ccc;
+    margin-bottom: 0.625em;
+    padding-bottom: 1.875em;
+    border-bottom: 0.0625em solid #ccc;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -4303,13 +4303,13 @@
   .ourTeam h2 {
     width: 100%;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
   }
   .ourTeam .yellowBdrBtn {
     float: none;
     display: inline-block;
     vertical-align: top;
-    margin-right: 0px;
+    margin-right: 0em;
   }
   .boardOfDirectors .col-md-4,
   .boardOfDirectors .col-md-8 {
@@ -4317,7 +4317,7 @@
   }
   .indexBanner .sliderBanner .item > img,
   .indexBanner .sliderBanner .item {
-    min-height: 300px;
+    min-height: 18.75em;
   }
   .ourServiceHead h2 {
     float: left;
@@ -4331,10 +4331,10 @@
   h2 {
     font-size: 1.4em;
     line-height: 1.2;
-    margin-top: 11px;
+    margin-top: 0.6875em;
   }
   .rotatingMobSlider h2 {
-    margin-top: -1px;
+    margin-top: -0.0625em;
   }
   .latestNewsRight h2 {
     font-size: 1.1em;
@@ -4347,17 +4347,17 @@
     font-size: 0.9em;
   }
   .headerRight .search .region-search-section {
-    width: 230px;
+    width: 14.375em;
   }
 }
 @media screen and (max-width: 425px) {
   iframe.you_video {
-    height: 182px;
+    height: 11.375em;
   }
 }
 @media screen and (max-width: 768px) {
   iframe.you_video {
-    height: 301px;
+    height: 18.8125em;
   }
   .stateGovernmentsFull li:nth-child(2) .listTiltes {
     position: relative;
@@ -4376,7 +4376,7 @@
   .path-centre-of-entrepreneurship .typicalObjective,
   .path-centre-of-entrepreneurship .ecosystem,
   .startup_eco {
-    width: 1920px;
+    width: 120em;
     margin-left: -27%;
   }
 }
@@ -4412,8 +4412,8 @@
   }
 
   .pset {
-    padding-top: 180px;
-    padding-bottom: 10px;
+    padding-top: 11.25em;
+    padding-bottom: 0.625em;
     /*    padding-left: 90px;
           padding-right: 90px; */
   }
@@ -4428,14 +4428,14 @@
   }
 
   .listar-feature-icon-inner {
-    width: 260px;
-    height: 120px;
-    line-height: 120px;
-    border-radius: 500px;
+    width: 16.25em;
+    height: 7.5em;
+    line-height: 7.5em;
+    border-radius: 31.25em;
     position: relative;
     display: inline-block;
     vertical-align: middle;
-    box-shadow: 10px 10px 20px rgb(0 0 0 / 24%);
+    box-shadow: 0.625em 0.625em 1.25em rgb(0 0 0 / 24%);
     background: #fff;
   }
 
@@ -4443,14 +4443,14 @@
     position: relative;
     display: block;
     text-decoration: none;
-    margin: -10px;
-    padding: 55px;
-    height: calc(100% + 100px);
+    margin: -0.625em;
+    padding: 3.4375em;
+    height: calc(100% + 6.25em);
   }
 
   .listar-feature-item .listar-feature-item-inner {
-    padding: 50px 30px;
-    border-radius: 6px;
+    padding: 3.125em 1.875em;
+    border-radius: 0.375em;
     z-index: 5;
     position: relative;
     height: 100%;
@@ -4460,25 +4460,14 @@
     background-size: auto;
   }
 
-  /*.startup_eco::after {
-        content: "";
-          position: absolute;
-          background-image: url(/themes/stpi/images/bluerightafter.png);
-          width: 155px;
-          height: 191px;
-          bottom: 0px;
-          right: 0px;
-          background-repeat: round;
-        }*/
+
 
   .header-design {
     background-color: #a4508b;
     background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
-    height: 120px;
+    height: 7.5em;
     text-align: center;
-    /*width: 150%;
-          margin-left: -25%;
-          margin-right: -25%;*/
+ 
   }
 
   .listar-map-button {
@@ -4487,25 +4476,25 @@
   }
 
   .listar-feature-item .listar-feature-item-inner {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.625em;
+    padding-bottom: 0.625em;
   }
 
   .listar-feature-item-wrapper {
-    margin-bottom: 170px;
-    padding-left: 150px;
-    padding-right: 150px;
+    margin-bottom: 10.625em;
+    padding-left: 9.375em;
+    padding-right: 9.375em;
   }
 
   .startup_image {
-    padding: 20px 0;
+    padding: 1.25em 0;
     text-align: center;
   }
   .splRight .listar-feature-icon-wrapper {
-    margin-left: -60px;
+    margin-left: -3.75em;
   }
   .listar-feature-icon-wrapper {
-    margin-left: -230px;
+    margin-left: -14.375em;
   }
   .startup_image {
     margin-bottom: 0;
@@ -4517,31 +4506,20 @@
   }
 
   .pset {
-    padding-top: 180px;
-    padding-bottom: 4px;
-    /*    padding-left: 275px;
-          padding-right: 225px; */
+    padding-top: 11.25em;
+    padding-bottom: 0.25em;
+
   }
 
   .startup_eco {
     background-size: auto;
   }
 
-  /*	.startup_eco::after {
-        content: "";
-          position: absolute;
-          background-image: url(/themes/stpi/images/bluerightafter.png);
-          width: 155px;
-          height: 191px;
-          bottom: 0;
-          right: 0;
-          background-repeat: round;
-        }*/
   .splRight .listar-feature-icon-wrapper {
-    margin-left: -60px;
+    margin-left: -3.75em;
   }
   .listar-feature-icon-wrapper {
-    margin-left: -230px;
+    margin-left: -14.375em;
   }
   .startup_image {
     margin-bottom: -2%;
@@ -4552,10 +4530,10 @@
     margin-bottom: -6%;
   }
   .splRight .listar-feature-icon-wrapper {
-    margin-left: -60px;
+    margin-left: -3.75em;
   }
   .listar-feature-icon-wrapper {
-    margin-left: -230px;
+    margin-left: -14.375em;
   }
 }
 @media screen and (max-width: 1920px) {
