@@ -1824,10 +1824,10 @@ ol li {
   position: absolute;
   left: 0em;
   top: 0em;
-  width: 2.5em;
-  height: 2.5em;
+  width: 2.5rem;
+  height: 2.5rem;
   font-family: fontAwesome;
-  font-size: 1.4em;
+  font-size: 1.4rem;
   line-height: 1;
   background-image: url(https://stpi.in/themes/stpi/images/social-icons-maps-india.png);
   background-repeat: no-repeat;
@@ -1837,7 +1837,7 @@ ol li {
   font-size: 2em;
 }
 .dirContactInfo .call:before {
-  background-position: 0 4.5rem;
+  background-position: 0 -3.5rem;
 }
 .dirContactInfo .email:before {
   background-position: 0 -6.2rem;
@@ -3091,7 +3091,6 @@ ol li {
   font-size: 1.071em;
   font-weight: bold;
   color: #3737a8;
-
 }
 .eventsCampaigns .resTab .tabContent {
   padding: 1.875em 0em 0;
@@ -4110,8 +4109,8 @@ footer {
   vertical-align: top;
   border: 0.125em solid #fdb913;
   border-radius: 50%;
-  width: 3.125em;
-  height: 3.125em;
+  width: 2.125em;
+  height: 2.125em;
   font-size: 1.875em;
   text-align: center;
   line-height: 1;
@@ -4162,7 +4161,7 @@ footer {
   content: "";
   position: absolute;
   left: 0em;
-  top: 0.3125em;
+  top: 0.9em;
   width: 0.0625em;
   height: 0.625em;
   background-color: #fff;
@@ -4647,14 +4646,14 @@ p a {
 .stpiCentersSlider .resTab .tabNav li a {
   font-size: 2.429em;
   line-height: 2;
-  padding: 1.875em 0.3125em;
+  padding: 1.875rem 0.3125rem;
   font-family: "oswaldregular";
   display: inline-block;
   vertical-align: top;
   font-weight: 400;
   text-align: center;
   position: relative;
-  line-height: 1.12em;
+  line-height: 1.12rem;
 }
 .stpiCentersSlider .resTab .tabNav li a:before {
   content: "";
@@ -4677,7 +4676,7 @@ p a {
   outline: none;
 }
 .stpiCentersSlider .owl-prev {
-  left: 1.875em;
+  left: 0.875rem;
 }
 .stpiCentersSlider .owl-prev:before {
   content: "\f104";
@@ -4685,7 +4684,7 @@ p a {
   background-color: transparent;
 }
 .stpiCentersSlider .owl-next {
-  right: 0.625em;
+  right: 0.625rem;
 }
 .stpiCentersSlider .owl-next:before {
   content: "\f105";
@@ -4693,7 +4692,7 @@ p a {
 }
 .stpiCentersSlider .owl-controls .owl-nav [class*="owl-"] {
   position: absolute;
-  top: 1.5625em;
+  top: 1.625rem;
   tranform: translate(0, -50%);
   background-color: transparent;
   font-size: 3.125em;
@@ -4845,11 +4844,11 @@ p a {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   text-align: center;
-  min-height: 17.5em;
+  min-height: 17.5rem;
   height: auto;
-  border-radius: 0.625em;
+  border-radius: 0.625rem;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .card_back {
@@ -4949,7 +4948,7 @@ p a {
   color: #fff;
 }
 .card_back .card.inner p {
-  font-size: 1.125em;
+  font-size: 1rem;
   color: white;
 }
 .card_back .card.inner a {
@@ -4986,7 +4985,7 @@ p.card_btn a.commonBtn {
 }
 .card_back .card_inner p {
   color: #fff;
-  font-size: 1.125em;
+  font-size: 1.125rem;
   text-transform: capitalize;
 }
 .card_back h3.card_oic_name {
@@ -5591,10 +5590,10 @@ p.card_btn a.commonBtn {
   margin-bottom: 0;
   text-align: center;
   color: #fff;
-  line-height: 2.625em;
+  line-height: 1.625em;
 }
 .lifecycleTitle {
-  padding: 2.375em 7.5em;
+  padding: 2.1rem 7.5rem;
   width: 53.125em;
   margin: 0 auto;
   background-color: #313197;
@@ -5632,7 +5631,7 @@ p.card_btn a.commonBtn {
 }
 .lifecycleIconsList li {
   list-style: none;
-  width: 14%;
+  width: 13%;
   display: inline-block;
   position: relative;
   z-index: 1;
@@ -7926,7 +7925,7 @@ body.wob {
   -moz-transition: font-size 0s !important;
 }
 .wob a {
-  color: #ff0;
+  color: #ff0 !important;
 }
 .wob a:hover,
 .wob .recentBlock .info a:hover h4 {
@@ -9117,5 +9116,7 @@ body.wob {
 .wob .spaceAvaibilityForm .js-form-item label.error {
   color: #80ff00;
 }
+.wob a {
 
+}
 /************ dark mode css ends here ************/
