@@ -2231,8 +2231,8 @@ ol li {
   height: 4.5em;
   width: 1.9375em;
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 47%;
+  top: 61%;
   transform: rotate(70deg);
   margin-left: -1.3125em;
   margin-top: -7.25em;
@@ -2720,11 +2720,11 @@ ol li {
 }
 .socialEngMulTab .resTab .tabNav li a {
   background-color: #fff;
-  width: 4.0625em;
-  height: 4.0625em;
-  font-size: 2.5em;
+  width: 4.0625rem;
+  height: 4.0625rem;
+  font-size: 1em;
   line-height: 1.8;
-  padding: 0.0625em 0.75em;
+  padding: 1.0625em 0.75em;
   text-align: center;
   display: inline-block;
   vertical-align: top;
@@ -2762,11 +2762,11 @@ ol li {
   -webkit-box-shadow: -0.0625em -0.0625em 1.25em 0em rgba(0, 0, 0, 0.3);
   -moz-box-shadow: -0.0625em -0.0625em 1.25em 0em rgba(0, 0, 0, 0.3);
   box-shadow: -0.0625em -0.0625em 1.25em 0em rgba(0, 0, 0, 0.3);
-  height: 32.3125em;
+  height: 32.3125rem;
   text-align: left;
 }
 .socialEngMulTab .socialEngCover {
-  height: 28.25em;
+  height: 28.25rem;
 }
 .region-social-engagement-facebook iframe {
   position: relative;
@@ -2916,7 +2916,7 @@ ol li {
   line-height: 1.4;
 }
 .newsBlog .LnewsListInfo .info {
-  padding-left: 10em;
+  padding-left: 10rem;
 }
 .newsBlog p {
   margin-bottom: 0em;
@@ -3057,14 +3057,14 @@ ol li {
   margin: 0.0625em 0 0 0;
 }
 .eventPostInfo {
-  margin-bottom: 1.875em;
+  margin-bottom: 1.875rem;
 }
 .eventPostInfo a:hover {
   color: #3737a8;
 }
 .eventPostInfo .photo {
   float: left;
-  height: 9.375em;
+  height: 10.375em;
   overflow: hidden;
   max-width: 16.875em;
 }
@@ -3086,6 +3086,12 @@ ol li {
   text-align: justify;
   font-size: 1.071em;
   font-weight: normal;
+}
+.eventPostInfo .info h5 time {
+  font-size: 1.071em;
+  font-weight: bold;
+  color: #3737a8;
+
 }
 .eventsCampaigns .resTab .tabContent {
   padding: 1.875em 0em 0;
@@ -3740,13 +3746,13 @@ ol li {
 }
 .clientLogo .owl-controls .owl-prev {
   position: absolute;
-  left: -1.875em;
+  left: -1.875rem;
   top: 38%;
   text-transform: uppercase;
   font-size: 0em !important;
   background: url(../images/client-logo-arrow.png) no-repeat left top !important;
-  height: 1.5625em;
-  width: 1.875em;
+  height: 1.5625rem;
+  width: 1.875rem;
   color: #164a6e;
   background-color: #fff;
   transition: all 0.3s;
@@ -3759,13 +3765,13 @@ ol li {
 }
 .clientLogo .owl-controls .owl-next {
   position: absolute;
-  right: -1.875em;
+  right: -1.875rem;
   top: 38%;
   text-transform: uppercase;
   font-size: 0em !important;
   background: url(../images/client-logo-arrow.png) no-repeat right top !important;
-  height: 1.5625em;
-  width: 1.875em;
+  height: 1.5625rem;
+  width: 1.875rem;
   color: #164a6e;
   background-color: #fff;
   transition: all 0.3s;
