@@ -7100,25 +7100,6 @@ nav.pager ul li a:hover {
   width: 100%;
 }
 
-/* .mainMinister { -webkit-box-shadow: -0.0625em -0.0625em1.125em 0em rgba(0,0,0,0.14);
-  -moz-box-shadow: -0.0625em -0.0625em1.125em 0em rgba(0,0,0,0.14);
-  box-shadow: -0.0625em -0.0625em1.125em 0em rgba(0,0,0,0.14); margin:0 -0.9375em; display:inline-block; vertical-align:top;}
-  .mainMinister .ministerInfo { background-color:#1465a4; color:#fff;}
-  .mainMinister .ministerInfo a{ color:#fff;}
-  .mainMinister .ministerInfo ul li a{ color:#fff; border-color:#fff;}
-  .mainMinister .ministerInfo ul li a:hover { background-color:#000;}
-  .ministerInfo ul li:nth-child(1) a:hover { background-color:#00aced; border-color:#00aced; color:#fff;}
-  .ministerInfo ul li:nth-child(2) a:hover { background-color:#3a559f;  border-color:#3a559f; color:#fff;}
-  .ministerInfo ul li:nth-child(3) a:hover { background-color:#007ab9;  border-color:#007ab9; color:#fff;}
-  .mainMinister .ministerInfo .info p{ margin-bottom:0.625em;}
-  .ministerBottomInfo {   text-align:justify; padding:1.25em; min-height:240px;  } 
-  .ministerBottomInfo p{ font-size:1.071em; line-height:1.4; margin-bottom:0em;}
-  .ministerCover { 
-  box-shadow:0em 0.3125em 0.625em #8a8989; 
-  -webkit-box-shadow:0em 0.3125em 0.625em #8a8989;
-  -moz-shadow:0em 0.3125em 0.625em #8a8989;
-  -ms-shadow:0em 0.3125em 0.625em #8a8989;
-   } */
 /* know-your-minister end */
 
 /* main blog pages start */
@@ -7372,6 +7353,31 @@ table tr:nth-child(odd) td,
 .text {
   color: #3737a8;
   font-weight: bold;
+}
+
+.ojectoutCenterFull:before {
+  content: "";
+  position: absolute;
+  background-image: url(https://stpi.in/themes/stpi/images/gvtop.png);
+  background-repeat: no-repeat;
+  width: 28.875em;
+  height: 15.625em;
+  background-size: 28.5em;
+  top: -2.75em;
+  left: -1.8125em;
+}
+.borderradis:before {
+  content: "";
+  position: absolute;
+  width: 10em;
+  height: 10em;
+  border: 0.625em solid #d4d4d4;
+  left: -1em;
+  right: 0;
+  margin: 0 auto;
+  top: -1.0625em;
+  border-radius: 5.625em;
+  z-index: -1;
 }
 
 /* start-up css start */
@@ -9117,6 +9123,193 @@ body.wob {
   color: #80ff00;
 }
 .wob a {
-
 }
 /************ dark mode css ends here ************/
+
+/* center of enterpreneurship */
+.view-incubation-services {
+  text-align: center;
+}
+.view-whats-new .view-filters {
+  padding-bottom: 1.875em;
+}
+.fosteringLeft h4 {
+  color: #000;
+  line-height: 1.375em;
+}
+.fosteringLeft p {
+  text-align: justify;
+}
+.fosteringCenter {
+  padding: 1.25em 0 4.375em 0;
+}
+.fosteringCenter .fosteringLeft h4 .field--type-list-string {
+  display: inline-block;
+  vertical-align: top;
+}
+.fosteringCenter .row {
+  margin-bottom: 0;
+}
+.fosteringLeft h2 {
+  line-height: 1.2;
+}
+.fosteringRight {
+  text-align: right;
+  margin-top: -5.5em;
+}
+.incubationCenter {
+  padding-bottom: 5em;
+}
+.incubationLeft {
+  width: 59%;
+  float: left;
+}
+.incubationBullet li {
+  width: 50%;
+  float: left;
+  list-style: none;
+  cursor: pointer;
+}
+.incubationRight {
+  width: 40%;
+  display: inline-block;
+  margin-bottom: 0;
+}
+.incubationBullet {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.incubationBullet li {
+  width: 50%;
+  float: left;
+  list-style: none;
+  position: relative;
+}
+.captionTextArea h4 {
+  font-size: 1.875em;
+  line-height: 2.4375em;
+}
+.captionTextArea h6 {
+  color: #000;
+  margin-bottom: 0.625em;
+  font-weight: 600;
+  font-size: 1.25em;
+}
+.captionTextArea p {
+  font-size: 0.875em;
+  color: #000;
+  margin-bottom: 0;
+}
+.captionTextArea {
+  position: absolute;
+  top: -0.8125em;
+  background-color: #eeb71f;
+  transition: 1s;
+  box-shadow: 0.625em 0.625em 1.25em 0em #584e4e;
+  padding: 1.25em;
+  z-index: 999;
+  width: 16.875em;
+  opacity: 0;
+  min-height: 16.875em;
+  left: -0.375em;
+}
+.incubationBullet li:hover .captionTextArea {
+  opacity: 1;
+}
+.totalSpaceRow {
+  position: relative;
+}
+.incubationRow {
+  margin-right: -0.9375em;
+}
+.totalSpaceCaption {
+  background-color: #0d89d9;
+  width: 35%;
+  padding: 2.5em;
+}
+.totalSpaceCaption h2 {
+  color: #fff;
+  line-height: 1.75em;
+  margin-bottom: 0.625em;
+}
+.totalSpaceCaption p {
+  color: #fff;
+}
+.totalCounter li {
+  width: 33.3333%;
+  float: left;
+  text-align: center;
+  padding: 0.875em 0.625em;
+  list-style: none;
+  min-height: 7.5em;
+  position: relative;
+}
+.totalCounter li:nth-child(-n + 5):before {
+  content: "";
+  position: absolute;
+  border-right: 0.25em solid #3131a1;
+  height: 4.3125em;
+  top: 22%;
+  right: 0;
+}
+.totalCounter li:nth-child(-n + 3):after {
+  content: "";
+  position: absolute;
+  border-bottom: 0.25em solid #3131a1;
+  height: 1.125em;
+  width: 5.9375em;
+  margin: 0 auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+.totalCounter {
+  background-color: #24248d;
+  padding: 1.25em;
+  width: 30em;
+  margin-left: -3.5em;
+  margin-bottom: 1.25em;
+  margin-top: 1.25em;
+}
+.totalCounter li:nth-child(3):before {
+  border-right: none;
+}
+.totalCounter li h3 {
+  color: #eeb71f;
+  margin-bottom: 0;
+}
+.totalSpaceCaption p {
+  margin-bottom: 0;
+  font-size: 1em;
+}
+.spaceAvaibility {
+  background-color: #ededee;
+  padding: 6.25em 0 3.125em 0;
+  margin-top: -3.125em;
+}
+.spaceAvaibilityForm {
+  width: 30%;
+  float: left;
+}
+.spaceAvaibilityInstruction {
+  float: right;
+  width: 62%;
+}
+.spaceAvaibilityInstruction ol li {
+  font-size: 1em;
+}
+.spaceAvaibilityInstruction p {
+  font-size: 1em;
+}
+.spaceAvaibilityForm .builiding {
+  background: #ffffff;
+  padding: 0.625em 1.25em;
+  height: 3.125em;
+  border-radius: 0.4375em;
+  font-size: 0.9375em;
+  margin-bottom: 0.9375em;
+  width: 100%;
+}
+.spaceAvaibilityForm select:nth-child(2) {
+  margin-right: 0.6875em;
+}
