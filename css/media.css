@@ -1,4 +1,8 @@
 @media only screen and (max-width: 1024px) {
+  .mapInfo,
+  .disclaimerMain {
+    display: none;
+  }
   .incubationSlider {
     width: 100% !important;
   }
@@ -191,7 +195,7 @@
     padding: 1.875em 1.25em;
   }
   .mapInfo {
-    margin: 1.875em 0 0;
+    margin: 3.875em 0 0;
   }
   .panIndia {
     height: auto;
@@ -203,7 +207,7 @@
     right: -1.875em;
     top: 0em;
     width: 100%;
-    height: 54.0625em;
+    height: 57.0625em;
   }
   .directorateLft {
     padding: 4.375em 0;
@@ -1314,7 +1318,7 @@
   .latestNewsRight .region-whats-news-section .LnewsBox {
     margin-bottom: 9.5625em;
   }
-  .panIndia .col-md-3 {
+  /* .panIndia .col-md-3 {
     width: 50%;
   }
   .panIndia .col-md-5 {
@@ -1322,7 +1326,7 @@
   }
   .panIndia .col-md-4 {
     width: 100%;
-  }
+  } */
   .directorateInfo {
     height: auto;
     right: 0em;
@@ -1711,7 +1715,7 @@
   .directorateLft .selectInfo a:hover::before {
     top: -0.125em;
     height: 2em;
-    width: 13.125em !important;
+    width: 14.125em;
   }
   .panIndia .col-md-5,
   .panIndia .col-md-4 {
@@ -2170,6 +2174,7 @@
   }
 }
 @media only screen and (max-width: 959px) {
+ 
   .impactCreated ul {
     padding: 0em;
     margin: 0em;
@@ -3060,12 +3065,12 @@
     display: none;
   }
   .socialEngMulTab .resTab .tabNav li a .fa {
-    font-size: 1.875em;
-    height: 3.125em;
-    width: 3.125em;
+    font-size: 1.875rem;
+    height: 2.125rem;
+    width: 2.125rem;
     position: relative;
-    left: -0.25em;
-    top: -0.1875em;
+    /* left: -0.25em;
+    top: -0.1875em; */
   }
   .stpiAnnualReportsMain .itemListMain ul li {
     width: 100%;
@@ -4544,19 +4549,18 @@
   }
 }
 
-
 @media screen and (max-width: 767px) {
   .mobile-mt-20,
   .dRightBlk {
-      margin-top: 1.25em;
+    margin-top: 1.25em;
   }
 }
-@media screen and (max-width: 567px) {   
-  .bioHead .form-group {        
-      width: 100%;
+@media screen and (max-width: 567px) {
+  .bioHead .form-group {
+    width: 100%;
   }
-  .bioHead .form-group:first-of-type{        
-      margin-bottom: 0.625em;
+  .bioHead .form-group:first-of-type {
+    margin-bottom: 0.625em;
   }
 }
 
@@ -4566,4 +4570,3 @@
     margin: 0 0 2rem 0;
   }
 }
-

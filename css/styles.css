@@ -1363,7 +1363,7 @@ ol li {
 
 .servicesWarpper {
   display: flex;
-  height: 50em;
+  height: 42rem;
   width: 100%;
   overflow: hidden;
 }
@@ -1372,8 +1372,8 @@ ol li {
 .servicesMobSlider a {
   width: 100%;
   flex-shrink: 3 !important;
-  min-height: 43.75em;
-  max-height: 58.65em;
+  min-height: 42em;
+  max-height: 48.65em;
   position: relative;
   display: block;
   transition: all 0.5s ease;
@@ -1388,11 +1388,22 @@ ol li {
   left: 0;
   right: 0;
   bottom: 21vh;
-  padding: 1.25em 4.375em 0 4.375em;
+  /* padding: 1.25em 4.375em 0 4.375em; */
   color: #fff;
   text-align: center;
   z-index: 2;
 }
+.serviceCaption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30%;
+  padding: 0 30px;
+  color: #fff;
+  text-align: center;
+  transition: all 0.5s;
+}
+
 .serviceCaption:before {
   content: "";
   position: absolute;
@@ -1409,7 +1420,10 @@ ol li {
 .servicesMobSlider a:hover .serviceCaption:before {
   height: 100%;
 }
-
+.servicesWarpper a:hover .serviceCaption {
+  z-index: 5;
+  color: #222;
+}
 .servicesWarpper .owl-controls .owl-nav [class*="owl-"],
 .servicesWarpper .owl-controls .owl-nav [class*="owl-"]:hover {
   background: none;
@@ -1592,7 +1606,7 @@ ol li {
   left: -2em;
   top: 0;
   height: 100%;
-  width: 17.5em;
+  width: 14.5em;
   height: 2.5em;
   border-radius: 1.5625em;
   background-color: #ffd400;
@@ -1652,7 +1666,7 @@ ol li {
   background-color: #000;
 }
 .directorateInfo {
-  height: 64.29em;
+  height: 62.29em;
   color: #fff;
   background: rgb(0, 7, 101);
   background: -moz-linear-gradient(
@@ -1674,11 +1688,11 @@ ol li {
   padding: 1.875em 2.5em;
 }
 .mapInfo {
-  margin: 3.125em 0 0;
-  width: 35.715em;
+  margin: 6.125em 0 0;
+  width: 31.995em;
   background: url(../images/india-map.png) no-repeat left top;
-  height: 46.429em;
-  background-size: 34.79em;
+  height: 39.9em;
+  background-size: 30.79em;
   position: relative;
   z-index: 1;
 }
@@ -1706,11 +1720,11 @@ ol li {
   left: 30%;
 }
 .mapInfo .guwahati {
-  top: 31.1%;
-  left: 78%;
+  top: 32.8%;
+  left: 77%;
 }
 .mapInfo .gandhinagar {
-  top: 40%;
+  top: 42%;
   left: 9%;
 }
 .mapInfo .thiruvananthapuram {
@@ -1718,7 +1732,7 @@ ol li {
   left: 22.5%;
 }
 .mapInfo .bengaluru {
-  top: 70%;
+  top: 72%;
   left: 24.5%;
 }
 .mapInfo .maharashtra-pune {
@@ -1726,12 +1740,12 @@ ol li {
   left: 15.5%;
 }
 .mapInfo .chennai {
-  top: 71%;
-  left: 33.5%;
+  top: 74.5%;
+  left: 32.5%;
 }
 .mapInfo .bhubaneswar {
-  top: 48%;
-  left: 49%;
+  top: 49%;
+  left: 50%;
 }
 .mapInfo .noida {
   top: 24%;
@@ -1739,11 +1753,11 @@ ol li {
 }
 .mapInfo .kolkata {
   top: 42%;
-  left: 61%;
+  left: 60%;
 }
 .mapInfo .stpi {
   top: 22%;
-  left: 22%;
+  left: 24%;
 }
 .mapInfo .gurugram {
   top: 26%;
@@ -2022,7 +2036,7 @@ ol li {
 .centerOfExceLft:before {
   content: "";
   position: absolute;
-  right: 3.8125em;
+  right: 1.8125em;
   top: 0em;
   width: 0.065em;
   height: 100%;
@@ -2129,9 +2143,9 @@ ol li {
 
 .rotating-slider {
   margin: 5em auto;
-  height: 40.625em !important;
+  height: 36.625em !important;
   position: relative;
-  width: 40.625em !important;
+  width: 37.625em !important;
   transform: rotate(-70deg);
   -webkit-transform: rotate(-70deg);
   position: absolute;
@@ -2231,8 +2245,8 @@ ol li {
   height: 4.5em;
   width: 1.9375em;
   position: absolute;
-  left: 47%;
-  top: 61%;
+  left: 46%;
+  top: 58%;
   transform: rotate(70deg);
   margin-left: -1.3125em;
   margin-top: -7.25em;
@@ -2412,7 +2426,7 @@ ol li {
 }
 .schemeInfo p {
   margin: 0.625em 0 0.625em;
-  font-size: 1.1em;
+  font-size: 1em;
   display: inline-block;
   vertical-align: top;
 }
@@ -2722,15 +2736,15 @@ ol li {
   background-color: #fff;
   width: 4.0625rem;
   height: 4.0625rem;
-  font-size: 1em;
+  font-size: 1rem;
   line-height: 1.8;
-  padding: 1.0625em 0.75em;
+  padding: 1.0625rem 0.75rem;
   text-align: center;
   display: inline-block;
   vertical-align: top;
 }
 .socialEngMulTab .resTab .tabNav li a .fa {
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 .socialEngMulTab .resTab .tabNav li a {
   color: #c2c2c2;
@@ -9316,4 +9330,273 @@ body.wob {
 }
 .spaceAvaibilityForm select:nth-child(2) {
   margin-right: 0.6875em;
+}
+
+/* search bar */
+.headerRight .search .region-search-section {
+  background-color: #8fadf7;
+  display: none;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  top: 3.125rem;
+  width: 16.25em;
+  z-index: 2;
+}
+.headerRight .search .region-search-section .search-form .form-search {
+  height: 1.875em;
+  width: 11.25em;
+  background-color: #fff;
+  border: none;
+  color: #000;
+}
+.headerRight .search .search-form .form-submit {
+  color: #000;
+  height: 2.5em;
+  float: right;
+  width: 3.3125em;
+  font-size: 1em;
+  padding: 0;
+  background-color: #fdb913;
+  border: none;
+}
+.headerRight .search .region-search-section:before {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: transparent transparent rgba(143, 173, 247, 1);
+  border-image: none;
+  border-style: solid;
+  border-width: 0.5em;
+  content: " ";
+  right: 0.3125em;
+  position: absolute;
+  top: -1em;
+}
+.search .region-search-section .form-item {
+  float: left;
+  width: 12.8125em;
+  margin: 0;
+}
+.search .region-search-section .form-item .form-text {
+  background-color: #fff;
+  height: 2.25em;
+}
+.search {
+  width: auto;
+  height: auto;
+  margin: 0;
+  z-index: 999;
+  float: right;
+  position: relative;
+}
+.search a {
+  color: #fdb913;
+}
+.search .searchForm {
+  width: 13.125em;
+  display: none;
+  padding: 0.1875em;
+  position: absolute;
+  right: 0.4375em;
+  top: 100%;
+  z-index: 2;
+  background-color: #caa674;
+}
+.search .searchForm input[type="text"] {
+  padding-right: 2.875em;
+}
+.search .search-form .form-submit {
+  font-size: 1em;
+  position: absolute;
+  right: 0.1875em;
+  top: 0.3125em;
+  z-index: 1;
+  padding: 0.3125em 0.625em;
+}
+.search .search-form .form-submit:hover {
+  background-color: #000;
+  color: #fff;
+}
+.search .region-search-section .search-form {
+  position: inherit;
+  right: 0;
+}
+.searchListing {
+  text-align: center;
+}
+#search-form {
+  margin: 0 auto 30px;
+  border-radius: 0.3125em;
+  box-shadow: 0em 0.125em 1.8125em rgba(94, 94, 94, 0.1);
+  width: 100%;
+  max-width: max-content;
+  width: auto;
+  vertical-align: top;
+  background-color: #f2f2f2;
+  padding: 1.25em;
+  text-align: left;
+  position: relative;
+  border: 0.0625em solid #fff;
+  display: inline-block;
+}
+#search-form input[type="search"] {
+  background-color: #fff;
+  color: #393939;
+  height: 1.875em;
+  border-radius: 0.1875em;
+  font-size: 1.3em;
+  padding: 0.3125em 0.625em;
+}
+#search-form .form-wrapper {
+  margin: 0;
+}
+#search-form + h2 {
+  font: 1.286em "open_sanssemibold";
+  color: #333;
+}
+#search-form label {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.4em;
+}
+#search-form .form-submit {
+  margin-top: 2.25rem;
+  font-size: 1.4em;
+  margin-left: 0.625em;
+  float: left;
+  background: #0079be;
+  color: #ffffff;
+  border: 0 none;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  border-radius: 0.1875em;
+  -webkit-border-radius: 0.1875em;
+  padding: 0.5em 1.25em;
+  height: 2.4375em;
+}
+#search-form .form-submit:hover {
+  color: #fff;
+  background-color: #333;
+}
+#search-form .search-help-link {
+  clear: both;
+  float: left;
+  display: none;
+}
+#search-form .search-help-link {
+  display: none;
+}
+#search-form .form-item {
+  float: left;
+  margin: 0;
+  width: 100%;
+  max-width: 18.75em;
+  margin-right: 1.875em;
+}
+.search-results .title {
+  font-size: 1em;
+}
+.page-search-node .block-system h2 {
+  border-bottom: 0.0625em solid #eee;
+  color: #175690;
+  font-size: 1.3em;
+  font-family: "RobotoSlab-Bold";
+  padding-bottom: 0.625em;
+}
+
+/* dialog box */
+
+.smoke-base {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+.smoke-base.smoke-visible {
+  opacity: 1;
+  visibility: visible;
+}
+.smokebg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.smoke-base .dialog {
+  position: absolute;
+}
+.dialog-prompt {
+  margin-top: 0.9375rem;
+  text-align: center;
+}
+.dialog-buttons {
+  margin: 1.25rem 0 0.3125rem 0;
+}
+.smoke {
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 150%;
+}
+.dialog-buttons button {
+  display: inline-block;
+  vertical-align: baseline;
+  cursor: pointer;
+  font-style: normal;
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+  margin: 0 0.3125rem;
+  -webkit-background-clip: padding-box;
+  font-size: 0.8125rem;
+  line-height: 0.8125rem;
+  font-weight: normal;
+  padding: 0.5625rem 0.75rem;
+}
+.dialog-prompt input {
+  margin: 0;
+  border: 0;
+  font-family: sans-serif;
+  outline: none;
+  border: 0.0625rem solid #aaa;
+  width: 75%;
+  display: inline-block;
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.smoke-base {
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 99999 !important;
+}
+.smoke-base .dialog {
+  top: 40%;
+  max-width: 43.75rem;
+  width: 100%;
+  left: 50%;
+  margin-left: -21.875rem;
+}
+.smoke-base .dialog-inner {
+  padding: 0.9375rem;
+  color: #202020;
+}
+.smoke {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0.125rem 0.5rem #666;
+}
+.dialog-buttons button {
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 0;
+  color: #fff;
+}
+.dialog-buttons button.cancel {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.dialog-buttons button.cancel {
+  background-color: rgba(0, 0, 0, 0.4);
 }
