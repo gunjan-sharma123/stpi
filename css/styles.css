@@ -152,7 +152,9 @@ figure {
 a {
   text-decoration: none !important;
 }
-
+.indexBanner {
+  position: relative;
+}
 .col-md-6 {
   float: left;
   padding-left: 0.938em;
@@ -242,6 +244,34 @@ audio,
 canvas,
 video {
   display: inline-block;
+}
+
+.displayNone,
+.hasJS noscript,
+.hideThis {
+  display: none !important;
+  visibility: hidden;
+}
+body,
+button,
+input,
+select,
+textarea {
+  color: #393939;
+  font-family: "proximaNova", sans-serif;
+}
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+button,
+.button {
+  line-height: 1.25rem;
+  padding: 0.25rem 0.625rem;
+  display: inline-block;
+  text-decoration: none;
+  border: 0 none;
+  margin: 0;
+  outline: 0 none;
 }
 /* Global css end*/
 
@@ -898,6 +928,20 @@ img {
 }
 .megaMenuContent hr {
   margin: 0em;
+}
+
+#loading {
+  background: #fff url(https://stpi.in/themes/stpi/images/loading.gif) center
+    no-repeat;
+  background-size: 160px 85px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+  text-indent: -9999px;
+  overflow: hidden;
 }
 /* nav css end */
 
@@ -2506,7 +2550,11 @@ ol li {
   overflow: hidden;
   -webkit-transform: translate3d(0em, 0em, 0em);
 }
-
+.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover {
+  background: #3737a8;
+  color: #fff;
+  text-decoration: none;
+}
 /* scheme end */
 
 /* our journey start */
